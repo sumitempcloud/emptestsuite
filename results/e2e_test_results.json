@@ -1,0 +1,305 @@
+{
+  "results": [
+    {
+      "id": "T001",
+      "name": "Page loads successfully",
+      "status": "PASS",
+      "detail": "Title: EMP Cloud \u2014 Enterprise HRMS Platform"
+    },
+    {
+      "id": "T002",
+      "name": "No critical JS console errors on load",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T003",
+      "name": "Login form present with email & password fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T004",
+      "name": "Favicon is set",
+      "status": "PASS",
+      "detail": "https://test-empcloud.empcloud.com/favicon.svg"
+    },
+    {
+      "id": "T005",
+      "name": "Viewport meta tag set (responsive ready)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T010",
+      "name": "Registration page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/register"
+    },
+    {
+      "id": "T011",
+      "name": "Registration form has required fields",
+      "status": "PASS",
+      "detail": "Found: ['email', 'password']. All inputs: ['org_name', 'org_country', 'org_state', 'first_name', 'last_name', 'email', 'password']"
+    },
+    {
+      "id": "T012",
+      "name": "Empty form submission shows validation errors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T020",
+      "name": "API login for test credentials",
+      "status": "PASS",
+      "detail": "User: bugtest@example.com"
+    },
+    {
+      "id": "T021",
+      "name": "Login with valid credentials",
+      "status": "PASS",
+      "detail": "Redirected to: https://test-empcloud.empcloud.com/admin/super"
+    },
+    {
+      "id": "T022",
+      "name": "Invalid credentials show error message",
+      "status": "SKIP",
+      "detail": "No login form"
+    },
+    {
+      "id": "T030",
+      "name": "Dashboard page loads after auth",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/"
+    },
+    {
+      "id": "T031",
+      "name": "Navigation/sidebar is present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T032",
+      "name": "Dashboard has content/widgets",
+      "status": "PASS",
+      "detail": "Content length: 179 chars"
+    },
+    {
+      "id": "T033",
+      "name": "No JS console errors on dashboard",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T040",
+      "name": "Employee Directory page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/employees"
+    },
+    {
+      "id": "T041",
+      "name": "Attendance page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/attendance"
+    },
+    {
+      "id": "T042",
+      "name": "Leave Management page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/leave"
+    },
+    {
+      "id": "T043",
+      "name": "Documents page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/documents"
+    },
+    {
+      "id": "T044",
+      "name": "Announcements page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/announcements"
+    },
+    {
+      "id": "T045",
+      "name": "Helpdesk page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/"
+    },
+    {
+      "id": "T046",
+      "name": "Surveys page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/"
+    },
+    {
+      "id": "T047",
+      "name": "Self Service page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/self-service"
+    },
+    {
+      "id": "T048",
+      "name": "Org Chart page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/org-chart"
+    },
+    {
+      "id": "T049",
+      "name": "Settings page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/settings"
+    },
+    {
+      "id": "T050",
+      "name": "Reports page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/"
+    },
+    {
+      "id": "T051",
+      "name": "Assets page loads",
+      "status": "WARN",
+      "detail": "Loaded but 2 JS errors"
+    },
+    {
+      "id": "T052",
+      "name": "Positions page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/positions"
+    },
+    {
+      "id": "T053",
+      "name": "Events page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/events"
+    },
+    {
+      "id": "T054",
+      "name": "Wellness page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/wellness"
+    },
+    {
+      "id": "T055",
+      "name": "Forum page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/forum"
+    },
+    {
+      "id": "T056",
+      "name": "Feedback page loads",
+      "status": "PASS",
+      "detail": "URL: https://test-empcloud.empcloud.com/feedback"
+    },
+    {
+      "id": "T070",
+      "name": "Onboarding wizard shown for new organization",
+      "status": "FAIL",
+      "detail": "No onboarding flow detected for newly registered org"
+    },
+    {
+      "id": "T080",
+      "name": "Logout redirects to login page",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T081",
+      "name": "Protected pages redirect to login after logout",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T060",
+      "name": "No horizontal overflow at Desktop 1920x1080",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T061",
+      "name": "No horizontal overflow at Laptop 1366x768",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T062",
+      "name": "No horizontal overflow at Tablet 768x1024",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T063",
+      "name": "No horizontal overflow at Mobile 375x812",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T090",
+      "name": "HTML lang attribute set",
+      "status": "PASS",
+      "detail": "lang=\"en\""
+    },
+    {
+      "id": "T091",
+      "name": "All images have alt text",
+      "status": "SKIP",
+      "detail": "No images found"
+    },
+    {
+      "id": "T092",
+      "name": "Form inputs have labels/aria-labels",
+      "status": "PASS",
+      "detail": "2 inputs checked"
+    },
+    {
+      "id": "T093",
+      "name": "Focus is manageable via JS",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T100",
+      "name": "Page loads within 3 seconds",
+      "status": "PASS",
+      "detail": "0.11s"
+    },
+    {
+      "id": "T101",
+      "name": "Total page weight under 5MB",
+      "status": "PASS",
+      "detail": "Total: 0.00MB, JS: 0.00MB, 7 resources"
+    },
+    {
+      "id": "T110",
+      "name": "Password field masks input",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T111",
+      "name": "Password field has autocomplete attribute",
+      "status": "WARN",
+      "detail": "autocomplete=not set"
+    },
+    {
+      "id": "T112",
+      "name": "No sensitive data leaked in page source",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "id": "T113",
+      "name": "HTTP redirects to HTTPS",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "total": 49,
+    "pass": 44,
+    "fail": 1,
+    "warn": 2,
+    "skip": 2
+  }
+}

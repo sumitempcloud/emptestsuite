@@ -1,0 +1,233 @@
+{
+  "ts": "2026-03-28T00:03:18.237420",
+  "sub": [
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe",
+    "Unsubscribe"
+  ],
+  "api": 0,
+  "sidebar": [
+    {
+      "text": "Dashboard",
+      "href": "https://test-empcloud.empcloud.com/"
+    },
+    {
+      "text": "Modules",
+      "href": "https://test-empcloud.empcloud.com/modules"
+    },
+    {
+      "text": "Billing",
+      "href": "https://test-empcloud.empcloud.com/billing"
+    },
+    {
+      "text": "Users",
+      "href": "https://test-empcloud.empcloud.com/users"
+    },
+    {
+      "text": "Employees",
+      "href": "https://test-empcloud.empcloud.com/employees"
+    },
+    {
+      "text": "Org Chart",
+      "href": "https://test-empcloud.empcloud.com/org-chart"
+    },
+    {
+      "text": "AI Assistant",
+      "href": "https://test-empcloud.empcloud.com/chatbot"
+    },
+    {
+      "text": "My Team",
+      "href": "https://test-empcloud.empcloud.com/manager"
+    },
+    {
+      "text": "Attendance",
+      "href": "https://test-empcloud.empcloud.com/attendance"
+    },
+    {
+      "text": "Leave",
+      "href": "https://test-empcloud.empcloud.com/leave"
+    },
+    {
+      "text": "Comp-Off",
+      "href": "https://test-empcloud.empcloud.com/leave/comp-off"
+    },
+    {
+      "text": "Documents",
+      "href": "https://test-empcloud.empcloud.com/documents"
+    },
+    {
+      "text": "Announcements",
+      "href": "https://test-empcloud.empcloud.com/announcements"
+    },
+    {
+      "text": "Policies",
+      "href": "https://test-empcloud.empcloud.com/policies"
+    },
+    {
+      "text": "Settings",
+      "href": "https://test-empcloud.empcloud.com/settings"
+    },
+    {
+      "text": "Custom Fields",
+      "href": "https://test-empcloud.empcloud.com/custom-fields"
+    },
+    {
+      "text": "Audit Log",
+      "href": "https://test-empcloud.empcloud.com/audit"
+    },
+    {
+      "text": "Positions",
+      "href": "https://test-empcloud.empcloud.com/positions/list"
+    },
+    {
+      "text": "Vacancies",
+      "href": "https://test-empcloud.empcloud.com/positions/vacancies"
+    },
+    {
+      "text": "Headcount Plans",
+      "href": "https://test-empcloud.empcloud.com/positions/headcount-plans"
+    },
+    {
+      "text": "Community",
+      "href": "https://test-empcloud.empcloud.com/forum"
+    },
+    {
+      "text": "Create Post",
+      "href": "https://test-empcloud.empcloud.com/forum/new"
+    },
+    {
+      "text": "Forum Dashboard",
+      "href": "https://test-empcloud.empcloud.com/forum/dashboard"
+    },
+    {
+      "text": "Events",
+      "href": "https://test-empcloud.empcloud.com/events"
+    },
+    {
+      "text": "My Events",
+      "href": "https://test-empcloud.empcloud.com/events/my"
+    },
+    {
+      "text": "Event Dashboard",
+      "href": "https://test-empcloud.empcloud.com/events/dashboard"
+    },
+    {
+      "text": "Submit Report",
+      "href": "https://test-empcloud.empcloud.com/whistleblowing/submit"
+    },
+    {
+      "text": "Track Report",
+      "href": "https://test-empcloud.empcloud.com/whistleblowing/track"
+    },
+    {
+      "text": "All Reports",
+      "href": "https://test-empcloud.empcloud.com/whistleblowing/reports"
+    },
+    {
+      "text": "My Tickets",
+      "href": "https://test-empcloud.empcloud.com/helpdesk/my-tickets"
+    },
+    {
+      "text": "All Tickets",
+      "href": "https://test-empcloud.empcloud.com/helpdesk/tickets"
+    },
+    {
+      "text": "Helpdesk",
+      "href": "https://test-empcloud.empcloud.com/helpdesk/dashboard"
+    },
+    {
+      "text": "Knowledge Base",
+      "href": "https://test-empcloud.empcloud.com/helpdesk/kb"
+    },
+    {
+      "text": "Survey Dashboard",
+      "href": "https://test-empcloud.empcloud.com/surveys/dashboard"
+    },
+    {
+      "text": "All Surveys",
+      "href": "https://test-empcloud.empcloud.com/surveys/list"
+    },
+    {
+      "text": "Active Surveys",
+      "href": "https://test-empcloud.empcloud.com/surveys/respond"
+    },
+    {
+      "text": "Wellness",
+      "href": "https://test-empcloud.empcloud.com/wellness"
+    },
+    {
+      "text": "My Wellness",
+      "href": "https://test-empcloud.empcloud.com/wellness/my"
+    },
+    {
+      "text": "Daily Check-in",
+      "href": "https://test-empcloud.empcloud.com/wellness/check-in"
+    },
+    {
+      "text": "Wellness Dashboard",
+      "href": "https://test-empcloud.empcloud.com/wellness/dashboard"
+    },
+    {
+      "text": "Asset Dashboard",
+      "href": "https://test-empcloud.empcloud.com/assets/dashboard"
+    },
+    {
+      "text": "All Assets",
+      "href": "https://test-empcloud.empcloud.com/assets"
+    },
+    {
+      "text": "Categories",
+      "href": "https://test-empcloud.empcloud.com/assets/categories"
+    },
+    {
+      "text": "Submit Feedback",
+      "href": "https://test-empcloud.empcloud.com/feedback/submit"
+    },
+    {
+      "text": "My Feedback",
+      "href": "https://test-empcloud.empcloud.com/feedback/my"
+    },
+    {
+      "text": "All Feedback",
+      "href": "https://test-empcloud.empcloud.com/feedback"
+    },
+    {
+      "text": "Feedback Dashboard",
+      "href": "https://test-empcloud.empcloud.com/feedback/dashboard"
+    }
+  ],
+  "miss": [],
+  "res": {
+    "recruit": "{'module': 'recruit', 'url': 'https://test-recruit.empcloud.com', 'status': 'login_failed', 'issues': ['login failed'], 'features': []}",
+    "performance": "{'module': 'performance', 'url': 'https://test-performance.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/dashboard', 'ok': True, 'len': 608}, {'path': '/reviews', 'ok': False, 'len': 14}, {'path': '/goals', 'ok': True, 'len': 1311}, {'path': '/okrs', 'ok': False, 'len': 14}]}",
+    "rewards": "{'module': 'rewards', 'url': 'https://test-rewards.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/badges', 'ok': True, 'len': 313}, {'path': '/kudos', 'ok': True, 'len': 271}, {'path': '/leaderboard', 'ok': True, 'len': 412}, {'path': '/dashboard', 'ok': True, 'len': 502}]}",
+    "exit": "{'module': 'exit', 'url': 'https://test-exit.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/dashboard', 'ok': True, 'len': 520}, {'path': '/exits', 'ok': True, 'len': 631}, {'path': '/offboarding', 'ok': False, 'len': 14}]}",
+    "lms": "{'module': 'lms', 'url': 'https://testlms.empcloud.com', 'status': 'login_failed', 'issues': ['login failed'], 'features': []}",
+    "payroll": "{'module': 'payroll', 'url': 'https://testpayroll.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/dashboard', 'ok': True, 'len': 482}, {'path': '/payslips', 'ok': True, 'len': 482}, {'path': '/salary', 'ok': False, 'len': 92}]}",
+    "project": "{'module': 'project', 'url': 'https://test-project.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/projects', 'ok': False, 'len': 73}, {'path': '/dashboard', 'ok': False, 'len': 73}, {'path': '/tasks', 'ok': False, 'len': 73}, {'path': '/boards', 'ok': False, 'len': 73}]}",
+    "monitor": "{'module': 'monitor', 'url': 'https://test-empmonitor.empcloud.com', 'status': 'loaded', 'issues': [], 'features': [{'path': '/dashboard', 'ok': False, 'len': 119}, {'path': '/monitoring', 'ok': False, 'len': 119}, {'path': '/activity', 'ok': False, 'len': 119}]}",
+    "billing": "{'module': 'billing', 'url': 'https://test-empcloud.empcloud.com/billing', 'status': 'loaded', 'features': [], 'issues': []}",
+    "biometrics": "{'module': 'biometrics', 'url': 'https://test-empcloud.empcloud.com/biometrics', 'status': 'loaded', 'features': [], 'issues': []}",
+    "field_force": "{'module': 'field_force', 'url': 'https://test-empcloud.empcloud.com/field-force', 'status': 'loaded', 'features': [], 'issues': []}",
+    "core_hrms": "{'module': 'core_hrms', 'url': 'https://test-empcloud.empcloud.com/dashboard', 'status': 'loaded', 'features': [], 'issues': []}"
+  },
+  "bugs": [
+    {
+      "module": "recruit",
+      "title": "[recruit] Cannot login",
+      "issue": null
+    },
+    {
+      "module": "lms",
+      "title": "[lms] Cannot login",
+      "issue": null
+    }
+  ]
+}

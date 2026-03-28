@@ -1,0 +1,41 @@
+{
+  "verification_date": "2026-03-28",
+  "total_issues_in_scope": 93,
+  "original_open_issues": 80,
+  "new_issues_during_run": 13,
+  "final_stats": {
+    "verified_bugs_with_real_evidence": 16,
+    "needs_manual_ui_verification": 8,
+    "closed_as_duplicate": 49,
+    "closed_as_false_positive": 13,
+    "closed_as_dup_during_correction": 7
+  },
+  "verified_bugs": [
+    {"number": 1098, "title": "[Medium][LMS] SCORM Page", "evidence": "GET /api/v1/scorm returns 404 with LMS module token"},
+    {"number": 1099, "title": "[Medium][LMS] Quizzes (Admin)", "evidence": "GET /api/v1/quizzes returns 404 with LMS module token"},
+    {"number": 1101, "title": "[Critical][LMS] Auth Token", "evidence": "Core SSO token invalid on LMS API (401). SSO cross-module auth broken."},
+    {"number": 1102, "title": "[Critical][LMS] Admin Login", "evidence": "Core SSO /auth/me returns 401 on LMS. SSO login broken."},
+    {"number": 1105, "title": "[BIZ-RULE] L004: Self-approval of leave", "evidence": "Admin applied leave (ID=203), PUT /approve -> 200. Self-approval succeeded."},
+    {"number": 1108, "title": "[Recruit] RBAC: Employee can access Interviews", "evidence": "Employee GET /interviews with Recruit token -> 200. Should be 403."},
+    {"number": 1112, "title": "API: GET /announcements/:id returns 404", "evidence": "Created announcement 255, GET by ID -> 404"},
+    {"number": 1113, "title": "API: GET /attendance/shifts/:id returns 404", "evidence": "Created shift 55, GET by ID -> 404"},
+    {"number": 1122, "title": "[BIZ-RULE] E008: Terminated employee login", "evidence": "Created employee with exit=2026-03-27, login -> 200"},
+    {"number": 1123, "title": "[Performance] Emp - My Performance", "evidence": "GET /api/v1/my returns 404"},
+    {"number": 1124, "title": "[Performance] Emp - My Reviews", "evidence": "GET /api/v1/my/reviews returns 404"},
+    {"number": 1132, "title": "[Performance] Emp - My Skills", "evidence": "GET /api/v1/my/skills returns 404"},
+    {"number": 1133, "title": "[Performance] Emp - My Letters", "evidence": "GET /api/v1/my/letters returns 404"},
+    {"number": 1155, "title": "[Medium][LMS] Admin Navigation", "evidence": "5/7 nav endpoints 404. Only /courses and /learning-paths work."},
+    {"number": 1161, "title": "[Recruit] AI Resume Scoring 404", "evidence": "GET /ai-scoring returns 404 with Recruit token"},
+    {"number": 1183, "title": "[Medium][LMS] Compliance Dashboard", "evidence": "GET /compliance/dashboard returns 500"}
+  ],
+  "needs_manual": [
+    {"number": 1097, "reason": "API works (201), UI button reportedly missing"},
+    {"number": 1109, "reason": "/settings 404 for all users, cannot test RBAC"},
+    {"number": 1110, "reason": "No helpdesk API endpoint, feature request"},
+    {"number": 1136, "reason": "/settings 404 for all users"},
+    {"number": 1137, "reason": "/9-box-grid 404 for all users"},
+    {"number": 1185, "reason": "Admin endpoints 404 for both roles, needs UI check"},
+    {"number": 1187, "reason": "/settings 404 for both roles"},
+    {"number": 1188, "reason": "/analytics 404 for both roles"}
+  ]
+}

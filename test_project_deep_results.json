@@ -1,0 +1,141 @@
+{
+  "module": "emp-project",
+  "timestamp": "2026-03-29T01:17:03.317906",
+  "sso_login": "SUCCESS",
+  "frontend_status": "LOADED",
+  "api_tests": {
+    "health": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "health_v1": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "projects_list": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "tasks_list": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "time_entries": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "users": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "reports": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    },
+    "create_project": {
+      "status": 502,
+      "preview": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!"
+    }
+  },
+  "ui_tests": {
+    "dashboard": {
+      "status": "LOADED",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "projects_list": {
+      "status": "LOADED",
+      "path": "/projects",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "tasks": {
+      "status": "LOADED",
+      "path": "/tasks",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "kanban": {
+      "status": "LOADED",
+      "path": "/kanban",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "gantt": {
+      "status": "LOADED",
+      "path": "/gantt",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "time_tracking": {
+      "status": "LOADED",
+      "path": "/time-tracking",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "timesheets": {
+      "status": "LOADED",
+      "path": "/timesheets",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "reports": {
+      "status": "LOADED",
+      "path": "/reports",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "settings": {
+      "status": "LOADED",
+      "path": "/settings",
+      "preview": "404\n404\nUh oh! Looks like you got lost.\nGo back to the homepage!\nGO BACK!"
+    },
+    "navigation_links": []
+  },
+  "bugs": [
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/health returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/health`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/health returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/health`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/projects returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/projects`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/tasks returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/tasks`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/time-entries returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/time-entries`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/users returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/users`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    },
+    {
+      "title": "[Projects] API endpoint https://test-project-api.empcloud.com/v1/reports returns 502 Bad Gateway",
+      "body": "**Endpoint:** `GET https://test-project-api.empcloud.com/v1/reports`\n**Status:** 502 Bad Gateway\n\nThe project API is returning 502, indicating the backend service may be down.\n\n**Response:**\n```\n<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!\n```"
+    }
+  ],
+  "screenshots": [
+    "01_sso_landing.png",
+    "02_dashboard.png",
+    "03_projects_list__projects.png",
+    "04_tasks__tasks.png",
+    "05_kanban__kanban.png",
+    "06_gantt__gantt.png",
+    "07_timetracking__time-tracking.png",
+    "08_timesheets__timesheets.png",
+    "09_reports__reports.png",
+    "10_settings__settings.png",
+    "11_final_state.png"
+  ],
+  "summary": {
+    "sso": "SUCCESS",
+    "frontend": "LOADED",
+    "api_endpoints_tested": 8,
+    "api_working": 0,
+    "api_errors": 8,
+    "ui_pages_tested": 10,
+    "ui_pages_loaded": 9,
+    "bugs_filed": 7,
+    "screenshots_taken": 11
+  }
+}

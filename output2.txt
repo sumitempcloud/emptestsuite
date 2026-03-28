@@ -1,0 +1,540 @@
+=== LOGGING IN ===
+  Logged in. URL: https://test-empcloud.empcloud.com/
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\10_modules_full.png
+
+=== STEP 1: RAW HTML ANALYSIS ===
+  Main content HTML (first 8000 chars):
+<div class="flex h-screen bg-gray-50"><div class="hidden md:block"><div class="flex h-full w-64 flex-col bg-white border-r border-gray-200"><a class="block p-6 border-b border-gray-200 hover:bg-gray-50 transition-colors" href="/" data-discover="true"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building2 h-8 w-8 text-brand-600"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path><path d="M10 6h4"></path><path d="M10 10h4"></path><path d="M10 14h4"></path><path d="M10 18h4"></path></svg><div><h1 class="text-lg font-bold text-gray-900">EMP Cloud</h1><p class="text-xs text-gray-500 truncate">TechNova</p></div></div></a><button class="md:hidden absolute top-4 right-4 rounded-lg p-1.5 text-gray-400 hover:bg-gray-100 hover:text-gray-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 w-5"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button><nav class="flex-1 p-4 space-y-1 overflow-y-auto"><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard h-5 w-5"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>Dashboard</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/self-service" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-user h-5 w-5"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="10" r="3"></circle><path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"></path></svg>Self Service</a><a data-active="true" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-brand-50 text-brand-700" href="/modules" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package h-5 w-5"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z"></path><path d="M12 22V12"></path><path d="m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7"></path><path d="m7.5 4.27 9 5.15"></path></svg>Modules</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/billing" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-receipt h-5 w-5"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path><path d="M12 17.5v-11"></path></svg>Billing</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/users" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-5 w-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>Users</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/employees" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-contact h-5 w-5"><path d="M16 2v2"></path><path d="M7 22v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2"></path><path d="M8 2v2"></path><circle cx="12" cy="11" r="3"></circle><rect x="3" y="4" width="18" height="18" rx="2"></rect></svg>Employees</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/employees/probation" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check h-5 w-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><polyline points="16 11 18 13 22 9"></polyline></svg>Probation</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/org-chart" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-network h-5 w-5"><rect x="16" y="16" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="9" y="2" width="6" height="6" rx="1"></rect><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path><path d="M12 12V8"></path></svg>Org Chart</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/chatbot" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bot-message-square h-5 w-5"><path d="M12 6V2H8"></path><path d="m8 18-4 4V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2Z"></path><path d="M2 12h2"></path><path d="M9 11v2"></path><path d="M15 11v2"></path><path d="M20 12h2"></path></svg>AI Assistant</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/manager" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round h-5 w-5"><path d="M18 21a8 8 0 0 0-16 0"></path><circle cx="10" cy="8" r="5"></circle><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"></path></svg>My Team</a><a data-active="false" class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 hover:bg-gray-100 hover:text-gray-900" href="/attendance" data-discover="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" view
+
+
+=== STEP 2: ALL ELEMENTS WITH 'Subscribed' TEXT ===
+  Found 10 elements with 'Subscribed' text:
+
+  [1]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [2]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [3]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [4]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [5]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [6]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [7]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [8]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [9]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+  [10]
+    classes: flex items-center gap-1.5 text-sm font-medium text-green-600
+    clickable: True
+    cursor: auto
+    directText: Subscribed
+    href: 
+    id: 
+    isButton: False
+    isLink: False
+    onclick: 
+    outerHTML: <span class="flex items-center gap-1.5 text-sm font-medium text-green-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4"><path d=
+    parentClass: flex flex-col items-end gap-2
+    parentTag: DIV
+    role: 
+    tag: SPAN
+
+
+=== STEP 3: MODULE CARD STRUCTURE ===
+  Found 10 module cards:
+
+  --- Card 1 ---
+  Text: Biometric Verification & Access Controlemp-biometricsBiometric authentication & facial recognition. Features accessible within Attendance module. SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 2 ---
+  Text: Employee Monitoring & Activity Trackingemp-monitorEmployee activity & productivity monitoring SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 3 ---
+  Text: Exit Management & Offboardingemp-exitFree tierExit management & full-final settlement SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 4 ---
+  Text: Field Force Management & GPS Trackingemp-fieldField force GPS check-in & route optimization SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 5 ---
+  Text: Learning Management & Trainingemp-lmsLearning management, courses, certifications & compliance training SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 6 ---
+  Text: Payroll Managementemp-payrollPayroll processing, tax computation & compliance SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 7 ---
+  Text: Performance Management & Career Developmentemp-performancePerformance reviews, OKRs & succession planning SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 8 ---
+  Text: Project Management & Time Trackingemp-projectsProject management & time tracking SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 9 ---
+  Text: Recruitment & Talent Acquisitionemp-recruitApplicant tracking & hiring pipeline SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+  --- Card 10 ---
+  Text: Rewards & Recognitionemp-rewardsEmployee recognition, badges & kudos SubscribedUnsubscribe
+  Tag: DIV, Class: bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300
+  onClick: 
+  Cursor: auto
+  Links: []
+  Buttons: [{'class': 'text-xs text-red-500 hover:text-red-700 font-medium', 'onclick': '', 'text': 'Unsubscribe'}]
+
+
+=== STEP 4: CLICKING 'Subscribed' BADGES ===
+  Total 'Subscribed' badges: 10
+
+  Badge 1: Module='Biometric Verification & Access Control', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_1_after.png
+
+  Badge 2: Module='Employee Monitoring & Activity Tracking', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_2_after.png
+
+  Badge 3: Module='Exit Management & Offboarding', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_3_after.png
+
+  Badge 4: Module='Field Force Management & GPS Tracking', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_4_after.png
+
+  Badge 5: Module='Learning Management & Training', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_5_after.png
+
+  Badge 6: Module='Payroll Management', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_6_after.png
+
+  Badge 7: Module='Performance Management & Career Development', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_7_after.png
+
+  Badge 8: Module='Project Management & Time Tracking', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_8_after.png
+
+  Badge 9: Module='Recruitment & Talent Acquisition', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_9_after.png
+
+  Badge 10: Module='Rewards & Recognition', Clicked=True
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured window.open: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\20_badge_10_after.png
+
+
+=== STEP 5: CLICKING MODULE NAMES ===
+  Module names found: 10
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Biometric Verification & Access Control', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Employee Monitoring & Activity Tracking', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Exit Management & Offboarding', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Field Force Management & GPS Tracking', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Learning Management & Training', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Payroll Management', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Performance Management & Career Development', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Project Management & Time Tracking', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Recruitment & Talent Acquisition', 'tag': 'H3'}
+    {'cursor': 'auto', 'href': '', 'isLink': False, 'name': 'Rewards & Recognition', 'tag': 'H3'}
+
+  Name 1: {'clicked': True, 'name': 'Biometric Verification & Access Control', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_1_after.png
+
+  Name 2: {'clicked': True, 'name': 'Employee Monitoring & Activity Tracking', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_2_after.png
+
+  Name 3: {'clicked': True, 'name': 'Exit Management & Offboarding', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_3_after.png
+
+  Name 4: {'clicked': True, 'name': 'Field Force Management & GPS Tracking', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_4_after.png
+
+  Name 5: {'clicked': True, 'name': 'Learning Management & Training', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_5_after.png
+
+  Name 6: {'clicked': True, 'name': 'Payroll Management', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_6_after.png
+
+  Name 7: {'clicked': True, 'name': 'Performance Management & Career Development', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_7_after.png
+
+  Name 8: {'clicked': True, 'name': 'Project Management & Time Tracking', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_8_after.png
+
+  Name 9: {'clicked': True, 'name': 'Recruitment & Talent Acquisition', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_9_after.png
+
+  Name 10: {'clicked': True, 'name': 'Rewards & Recognition', 'wasLink': False}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\30_name_10_after.png
+
+
+=== STEP 6: CLICKING ENTIRE CARD CONTAINERS ===
+
+  Card 1: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Biometric Verification & Access Control'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_1_after.png
+
+  Card 2: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Employee Monitoring & Activity Tracking'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_2_after.png
+
+  Card 3: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Exit Management & Offboarding'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_3_after.png
+
+  Card 4: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Field Force Management & GPS Tracking'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_4_after.png
+
+  Card 5: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Learning Management & Training'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_5_after.png
+
+  Card 6: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Payroll Management'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_6_after.png
+
+  Card 7: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Performance Management & Career Development'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_7_after.png
+
+  Card 8: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Project Management & Time Tracking'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_8_after.png
+
+  Card 9: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Recruitment & Talent Acquisition'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_9_after.png
+
+  Card 10: {'cardClass': 'bg-white rounded-xl border p-6 transition-colors border-gray-200 hover:border-gray-300', 'clicked': True, 'name': 'Rewards & Recognition'}
+    URL before: https://test-empcloud.empcloud.com/modules
+    URL after:  https://test-empcloud.empcloud.com/modules
+    Changed? NO
+    SSO token? NO
+    Captured: []
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\40_card_10_after.png
+
+
+=== STEP 7: CHECKING EVENT LISTENERS ===
+  Event listener analysis:
+    Badge 1: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 2: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 3: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 4: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 5: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 6: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 7: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 8: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 9: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+    Badge 10: {'hasReactProps': True, 'reactEvents': ['__reactFiber$1z8kjt2qhoh', '__reactProps$1z8kjt2qhoh'], 'tag': 'SPAN'}
+
+
+=== FINAL SCREENSHOTS ===
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\50_modules_top.png
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\50_modules_mid.png
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\50_modules_bottom.png
+  [Screenshot] C:\Users\Admin\screenshots\sso_click_subscribed\50_modules_bottom2.png
+
+
+=== COMPLETE ===

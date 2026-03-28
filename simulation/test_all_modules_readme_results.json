@@ -1,0 +1,3605 @@
+{
+  "timestamp": "2026-03-28T21:08:38.127056",
+  "total_endpoints": 294,
+  "total_bugs": 82,
+  "results": [
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/auth/login",
+      "description": "Login",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/auth/register",
+      "description": "Register (expect validation)",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/auth/password-reset",
+      "description": "Password reset",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/auth/sso/validate",
+      "description": "SSO validate (expect error w/o token)",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/.well-known/openid-configuration",
+      "description": "OIDC discovery",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "OAuth"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/oauth/jwks",
+      "description": "JWKS",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "OAuth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/oauth/token",
+      "description": "Token exchange (expect error)",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "OAuth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/oauth/revoke",
+      "description": "Token revoke",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "OAuth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/oauth/introspect",
+      "description": "Token introspect",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "OAuth"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me",
+      "description": "Get current org",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "PUT",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me",
+      "description": "Update org (no change)",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me/departments",
+      "description": "List departments",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me/departments",
+      "description": "Create department",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me/locations",
+      "description": "List locations",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/organizations/me/locations",
+      "description": "Create location",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Organizations"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/users",
+      "description": "List users",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/users/invite",
+      "description": "Invite user",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/users/663",
+      "description": "Get user detail",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "PUT",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/users/663",
+      "description": "Update user",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "PUT",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/users/663/roles",
+      "description": "Assign roles",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/modules",
+      "description": "List modules",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Modules"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/modules/1",
+      "description": "Get module detail",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Modules"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/subscriptions",
+      "description": "List subscriptions",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Subscriptions"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees",
+      "description": "Employee directory",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663",
+      "description": "Employee profile",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/profile",
+      "description": "Extended profile",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/addresses",
+      "description": "Addresses",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/education",
+      "description": "Education",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/experience",
+      "description": "Experience",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/dependents",
+      "description": "Dependents",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/663/photo",
+      "description": "Photo",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/employees/org-chart",
+      "description": "Org chart",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/check-in",
+      "description": "Check-in",
+      "status": 409,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/check-out",
+      "description": "Check-out",
+      "status": 409,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/records",
+      "description": "Records",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/records?department_id=72",
+      "description": "Records by department",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/records?date=2026-03-28",
+      "description": "Records by date",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/dashboard",
+      "description": "Dashboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/reports",
+      "description": "Reports",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/export",
+      "description": "Export CSV",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/shifts",
+      "description": "List shifts",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/shifts",
+      "description": "Create shift",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "PUT",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/shifts/10",
+      "description": "Update shift",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/shift-assignments",
+      "description": "Shift assignments",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/geo-fences",
+      "description": "Geo-fences",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/regularizations",
+      "description": "Regularizations",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/attendance/schedule",
+      "description": "Schedule",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/types",
+      "description": "Leave types",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/policies",
+      "description": "Leave policies",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/balances",
+      "description": "Leave balances",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/applications",
+      "description": "Applications",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/applications",
+      "description": "Apply for leave",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/calendar",
+      "description": "Calendar",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/comp-off",
+      "description": "Comp-off",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/leave/dashboard",
+      "description": "Dashboard",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/documents",
+      "description": "List documents",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Documents"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/documents/categories",
+      "description": "Categories",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Documents"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/documents/my",
+      "description": "My documents",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Documents"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/documents/mandatory",
+      "description": "Mandatory docs",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Documents"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/documents/expiry-alerts",
+      "description": "Expiry alerts",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Documents"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/announcements",
+      "description": "List announcements",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Announcements"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/announcements",
+      "description": "Create announcement",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Announcements"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/announcements/unread-count",
+      "description": "Unread count",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Announcements"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/policies",
+      "description": "List policies",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Policies"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/policies",
+      "description": "Create policy",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Policies"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/policies/pending",
+      "description": "Pending acknowledgments",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Policies"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/notifications",
+      "description": "List notifications",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/notifications/read-all",
+      "description": "Mark all read",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/notifications/unread-count",
+      "description": "Unread count",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/notifications/preferences",
+      "description": "Preferences",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/dashboard/widgets",
+      "description": "Widgets",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Dashboard"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/dashboard/module-summaries",
+      "description": "Module summaries",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Dashboard"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/dashboard/module-insights",
+      "description": "Module insights",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Dashboard"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/billing/invoices",
+      "description": "Invoices",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Billing"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/chatbot/message",
+      "description": "Send message",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "AI Agent"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/chatbot/conversations",
+      "description": "Conversations",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "AI Agent"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/ai-config",
+      "description": "AI config",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "AI Config"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/admin/organizations",
+      "description": "List all orgs",
+      "status": 403,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Admin"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/admin/health",
+      "description": "Service health",
+      "status": 403,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Admin"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/admin/data-sanity",
+      "description": "Data sanity",
+      "status": 403,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Admin"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/admin/stats",
+      "description": "Platform stats",
+      "status": 403,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Admin"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/logs",
+      "description": "Query logs",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Logs"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/logs/analysis",
+      "description": "Log analysis",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Logs"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/helpdesk/tickets",
+      "description": "List tickets",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/helpdesk/tickets",
+      "description": "Create ticket",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/helpdesk/categories",
+      "description": "Categories",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/helpdesk/knowledge-base",
+      "description": "Knowledge base",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/surveys",
+      "description": "List surveys",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Surveys"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/surveys",
+      "description": "Create survey",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Surveys"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/assets",
+      "description": "List assets",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Assets"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/assets",
+      "description": "Create asset",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Assets"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/assets/categories",
+      "description": "Asset categories",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Assets"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/assets/my",
+      "description": "My assets",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Assets"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/positions",
+      "description": "List positions",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Positions"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/positions",
+      "description": "Create position",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Positions"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/positions/headcount",
+      "description": "Headcount",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Positions"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/forum/categories",
+      "description": "Forum categories",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Forum"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/forum/posts",
+      "description": "Forum posts",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Forum"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/forum/posts",
+      "description": "Create post",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Forum"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/events",
+      "description": "List events",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Events"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/events",
+      "description": "Create event",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Events"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/events/calendar",
+      "description": "Events calendar",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Events"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/wellness/dashboard",
+      "description": "Dashboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Wellness"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/wellness/check-in",
+      "description": "Check-in",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Wellness"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/wellness/goals",
+      "description": "Goals",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Wellness"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/feedback",
+      "description": "Submit feedback",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Feedback"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/feedback",
+      "description": "List feedback",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Feedback"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/whistleblowing",
+      "description": "Submit report",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Whistleblowing"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/whistleblowing",
+      "description": "List reports",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Whistleblowing"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/custom-fields/definitions",
+      "description": "Definitions",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Custom Fields"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/custom-fields/values/employee/663",
+      "description": "Values",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Custom Fields"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/biometrics/devices",
+      "description": "Devices",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Biometrics"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/biometrics/qr/generate",
+      "description": "QR generate",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Biometrics"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/manager/dashboard",
+      "description": "Manager dashboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Manager"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/manager/team",
+      "description": "Team",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Manager"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/import/history",
+      "description": "Import history",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Import"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/v1/audit",
+      "description": "Audit log",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Audit"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "System"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "url": "https://test-empcloud-api.empcloud.com/api/docs",
+      "description": "Swagger UI",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "System"
+    },
+    {
+      "module": "Payroll",
+      "method": "POST",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/auth/login",
+      "description": "Login",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Auth"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/employees",
+      "description": "List employees",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Employees"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/employees/export",
+      "description": "Export CSV",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Employees"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/payroll",
+      "description": "List runs",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Runs"
+    },
+    {
+      "module": "Payroll",
+      "method": "POST",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/payroll",
+      "description": "Create run",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Runs"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/salary-structures",
+      "description": "List structures",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Salary Structures"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/benefits/dashboard",
+      "description": "Dashboard",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Benefits"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/benefits/plans",
+      "description": "Plans",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Benefits"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/benefits/my",
+      "description": "My benefits",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Benefits"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/insurance/dashboard",
+      "description": "Dashboard",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Insurance"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/insurance/policies",
+      "description": "Policies",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Insurance"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/insurance/claims",
+      "description": "Claims",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Insurance"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/gl-accounting/mappings",
+      "description": "Mappings",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/gl-accounting/journal-entries",
+      "description": "Entries",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/gl-accounting/period-summary",
+      "description": "Period summary",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/global-payroll/dashboard",
+      "description": "Dashboard",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/global-payroll/countries",
+      "description": "Countries",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/global-payroll/employees",
+      "description": "Employees",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/global-payroll/compliance",
+      "description": "Compliance",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/earned-wage/settings",
+      "description": "Settings",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "EWA"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/earned-wage/requests",
+      "description": "Requests",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "EWA"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/earned-wage/my/eligibility",
+      "description": "My eligibility",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "EWA"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/pay-equity/analysis",
+      "description": "Analysis",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Pay Equity"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/pay-equity/compliance-report",
+      "description": "Report",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Pay Equity"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/compensation-benchmarks",
+      "description": "List",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Compensation Benchmarks"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/compensation-benchmarks/comparison",
+      "description": "Comparison",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Compensation Benchmarks"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/dashboard",
+      "description": "Dashboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/payslips",
+      "description": "Payslips",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/salary",
+      "description": "Salary",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/tax/computation",
+      "description": "Tax computation",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/tax/declarations",
+      "description": "Declarations",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/tax/form16",
+      "description": "Form 16",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/reimbursements",
+      "description": "Reimbursements",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/self-service/profile",
+      "description": "Profile",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/attendance",
+      "description": "Attendance summary",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/leaves",
+      "description": "Leave balances",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/loans",
+      "description": "Loans",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/reimbursements",
+      "description": "Reimbursements",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/adjustments",
+      "description": "Adjustments",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/announcements",
+      "description": "Announcements",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/organizations",
+      "description": "Org settings",
+      "status": 403,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/health",
+      "description": "Health",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Payroll System"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "url": "https://testpayroll-api.empcloud.com/api/v1/docs/openapi.json",
+      "description": "OpenAPI spec",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Payroll System"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/auth/sso",
+      "description": "Recruit auth",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Auth"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/auth/login",
+      "description": "Recruit auth",
+      "status": "ERROR: HTTPSConnectionPool(host='test-recruit-api.empcloud.com', port=443): Read timed ",
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit Auth"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/jobs",
+      "description": "List jobs",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Jobs"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/jobs",
+      "description": "Create job",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Jobs"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/job-descriptions/generate",
+      "description": "Generate AI JD",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit AI JD"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/job-descriptions/templates",
+      "description": "JD templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit AI JD"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/candidates",
+      "description": "List candidates",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Candidates"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/candidates",
+      "description": "Create candidate",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Candidates"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/applications",
+      "description": "List applications",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Recruit ATS"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/interviews",
+      "description": "List interviews",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Interviews"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/pipeline-stages",
+      "description": "Pipeline stages",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit Pipeline"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/ai/score-resume",
+      "description": "Score resume",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit AI"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/ai/batch-score",
+      "description": "Batch score",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Recruit AI"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/background-checks/candidate/1",
+      "description": "Background checks",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit BGC"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/onboarding/templates",
+      "description": "Templates",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Onboarding"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/portal/send-magic-link",
+      "description": "Magic link",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit Portal"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/public/careers/technova",
+      "description": "Public career page",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Recruit Public"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/surveys/1",
+      "description": "Survey",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Recruit Surveys"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/v1/assessments/1",
+      "description": "Assessment",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Recruit Assessments"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit System"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "url": "https://test-recruit-api.empcloud.com/api/docs",
+      "description": "Swagger UI",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Recruit System"
+    },
+    {
+      "module": "Performance",
+      "method": "POST",
+      "url": "https://test-performance-api.empcloud.com/api/v1/auth/sso",
+      "description": "Performance auth",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Performance Auth"
+    },
+    {
+      "module": "Performance",
+      "method": "POST",
+      "url": "https://test-performance-api.empcloud.com/api/v1/auth/login",
+      "description": "Performance auth",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Performance Auth"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/review-cycles",
+      "description": "List cycles",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Cycles"
+    },
+    {
+      "module": "Performance",
+      "method": "POST",
+      "url": "https://test-performance-api.empcloud.com/api/v1/review-cycles",
+      "description": "Create cycle",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Cycles"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/reviews",
+      "description": "List reviews",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Reviews"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/goals",
+      "description": "List goals",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Goals"
+    },
+    {
+      "module": "Performance",
+      "method": "POST",
+      "url": "https://test-performance-api.empcloud.com/api/v1/goals",
+      "description": "Create goal",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Goals"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/goal-alignment/tree",
+      "description": "Alignment tree",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Perf Goals"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/nine-box",
+      "description": "9-box grid",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Perf 9-Box"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/succession-plans",
+      "description": "List plans",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Succession"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/skills-gap/663",
+      "description": "Employee gap",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Perf Skills"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/manager-effectiveness",
+      "description": "All managers",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Perf Manager"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/competency-frameworks",
+      "description": "Frameworks",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Competency"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/pips",
+      "description": "List PIPs",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf PIPs"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/career-paths",
+      "description": "List paths",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Career"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/one-on-ones",
+      "description": "List meetings",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf 1on1"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/feedback",
+      "description": "List feedback",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Feedback"
+    },
+    {
+      "module": "Performance",
+      "method": "POST",
+      "url": "https://test-performance-api.empcloud.com/api/v1/feedback",
+      "description": "Give feedback",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Feedback"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/peer-reviews/nominations",
+      "description": "Nominations",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Perf Peer"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/letter-templates",
+      "description": "Templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Perf Letters"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/overview",
+      "description": "Overview",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/ratings-distribution",
+      "description": "Ratings",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/team-comparison",
+      "description": "Team comparison",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/trends",
+      "description": "Trends",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/goal-completion",
+      "description": "Goal completion",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/analytics/top-performers",
+      "description": "Top performers",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Perf Analytics"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/notifications/settings",
+      "description": "Notification settings",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf Notifications"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/v1/notifications/pending",
+      "description": "Pending",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Perf Notifications"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf System"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "url": "https://test-performance-api.empcloud.com/api/docs",
+      "description": "Swagger UI",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Perf System"
+    },
+    {
+      "module": "Rewards",
+      "method": "POST",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/auth/sso",
+      "description": "Rewards auth",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Auth"
+    },
+    {
+      "module": "Rewards",
+      "method": "POST",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/auth/login",
+      "description": "Rewards auth",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Auth"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/kudos",
+      "description": "Public feed",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Kudos"
+    },
+    {
+      "module": "Rewards",
+      "method": "POST",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/kudos",
+      "description": "Send kudos",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Kudos"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/kudos/received",
+      "description": "My received",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Kudos"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/kudos/sent",
+      "description": "My sent",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Kudos"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/points/balance",
+      "description": "Balance",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Points"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/points/transactions",
+      "description": "Transactions",
+      "status": "ERROR: HTTPSConnectionPool(host='test-rewards-api.empcloud.com', port=443): Read timed ",
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Points"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/badges",
+      "description": "List badges",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Badges"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/badges/my",
+      "description": "My badges",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Badges"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/rewards",
+      "description": "Catalog",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Catalog"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/redemptions",
+      "description": "List",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Redemptions"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/redemptions/my",
+      "description": "My redemptions",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Redemptions"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/nominations/programs",
+      "description": "Programs",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Nominations"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/leaderboard",
+      "description": "Org leaderboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Leaderboard"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/leaderboard/department/72",
+      "description": "Dept leaderboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Leaderboard"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/leaderboard/my-rank",
+      "description": "My rank",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Leaderboard"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/celebrations",
+      "description": "Upcoming",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Celebrations"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/celebrations/feed",
+      "description": "Feed",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Celebrations"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/challenges",
+      "description": "List",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Challenges"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/milestones/rules",
+      "description": "Rules",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Milestones"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/milestones/history",
+      "description": "History",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Milestones"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/manager/dashboard",
+      "description": "Manager dashboard",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/manager/team-comparison",
+      "description": "Team comparison",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/manager/recommendations",
+      "description": "AI recs",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/slack/config",
+      "description": "Slack config",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards Slack"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/teams",
+      "description": "Teams config",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Teams"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/push/vapid-key",
+      "description": "VAPID key",
+      "status": 503,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Push"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/v1/integration/user/1/summary",
+      "description": "User summary",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Rewards Integration"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards System"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "url": "https://test-rewards-api.empcloud.com/api/docs",
+      "description": "Swagger UI",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Rewards System"
+    },
+    {
+      "module": "Exit",
+      "method": "POST",
+      "url": "https://test-exit-api.empcloud.com/api/v1/auth/sso",
+      "description": "Exit auth",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Exit Auth"
+    },
+    {
+      "module": "Exit",
+      "method": "POST",
+      "url": "https://test-exit-api.empcloud.com/api/v1/auth/login",
+      "description": "Exit auth",
+      "status": 429,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Auth"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/exits",
+      "description": "List exits",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Requests"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/self-service/my-exit",
+      "description": "My exit",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Exit Self-Service"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/self-service/my-checklist",
+      "description": "My checklist",
+      "status": 401,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Exit Self-Service"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/checklist-templates",
+      "description": "Templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit Checklists"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/clearance-departments",
+      "description": "Departments",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit Clearance"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/my-clearances",
+      "description": "My clearances",
+      "status": 404,
+      "passed": true,
+      "endpoint_exists": false,
+      "ref_section": "Exit Clearance"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/interview-templates",
+      "description": "Templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit Interviews"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/letter-templates",
+      "description": "Letter templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit Letters"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/predictions/dashboard",
+      "description": "Predictions dashboard",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Predictions"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/predictions/high-risk",
+      "description": "High risk",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Predictions"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/predictions/trends",
+      "description": "Trends",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Predictions"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/email-templates",
+      "description": "Email templates",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit Emails"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/rehire",
+      "description": "List",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Rehire"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/rehire/eligible",
+      "description": "Eligible alumni",
+      "status": 401,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "Exit Rehire"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/nps/scores",
+      "description": "NPS scores",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/nps/trends",
+      "description": "NPS trends",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/v1/nps/responses",
+      "description": "NPS responses",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Exit System"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "url": "https://test-exit-api.empcloud.com/api/docs",
+      "description": "Swagger UI",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "Exit System"
+    },
+    {
+      "module": "LMS",
+      "method": "POST",
+      "url": "https://testlms-api.empcloud.com/api/v1/auth/sso",
+      "description": "LMS auth",
+      "status": 400,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Auth"
+    },
+    {
+      "module": "LMS",
+      "method": "POST",
+      "url": "https://testlms-api.empcloud.com/api/v1/auth/login",
+      "description": "LMS auth",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Auth"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/courses",
+      "description": "List courses",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Courses"
+    },
+    {
+      "module": "LMS",
+      "method": "POST",
+      "url": "https://testlms-api.empcloud.com/api/v1/courses",
+      "description": "Create course",
+      "status": 201,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Courses"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/enrollments/my",
+      "description": "My enrollments",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Enrollments"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/learning-paths",
+      "description": "List paths",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Paths"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/certificates/my",
+      "description": "My certs",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Certs"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/compliance/my",
+      "description": "My compliance",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Compliance"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/compliance/dashboard",
+      "description": "Dashboard",
+      "status": 500,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "LMS Compliance"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/compliance/overdue",
+      "description": "Overdue",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Compliance"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/ilt",
+      "description": "ILT sessions",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS ILT"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/gamification/leaderboard",
+      "description": "Leaderboard",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Gamification"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/gamification/my",
+      "description": "My points",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Gamification"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/gamification/badges",
+      "description": "Badges",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Gamification"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/discussions",
+      "description": "Discussions",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "LMS Discussions"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/ratings",
+      "description": "Ratings",
+      "status": 400,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "LMS Ratings"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/analytics/overview",
+      "description": "Overview",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Analytics"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/analytics/courses",
+      "description": "Course analytics",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Analytics"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/analytics/users",
+      "description": "User analytics",
+      "status": 404,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "LMS Analytics"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/recommendations",
+      "description": "AI recs",
+      "status": 500,
+      "passed": false,
+      "endpoint_exists": true,
+      "ref_section": "LMS AI"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/marketplace",
+      "description": "Marketplace",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Marketplace"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/api/v1/notifications",
+      "description": "Notifications",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS Notifications"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "url": "https://testlms-api.empcloud.com/health",
+      "description": "Health check",
+      "status": 200,
+      "passed": true,
+      "endpoint_exists": true,
+      "ref_section": "LMS System"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/v1/projects",
+      "description": "List projects",
+      "status": 502,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/v1/tasks",
+      "description": "List tasks",
+      "status": 502,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/v1/users",
+      "description": "List users",
+      "status": 502,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/health",
+      "description": "Health check",
+      "status": "ERROR: HTTPSConnectionPool(host='test-project-api.empcloud.com', port=443): Read timed ",
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/explorer",
+      "description": "Swagger explorer",
+      "status": 502,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "url": "https://test-project-api.empcloud.com/api/v1/projects",
+      "description": "List projects (api/v1)",
+      "status": 502,
+      "passed": false,
+      "endpoint_exists": false,
+      "ref_section": "Project"
+    }
+  ],
+  "bugs": [
+    {
+      "module": "Core",
+      "method": "POST",
+      "path": "/api/v1/auth/password-reset",
+      "description": "Password reset",
+      "status": 404,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "path": "/api/v1/auth/sso/validate",
+      "description": "SSO validate (expect error w/o token)",
+      "status": 404,
+      "ref_section": "Auth"
+    },
+    {
+      "module": "Core",
+      "method": "PUT",
+      "path": "/api/v1/users/663/roles",
+      "description": "Assign roles",
+      "status": 404,
+      "ref_section": "Users"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/employees",
+      "description": "Employee directory",
+      "status": 404,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/employees/663",
+      "description": "Employee profile",
+      "status": 404,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/employees/663/photo",
+      "description": "Photo",
+      "status": 404,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/employees/org-chart",
+      "description": "Org chart",
+      "status": 404,
+      "ref_section": "Employees"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/attendance/reports",
+      "description": "Reports",
+      "status": 404,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/attendance/export",
+      "description": "Export CSV",
+      "status": 404,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/attendance/shift-assignments",
+      "description": "Shift assignments",
+      "status": 404,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/attendance/schedule",
+      "description": "Schedule",
+      "status": 404,
+      "ref_section": "Attendance"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/leave/dashboard",
+      "description": "Dashboard",
+      "status": 404,
+      "ref_section": "Leave"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "path": "/api/v1/notifications/read-all",
+      "description": "Mark all read",
+      "status": 404,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/notifications/preferences",
+      "description": "Preferences",
+      "status": 404,
+      "ref_section": "Notifications"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/dashboard/module-summaries",
+      "description": "Module summaries",
+      "status": 404,
+      "ref_section": "Dashboard"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/dashboard/module-insights",
+      "description": "Module insights",
+      "status": 404,
+      "ref_section": "Dashboard"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "path": "/api/v1/chatbot/message",
+      "description": "Send message",
+      "status": 404,
+      "ref_section": "AI Agent"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/ai-config",
+      "description": "AI config",
+      "status": 404,
+      "ref_section": "AI Config"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/logs",
+      "description": "Query logs",
+      "status": 404,
+      "ref_section": "Logs"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/logs/analysis",
+      "description": "Log analysis",
+      "status": 404,
+      "ref_section": "Logs"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/helpdesk/categories",
+      "description": "Categories",
+      "status": 404,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/helpdesk/knowledge-base",
+      "description": "Knowledge base",
+      "status": 404,
+      "ref_section": "Helpdesk"
+    },
+    {
+      "module": "Core",
+      "method": "POST",
+      "path": "/api/v1/whistleblowing",
+      "description": "Submit report",
+      "status": 404,
+      "ref_section": "Whistleblowing"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/whistleblowing",
+      "description": "List reports",
+      "status": 404,
+      "ref_section": "Whistleblowing"
+    },
+    {
+      "module": "Core",
+      "method": "GET",
+      "path": "/api/v1/import/history",
+      "description": "Import history",
+      "status": 404,
+      "ref_section": "Import"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/gl-accounting/mappings",
+      "description": "Mappings",
+      "status": 404,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/gl-accounting/journal-entries",
+      "description": "Entries",
+      "status": 404,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/gl-accounting/period-summary",
+      "description": "Period summary",
+      "status": 404,
+      "ref_section": "GL Accounting"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/global-payroll/dashboard",
+      "description": "Dashboard",
+      "status": 404,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/global-payroll/countries",
+      "description": "Countries",
+      "status": 404,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/global-payroll/employees",
+      "description": "Employees",
+      "status": 404,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/global-payroll/compliance",
+      "description": "Compliance",
+      "status": 404,
+      "ref_section": "Global Payroll"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/earned-wage/my/eligibility",
+      "description": "My eligibility",
+      "status": 404,
+      "ref_section": "EWA"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/compensation-benchmarks",
+      "description": "List",
+      "status": 404,
+      "ref_section": "Compensation Benchmarks"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/compensation-benchmarks/comparison",
+      "description": "Comparison",
+      "status": 404,
+      "ref_section": "Compensation Benchmarks"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/self-service/tax/form16",
+      "description": "Form 16",
+      "status": 404,
+      "ref_section": "Self-Service"
+    },
+    {
+      "module": "Payroll",
+      "method": "GET",
+      "path": "/api/v1/attendance",
+      "description": "Attendance summary",
+      "status": 404,
+      "ref_section": "Payroll Other"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "description": "Recruit auth",
+      "status": "ERROR: HTTPSConnectionPool(host='test-recruit-api.empcloud.com', port=443): Read timed ",
+      "ref_section": "Recruit Auth"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "path": "/api/v1/job-descriptions/generate",
+      "description": "Generate AI JD",
+      "status": 404,
+      "ref_section": "Recruit AI JD"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "path": "/api/v1/job-descriptions/templates",
+      "description": "JD templates",
+      "status": 404,
+      "ref_section": "Recruit AI JD"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "path": "/api/v1/pipeline-stages",
+      "description": "Pipeline stages",
+      "status": 404,
+      "ref_section": "Recruit Pipeline"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "path": "/api/v1/ai/score-resume",
+      "description": "Score resume",
+      "status": 404,
+      "ref_section": "Recruit AI"
+    },
+    {
+      "module": "Recruit",
+      "method": "POST",
+      "path": "/api/v1/ai/batch-score",
+      "description": "Batch score",
+      "status": 404,
+      "ref_section": "Recruit AI"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "path": "/api/v1/public/careers/technova",
+      "description": "Public career page",
+      "status": 404,
+      "ref_section": "Recruit Public"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "path": "/api/v1/surveys/1",
+      "description": "Survey",
+      "status": 404,
+      "ref_section": "Recruit Surveys"
+    },
+    {
+      "module": "Recruit",
+      "method": "GET",
+      "path": "/api/v1/assessments/1",
+      "description": "Assessment",
+      "status": 404,
+      "ref_section": "Recruit Assessments"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "path": "/api/v1/goal-alignment/tree",
+      "description": "Alignment tree",
+      "status": 404,
+      "ref_section": "Perf Goals"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "path": "/api/v1/nine-box",
+      "description": "9-box grid",
+      "status": 404,
+      "ref_section": "Perf 9-Box"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "path": "/api/v1/skills-gap/663",
+      "description": "Employee gap",
+      "status": 404,
+      "ref_section": "Perf Skills"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "path": "/api/v1/letter-templates",
+      "description": "Templates",
+      "status": 404,
+      "ref_section": "Perf Letters"
+    },
+    {
+      "module": "Performance",
+      "method": "GET",
+      "path": "/api/v1/notifications/pending",
+      "description": "Pending",
+      "status": 404,
+      "ref_section": "Perf Notifications"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/points/transactions",
+      "description": "Transactions",
+      "status": "ERROR: HTTPSConnectionPool(host='test-rewards-api.empcloud.com', port=443): Read timed ",
+      "ref_section": "Rewards Points"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/celebrations",
+      "description": "Upcoming",
+      "status": 404,
+      "ref_section": "Rewards Celebrations"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/milestones/history",
+      "description": "History",
+      "status": 404,
+      "ref_section": "Rewards Milestones"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/manager/dashboard",
+      "description": "Manager dashboard",
+      "status": 404,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/manager/team-comparison",
+      "description": "Team comparison",
+      "status": 404,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/manager/recommendations",
+      "description": "AI recs",
+      "status": 404,
+      "ref_section": "Rewards Manager"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/teams",
+      "description": "Teams config",
+      "status": 404,
+      "ref_section": "Rewards Teams"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/push/vapid-key",
+      "description": "VAPID key",
+      "status": 503,
+      "ref_section": "Rewards Push"
+    },
+    {
+      "module": "Rewards",
+      "method": "GET",
+      "path": "/api/v1/integration/user/1/summary",
+      "description": "User summary",
+      "status": 404,
+      "ref_section": "Rewards Integration"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/checklist-templates",
+      "description": "Templates",
+      "status": 404,
+      "ref_section": "Exit Checklists"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/clearance-departments",
+      "description": "Departments",
+      "status": 404,
+      "ref_section": "Exit Clearance"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/my-clearances",
+      "description": "My clearances",
+      "status": 404,
+      "ref_section": "Exit Clearance"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/interview-templates",
+      "description": "Templates",
+      "status": 404,
+      "ref_section": "Exit Interviews"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/letter-templates",
+      "description": "Letter templates",
+      "status": 404,
+      "ref_section": "Exit Letters"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/email-templates",
+      "description": "Email templates",
+      "status": 404,
+      "ref_section": "Exit Emails"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/nps/scores",
+      "description": "NPS scores",
+      "status": 404,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/nps/trends",
+      "description": "NPS trends",
+      "status": 404,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "Exit",
+      "method": "GET",
+      "path": "/api/v1/nps/responses",
+      "description": "NPS responses",
+      "status": 404,
+      "ref_section": "Exit NPS"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/compliance/my",
+      "description": "My compliance",
+      "status": 404,
+      "ref_section": "LMS Compliance"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/compliance/overdue",
+      "description": "Overdue",
+      "status": 404,
+      "ref_section": "LMS Compliance"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/ilt",
+      "description": "ILT sessions",
+      "status": 404,
+      "ref_section": "LMS ILT"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/gamification/my",
+      "description": "My points",
+      "status": 404,
+      "ref_section": "LMS Gamification"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/gamification/badges",
+      "description": "Badges",
+      "status": 404,
+      "ref_section": "LMS Gamification"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/analytics/courses",
+      "description": "Course analytics",
+      "status": 404,
+      "ref_section": "LMS Analytics"
+    },
+    {
+      "module": "LMS",
+      "method": "GET",
+      "path": "/api/v1/analytics/users",
+      "description": "User analytics",
+      "status": 404,
+      "ref_section": "LMS Analytics"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/v1/projects",
+      "description": "List projects",
+      "status": 502,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/v1/tasks",
+      "description": "List tasks",
+      "status": 502,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/v1/users",
+      "description": "List users",
+      "status": 502,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/health",
+      "description": "Health check",
+      "status": "ERROR: HTTPSConnectionPool(host='test-project-api.empcloud.com', port=443): Read timed ",
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/explorer",
+      "description": "Swagger explorer",
+      "status": 502,
+      "ref_section": "Project"
+    },
+    {
+      "module": "Project",
+      "method": "GET",
+      "path": "/api/v1/projects",
+      "description": "List projects (api/v1)",
+      "status": 502,
+      "ref_section": "Project"
+    }
+  ]
+}

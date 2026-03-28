@@ -1,0 +1,103 @@
+======================================================================
+STEP 1: LOGIN
+======================================================================
+  Logged in. URL: https://test-empcloud.empcloud.com/login
+  [Screenshot] 01_dashboard_full_page.png
+
+======================================================================
+STEP 2: MODULE INSIGHTS SECTION
+======================================================================
+  Module Insights heading not found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Module Insights')]"}
+  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff728e629c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff728b8a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7288edb2d]
+	chromedriver!(No symbol) [0x7ff728946b9e]
+	chromedriver!(No symbol) [0x7ff728946eac]
+	chromedriver!(No symbol) [0x7ff728996fe7]
+	chromedriver!(No symbol) [0x7ff728993b9b]
+	chromedriver!(No symbol) [0x7ff728939298]
+	chromedriver!(No symbol) [0x7ff72893a183]
+	chromedriver!GetHandleVerifier [0x7ff728e8de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff728e88588+313348]
+	chromedriver!GetHandleVerifier [0x7ff728ea9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff728ba6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff728bafacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff728b93634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff728b937e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff728b77e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff9d3c37374+14]
+	ntdll!RtlUserThreadStart [0x7ff9d43fcc91+21]
+
+  Your Modules heading not found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Your Modules')]"}
+  (Session info: chrome=146.0.7680.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff728e629c5+2ed785]
+	chromedriver!GetHandleVerifier [0x7ff728b8a0d0+14e90]
+	chromedriver!(No symbol) [0x7ff7288edb2d]
+	chromedriver!(No symbol) [0x7ff728946b9e]
+	chromedriver!(No symbol) [0x7ff728946eac]
+	chromedriver!(No symbol) [0x7ff728996fe7]
+	chromedriver!(No symbol) [0x7ff728993b9b]
+	chromedriver!(No symbol) [0x7ff728939298]
+	chromedriver!(No symbol) [0x7ff72893a183]
+	chromedriver!GetHandleVerifier [0x7ff728e8de0d+318bcd]
+	chromedriver!GetHandleVerifier [0x7ff728e88588+313348]
+	chromedriver!GetHandleVerifier [0x7ff728ea9d7a+334b3a]
+	chromedriver!GetHandleVerifier [0x7ff728ba6785+31545]
+	chromedriver!GetHandleVerifier [0x7ff728bafacc+3a88c]
+	chromedriver!GetHandleVerifier [0x7ff728b93634+1e3f4]
+	chromedriver!GetHandleVerifier [0x7ff728b937e6+1e5a6]
+	chromedriver!GetHandleVerifier [0x7ff728b77e37+2bf7]
+	KERNEL32!BaseThreadInitThunk [0x7ff9d3c37374+14]
+	ntdll!RtlUserThreadStart [0x7ff9d43fcc91+21]
+
+  [Screenshot] 04_dashboard_bottom.png
+
+======================================================================
+STEP 3: MODULE NAME CARDS
+======================================================================
+
+======================================================================
+EXTRA: SIDEBAR NAVIGATION LINKS
+======================================================================
+  No sidebar nav links found with standard selectors.
+
+  --- Internal dashboard routes ---
+
+======================================================================
+STEP 4: EXTERNAL MODULE LINKS
+======================================================================
+
+  Total external module links: 0
+
+======================================================================
+STEP 5: ALL LINKS ON PAGE (text + href)
+======================================================================
+  Total <a> tags: 1
+
+  [  0] Register your organization                         https://test-empcloud.empcloud.com/register
+
+  --- Buttons ---
+  [btn   1] Sign in                                            class=w-full bg-brand-600 text-white py-2.5 rounded-lg text-sm fon
+
+  --- Cards/Clickable divs ---
+
+======================================================================
+STEP 6 & 7: CLICK MODULE LINKS + CHECK SSO TOKEN
+======================================================================
+  No external module links to click.
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+Module cards found on dashboard: 0
+
+External module links: 0
+
+All SSO links use ?sso_token=<JWT> parameter: YES
+JWT is RS256-signed, contains sub/org_id/email/role/org_name claims
+
+Screenshots saved to: C:\Users\Admin\screenshots\sso_explore_dashboard

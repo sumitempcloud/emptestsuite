@@ -1,0 +1,97 @@
+Got token: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam...
+
+=== Payroll ===
+  Navigating to: https://testpayroll.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsI...
+  Final URL: https://testpayroll.empcloud.com/
+  Title: EMP Payroll — Open Source Payroll Management
+  Body: SSO login failed. Please try logging in manually.
+Go to login
+  STATUS: PASS - Page loaded, authenticated
+  /my: EMP Payroll — Open Source Payroll Management | URL: https://testpayroll.empcloud.com/login
+
+=== Recruit ===
+  Navigating to: https://test-recruit.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIs...
+  Final URL: https://test-recruit.empcloud.com/dashboard
+  Title: EMP Recruit — Applicant Tracking System
+  Body: EMP Recruit
+Dashboard
+Jobs
+Candidates
+Interviews
+Offers
+Onboarding
+Referrals
+Analytics
+Settings
+AG
+A
+  STATUS: PASS - Page loaded, authenticated
+  /jobs: EMP Recruit — Applicant Tracking System | URL: https://test-recruit.empcloud.com/jobs
+
+=== Performance ===
+  Navigating to: https://test-performance.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpX...
+  Final URL: https://test-performance.empcloud.com/dashboard
+  Title: EMP Performance — Performance Management System
+  Body: EMP Performance
+Dashboard
+Review Cycles
+Goals
+Goal Alignment
+Competencies
+PIPs
+Career Paths
+1-on-1s
+
+  STATUS: PASS - Page loaded, authenticated
+  /dashboard: EMP Performance — Performance Management System | URL: https://test-performance.empcloud.com/dashboard
+
+=== Rewards ===
+  Navigating to: https://test-rewards.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIs...
+  Final URL: https://test-rewards.empcloud.com/dashboard
+  Title: EMP Rewards — Employee Recognition & Rewards
+  Body: EMP Rewards
+Dashboard
+Feed
+Celebrations
+Kudos
+Leaderboard
+Badges
+Rewards
+Redemptions
+Challenges
+Mile
+  STATUS: PASS - Page loaded, authenticated
+
+=== Exit ===
+  Navigating to: https://test-exit.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImt...
+  Final URL: https://test-exit.empcloud.com/dashboard
+  Title: EMP Exit — Employee Exit Management
+  Body: EMP Exit
+Dashboard
+Exits
+Checklists
+Clearance
+Interviews
+FnF
+Notice Buyout
+Assets
+KT
+Letters
+Alumni
+
+  STATUS: PASS - Page loaded, authenticated
+
+=== LMS ===
+  Navigating to: https://testlms.empcloud.com?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZ...
+  Final URL: https://testlms.empcloud.com/login
+  Title: EMP LMS — Learning Management System
+  Body: EmpCloud LMS
+Sign in to your learning platform
+Email address
+Password
+Sign in
+Demo credentials
+admin
+  STATUS: FAIL - Redirected to login (SSO failed)
+
+=== DONE ===

@@ -1,0 +1,1068 @@
+{
+  "timestamp": "2026-03-28T06:58:35.663542",
+  "summary": {
+    "pass": 25,
+    "fail": 60,
+    "warn": 21,
+    "bugs": 61,
+    "features": 1
+  },
+  "results": [
+    {
+      "module": "Payroll",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: payroll, tax",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Dashboard_20260328_064620.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Dashboard - ctc",
+      "status": "WARN",
+      "detail": "'ctc' not visible on dashboard",
+      "ss": null
+    },
+    {
+      "module": "Payroll",
+      "page": "Dashboard - net pay",
+      "status": "WARN",
+      "detail": "'net pay' not visible on dashboard",
+      "ss": null
+    },
+    {
+      "module": "Payroll",
+      "page": "Dashboard - tax regime",
+      "status": "WARN",
+      "detail": "'tax regime' not visible on dashboard",
+      "ss": null
+    },
+    {
+      "module": "Payroll",
+      "page": "My Payslips",
+      "status": "PASS",
+      "detail": "Found: pay",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Payslips_20260328_064625.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "My Payslips (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/my-payslips",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Payslips__alt__20260328_064630.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Payslip Download",
+      "status": "WARN",
+      "detail": "No download/PDF button found on payslips page",
+      "ss": null
+    },
+    {
+      "module": "Payroll",
+      "page": "My Salary",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/salary",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Salary_20260328_064635.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "My Salary (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/my-salary",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Salary__alt__20260328_064641.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Salary Structure",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/salary-structure",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Salary_Structure_20260328_064646.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "My Tax",
+      "status": "PASS",
+      "detail": "Found: tax, tds",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Tax_20260328_064651.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "My Tax (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/my-tax",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Tax__alt__20260328_064656.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Declarations",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/declarations",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Declarations_20260328_064702.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Tax Declarations (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/tax-declarations",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Tax_Declarations__alt__20260328_064707.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Reimbursements",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: reimbursement, claim, submit, history, amount",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Reimbursements_20260328_064712.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Run Payroll",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/run-payroll",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Run_Payroll_20260328_064717.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Run Payroll (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/payroll-run",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Run_Payroll__alt__20260328_064723.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Admin Payroll",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/admin/payroll",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Admin_Payroll_20260328_064728.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Payroll Reports",
+      "status": "PASS",
+      "detail": "Found: payroll",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Payroll_Reports_20260328_064733.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Payroll Reports (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/payroll-reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Payroll_Reports__alt__20260328_064739.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Employee Salary Details",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: employee, salary, name, department",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Employee_Salary_Details_20260328_064744.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Employee Salary (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testpayroll.empcloud.com/employee-salary",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Employee_Salary__alt__20260328_064749.png"
+    },
+    {
+      "module": "Payroll",
+      "page": "Payroll Settings",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: setting, config, component, formula, template",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Payroll_Settings_20260328_064754.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: recruitment",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Dashboard_20260328_064823.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Job Postings",
+      "status": "PASS",
+      "detail": "Found: add",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Job_Postings_20260328_064828.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Job Postings (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-recruit.empcloud.com/job-postings",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Job_Postings__alt__20260328_064834.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Candidates",
+      "status": "PASS",
+      "detail": "Found: email",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Candidates_20260328_064845.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Interviews",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: interview, schedule, feedback, scorecard, candidate",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Interviews_20260328_064850.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Interview (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-recruit.empcloud.com/interview",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Interview__alt__20260328_064856.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Offers",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: offer, letter, candidate, send, status",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Offers_20260328_064901.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Onboarding",
+      "status": "PASS",
+      "detail": "Found: welcome",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Onboarding_20260328_064906.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Analytics",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: analytics, metric, time, hire, source",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Analytics_20260328_064911.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Reports",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-recruit.empcloud.com/reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Reports_20260328_064917.png"
+    },
+    {
+      "module": "Recruitment",
+      "page": "Settings",
+      "status": "PASS",
+      "detail": "Found: email",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Settings_20260328_064922.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: performance, review",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Dashboard_20260328_064959.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Reviews",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/reviews",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Reviews_20260328_065004.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Review Cycles",
+      "status": "PASS",
+      "detail": "Found: review",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Review_Cycles_20260328_065009.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Goals",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: goal, okr, objective, key result, progress",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Goals_20260328_065015.png"
+    },
+    {
+      "module": "Performance",
+      "page": "OKRs",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/okrs",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_OKRs_20260328_065020.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Self Assessment",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/self-assessment",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Self_Assessment_20260328_065025.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Self Review",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/self-review",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Self_Review_20260328_065030.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Manager Review",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/manager-review",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Manager_Review_20260328_065035.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Team Reviews",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/team-reviews",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Team_Reviews_20260328_065041.png"
+    },
+    {
+      "module": "Performance",
+      "page": "360 Feedback",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/360-feedback",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_360_Feedback_20260328_065046.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Peer Review",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/peer-review",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Peer_Review_20260328_065051.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Calibration",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/calibration",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Calibration_20260328_065056.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Analytics",
+      "status": "PASS",
+      "detail": "Found: performance",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Analytics_20260328_065102.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Reports",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-performance.empcloud.com/reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Reports_20260328_065107.png"
+    },
+    {
+      "module": "Performance",
+      "page": "Settings",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: setting, config, template, rating scale",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Settings_20260328_065112.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: reward",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Dashboard_20260328_065141.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Kudos",
+      "status": "PASS",
+      "detail": "Found: recognize",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Kudos_20260328_065146.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Give Kudos (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/give-kudos",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Give_Kudos__alt__20260328_065152.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Recognition",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/recognition",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Recognition_20260328_065157.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Badges",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: badge, award, earn, achievement, icon",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Badges_20260328_065208.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Leaderboard",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: leaderboard, rank, point, top, score",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Leaderboard_20260328_065213.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Team Challenges",
+      "status": "PASS",
+      "detail": "Found: team",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Team_Challenges_20260328_065219.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Team Challenges (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/team-challenges",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Team_Challenges__alt__20260328_065224.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Celebrations",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: birthday, anniversary, celebration, wish, milestone",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Celebrations_20260328_065229.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Rewards Catalog",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/catalog",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Catalog_20260328_065234.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Rewards Catalog (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/rewards-catalog",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Catalog__alt__20260328_065239.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Rewards Store",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-rewards.empcloud.com/store",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Store_20260328_065245.png"
+    },
+    {
+      "module": "Rewards",
+      "page": "Settings",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: setting, config, point, badge",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Settings_20260328_065250.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: exit, resignation",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Dashboard_20260328_065327.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Initiate Exit",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/initiate",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Initiate_Exit_20260328_065333.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Initiate Exit (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/initiate-exit",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Initiate_Exit__alt__20260328_065338.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "New Exit",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/new",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_New_Exit_20260328_065343.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Clearance",
+      "status": "PASS",
+      "detail": "Found: clearance, it, hr",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Clearance_20260328_065349.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Exit Clearance (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/exit-clearance",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Exit_Clearance__alt__20260328_065354.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Exit Interview",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/exit-interview",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Exit_Interview_20260328_065359.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Exit Interviews (alt)",
+      "status": "PASS",
+      "detail": "Found: interview, exit",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Exit_Interviews__alt__20260328_065405.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Full & Final Settlement",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/settlement",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Full___Final_Settlement_20260328_065410.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "FnF (alt)",
+      "status": "PASS",
+      "detail": "Found: settlement, fnf",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_FnF__alt__20260328_065415.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Full & Final (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/full-final",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Full___Final__alt__20260328_065421.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Knowledge Transfer",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/knowledge-transfer",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Knowledge_Transfer_20260328_065426.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "KT (alt)",
+      "status": "PASS",
+      "detail": "Found: knowledge, transfer, kt",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_KT__alt__20260328_065431.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Analytics",
+      "status": "PASS",
+      "detail": "Found: analytics",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Analytics_20260328_065436.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Reports",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-exit.empcloud.com/reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Reports_20260328_065442.png"
+    },
+    {
+      "module": "Exit Management",
+      "page": "Settings",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: setting, config, template, checklist",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Settings_20260328_065447.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: learning",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Dashboard_20260328_065516.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Courses",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: course, title, create, category, duration",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Courses_20260328_065521.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Assign Course",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/assign",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assign_Course_20260328_065527.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Assignments",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/assignments",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assignments_20260328_065532.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Quiz/Assessment",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/quiz",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Quiz_Assessment_20260328_065537.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Assessments",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/assessments",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assessments_20260328_065542.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Quizzes",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/quizzes",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Quizzes_20260328_065548.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Certifications",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: certificate, certification, issue, view, download",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Certifications_20260328_065553.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Certificates",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/certificates",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Certificates_20260328_065558.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Compliance Training",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: compliance, mandatory, training, track, status",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Compliance_Training_20260328_065603.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Compliance Training (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/compliance-training",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Compliance_Training__alt__20260328_065609.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Analytics",
+      "status": "PASS",
+      "detail": "Found: learner",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Analytics_20260328_065614.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Reports",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://testlms.empcloud.com/reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Reports_20260328_065619.png"
+    },
+    {
+      "module": "LMS",
+      "page": "My Learning",
+      "status": "PASS",
+      "detail": "Found: learning",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_My_Learning_20260328_065624.png"
+    },
+    {
+      "module": "LMS",
+      "page": "Settings",
+      "status": "WARN",
+      "detail": "No expected keywords found. Missing: setting, config, template",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Settings_20260328_065630.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Dashboard",
+      "status": "PASS",
+      "detail": "Found: project, team",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Dashboard_20260328_065703.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Projects List",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/projects",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Projects_List_20260328_065709.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Tasks",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/tasks",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Tasks_20260328_065716.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Kanban Board",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/kanban",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Kanban_Board_20260328_065726.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Board (alt)",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/board",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Board__alt__20260328_065733.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Time Tracking",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/time-tracking",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Time_Tracking_20260328_065741.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Timesheet",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/timesheet",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timesheet_20260328_065749.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Timesheets",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/timesheets",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timesheets_20260328_065755.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Gantt Chart",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/gantt",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Gantt_Chart_20260328_065802.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Timeline",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/timeline",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timeline_20260328_065809.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Reports",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/reports",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Reports_20260328_065816.png"
+    },
+    {
+      "module": "Projects",
+      "page": "Settings",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/settings",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Settings_20260328_065823.png"
+    },
+    {
+      "module": "Projects",
+      "page": "My Tasks",
+      "status": "FAIL",
+      "detail": "Page shows 404/Not Found at https://test-project.empcloud.com/my-tasks",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_My_Tasks_20260328_065831.png"
+    }
+  ],
+  "bugs": [
+    {
+      "title": "Payroll — My Payslips (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/my-payslips\n**Steps:** Navigate to My Payslips (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Payslips__alt__20260328_064630.png"
+    },
+    {
+      "title": "Payroll — Cannot download payslip PDF",
+      "desc": "**URL:** https://testpayroll.empcloud.com/payslips\n**Steps:** Navigate to My Payslips\n**Expected:** Download/PDF button available for each payslip\n**Actual:** No download button visible",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_no_download_20260328_064630.png"
+    },
+    {
+      "title": "Payroll — My Salary page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/salary\n**Steps:** Navigate to My Salary\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Salary_20260328_064635.png"
+    },
+    {
+      "title": "Payroll — My Salary (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/my-salary\n**Steps:** Navigate to My Salary (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Salary__alt__20260328_064641.png"
+    },
+    {
+      "title": "Payroll — Salary Structure page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/salary-structure\n**Steps:** Navigate to Salary Structure\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Salary_Structure_20260328_064646.png"
+    },
+    {
+      "title": "Payroll — My Tax (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/my-tax\n**Steps:** Navigate to My Tax (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_My_Tax__alt__20260328_064656.png"
+    },
+    {
+      "title": "Payroll — Declarations page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/declarations\n**Steps:** Navigate to Declarations\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Declarations_20260328_064702.png"
+    },
+    {
+      "title": "Payroll — Tax Declarations (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/tax-declarations\n**Steps:** Navigate to Tax Declarations (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Tax_Declarations__alt__20260328_064707.png"
+    },
+    {
+      "title": "Payroll — Run Payroll page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/run-payroll\n**Steps:** Navigate to Run Payroll\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Run_Payroll_20260328_064717.png"
+    },
+    {
+      "title": "Payroll — Run Payroll (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/payroll-run\n**Steps:** Navigate to Run Payroll (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Run_Payroll__alt__20260328_064723.png"
+    },
+    {
+      "title": "Payroll — Admin Payroll page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/admin/payroll\n**Steps:** Navigate to Admin Payroll\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Admin_Payroll_20260328_064728.png"
+    },
+    {
+      "title": "Payroll — Payroll Reports (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/payroll-reports\n**Steps:** Navigate to Payroll Reports (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Payroll_Reports__alt__20260328_064739.png"
+    },
+    {
+      "title": "Payroll — Employee Salary (alt) page returns 404",
+      "desc": "**URL:** https://testpayroll.empcloud.com/employee-salary\n**Steps:** Navigate to Employee Salary (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Payroll_Employee_Salary__alt__20260328_064749.png"
+    },
+    {
+      "title": "Recruitment — Job Postings (alt) page returns 404",
+      "desc": "**URL:** https://test-recruit.empcloud.com/job-postings\n**Steps:** Navigate to Job Postings (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Job_Postings__alt__20260328_064834.png"
+    },
+    {
+      "title": "Recruitment — Interview (alt) page returns 404",
+      "desc": "**URL:** https://test-recruit.empcloud.com/interview\n**Steps:** Navigate to Interview (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Interview__alt__20260328_064856.png"
+    },
+    {
+      "title": "Recruitment — Reports page returns 404",
+      "desc": "**URL:** https://test-recruit.empcloud.com/reports\n**Steps:** Navigate to Reports\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Recruitment_Reports_20260328_064917.png"
+    },
+    {
+      "title": "Performance — Reviews page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/reviews\n**Steps:** Navigate to Reviews\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Reviews_20260328_065004.png"
+    },
+    {
+      "title": "Performance — OKRs page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/okrs\n**Steps:** Navigate to OKRs\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_OKRs_20260328_065020.png"
+    },
+    {
+      "title": "Performance — Self Assessment page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/self-assessment\n**Steps:** Navigate to Self Assessment\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Self_Assessment_20260328_065025.png"
+    },
+    {
+      "title": "Performance — Self Review page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/self-review\n**Steps:** Navigate to Self Review\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Self_Review_20260328_065030.png"
+    },
+    {
+      "title": "Performance — Manager Review page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/manager-review\n**Steps:** Navigate to Manager Review\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Manager_Review_20260328_065035.png"
+    },
+    {
+      "title": "Performance — Team Reviews page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/team-reviews\n**Steps:** Navigate to Team Reviews\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Team_Reviews_20260328_065041.png"
+    },
+    {
+      "title": "Performance — 360 Feedback page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/360-feedback\n**Steps:** Navigate to 360 Feedback\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_360_Feedback_20260328_065046.png"
+    },
+    {
+      "title": "Performance — Peer Review page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/peer-review\n**Steps:** Navigate to Peer Review\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Peer_Review_20260328_065051.png"
+    },
+    {
+      "title": "Performance — Calibration page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/calibration\n**Steps:** Navigate to Calibration\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Calibration_20260328_065056.png"
+    },
+    {
+      "title": "Performance — Reports page returns 404",
+      "desc": "**URL:** https://test-performance.empcloud.com/reports\n**Steps:** Navigate to Reports\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Performance_Reports_20260328_065107.png"
+    },
+    {
+      "title": "Rewards — Give Kudos (alt) page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/give-kudos\n**Steps:** Navigate to Give Kudos (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Give_Kudos__alt__20260328_065152.png"
+    },
+    {
+      "title": "Rewards — Recognition page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/recognition\n**Steps:** Navigate to Recognition\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Recognition_20260328_065157.png"
+    },
+    {
+      "title": "Rewards — Team Challenges (alt) page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/team-challenges\n**Steps:** Navigate to Team Challenges (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Team_Challenges__alt__20260328_065224.png"
+    },
+    {
+      "title": "Rewards — Rewards Catalog page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/catalog\n**Steps:** Navigate to Rewards Catalog\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Catalog_20260328_065234.png"
+    },
+    {
+      "title": "Rewards — Rewards Catalog (alt) page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/rewards-catalog\n**Steps:** Navigate to Rewards Catalog (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Catalog__alt__20260328_065239.png"
+    },
+    {
+      "title": "Rewards — Rewards Store page returns 404",
+      "desc": "**URL:** https://test-rewards.empcloud.com/store\n**Steps:** Navigate to Rewards Store\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Rewards_Rewards_Store_20260328_065245.png"
+    },
+    {
+      "title": "Exit Management — Initiate Exit page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/initiate\n**Steps:** Navigate to Initiate Exit\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Initiate_Exit_20260328_065333.png"
+    },
+    {
+      "title": "Exit Management — Initiate Exit (alt) page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/initiate-exit\n**Steps:** Navigate to Initiate Exit (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Initiate_Exit__alt__20260328_065338.png"
+    },
+    {
+      "title": "Exit Management — New Exit page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/new\n**Steps:** Navigate to New Exit\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_New_Exit_20260328_065343.png"
+    },
+    {
+      "title": "Exit Management — Exit Clearance (alt) page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/exit-clearance\n**Steps:** Navigate to Exit Clearance (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Exit_Clearance__alt__20260328_065354.png"
+    },
+    {
+      "title": "Exit Management — Exit Interview page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/exit-interview\n**Steps:** Navigate to Exit Interview\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Exit_Interview_20260328_065359.png"
+    },
+    {
+      "title": "Exit Management — Full & Final Settlement page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/settlement\n**Steps:** Navigate to Full & Final Settlement\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Full___Final_Settlement_20260328_065410.png"
+    },
+    {
+      "title": "Exit Management — Full & Final (alt) page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/full-final\n**Steps:** Navigate to Full & Final (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Full___Final__alt__20260328_065421.png"
+    },
+    {
+      "title": "Exit Management — Knowledge Transfer page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/knowledge-transfer\n**Steps:** Navigate to Knowledge Transfer\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Knowledge_Transfer_20260328_065426.png"
+    },
+    {
+      "title": "Exit Management — Reports page returns 404",
+      "desc": "**URL:** https://test-exit.empcloud.com/reports\n**Steps:** Navigate to Reports\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Exit_Management_Reports_20260328_065442.png"
+    },
+    {
+      "title": "LMS — Assign Course page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/assign\n**Steps:** Navigate to Assign Course\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assign_Course_20260328_065527.png"
+    },
+    {
+      "title": "LMS — Assignments page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/assignments\n**Steps:** Navigate to Assignments\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assignments_20260328_065532.png"
+    },
+    {
+      "title": "LMS — Quiz/Assessment page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/quiz\n**Steps:** Navigate to Quiz/Assessment\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Quiz_Assessment_20260328_065537.png"
+    },
+    {
+      "title": "LMS — Assessments page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/assessments\n**Steps:** Navigate to Assessments\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Assessments_20260328_065542.png"
+    },
+    {
+      "title": "LMS — Quizzes page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/quizzes\n**Steps:** Navigate to Quizzes\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Quizzes_20260328_065548.png"
+    },
+    {
+      "title": "LMS — Certificates page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/certificates\n**Steps:** Navigate to Certificates\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Certificates_20260328_065558.png"
+    },
+    {
+      "title": "LMS — Compliance Training (alt) page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/compliance-training\n**Steps:** Navigate to Compliance Training (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Compliance_Training__alt__20260328_065609.png"
+    },
+    {
+      "title": "LMS — Reports page returns 404",
+      "desc": "**URL:** https://testlms.empcloud.com/reports\n**Steps:** Navigate to Reports\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\LMS_Reports_20260328_065619.png"
+    },
+    {
+      "title": "Projects — Projects List page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/projects\n**Steps:** Navigate to Projects List\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Projects_List_20260328_065709.png"
+    },
+    {
+      "title": "Projects — Tasks page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/tasks\n**Steps:** Navigate to Tasks\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Tasks_20260328_065716.png"
+    },
+    {
+      "title": "Projects — Kanban Board page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/kanban\n**Steps:** Navigate to Kanban Board\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Kanban_Board_20260328_065726.png"
+    },
+    {
+      "title": "Projects — Board (alt) page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/board\n**Steps:** Navigate to Board (alt)\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Board__alt__20260328_065733.png"
+    },
+    {
+      "title": "Projects — Time Tracking page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/time-tracking\n**Steps:** Navigate to Time Tracking\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Time_Tracking_20260328_065741.png"
+    },
+    {
+      "title": "Projects — Timesheet page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/timesheet\n**Steps:** Navigate to Timesheet\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timesheet_20260328_065749.png"
+    },
+    {
+      "title": "Projects — Timesheets page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/timesheets\n**Steps:** Navigate to Timesheets\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timesheets_20260328_065755.png"
+    },
+    {
+      "title": "Projects — Gantt Chart page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/gantt\n**Steps:** Navigate to Gantt Chart\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Gantt_Chart_20260328_065802.png"
+    },
+    {
+      "title": "Projects — Timeline page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/timeline\n**Steps:** Navigate to Timeline\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Timeline_20260328_065809.png"
+    },
+    {
+      "title": "Projects — Reports page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/reports\n**Steps:** Navigate to Reports\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Reports_20260328_065816.png"
+    },
+    {
+      "title": "Projects — Settings page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/settings\n**Steps:** Navigate to Settings\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_Settings_20260328_065823.png"
+    },
+    {
+      "title": "Projects — My Tasks page returns 404",
+      "desc": "**URL:** https://test-project.empcloud.com/my-tasks\n**Steps:** Navigate to My Tasks\n**Expected:** Page loads with content\n**Actual:** 404 Not Found error",
+      "ss": "C:\\emptesting\\screenshots\\admin_all_modules\\Projects_My_Tasks_20260328_065831.png"
+    }
+  ],
+  "feature_requests": [
+    {
+      "title": "[Feature Request] Payroll — No way to submit reimbursement claims",
+      "desc": "**URL:** https://testpayroll.empcloud.com/reimbursements\n**Expected:** Button/form to submit a new reimbursement claim\n**Actual:** No submit functionality found",
+      "ss": null
+    }
+  ]
+}

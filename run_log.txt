@@ -1,0 +1,15 @@
+Fetching all issues...
+  state=open page=1: 100 issues
+  state=open page=2: 4 issues
+  state=closed page=1: 100 issues
+  state=closed page=2: 100 issues
+  state=closed page=3: 100 issues
+  state=closed page=4: 100 issues
+  state=closed page=5: 100 issues
+  state=closed page=6: 100 issues
+  state=closed page=7: 100 issues
+  state=closed page=8: 100 issues
+  state=closed page=9: 40 issues
+Total issues fetched: 944
+
+Fetching comments from issues...

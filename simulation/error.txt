@@ -1,0 +1,478 @@
+[20:10:14] ======================================================================
+[20:10:14] EMP Cloud 30-Day Simulation — Days 11-20
+[20:10:14] Date: 2026-03-28 20:10:14
+[20:10:14] ======================================================================
+[20:10:14] ======================================================================
+[20:10:14] DAY 11 — Performance Reviews Start
+[20:10:14] ======================================================================
+[20:10:14] 
+--- TechNova ---
+[20:10:16]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:10:16]   SSO to Performance module: OK
+[20:10:17]   Create review cycle: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:18]   GET review-cycles: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:18]   BUG: [30-Day Sim] Performance SSO returns 401 when creating review cycle for TechNova
+[20:10:28]   Goals set: 0/10 employees
+[20:10:29]   GET reviews: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:29] 
+--- GlobalTech ---
+[20:10:31]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:10:31]   SSO to Performance module: OK
+[20:10:32]   Create review cycle: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:33]   GET review-cycles: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:33]   BUG: [30-Day Sim] Performance SSO returns 401 when creating review cycle for GlobalTech
+[20:10:43]   Goals set: 0/10 employees
+[20:10:43]   GET reviews: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:43] 
+--- Innovate Solutions ---
+[20:10:46]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:10:46]   SSO to Performance module: OK
+[20:10:47]   Create review cycle: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:47]   GET review-cycles: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:47]   BUG: [30-Day Sim] Performance SSO returns 401 when creating review cycle for Innovate Solutions
+[20:10:57]   Goals set: 0/10 employees
+[20:10:57]   GET reviews: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:10:57] 
+Day 11 complete.
+[20:10:57] ======================================================================
+[20:10:57] DAY 12 — Regular Day + Resignations
+[20:10:57] ======================================================================
+[20:10:57] 
+--- TechNova ---
+[20:11:26]   Attendance check-in: 0/30
+[20:11:27]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:11:28]   Resign Esha Kapoor: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:11:29]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:11:30]   Resign Ganesh Chatterjee: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:11:31]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:11:32]   GET exits: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:11:32] 
+--- GlobalTech ---
+[20:12:00]   Attendance check-in: 0/30
+[20:12:01]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:12:02]   Resign Divya Malhotra: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:03]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:04]   Resign Garima Menon: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:05]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:06]   GET exits: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:06] 
+--- Innovate Solutions ---
+[20:12:42]   Attendance check-in: 0/30
+[20:12:43]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:12:43]   Resign Charvi Bansal: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:45]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:46]   Resign Ekta Rathore: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:47]   Exit (admin): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:48]   GET exits: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:12:48] 
+Day 12 complete.
+[20:12:48] ======================================================================
+[20:12:48] DAY 13 — Training & Learning
+[20:12:48] ======================================================================
+[20:12:48] 
+--- TechNova ---
+[20:12:51]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:12:53]   Create course: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:12:54]   GET courses: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:13:33]   Enrolled: 0/40
+[20:13:33]   Completed course: 0/20
+[20:13:35]   GET certifications: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:13:36]   GET learning-paths: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:13:36] 
+--- GlobalTech ---
+[20:13:38]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:13:39]   Create course: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:13:40]   GET courses: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:14:28]   Enrolled: 0/46
+[20:14:28]   Completed course: 0/20
+[20:14:29]   GET certifications: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:14:30]   GET learning-paths: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:14:30] 
+--- Innovate Solutions ---
+[20:14:32]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:14:33]   Create course: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:14:34]   GET courses: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:15:25]   Enrolled: 0/50
+[20:15:25]   Completed course: 0/20
+[20:15:26]   GET certifications: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:15:27]   GET learning-paths: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:15:27] 
+Day 13 complete.
+[20:15:27] ======================================================================
+[20:15:27] DAY 14 — Public Holiday (No Attendance)
+[20:15:27] ======================================================================
+[20:15:27] 
+--- TechNova ---
+[20:15:30]   Holiday check-in attempt: 409 {'success': False, 'error': {'code': 'CONFLICT', 'message': 'Already checked in today'}}
+[20:15:30]   GET events for holiday date: 200 {'success': True, 'data': [{'id': 13, 'organization_id': 5, 'title': 'Test Event Validation', 'description': 'Test event for validation.', 'event_type': 'other', 'start_date': '2020-01-01T00:00:00.000
+[20:15:31]   Attendance records on holiday: 200 {'success': True, 'data': [{'id': 206, 'organization_id': 5, 'user_id': 642, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-03-28T14:28:36.000Z', 'check_out': '2026-03-28T14:2
+[20:15:31] 
+--- GlobalTech ---
+[20:15:34]   Holiday check-in attempt: 409 {'success': False, 'error': {'code': 'CONFLICT', 'message': 'Already checked in today'}}
+[20:15:35]   GET events for holiday date: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:15:35]   Attendance records on holiday: 200 {'success': True, 'data': [{'id': 234, 'organization_id': 9, 'user_id': 698, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-03-28T14:29:54.000Z', 'check_out': '2026-03-28T14:2
+[20:15:35] 
+--- Innovate Solutions ---
+[20:15:38]   Holiday check-in attempt: 409 {'success': False, 'error': {'code': 'CONFLICT', 'message': 'Already checked in today'}}
+[20:15:39]   GET events for holiday date: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:15:40]   Attendance records on holiday: 200 {'success': True, 'data': [{'id': 281, 'organization_id': 39, 'user_id': 747, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-03-28T14:31:47.000Z', 'check_out': '2026-03-28T14:
+[20:15:40] 
+Day 14 complete.
+[20:15:40] ======================================================================
+[20:15:40] DAY 15 — Mid-Month HR Review
+[20:15:40] ======================================================================
+[20:15:40] 
+--- TechNova ---
+[20:15:43]   GET users: 200 {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 
+[20:15:43]   Headcount: 62
+[20:15:44]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:15:45]   GET exits (attrition): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:15:46]   Leave applications: 200 {'success': True, 'data': [{'id': 70, 'organization_id': 5, 'user_id': 522, 'leave_type_id': 16, 'start_date': '2026-04-06T00:00:00.000Z', 'end_date':
+[20:15:47]   Attendance records: 200 {'success': True, 'data': [{'id': 206, 'organization_id': 5, 'user_id': 642, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-0
+[20:15:48]   Helpdesk tickets: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:15:49]   Surveys: 200 {'success': True, 'data': [{'id': 43, 'organization_id': 5, 'title': 'Retest1774700015', 'description': 'test', 'type': 'pulse', 'status': 'draft', 'i
+[20:15:50]   Post announcement: 201 {'success': True, 'data': {'id': 139, 'organization_id': 5, 'title': 'Monthly town hall this Friday', 'content': "Dear team, our monthly town hall wil
+[20:15:50] 
+--- GlobalTech ---
+[20:15:52]   GET users: 200 {'success': True, 'data': [{'id': 709, 'organization_id': 9, 'first_name': 'Ekta', 'last_name': 'Chopra', 'email': 'ekta.chopra@globaltech.com', 'emp_code': 'GT-050', 'contact_number': '8827672375', '
+[20:15:52]   Headcount: 50
+[20:15:53]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:15:54]   GET exits (attrition): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:15:55]   Leave applications: 200 {'success': True, 'data': [{'id': 73, 'organization_id': 9, 'user_id': 538, 'leave_type_id': 33, 'start_date': '2026-04-20T00:00:00.000Z', 'end_date':
+[20:15:56]   Attendance records: 200 {'success': True, 'data': [{'id': 234, 'organization_id': 9, 'user_id': 698, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-0
+[20:15:57]   Helpdesk tickets: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:15:58]   Surveys: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:15:58]   Post announcement: 201 {'success': True, 'data': {'id': 140, 'organization_id': 9, 'title': 'Monthly town hall this Friday', 'content': "Dear team, our monthly town hall wil
+[20:15:58] 
+--- Innovate Solutions ---
+[20:16:01]   GET users: 200 {'success': True, 'data': [{'id': 759, 'organization_id': 39, 'first_name': 'Kabir', 'last_name': 'Patil', 'email': 'kabir.patil@innovate.io', 'emp_code': 'IS-050', 'contact_number': '9480206242', 'da
+[20:16:01]   Headcount: 51
+[20:16:02]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:16:03]   GET exits (attrition): 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:04]   Leave applications: 200 {'success': True, 'data': [{'id': 76, 'organization_id': 39, 'user_id': 633, 'leave_type_id': 39, 'start_date': '2026-04-20T00:00:00.000Z', 'end_date'
+[20:16:04]   Attendance records: 200 {'success': True, 'data': [{'id': 281, 'organization_id': 39, 'user_id': 747, 'date': '2026-03-28T00:00:00.000Z', 'shift_id': None, 'check_in': '2026-
+[20:16:06]   Helpdesk tickets: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:16:06]   Surveys: 200 {'success': True, 'data': [], 'meta': {'page': 1, 'per_page': 20, 'total': 0, 'total_pages': 0}}
+[20:16:07]   Post announcement: 201 {'success': True, 'data': {'id': 142, 'organization_id': 39, 'title': 'Monthly town hall this Friday', 'content': "Dear team, our monthly town hall wi
+[20:16:07] 
+Day 15 complete.
+[20:16:07] ======================================================================
+[20:16:07] DAY 16 — Rewards & Recognition
+[20:16:07] ======================================================================
+[20:16:07] 
+--- TechNova ---
+[20:16:10]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:16:11]   Kudos to Rahul: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:12]   Kudos to Priya: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:13]   Kudos to Sneha: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:14]   Kudos to Arjun: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:14]   Kudos to Karthik: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:15]   GET badges: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:19]   Leaderboard: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:19]   Points balance: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:19] 
+--- GlobalTech ---
+[20:16:22]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:16:23]   Kudos to Tanvi: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:23]   Kudos to Sahil: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:24]   Kudos to Ira: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:25]   Kudos to Kian: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:26]   Kudos to Abhishek: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:27]   GET badges: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:30]   Leaderboard: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:31]   Points balance: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:31] 
+--- Innovate Solutions ---
+[20:16:33]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:16:34]   Kudos to Daksha: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:35]   Kudos to Krishna: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:36]   Kudos to Sanjay: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:37]   Kudos to Tanya: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:38]   Kudos to Anjali: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:39]   GET badges: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:42]   Leaderboard: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:43]   Points balance: 401 {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}
+[20:16:43] 
+Day 16 complete.
+[20:16:43] ======================================================================
+[20:16:43] DAY 17 — Project Updates
+[20:16:43] ======================================================================
+[20:16:43] 
+--- TechNova ---
+[20:16:46]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:47]   Create project: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:48]   GET projects: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:49]   Create task 'Design product landing page': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:50]   Create task 'Develop marketing materials': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:50]   Create task 'Set up CI/CD pipeline': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:51]   Create task 'Write product documentation': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:52]   Create task 'Plan launch event': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:52]   Tasks created: 0/5
+[20:16:52]   Time entries logged: 0
+[20:16:52] 
+--- GlobalTech ---
+[20:16:54]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:55]   Create project: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:56]   GET projects: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:16:56]   Create task 'Design product landing page': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:57]   Create task 'Develop marketing materials': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:58]   Create task 'Set up CI/CD pipeline': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:16:59]   Create task 'Write product documentation': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:00]   Create task 'Plan launch event': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:00]   Tasks created: 0/5
+[20:17:00]   Time entries logged: 0
+[20:17:00] 
+--- Innovate Solutions ---
+[20:17:02]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:17:03]   Create project: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:17:04]   GET projects: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:17:04]   Create task 'Design product landing page': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:05]   Create task 'Develop marketing materials': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:06]   Create task 'Set up CI/CD pipeline': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:06]   Create task 'Write product documentation': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:07]   Create task 'Plan launch event': 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US
+[20:17:07]   Tasks created: 0/5
+[20:17:07]   Time entries logged: 0
+[20:17:07] 
+Day 17 complete.
+[20:17:07] ======================================================================
+[20:17:07] DAY 18 — More Leave + Overtime
+[20:17:07] ======================================================================
+[20:17:07] 
+--- TechNova ---
+[20:17:09]   Leave for Rahul: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Insufficient balance. Available: 2.5, Requested: 5'}}
+[20:17:10]   Leave for Priya: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Insufficient balance. Available: 2.5, Requested: 5'}}
+[20:17:11]   Leave for Sneha: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Insufficient balance. Available: 2.5, Requested: 5'}}
+[20:17:12]   Leave for Arjun: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Insufficient balance. Available: 2.5, Requested: 5'}}
+[20:17:12]   Leave for Karthik: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:17:13]   Comp-off Divya: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:14]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:15]   Comp-off Aditya: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:16]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:17]   Comp-off QA: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:18]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:22]   Leave balances checked: 5/5
+[20:17:22] 
+--- GlobalTech ---
+[20:17:24]   Leave for Tanvi: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:25]   Leave for Sahil: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:26]   Leave for Ira: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:26]   Leave for Kian: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:17:27]   Leave for Abhishek: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:17:28]   Comp-off Rahul: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:29]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:30]   Comp-off Rachna: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:31]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:32]   Comp-off Myra: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:33]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:37]   Leave balances checked: 5/5
+[20:17:37] 
+--- Innovate Solutions ---
+[20:17:39]   Leave for Daksha: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:40]   Leave for Krishna: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:41]   Leave for Sanjay: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:42]   Leave for Tanya: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:17:42]   Leave for Anjali: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:17:43]   Comp-off Mahi: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:44]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:45]   Comp-off Akash: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:46]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:47]   Comp-off Vidya: 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Overlapping leave application exists'}}
+[20:17:48]   Comp-off (alt): 400 {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}
+[20:17:52]   Leave balances checked: 5/5
+[20:17:52] 
+Day 18 complete.
+[20:17:52] ======================================================================
+[20:17:52] DAY 19 — Employee Transfers
+[20:17:52] ======================================================================
+[20:17:52] 
+--- TechNova ---
+[20:17:54]   Transfer Rahul Sharma to Engineering: 200 {'success': True, 'data': {'id': 523, 'organization_id': 5, 'first_name': 'Rahul', 'last_name': 'Sharma', 'email': 'rahul@technova.in', 'emp_code': 'T
+[20:17:55]   Transfer Ira Kamath to Sales: 200 {'success': True, 'data': {'id': 634, 'organization_id': 5, 'first_name': 'Ira', 'last_name': 'Kamath', 'email': 'ira.kamath@technova.in', 'emp_code':
+[20:17:56]   Org chart: 200 {'success': True, 'data': [{'id': 655, 'name': 'Advait Bose', 'designation': 'Manager', 'department': 'Operations', 'photo': None, 'children': [{'id': 659, 'name': 'Dinesh Bhatia', 'designation': 'Ope
+[20:17:57]   Verified Rahul Sharma now in dept 72
+[20:17:58]   Verified Ira Kamath now in dept 73
+[20:17:58] 
+--- GlobalTech ---
+[20:18:00]   Transfer Tanvi Chopra to Sales: 200 {'success': True, 'data': {'id': 664, 'organization_id': 9, 'first_name': 'Tanvi', 'last_name': 'Chopra', 'email': 'tanvi.chopra@globaltech.com', 'emp
+[20:18:01]   Transfer Kavya Malhotra to Sales: 200 {'success': True, 'data': {'id': 674, 'organization_id': 9, 'first_name': 'Kavya', 'last_name': 'Malhotra', 'email': 'kavya.malhotra@globaltech.com', 
+[20:18:02]   Org chart: 200 {'success': True, 'data': [{'id': 678, 'name': 'Ayaan Ghosh', 'designation': 'Manager', 'department': 'Sales', 'photo': None, 'children': [{'id': 681, 'name': 'Anika Menon', 'designation': 'Senior Sal
+[20:18:02]   Verified Tanvi Chopra now in dept 36
+[20:18:03]   Verified Kavya Malhotra now in dept 36
+[20:18:03] 
+--- Innovate Solutions ---
+[20:18:05]   Transfer Daksha Singh to Sales: 200 {'success': True, 'data': {'id': 710, 'organization_id': 39, 'first_name': 'Daksha', 'last_name': 'Singh', 'email': 'daksha.singh@innovate.io', 'emp_c
+[20:18:06]   Transfer Pooja Pandey to Sales: 200 {'success': True, 'data': {'id': 720, 'organization_id': 39, 'first_name': 'Pooja', 'last_name': 'Pandey', 'email': 'pooja.pandey@innovate.io', 'emp_c
+[20:18:07]   Org chart: 200 {'success': True, 'data': [{'id': 745, 'name': 'Aadhya Gupta', 'designation': 'Manager', 'department': 'Operations', 'photo': None, 'children': [{'id': 754, 'name': 'Anika Das', 'designation': 'Manage
+[20:18:08]   Verified Daksha Singh now in dept 79
+[20:18:09]   Verified Pooja Pandey now in dept 79
+[20:18:09] 
+Day 19 complete.
+[20:18:09] ======================================================================
+[20:18:09] DAY 20 — Billing & Subscription Check
+[20:18:09] ======================================================================
+[20:18:09] 
+--- TechNova ---
+[20:18:11]   Subscriptions: 200 {'success': True, 'data': [{'id': 29, 'organization_id': 5, 'module_id': 11, 'plan_tier': 'basic', 'status': 'active', 'total_seats': 10, 'used_seats': 0, 'billing_cycle': 'monthly', 'price_per_seat': 50000, 'currency': 'INR', 'trial_ends_at': None, 'current_period_start': '2026-03-28T13:11:15.000Z'
+[20:18:12]   Modules: 200 {'success': True, 'data': [{'id': 11, 'name': 'Biometric Verification & Access Control', 'slug': 'emp-biometrics', 'description': 'Biometric authentication & facial recognition. Features accessible within Attendance module.', 'base_url': '', 'icon': None, 'is_active': 1, 'has_free_tier': 0, 'created
+[20:18:13]   User count: 62
+[20:18:14]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:15]   Performance accessible: False (401)
+[20:18:16]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:17]   Exit accessible: False (401)
+[20:18:18]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:18:19]   LMS accessible: False (429)
+[20:18:20]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:21]   Rewards accessible: False (401)
+[20:18:22]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:18:23]   Projects accessible: False (502)
+[20:18:23]   Org info: 200 {'success': True, 'data': {'id': 5, 'name': 'TechNova Solutions', 'legal_name': 'TechNova Solutions Pvt. Ltd.', 'email': 'hr@technova.in', 'contact_number': '8976856743', 'website': 'https://technova-
+[20:18:23] 
+--- GlobalTech ---
+[20:18:25]   Subscriptions: 200 {'success': True, 'data': []}
+[20:18:26]   Modules: 200 {'success': True, 'data': [{'id': 11, 'name': 'Biometric Verification & Access Control', 'slug': 'emp-biometrics', 'description': 'Biometric authentication & facial recognition. Features accessible within Attendance module.', 'base_url': '', 'icon': None, 'is_active': 1, 'has_free_tier': 0, 'created
+[20:18:27]   User count: 50
+[20:18:28]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:28]   Performance accessible: False (401)
+[20:18:29]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:30]   Exit accessible: False (401)
+[20:18:31]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:18:31]   LMS accessible: False (429)
+[20:18:32]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:33]   Rewards accessible: False (401)
+[20:18:34]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:18:35]   Projects accessible: False (502)
+[20:18:35]   Org info: 200 {'success': True, 'data': {'id': 9, 'name': 'GlobalTech Inc.', 'legal_name': 'GlobalTech Inc.', 'email': 'admin@globaltech.com', 'contact_number': None, 'website': None, 'logo': None, 'timezone': 'Ame
+[20:18:35] 
+--- Innovate Solutions ---
+[20:18:37]   Subscriptions: 200 {'success': True, 'data': []}
+[20:18:38]   Modules: 200 {'success': True, 'data': [{'id': 11, 'name': 'Biometric Verification & Access Control', 'slug': 'emp-biometrics', 'description': 'Biometric authentication & facial recognition. Features accessible within Attendance module.', 'base_url': '', 'icon': None, 'is_active': 1, 'has_free_tier': 0, 'created
+[20:18:40]   User count: 51
+[20:18:41]   SSO to https://test-performance-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:42]   Performance accessible: False (401)
+[20:18:43]   SSO to https://test-exit-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:44]   Exit accessible: False (401)
+[20:18:45]   SSO to https://testlms-api.empcloud.com/api/v1 response: 429 {'success': False, 'error': {'code': 'RATE_LIMIT_EXCEEDED', 'message': 'Too many requests. Please try again later.'}}
+[20:18:46]   LMS accessible: False (429)
+[20:18:48]   SSO to https://test-rewards-api.empcloud.com/api/v1 response: 500 {'success': False, 'error': {'code': 'INTERNAL_ERROR', 'message': 'An unexpected error occurred'}}
+[20:18:49]   Rewards accessible: False (401)
+[20:18:50]   SSO to https://test-project-api.empcloud.com response: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+[20:18:51]   Projects accessible: False (502)
+[20:18:52]   Org info: 200 {'success': True, 'data': {'id': 39, 'name': 'Innovate Solutions', 'legal_name': 'Innovate Solutions', 'email': 'hr@innovate.io', 'contact_number': None, 'website': None, 'logo': None, 'timezone': 'As
+[20:18:52] 
+Day 20 complete.
+[20:18:52] ======================================================================
+[20:18:52] Filing consolidated bugs
+[20:18:52] ======================================================================
+[20:18:53]   Skip (similar exists): [30-Day Sim] SSO from core to external modules returns 500 -- all module APIs inaccessible
+[20:18:53]   Skip (similar exists): [30-Day Sim] Project module API is completely down -- returns 502 Bad Gateway
+[20:18:53]   Skip (similar exists): [30-Day Sim] Performance SSO returns 401 when creating review cycle for TechNova
+[20:18:53]   Skip (similar exists): [30-Day Sim] Performance SSO returns 401 when creating review cycle for GlobalTech
+[20:18:53]   Skip (similar exists): [30-Day Sim] Performance SSO returns 401 when creating review cycle for Innovate Solutions
+[20:18:53] 
+State saved to C:\emptesting\simulation\day11_20_state.json
+[20:18:53] 
+======================================================================
+[20:18:53] SIMULATION SUMMARY — Days 11-20
+[20:18:53] ======================================================================
+[20:18:53] Days completed: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+[20:18:53] Bugs found: 3
+[20:18:53] Bugs filed on GitHub: 0
+[20:18:53] 
+--- TechNova ---
+[20:18:53]   Performance: SSO=OK, Cycle=None, Goals=0
+[20:18:53]   Exit: Resignations=0, Clearance=0
+[20:18:53]   LMS: SSO=OK, Course=None, Enrolled=0, Completed=0
+[20:18:53]   Rewards: Kudos=0, Badges=0, Leaderboard=N/A
+[20:18:53]   Projects: Project=None, Tasks=0, TimeEntries=0
+[20:18:53]   Leave: Applied=0, CompOff=0, Approved=0
+[20:18:53]   Transfers: 2 done, OrgChart=checked
+[20:18:53]   Billing: Users=62, AllModules=ISSUES
+[20:18:53] 
+--- GlobalTech ---
+[20:18:53]   Performance: SSO=OK, Cycle=None, Goals=0
+[20:18:53]   Exit: Resignations=0, Clearance=0
+[20:18:53]   LMS: SSO=OK, Course=None, Enrolled=0, Completed=0
+[20:18:53]   Rewards: Kudos=0, Badges=0, Leaderboard=N/A
+[20:18:53]   Projects: Project=None, Tasks=0, TimeEntries=0
+[20:18:53]   Leave: Applied=0, CompOff=0, Approved=0
+[20:18:53]   Transfers: 2 done, OrgChart=checked
+[20:18:53]   Billing: Users=50, AllModules=ISSUES
+[20:18:53] 
+--- Innovate Solutions ---
+[20:18:53]   Performance: SSO=OK, Cycle=None, Goals=0
+[20:18:53]   Exit: Resignations=0, Clearance=0
+[20:18:53]   LMS: SSO=OK, Course=None, Enrolled=0, Completed=0
+[20:18:53]   Rewards: Kudos=0, Badges=0, Leaderboard=N/A
+[20:18:53]   Projects: Project=None, Tasks=0, TimeEntries=0
+[20:18:53]   Leave: Applied=0, CompOff=0, Approved=0
+[20:18:53]   Transfers: 2 done, OrgChart=checked
+[20:18:53]   Billing: Users=51, AllModules=ISSUES
+[20:18:53] 
+Done!

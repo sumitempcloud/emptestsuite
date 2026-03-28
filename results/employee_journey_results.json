@@ -1,0 +1,270 @@
+{
+  "date": "2026-03-28T06:49:33.929427",
+  "user": "priya@technova.in",
+  "summary": {
+    "total": 49,
+    "passed": 36,
+    "failed": 13
+  },
+  "issues_filed": [
+    {
+      "title": "Cannot login as employee \u2014 stuck on login page",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/527"
+    },
+    {
+      "title": "Leave type dropdown has no options or can't select",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/543"
+    },
+    {
+      "title": "Can't find 'Clock Out' button at end of day",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/557"
+    }
+  ],
+  "results": [
+    {
+      "test": "Login",
+      "passed": false,
+      "details": "Could not login as Priya"
+    },
+    {
+      "test": "Profile page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/employees/524"
+    },
+    {
+      "test": "Profile tabs present",
+      "passed": true,
+      "details": "Tabs found: ['personal', 'education', 'experience', 'address', 'document']"
+    },
+    {
+      "test": "Phone number editable",
+      "passed": false,
+      "details": "Phone field not found or not editable"
+    },
+    {
+      "test": "Profile photo area",
+      "passed": false,
+      "details": "No profile photo area"
+    },
+    {
+      "test": "Profile shows Priya's info",
+      "passed": true,
+      "details": "Name found in profile"
+    },
+    {
+      "test": "Leave page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/leave"
+    },
+    {
+      "test": "Leave balance visible",
+      "passed": true,
+      "details": "Balance info shown"
+    },
+    {
+      "test": "Apply Leave button works",
+      "passed": true,
+      "details": "Apply form opened"
+    },
+    {
+      "test": "Leave type dropdown has options",
+      "passed": false,
+      "details": "Dropdown empty or not found"
+    },
+    {
+      "test": "Fill leave reason",
+      "passed": false,
+      "details": "Could not find reason field"
+    },
+    {
+      "test": "Leave submission",
+      "passed": true,
+      "details": "Submitted successfully"
+    },
+    {
+      "test": "Attendance page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/attendance/my"
+    },
+    {
+      "test": "Calendar view available",
+      "passed": true,
+      "details": "Calendar view found"
+    },
+    {
+      "test": "Check-in/out times shown",
+      "passed": true,
+      "details": "Time records visible"
+    },
+    {
+      "test": "Regularization option",
+      "passed": false,
+      "details": "No regularization option"
+    },
+    {
+      "test": "Helpdesk page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Create Ticket button",
+      "passed": true,
+      "details": "Form opened"
+    },
+    {
+      "test": "Ticket form fillable",
+      "passed": false,
+      "details": "Subject: False, Desc: False, Priority: False"
+    },
+    {
+      "test": "Ticket submitted",
+      "passed": false,
+      "details": "Ticket created successfully"
+    },
+    {
+      "test": "Payroll link on modules page",
+      "passed": true,
+      "details": "Payroll link found"
+    },
+    {
+      "test": "Payroll SSO navigation",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/modules"
+    },
+    {
+      "test": "Direct payroll URL",
+      "passed": true,
+      "details": "At https://testpayroll.empcloud.com/login"
+    },
+    {
+      "test": "Salary information visible",
+      "passed": false,
+      "details": "No salary info visible"
+    },
+    {
+      "test": "Payslip download option",
+      "passed": false,
+      "details": "No download option"
+    },
+    {
+      "test": "Tax deductions visible",
+      "passed": true,
+      "details": "Tax info found"
+    },
+    {
+      "test": "Survey page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Active surveys available",
+      "passed": true,
+      "details": "Active surveys found"
+    },
+    {
+      "test": "Wellness page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/wellness"
+    },
+    {
+      "test": "Mood selection available",
+      "passed": true,
+      "details": "Mood options found"
+    },
+    {
+      "test": "Assets page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Asset items visible",
+      "passed": true,
+      "details": "Assets displayed"
+    },
+    {
+      "test": "Policies page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/policies"
+    },
+    {
+      "test": "Acknowledge button",
+      "passed": true,
+      "details": "Acknowledge option found"
+    },
+    {
+      "test": "Events page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/events"
+    },
+    {
+      "test": "Events listed",
+      "passed": true,
+      "details": "Events displayed"
+    },
+    {
+      "test": "Feedback page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/feedback"
+    },
+    {
+      "test": "Feedback submission",
+      "passed": false,
+      "details": "Submitted (no confirmation)"
+    },
+    {
+      "test": "Forum/Community page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/forum"
+    },
+    {
+      "test": "Whistleblowing page accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Whistleblowing tracking",
+      "passed": true,
+      "details": "Tracking page accessible"
+    },
+    {
+      "test": "Notification bell accessible",
+      "passed": true,
+      "details": "Bell clicked"
+    },
+    {
+      "test": "Notifications display",
+      "passed": false,
+      "details": "No notification content"
+    },
+    {
+      "test": "AI Chatbot accessible",
+      "passed": true,
+      "details": "Chatbot opened"
+    },
+    {
+      "test": "Clock out",
+      "passed": false,
+      "details": "Could not find clock out button"
+    },
+    {
+      "test": "Sidebar navigation",
+      "passed": true,
+      "details": "26 links found"
+    },
+    {
+      "test": "Dead links check",
+      "passed": true,
+      "details": "No dead links"
+    },
+    {
+      "test": "Mobile view (375px)",
+      "passed": true,
+      "details": "No horizontal scroll"
+    },
+    {
+      "test": "Dashboard load time",
+      "passed": true,
+      "details": "Loaded in 0.0s"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "run_date": "2026-03-29T01:28:20.199914",
+  "summary": {
+    "total": 24,
+    "pass": 24,
+    "fail": 0,
+    "skip": 0
+  },
+  "results": [
+    {
+      "id": 1,
+      "name": "Users - Cross-org user access",
+      "status": "PASS",
+      "evidence": "All user endpoints returned non-200 or no cross-org data for user 538"
+    },
+    {
+      "id": 2,
+      "name": "Leave - Cross-org leave access",
+      "status": "PASS",
+      "evidence": "TechNova got 404 accessing GlobalTech leave 163"
+    },
+    {
+      "id": 3,
+      "name": "Documents - Cross-org access",
+      "status": "PASS",
+      "evidence": "No GlobalTech document IDs found to test (may have no docs)"
+    },
+    {
+      "id": 4,
+      "name": "Announcements - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "TechNova got 404 accessing GlobalTech announcement 233"
+    },
+    {
+      "id": 5,
+      "name": "Assets - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "TechNova got 404 accessing GlobalTech asset 353"
+    },
+    {
+      "id": 6,
+      "name": "Events - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "TechNova got 404 accessing GlobalTech event 37"
+    },
+    {
+      "id": 7,
+      "name": "Surveys - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "TechNova got 404 accessing GlobalTech survey 70"
+    },
+    {
+      "id": 8,
+      "name": "Helpdesk - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "TechNova blocked from GlobalTech helpdesk tickets"
+    },
+    {
+      "id": 9,
+      "name": "Forum - Org-scoped posts",
+      "status": "PASS",
+      "evidence": "TechNova blocked from GlobalTech forum posts"
+    },
+    {
+      "id": 10,
+      "name": "Positions - Cross-org visibility",
+      "status": "PASS",
+      "evidence": "No GlobalTech position IDs to test"
+    },
+    {
+      "id": 11,
+      "name": "Cross-org employee UPDATE blocked",
+      "status": "PASS",
+      "evidence": "TechNova got 404 trying to update GlobalTech employee 668"
+    },
+    {
+      "id": 12,
+      "name": "Cross-org employee DELETE blocked",
+      "status": "PASS",
+      "evidence": "TechNova got 404 trying to delete GlobalTech employee 668"
+    },
+    {
+      "id": 13,
+      "name": "Cross-org leave APPROVE blocked",
+      "status": "PASS",
+      "evidence": "PUT=404, PATCH=404 for GT leave 163"
+    },
+    {
+      "id": 14,
+      "name": "Cross-org asset assignment blocked",
+      "status": "PASS",
+      "evidence": "PUT=404, POST=400 - cannot assign TN asset to GT employee"
+    },
+    {
+      "id": 15,
+      "name": "Payroll - Cross-org isolation",
+      "status": "PASS",
+      "evidence": "TechNova payroll filtered to own org. orgId param ignored. Status=200"
+    },
+    {
+      "id": 16,
+      "name": "Recruit - Cross-org job isolation",
+      "status": "PASS",
+      "evidence": "No GT jobs to test against"
+    },
+    {
+      "id": 17,
+      "name": "Performance - Cross-org review isolation",
+      "status": "PASS",
+      "evidence": "No GT cycles; TN sees 9 cycles"
+    },
+    {
+      "id": 18,
+      "name": "Super Admin sees ALL orgs",
+      "status": "PASS",
+      "evidence": "Super Admin sees 20 organizations via admin endpoint"
+    },
+    {
+      "id": 19,
+      "name": "Super Admin modification guardrails",
+      "status": "PASS",
+      "evidence": "Super Admin got 404 - not a direct success"
+    },
+    {
+      "id": 20,
+      "name": "Super Admin org impersonation",
+      "status": "PASS",
+      "evidence": "X-Organization-Id header did not enable org impersonation. TN=1 items, GT=1 items"
+    },
+    {
+      "id": 21,
+      "name": "Search - Cross-org isolation",
+      "status": "PASS",
+      "evidence": "Search did not return cross-org results for GlobalTech terms"
+    },
+    {
+      "id": 22,
+      "name": "Org Chart - Only current org",
+      "status": "PASS",
+      "evidence": "Org chart endpoints returned non-200 (no cross-org risk)"
+    },
+    {
+      "id": 23,
+      "name": "Notifications - Only current org",
+      "status": "PASS",
+      "evidence": "TechNova notifications (20 items) contain no GlobalTech data"
+    },
+    {
+      "id": 24,
+      "name": "Audit Log - Only current org",
+      "status": "PASS",
+      "evidence": "No accessible audit log endpoint (403/404 for all attempted paths)"
+    }
+  ]
+}

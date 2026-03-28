@@ -1,0 +1,254 @@
+{
+  "sso_verification": {
+    "Performance": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://test-performance.empcloud.com/dashboard"
+    },
+    "Rewards": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://test-rewards.empcloud.com/dashboard"
+    },
+    "Exit": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://test-exit.empcloud.com/dashboard"
+    },
+    "Recruit": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://test-recruit.empcloud.com/dashboard"
+    },
+    "LMS": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://testlms.empcloud.com/dashboard"
+    },
+    "Payroll": {
+      "status": "PASS",
+      "reason": "SSO successful - module loaded with auth",
+      "url": "https://testpayroll.empcloud.com/my"
+    }
+  },
+  "module_tests": {
+    "Performance": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "review_cycles": {
+        "loaded": true,
+        "page_size": 32942
+      },
+      "goals": {
+        "loaded": true,
+        "page_size": 34409
+      },
+      "nine_box": {
+        "loaded": true,
+        "page_size": 2484
+      },
+      "analytics": {
+        "loaded": true,
+        "page_size": 44971
+      },
+      "pips": {
+        "loaded": true,
+        "page_size": 17088
+      },
+      "one_on_ones": {
+        "loaded": true,
+        "page_size": 16244
+      },
+      "competencies": {
+        "loaded": true,
+        "page_size": 2484
+      }
+    },
+    "Rewards": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "kudos": {
+        "loaded": true,
+        "page_size": 16040
+      },
+      "badges": {
+        "loaded": true,
+        "page_size": 20726
+      },
+      "leaderboard": {
+        "loaded": true,
+        "page_size": 21524
+      },
+      "points": {
+        "loaded": true,
+        "page_size": 2485
+      },
+      "challenges": {
+        "loaded": true,
+        "page_size": 17053
+      }
+    },
+    "Recruit": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "jobs": {
+        "loaded": true,
+        "page_size": 24439
+      },
+      "candidates": {
+        "loaded": true,
+        "page_size": 21239
+      },
+      "interviews": {
+        "loaded": true,
+        "page_size": 14049
+      },
+      "analytics": {
+        "loaded": true,
+        "page_size": 17994
+      },
+      "pipeline": {
+        "loaded": true,
+        "page_size": 2476
+      }
+    },
+    "Exit": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "exits": {
+        "loaded": true,
+        "page_size": 18305
+      },
+      "clearance": {
+        "loaded": true,
+        "page_size": 16914
+      },
+      "fnf": {
+        "loaded": true,
+        "page_size": 19800
+      },
+      "exit_interviews": {
+        "loaded": true,
+        "page_size": 2472
+      },
+      "analytics": {
+        "loaded": true,
+        "page_size": 38107
+      }
+    },
+    "LMS": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "courses": {
+        "loaded": true
+      },
+      "catalog": {
+        "loaded": true
+      },
+      "enrollments": {
+        "loaded": true
+      },
+      "certifications": {
+        "loaded": true
+      },
+      "learning_paths": {
+        "loaded": true
+      }
+    },
+    "Payroll": {
+      "dashboard": {
+        "authenticated": true,
+        "loaded": true
+      },
+      "payroll_run": {
+        "loaded": true,
+        "page_size": 4232
+      },
+      "payslips": {
+        "loaded": true,
+        "page_size": 20321
+      },
+      "salary_structures": {
+        "loaded": true,
+        "page_size": 4232
+      },
+      "tax": {
+        "loaded": true,
+        "page_size": 20321
+      },
+      "bank_file": {
+        "loaded": true,
+        "page_size": 4232
+      },
+      "settings": {
+        "loaded": true,
+        "page_size": 20321
+      },
+      "role_mapping": {
+        "org_admin_access": true
+      }
+    }
+  },
+  "cross_module": {
+    "core_employees": {
+      "accessible": true,
+      "count": 20
+    },
+    "leave_applications": {
+      "accessible": true,
+      "count": 20
+    },
+    "modules_api": {
+      "accessible": true,
+      "count": 10,
+      "names": [
+        "Biometric Verification & Access Control",
+        "Employee Monitoring & Activity Tracking",
+        "Exit Management & Offboarding",
+        "Field Force Management & GPS Tracking",
+        "Learning Management & Training",
+        "Payroll Management",
+        "Performance Management & Career Developm",
+        "Project Management & Time Tracking"
+      ]
+    },
+    "departments": {
+      "accessible": true,
+      "count": 33
+    },
+    "attendance": {
+      "accessible": true
+    },
+    "employee_in_payroll": {
+      "sso_works": true,
+      "payslip_data": true
+    },
+    "performance_goals": {
+      "sso_works": true,
+      "goals_visible": true
+    },
+    "exit_from_core": {
+      "sso_works": true,
+      "exit_data_visible": true
+    }
+  },
+  "bugs_filed": [],
+  "bugs_closed": [
+    722,
+    723,
+    724,
+    725,
+    726,
+    727
+  ]
+}

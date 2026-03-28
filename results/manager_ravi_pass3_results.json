@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-28T06:58:59.399990",
+  "user": "ananya@technova.in",
+  "persona": "Ravi Kumar -- Pass 3",
+  "total_tests": 16,
+  "passed": 10,
+  "failed": 6,
+  "issues_filed": 1,
+  "results": [
+    {
+      "test": "Leave Dashboard Employee Names",
+      "passed": true,
+      "details": "Real employee names displayed"
+    },
+    {
+      "test": "Leave Page Approve/Reject",
+      "passed": true,
+      "details": "Approve: True, Reject: True"
+    },
+    {
+      "test": "Manager Page Pending Leaves Section",
+      "passed": true,
+      "details": "Section found"
+    },
+    {
+      "test": "Pending Leaves Action Column",
+      "passed": false,
+      "details": "Action/status column found: False"
+    },
+    {
+      "test": "Leave Request Status Shown",
+      "passed": false,
+      "details": "Statuses: []"
+    },
+    {
+      "test": "View All Pending Leaves Link",
+      "passed": false,
+      "details": "No 'View All' link"
+    },
+    {
+      "test": "Attendance Shows Today",
+      "passed": true,
+      "details": "Today's attendance shown"
+    },
+    {
+      "test": "Attendance Late Column",
+      "passed": true,
+      "details": "Late column found"
+    },
+    {
+      "test": "Attendance Export Button",
+      "passed": false,
+      "details": "No export button"
+    },
+    {
+      "test": "Performance SSO from Dashboard Link",
+      "passed": false,
+      "details": "Ended up at: https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Leave Row Click Opens Details",
+      "passed": true,
+      "details": "Detail view opened"
+    },
+    {
+      "test": "Member Profile from Manager Page",
+      "passed": true,
+      "details": "Profile at https://test-empcloud.empcloud.com/manager"
+    },
+    {
+      "test": "Dashboard Recruitment Insight",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Dashboard Performance Insight",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Dashboard Recognition/Rewards Insight",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Create Event Button in Manage",
+      "passed": false,
+      "details": "No create button"
+    }
+  ],
+  "issues": [
+    {
+      "title": "Attendance page has no export or download feature",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/583"
+    }
+  ]
+}

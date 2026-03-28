@@ -1,0 +1,2126 @@
+{
+  "timestamp": "2026-03-28T20:04:04.977606",
+  "summary": {
+    "total": 174,
+    "working": 115,
+    "no_data": 10,
+    "not_found": 6,
+    "server_errors": 0,
+    "auth_issues": 27,
+    "elapsed_seconds": 148.4
+  },
+  "results": [
+    {
+      "category": "Auth",
+      "endpoint": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Auth",
+      "endpoint": "/api/v1/auth/register",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Auth",
+      "endpoint": "/api/v1/auth/password-reset",
+      "method": "POST",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Auth",
+      "endpoint": "/api/v1/auth/sso/validate",
+      "method": "POST",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "OAuth",
+      "endpoint": "/.well-known/openid-configuration",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "issuer",
+        "authorization_endpoint",
+        "token_endpoint",
+        "userinfo_endpoint",
+        "revocation_endpoint",
+        "introspection_endpoint",
+        "jwks_uri",
+        "scopes_supported",
+        "response_types_supported",
+        "grant_types_supported"
+      ]
+    },
+    {
+      "category": "OAuth",
+      "endpoint": "/oauth/jwks",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "keys"
+      ]
+    },
+    {
+      "category": "OAuth",
+      "endpoint": "/oauth/token",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "OAuth",
+      "endpoint": "/oauth/revoke",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "OAuth",
+      "endpoint": "/oauth/introspect",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me",
+      "method": "PUT",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/departments",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/departments",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/departments/72",
+      "method": "PUT",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/locations",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=14)",
+      "data_count": 14,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/locations",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Organizations",
+      "endpoint": "/api/v1/organizations/me/designations",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users?page=1&limit=5",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users?search=priya",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=2)",
+      "data_count": 2,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users/663",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users/663",
+      "method": "PUT",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users/invite",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/users/org-chart",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=9)",
+      "data_count": 9,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/org-chart",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/663/profile",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/663/addresses",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/663/education",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/663/experience",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Users",
+      "endpoint": "/api/v1/employees/663/dependents",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/check-in",
+      "method": "POST",
+      "status": 409,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/check-out",
+      "method": "POST",
+      "status": 409,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/records",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/records?start_date=2026-03-01&end_date=2026-03-28",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/dashboard",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/shifts",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=3)",
+      "data_count": 3,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/shifts",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/shifts/10",
+      "method": "PUT",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/shift-assignments",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/regularizations",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/geo-fences",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/schedule",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/reports",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Attendance",
+      "endpoint": "/api/v1/attendance/export",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/balances",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=3)",
+      "data_count": 3,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/types",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=11)",
+      "data_count": 11,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/types",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/types/31",
+      "method": "PUT",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/applications",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/applications",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/policies",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=6)",
+      "data_count": 6,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/policies",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/comp-off",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=5)",
+      "data_count": 5,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/calendar",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=2)",
+      "data_count": 2,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/dashboard",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/bulk-approve",
+      "method": "POST",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Leave",
+      "endpoint": "/api/v1/leave/bulk-reject",
+      "method": "POST",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=5)",
+      "data_count": 5,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents/categories",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=6)",
+      "data_count": 6,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents/my",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=4)",
+      "data_count": 4,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents/mandatory",
+      "method": "GET",
+      "status": 400,
+      "notes": "BAD REQUEST (400)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents/expiry-alerts",
+      "method": "GET",
+      "status": 400,
+      "notes": "BAD REQUEST (400)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Documents",
+      "endpoint": "/api/v1/documents",
+      "method": "POST",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Announcements",
+      "endpoint": "/api/v1/announcements",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Announcements",
+      "endpoint": "/api/v1/announcements",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Announcements",
+      "endpoint": "/api/v1/announcements/unread-count",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Policies",
+      "endpoint": "/api/v1/policies",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Policies",
+      "endpoint": "/api/v1/policies",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Policies",
+      "endpoint": "/api/v1/policies/pending",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=23)",
+      "data_count": 23,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Events",
+      "endpoint": "/api/v1/events",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=14)",
+      "data_count": 14,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Events",
+      "endpoint": "/api/v1/events",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Events",
+      "endpoint": "/api/v1/events/calendar",
+      "method": "GET",
+      "status": 400,
+      "notes": "BAD REQUEST (400)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Surveys",
+      "endpoint": "/api/v1/surveys",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Surveys",
+      "endpoint": "/api/v1/surveys",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Forum",
+      "endpoint": "/api/v1/forum/categories",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=5)",
+      "data_count": 5,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Forum",
+      "endpoint": "/api/v1/forum/posts",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=18)",
+      "data_count": 18,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Forum",
+      "endpoint": "/api/v1/forum/posts",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Forum",
+      "endpoint": "/api/v1/forum/categories",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Feedback",
+      "endpoint": "/api/v1/feedback",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=19)",
+      "data_count": 19,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Feedback",
+      "endpoint": "/api/v1/feedback",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Helpdesk",
+      "endpoint": "/api/v1/helpdesk/tickets",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Helpdesk",
+      "endpoint": "/api/v1/helpdesk/tickets",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Helpdesk",
+      "endpoint": "/api/v1/helpdesk/categories",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Helpdesk",
+      "endpoint": "/api/v1/helpdesk/knowledge-base",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Helpdesk",
+      "endpoint": "/api/v1/helpdesk/knowledge-base",
+      "method": "POST",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Assets",
+      "endpoint": "/api/v1/assets",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Assets",
+      "endpoint": "/api/v1/assets/categories",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=7)",
+      "data_count": 7,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Assets",
+      "endpoint": "/api/v1/assets/my",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=2)",
+      "data_count": 2,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Assets",
+      "endpoint": "/api/v1/assets",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Positions",
+      "endpoint": "/api/v1/positions",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=19)",
+      "data_count": 19,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Positions",
+      "endpoint": "/api/v1/positions/headcount",
+      "method": "GET",
+      "status": 400,
+      "notes": "BAD REQUEST (400)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Positions",
+      "endpoint": "/api/v1/positions",
+      "method": "POST",
+      "status": 201,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Wellness",
+      "endpoint": "/api/v1/wellness/dashboard",
+      "method": "GET",
+      "status": 403,
+      "notes": "FORBIDDEN (403)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Wellness",
+      "endpoint": "/api/v1/wellness/check-in",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Wellness",
+      "endpoint": "/api/v1/wellness/goals",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Whistleblowing",
+      "endpoint": "/api/v1/whistleblowing",
+      "method": "GET",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Whistleblowing",
+      "endpoint": "/api/v1/whistleblowing",
+      "method": "POST",
+      "status": 404,
+      "notes": "NOT FOUND (404)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Notifications",
+      "endpoint": "/api/v1/notifications",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=11)",
+      "data_count": 11,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Notifications",
+      "endpoint": "/api/v1/notifications/unread-count",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Notifications",
+      "endpoint": "/api/v1/notifications/read-all",
+      "method": "POST",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Notifications",
+      "endpoint": "/api/v1/notifications/preferences",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Audit",
+      "endpoint": "/api/v1/audit",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Audit",
+      "endpoint": "/api/v1/logs",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Audit",
+      "endpoint": "/api/v1/logs/analysis",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Modules",
+      "endpoint": "/api/v1/modules",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=10)",
+      "data_count": 10,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Subscriptions",
+      "endpoint": "/api/v1/subscriptions",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=10)",
+      "data_count": 10,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "CustomFields",
+      "endpoint": "/api/v1/custom-fields/definitions",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=5)",
+      "data_count": 5,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "CustomFields",
+      "endpoint": "/api/v1/custom-fields/definitions",
+      "method": "POST",
+      "status": 400,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "CustomFields",
+      "endpoint": "/api/v1/custom-fields/values/employee/663",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Dashboard",
+      "endpoint": "/api/v1/dashboard/widgets",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Dashboard",
+      "endpoint": "/api/v1/dashboard/module-summaries",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Dashboard",
+      "endpoint": "/api/v1/dashboard/module-insights",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Billing",
+      "endpoint": "/api/v1/billing/invoices",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "AI",
+      "endpoint": "/api/v1/chatbot/message",
+      "method": "POST",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "AI",
+      "endpoint": "/api/v1/chatbot/conversations",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=37)",
+      "data_count": 37,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "AI",
+      "endpoint": "/api/v1/ai-config",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Admin",
+      "endpoint": "/api/v1/admin/organizations",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "Admin",
+      "endpoint": "/api/v1/admin/organizations/5",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=62)",
+      "data_count": 62,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Admin",
+      "endpoint": "/api/v1/admin/health",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=7)",
+      "data_count": 7,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Admin",
+      "endpoint": "/api/v1/admin/data-sanity",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=10)",
+      "data_count": 10,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Admin",
+      "endpoint": "/api/v1/admin/stats",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Health",
+      "endpoint": "/health",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Health",
+      "endpoint": "/api/docs",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/payroll",
+      "method": "GET",
+      "status": 403,
+      "notes": "FORBIDDEN (403)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/salary-structures",
+      "method": "GET",
+      "status": 403,
+      "notes": "FORBIDDEN (403)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/salary-structures/employee/663",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/self-service/payslips",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=1)",
+      "data_count": 1,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/self-service/tax/declarations",
+      "method": "GET",
+      "status": 200,
+      "notes": "exists but no data",
+      "data_count": 0,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "Payroll",
+      "endpoint": "/api/v1/docs/openapi.json",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "openapi",
+        "info",
+        "servers",
+        "components",
+        "security",
+        "paths"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/jobs",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/jobs",
+      "method": "POST",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/applications",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/interviews",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/offers",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/pipeline-stages",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/analytics",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Recruit",
+      "endpoint": "/api/v1/analytics/overview",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/review-cycles",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/goals",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/nine-box",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/pips",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/one-on-ones",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/competency-frameworks",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/succession-plans",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Performance",
+      "endpoint": "/api/v1/analytics/overview",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/kudos",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/kudos",
+      "method": "POST",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/points/balance",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/leaderboard",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/badges",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/challenges",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Rewards",
+      "endpoint": "/api/v1/celebrations",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/exits",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/exit-interviews",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/my-clearances",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/predictions/dashboard",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/nps/scores",
+      "method": "GET",
+      "status": 404,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Exit",
+      "endpoint": "/api/v1/rehire/eligible",
+      "method": "GET",
+      "status": 401,
+      "notes": "UNAUTHORIZED (401)",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/courses",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/certifications",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/certificates/my",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/learning-paths",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/quizzes",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/gamification/leaderboard",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/gamification/badges",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "LMS",
+      "endpoint": "/api/v1/compliance/dashboard",
+      "method": "GET",
+      "status": 429,
+      "notes": "HTTP 429",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "error"
+      ]
+    },
+    {
+      "category": "Project",
+      "endpoint": "/v1/projects",
+      "method": "GET",
+      "status": 502,
+      "notes": "HTTP 502",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Project",
+      "endpoint": "/v1/tasks",
+      "method": "GET",
+      "status": 502,
+      "notes": "HTTP 502",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Project",
+      "endpoint": "/v1/time-entries",
+      "method": "GET",
+      "status": 502,
+      "notes": "HTTP 502",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "Project",
+      "endpoint": "/api/v1/projects",
+      "method": "GET",
+      "status": 502,
+      "notes": "(alt path) HTTP 502",
+      "data_count": null,
+      "response_keys": []
+    },
+    {
+      "category": "MultiOrg",
+      "endpoint": "/api/v1/organizations/me",
+      "method": "GET",
+      "status": 200,
+      "notes": "working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "MultiOrg",
+      "endpoint": "/api/v1/users",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=20)",
+      "data_count": 20,
+      "response_keys": [
+        "success",
+        "data",
+        "meta"
+      ]
+    },
+    {
+      "category": "MultiOrg",
+      "endpoint": "/api/v1/organizations/me/departments",
+      "method": "GET",
+      "status": 200,
+      "notes": "working (count=6)",
+      "data_count": 6,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    },
+    {
+      "category": "MultiOrg",
+      "endpoint": "/api/v1/organizations/me",
+      "method": "GET",
+      "status": 200,
+      "notes": "(Innovate) working",
+      "data_count": null,
+      "response_keys": [
+        "success",
+        "data"
+      ]
+    }
+  ],
+  "bugs_to_file": [
+    {
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/password-reset"
+    },
+    {
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate"
+    },
+    {
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/documents"
+    },
+    {
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/helpdesk/knowledge-base"
+    },
+    {
+      "title": "[30-Day Sim] Feature missing: GET /api/v1/whistleblowing"
+    },
+    {
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/whistleblowing"
+    }
+  ]
+}

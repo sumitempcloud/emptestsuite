@@ -1,0 +1,449 @@
+{
+  "run_id": "itarf6",
+  "timestamp": "2026-03-28T05:18:32.762083",
+  "summary": {
+    "total": 62,
+    "pass": 60,
+    "fail": 2
+  },
+  "results": [
+    {
+      "module": "Auth",
+      "operation": "Admin Login",
+      "status": "PASS",
+      "details": "Got token",
+      "time": "2026-03-28T05:14:54.968374"
+    },
+    {
+      "module": "Auth",
+      "operation": "Employee Login",
+      "status": "PASS",
+      "details": "Got token",
+      "time": "2026-03-28T05:14:55.691673"
+    },
+    {
+      "module": "Dashboard",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Dashboard at https://test-empcloud.empcloud.com/",
+      "time": "2026-03-28T05:15:08.240183"
+    },
+    {
+      "module": "Employee",
+      "operation": "READ Directory",
+      "status": "PASS",
+      "details": "20 employees listed",
+      "time": "2026-03-28T05:15:08.772455"
+    },
+    {
+      "module": "Employee",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "Created user id=599 email=testempitarf6@technova.in",
+      "time": "2026-03-28T05:15:09.282658"
+    },
+    {
+      "module": "Employee",
+      "operation": "READ Profile",
+      "status": "PASS",
+      "details": "Got profile for Aditya Joshi",
+      "time": "2026-03-28T05:15:10.264183"
+    },
+    {
+      "module": "Employee",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated user 599 designation",
+      "time": "2026-03-28T05:15:16.113914"
+    },
+    {
+      "module": "Employee",
+      "operation": "DEACTIVATE",
+      "status": "PASS",
+      "details": "Deactivated user 599",
+      "time": "2026-03-28T05:15:16.611893"
+    },
+    {
+      "module": "Employee",
+      "operation": "READ List (UI)",
+      "status": "PASS",
+      "details": "Employee page loaded at https://test-empcloud.empcloud.com/employees",
+      "time": "2026-03-28T05:15:27.111600"
+    },
+    {
+      "module": "Department",
+      "operation": "READ (UI Settings)",
+      "status": "PASS",
+      "details": "Department section visible in settings",
+      "time": "2026-03-28T05:15:38.469178"
+    },
+    {
+      "module": "Leave",
+      "operation": "READ Types",
+      "status": "PASS",
+      "details": "Leave types: Earned Leave, LType_test0328051433_upd, Maternity Leave, Paternity Leave, Sick Leave",
+      "time": "2026-03-28T05:15:39.004549"
+    },
+    {
+      "module": "Leave",
+      "operation": "CREATE Apply",
+      "status": "PASS",
+      "details": "Applied leave id=33",
+      "time": "2026-03-28T05:15:44.881712"
+    },
+    {
+      "module": "Leave",
+      "operation": "READ Applications",
+      "status": "PASS",
+      "details": "15 leave applications",
+      "time": "2026-03-28T05:15:45.374132"
+    },
+    {
+      "module": "Leave",
+      "operation": "READ Balance",
+      "status": "PASS",
+      "details": "Balances: [(16, '17.0'), (17, '12.0'), (18, '8.0')]",
+      "time": "2026-03-28T05:15:45.881728"
+    },
+    {
+      "module": "Leave",
+      "operation": "UPDATE Cancel",
+      "status": "PASS",
+      "details": "Cancelled leave 33",
+      "time": "2026-03-28T05:15:46.370744"
+    },
+    {
+      "module": "Leave",
+      "operation": "READ Balance After Cancel",
+      "status": "PASS",
+      "details": "Balance read after cancellation",
+      "time": "2026-03-28T05:15:46.837605"
+    },
+    {
+      "module": "Leave",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Leave page at https://test-empcloud.empcloud.com/leave",
+      "time": "2026-03-28T05:16:07.787832"
+    },
+    {
+      "module": "Attendance",
+      "operation": "Clock In",
+      "status": "PASS",
+      "details": "Checked in id=67",
+      "time": "2026-03-28T05:16:08.289717"
+    },
+    {
+      "module": "Attendance",
+      "operation": "READ Records",
+      "status": "PASS",
+      "details": "20 records",
+      "time": "2026-03-28T05:16:08.815747"
+    },
+    {
+      "module": "Attendance",
+      "operation": "Clock Out",
+      "status": "PASS",
+      "details": "Checked out, worked_minutes=0",
+      "time": "2026-03-28T05:16:09.317056"
+    },
+    {
+      "module": "Attendance",
+      "operation": "Verify Hours",
+      "status": "PASS",
+      "details": "Latest: worked_min=0, checkout=2026-03-27T23:46:09.000Z",
+      "time": "2026-03-28T05:16:09.862262"
+    },
+    {
+      "module": "Attendance",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Attendance page at https://test-empcloud.empcloud.com/attendance",
+      "time": "2026-03-28T05:16:31.125814"
+    },
+    {
+      "module": "Document",
+      "operation": "CREATE Upload",
+      "status": "PASS",
+      "details": "Uploaded doc id=18",
+      "time": "2026-03-28T05:16:31.638563"
+    },
+    {
+      "module": "Document",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "3 documents",
+      "time": "2026-03-28T05:16:32.133270"
+    },
+    {
+      "module": "Document",
+      "operation": "READ My Docs",
+      "status": "PASS",
+      "details": "My documents retrieved",
+      "time": "2026-03-28T05:16:32.653249"
+    },
+    {
+      "module": "Document",
+      "operation": "DELETE",
+      "status": "PASS",
+      "details": "Deleted doc 18",
+      "time": "2026-03-28T05:16:33.137380"
+    },
+    {
+      "module": "Document",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Documents page at https://test-empcloud.empcloud.com/documents",
+      "time": "2026-03-28T05:16:55.920138"
+    },
+    {
+      "module": "Announcement",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=46",
+      "time": "2026-03-28T05:16:56.393506"
+    },
+    {
+      "module": "Announcement",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "12 announcements",
+      "time": "2026-03-28T05:16:56.908796"
+    },
+    {
+      "module": "Announcement",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated 46",
+      "time": "2026-03-28T05:16:57.419198"
+    },
+    {
+      "module": "Announcement",
+      "operation": "DELETE",
+      "status": "PASS",
+      "details": "Deleted 46",
+      "time": "2026-03-28T05:16:57.915220"
+    },
+    {
+      "module": "Announcement",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Announcements page at https://test-empcloud.empcloud.com/announcements",
+      "time": "2026-03-28T05:17:20.883023"
+    },
+    {
+      "module": "Helpdesk",
+      "operation": "CREATE Ticket",
+      "status": "PASS",
+      "details": "id=19",
+      "time": "2026-03-28T05:17:21.536896"
+    },
+    {
+      "module": "Helpdesk",
+      "operation": "READ Tickets",
+      "status": "PASS",
+      "details": "19 tickets",
+      "time": "2026-03-28T05:17:22.067215"
+    },
+    {
+      "module": "Helpdesk",
+      "operation": "UPDATE Ticket",
+      "status": "PASS",
+      "details": "Updated 19 to in_progress",
+      "time": "2026-03-28T05:17:22.769276"
+    },
+    {
+      "module": "Event",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=10",
+      "time": "2026-03-28T05:17:23.394270"
+    },
+    {
+      "module": "Event",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "5 events",
+      "time": "2026-03-28T05:17:29.778524"
+    },
+    {
+      "module": "Event",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated 10",
+      "time": "2026-03-28T05:17:30.486551"
+    },
+    {
+      "module": "Event",
+      "operation": "DELETE",
+      "status": "PASS",
+      "details": "Deleted 10",
+      "time": "2026-03-28T05:17:31.047665"
+    },
+    {
+      "module": "Survey",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=26 (draft)",
+      "time": "2026-03-28T05:17:31.542164"
+    },
+    {
+      "module": "Survey",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "17 surveys",
+      "time": "2026-03-28T05:17:32.052065"
+    },
+    {
+      "module": "Survey",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated survey 26",
+      "time": "2026-03-28T05:17:38.014101"
+    },
+    {
+      "module": "Forum",
+      "operation": "CREATE Post",
+      "status": "PASS",
+      "details": "id=20",
+      "time": "2026-03-28T05:17:38.499553"
+    },
+    {
+      "module": "Forum",
+      "operation": "READ Posts",
+      "status": "PASS",
+      "details": "15 posts",
+      "time": "2026-03-28T05:17:38.985596"
+    },
+    {
+      "module": "Forum",
+      "operation": "UPDATE Post",
+      "status": "PASS",
+      "details": "Updated post 20",
+      "time": "2026-03-28T05:17:39.481779"
+    },
+    {
+      "module": "Forum",
+      "operation": "DELETE Post",
+      "status": "PASS",
+      "details": "Deleted post 20",
+      "time": "2026-03-28T05:17:40.007602"
+    },
+    {
+      "module": "Asset",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=29 tag=AST-2026-0019",
+      "time": "2026-03-28T05:17:45.815219"
+    },
+    {
+      "module": "Asset",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "20 assets",
+      "time": "2026-03-28T05:17:46.352137"
+    },
+    {
+      "module": "Asset",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated asset 29",
+      "time": "2026-03-28T05:17:46.884303"
+    },
+    {
+      "module": "Asset",
+      "operation": "DELETE",
+      "status": "FAIL",
+      "details": "Status 404: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+      "time": "2026-03-28T05:17:47.382553"
+    },
+    {
+      "module": "Position",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=15",
+      "time": "2026-03-28T05:17:50.896776"
+    },
+    {
+      "module": "Position",
+      "operation": "READ List",
+      "status": "PASS",
+      "details": "15 positions",
+      "time": "2026-03-28T05:17:57.055838"
+    },
+    {
+      "module": "Position",
+      "operation": "UPDATE",
+      "status": "PASS",
+      "details": "Updated position 15",
+      "time": "2026-03-28T05:17:57.548036"
+    },
+    {
+      "module": "Position",
+      "operation": "DELETE",
+      "status": "PASS",
+      "details": "Deleted position 15",
+      "time": "2026-03-28T05:17:58.053554"
+    },
+    {
+      "module": "Wellness",
+      "operation": "CREATE Check-in",
+      "status": "PASS",
+      "details": "Check-in recorded",
+      "time": "2026-03-28T05:17:58.575031"
+    },
+    {
+      "module": "Wellness",
+      "operation": "READ Check-ins",
+      "status": "PASS",
+      "details": "4 check-ins",
+      "time": "2026-03-28T05:17:59.082943"
+    },
+    {
+      "module": "Wellness",
+      "operation": "READ Programs",
+      "status": "PASS",
+      "details": "4 programs",
+      "time": "2026-03-28T05:18:05.249124"
+    },
+    {
+      "module": "Feedback",
+      "operation": "CREATE",
+      "status": "PASS",
+      "details": "id=15",
+      "time": "2026-03-28T05:18:05.743446"
+    },
+    {
+      "module": "Feedback",
+      "operation": "READ List",
+      "status": "FAIL",
+      "details": "Status 403",
+      "time": "2026-03-28T05:18:06.282950"
+    },
+    {
+      "module": "Whistleblowing",
+      "operation": "CREATE Report",
+      "status": "PASS",
+      "details": "Created report",
+      "time": "2026-03-28T05:18:08.982773"
+    },
+    {
+      "module": "Whistleblowing",
+      "operation": "READ Reports",
+      "status": "PASS",
+      "details": "8 reports",
+      "time": "2026-03-28T05:18:09.494235"
+    },
+    {
+      "module": "Policies",
+      "operation": "READ (UI)",
+      "status": "PASS",
+      "details": "Policies page at https://test-empcloud.empcloud.com/policies",
+      "time": "2026-03-28T05:18:30.474919"
+    }
+  ],
+  "issues": [
+    "https://github.com/EmpCloud/EmpCloud/issues/351",
+    "https://github.com/EmpCloud/EmpCloud/issues/352"
+  ]
+}

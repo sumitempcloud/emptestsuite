@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "category": "Subscription",
+    "rule": "Seat limit enforcement",
+    "status": "NOT ENFORCED",
+    "detail": "Invite succeeded without seat check. total_seats=10, used=0",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1013"
+  },
+  {
+    "id": 2,
+    "category": "Subscription",
+    "rule": "Module access after unsubscribe",
+    "status": "PARTIAL",
+    "detail": "10 subscriptions. Cannot safely unsubscribe on shared test env.",
+    "issue_url": null
+  },
+  {
+    "id": 3,
+    "category": "Subscription",
+    "rule": "Free tier limits",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No free-tier modules found",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1015"
+  },
+  {
+    "id": 4,
+    "category": "Subscription",
+    "rule": "Billing cycle auto-renew",
+    "status": "PARTIAL",
+    "detail": "billing_cycle=monthly, start=None, end=None",
+    "issue_url": null
+  },
+  {
+    "id": 5,
+    "category": "Subscription",
+    "rule": "Overdue invoice enforcement (15 days)",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No invoice data (may be empty): {\"success\":true,\"data\":{\"invoices\":[],\"total\":0}}",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1016"
+  },
+  {
+    "id": 6,
+    "category": "Leave",
+    "rule": "Cannot apply leave > balance",
+    "status": "ENFORCED",
+    "detail": "Blocked: Insufficient balance for Earned Leave. Available: 2.5 day(s), Requested: 50 day(s).",
+    "issue_url": null
+  },
+  {
+    "id": 7,
+    "category": "Leave",
+    "rule": "Cannot apply leave on behalf of another (as employee)",
+    "status": "ENFORCED",
+    "detail": "Server ignored employee_id, applied to self",
+    "issue_url": null
+  },
+  {
+    "id": 8,
+    "category": "Leave",
+    "rule": "Manager can only approve direct reports' leaves",
+    "status": "ENFORCED",
+    "detail": "Employee blocked (403): Not authorized to approve this application",
+    "issue_url": null
+  },
+  {
+    "id": 9,
+    "category": "Leave",
+    "rule": "Leave balance should not go negative",
+    "status": "ENFORCED",
+    "detail": "No negative balances across 3 types",
+    "issue_url": null
+  },
+  {
+    "id": 10,
+    "category": "Leave",
+    "rule": "Cannot cancel already taken leave (past dates)",
+    "status": "NOT ENFORCED",
+    "detail": "Past leave (ended 2026-02-27) was cancelled!",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1017"
+  },
+  {
+    "id": 11,
+    "category": "Leave",
+    "rule": "Maternity/paternity leave eligibility checks",
+    "status": "PARTIAL",
+    "detail": "Types: ['Maternity Leave', 'Paternity Leave']. Gender/tenure checks not testable via API alone.",
+    "issue_url": null
+  },
+  {
+    "id": 12,
+    "category": "Leave",
+    "rule": "Leave accrual (balances increase monthly)",
+    "status": "ENFORCED",
+    "detail": "6 policies with accrual",
+    "issue_url": null
+  },
+  {
+    "id": 13,
+    "category": "Leave",
+    "rule": "Probation period leave restrictions",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No probation config in leave policies",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1018"
+  },
+  {
+    "id": 14,
+    "category": "Attendance",
+    "rule": "Cannot clock in twice in same day",
+    "status": "ENFORCED",
+    "detail": "Second blocked (409): Already checked in today",
+    "issue_url": null
+  },
+  {
+    "id": 15,
+    "category": "Attendance",
+    "rule": "Cannot clock out without clocking in",
+    "status": "PARTIAL",
+    "detail": "Already checked out (admin was already checked in/out today)",
+    "issue_url": null
+  },
+  {
+    "id": 16,
+    "category": "Attendance",
+    "rule": "Cannot clock in for future dates",
+    "status": "PARTIAL",
+    "detail": "Already checked in today - cannot isolate future date check",
+    "issue_url": null
+  },
+  {
+    "id": 17,
+    "category": "Attendance",
+    "rule": "Cannot clock in for past dates (only regularization)",
+    "status": "PARTIAL",
+    "detail": "Already checked in today - cannot isolate past date check",
+    "issue_url": null
+  },
+  {
+    "id": 18,
+    "category": "Attendance",
+    "rule": "Late arrival flagging",
+    "status": "ENFORCED",
+    "detail": "late_minutes field present, value=0",
+    "issue_url": null
+  },
+  {
+    "id": 19,
+    "category": "Attendance",
+    "rule": "Overtime calculation",
+    "status": "ENFORCED",
+    "detail": "overtime_minutes field present, value=0",
+    "issue_url": null
+  },
+  {
+    "id": 20,
+    "category": "Attendance",
+    "rule": "Cannot mark attendance on holidays",
+    "status": "PARTIAL",
+    "detail": "Holiday calendar: 200. Cannot verify blocking without scheduling holiday check-in.",
+    "issue_url": null
+  },
+  {
+    "id": 21,
+    "category": "Employee",
+    "rule": "Cannot delete employee with pending items",
+    "status": "NOT IMPLEMENTED",
+    "detail": "DELETE endpoint not found (404) - employee deletion not supported via API",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1019"
+  },
+  {
+    "id": 22,
+    "category": "Employee",
+    "rule": "Cannot change employee org_id (cross-org transfer)",
+    "status": "NOT ENFORCED",
+    "detail": "org_id changed from None to 5!",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1020"
+  },
+  {
+    "id": 23,
+    "category": "Employee",
+    "rule": "Terminated employee cannot login",
+    "status": "ENFORCED",
+    "detail": "Login blocked (401): Invalid email or password",
+    "issue_url": null
+  },
+  {
+    "id": 24,
+    "category": "Employee",
+    "rule": "Deactivated employees not in active headcount",
+    "status": "NOT ENFORCED",
+    "detail": "Found 1 inactive in default list!",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1021"
+  },
+  {
+    "id": 25,
+    "category": "Employee",
+    "rule": "Notice period enforcement",
+    "status": "PARTIAL",
+    "detail": "Notice period fields found in profile",
+    "issue_url": null
+  },
+  {
+    "id": 26,
+    "category": "Employee",
+    "rule": "Probation period tracking",
+    "status": "ENFORCED",
+    "detail": "Probation fields in profile (probation_end_date, probation_status, etc.)",
+    "issue_url": null
+  },
+  {
+    "id": 27,
+    "category": "Payroll",
+    "rule": "Cannot run payroll twice for same month",
+    "status": "ENFORCED",
+    "detail": "Blocked (409): Payroll for 2/2026 already exists",
+    "issue_url": null
+  },
+  {
+    "id": 28,
+    "category": "Payroll",
+    "rule": "Payroll includes LOP deductions",
+    "status": "ENFORCED",
+    "detail": "lop_days=0.0, paid_days=30.0",
+    "issue_url": null
+  },
+  {
+    "id": 29,
+    "category": "Payroll",
+    "rule": "Tax calculation follows correct slab",
+    "status": "PARTIAL",
+    "detail": "Tax/TDS in deductions: ['EPF', 'PT'], ytd_tax_paid=0.00",
+    "issue_url": null
+  },
+  {
+    "id": 30,
+    "category": "Payroll",
+    "rule": "PF/ESI deductions match statutory rules",
+    "status": "ENFORCED",
+    "detail": "EPF: yes, ESI: no. Ded: ['EPF', 'PT'], Employer: ['EPF_ER']",
+    "issue_url": null
+  },
+  {
+    "id": 31,
+    "category": "Payroll",
+    "rule": "Cannot modify payslip after payroll locked",
+    "status": "ENFORCED",
+    "detail": "No PUT endpoint exists for payroll runs - modification impossible by design",
+    "issue_url": null
+  },
+  {
+    "id": 32,
+    "category": "Payroll",
+    "rule": "F&F settlement (salary + leave encashment - recoveries)",
+    "status": "PARTIAL",
+    "detail": "F&F: 404: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/v1/exits/afbbc29b-e3af-4b9c-8c91-1541d8e36f40/fnf</pre>\n</body>\n</html>\n",
+    "issue_url": null
+  },
+  {
+    "id": 33,
+    "category": "Asset",
+    "rule": "Cannot delete assigned asset",
+    "status": "NOT IMPLEMENTED",
+    "detail": "DELETE endpoint not found",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1022"
+  },
+  {
+    "id": 34,
+    "category": "Asset",
+    "rule": "Asset return date on unassignment",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No return date fields. Keys: ['id', 'organization_id', 'asset_tag', 'name', 'category_id', 'description', 'serial_number', 'brand', 'model', 'purchase_date', 'purchase_cost', 'warranty_expiry', 'status', 'condition_status', 'location_name']",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1023"
+  },
+  {
+    "id": 35,
+    "category": "Asset",
+    "rule": "Cannot assign retired/scrapped asset",
+    "status": "PARTIAL",
+    "detail": "No retired assets. Statuses: ['assigned', 'available']",
+    "issue_url": null
+  },
+  {
+    "id": 36,
+    "category": "Recruitment",
+    "rule": "Cannot hire more than headcount allows",
+    "status": "PARTIAL",
+    "detail": "20 positions found. Headcount enforcement requires full hiring flow test.",
+    "issue_url": null
+  },
+  {
+    "id": 37,
+    "category": "Recruitment",
+    "rule": "Offer letter requires approval",
+    "status": "PARTIAL",
+    "detail": "500: {\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+    "issue_url": null
+  },
+  {
+    "id": 38,
+    "category": "Recruitment",
+    "rule": "Candidate cannot be in two active pipelines",
+    "status": "PARTIAL",
+    "detail": "7 jobs. Cannot test without creating test candidates.",
+    "issue_url": null
+  },
+  {
+    "id": 39,
+    "category": "Performance",
+    "rule": "Self-assessment deadline enforcement",
+    "status": "PARTIAL",
+    "detail": "Deadline fields exist. Enforcement requires expired-cycle test.",
+    "issue_url": null
+  },
+  {
+    "id": 40,
+    "category": "Performance",
+    "rule": "Manager review after self-assessment only",
+    "status": "PARTIAL",
+    "detail": "No reviews found (may be empty)",
+    "issue_url": null
+  },
+  {
+    "id": 41,
+    "category": "Performance",
+    "rule": "Cannot modify ratings after calibration locked",
+    "status": "PARTIAL",
+    "detail": "No reviews in locked cycle",
+    "issue_url": null
+  },
+  {
+    "id": 42,
+    "category": "Security",
+    "rule": "Password expiry/rotation policy",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No password rotation/expiry settings",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1024"
+  },
+  {
+    "id": 43,
+    "category": "Security",
+    "rule": "Session timeout after inactivity",
+    "status": "PARTIAL",
+    "detail": "Invalid tokens rejected (401). Actual inactivity timeout not testable in single run.",
+    "issue_url": null
+  },
+  {
+    "id": 44,
+    "category": "Security",
+    "rule": "Audit log for critical actions",
+    "status": "ENFORCED",
+    "detail": "20 entries. Actions: ['leave_applied', 'leave_cancelled', 'login', 'profile_updated', 'ticket_created', 'user_invited']",
+    "issue_url": null
+  },
+  {
+    "id": 45,
+    "category": "Security",
+    "rule": "Data retention / purge policy",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No retention settings found",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1025"
+  },
+  {
+    "id": 46,
+    "category": "Security",
+    "rule": "GDPR/privacy - data deletion request",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No GDPR endpoints found",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1026"
+  }
+]

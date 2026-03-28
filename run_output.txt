@@ -1,0 +1,654 @@
+======================================================================
+Deep Re-test: Closed Issues #401-#600 on EmpCloud/EmpCloud
+Started: 2026-03-28T22:12:01.854739
+======================================================================
+
+[1] Ensuring labels exist...
+
+[2] Logging in...
+  Admin: OK
+  Employee: OK
+
+[3] Fetching closed issues #401-#600...
+  Found 164 closed issues
+
+[4] Processing 164 issues...
+
+--- #401: [VALIDATION] PUT /users/599 - contact_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #402: [VALIDATION] PUT /users/599 - contact_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #403: [VALIDATION] PUT /users/599 - contact_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #404: [VALIDATION] PUT /users/599 - contact_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #405: [VALIDATION] PUT /users/599 - date_of_birth: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #406: [VALIDATION] PUT /users/599 - date_of_birth: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #407: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #408: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #409: [VALIDATION] PUT /users/599 - date_of_birth: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #410: [VALIDATION] PUT /users/599 - date_of_birth: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #411: [VALIDATION] PUT /users/599 - date_of_joining: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #412: [VALIDATION] PUT /users/599 - date_of_joining: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #413: [VALIDATION] PUT /users/599 - date_of_joining: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #414: [VALIDATION] PUT /users/599 - date_of_joining: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #415: [VALIDATION] PUT /users/599 - date_of_exit: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #416: [VALIDATION] PUT /users/599 - date_of_exit: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #417: [VALIDATION] PUT /users/599 - gender: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #418: [VALIDATION] PUT /users/599 - gender: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #419: [VALIDATION] PUT /users/599 - gender: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #420: [VALIDATION] PUT /users/599 - gender: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #421: [VALIDATION] PUT /users/599 - department_id: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #422: [VALIDATION] PUT /users/599 - reporting_manager_id: medium validation  ---
+  SKIP: validation spam range #391-492
+--- #423: [VALIDATION] PUT /users/599 - reporting_manager_id: high validation ga ---
+  SKIP: validation spam range #391-492
+--- #424: [VALIDATION] PUT /users/599 - designation: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #425: [VALIDATION] PUT /users/599 - emp_code: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #426: [VALIDATION] PUT /users/599 - emp_code: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #427: [VALIDATION] POST /leave/applications - start_date: high validation ga ---
+  SKIP: validation spam range #391-492
+--- #428: [VALIDATION] POST /leave/applications - start_date: high validation ga ---
+  SKIP: validation spam range #391-492
+--- #429: [VALIDATION] POST /leave/applications - end_date: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #430: [VALIDATION] POST /leave/applications - days_count: medium validation  ---
+  SKIP: validation spam range #391-492
+--- #431: [VALIDATION] POST /announcements - title: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #432: [VALIDATION] POST /announcements - title: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #433: [VALIDATION] POST /announcements - content: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #434: [VALIDATION] POST /announcements - content: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #435: [VALIDATION] POST /announcements - content: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #436: [VALIDATION] POST /announcements - date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #437: [VALIDATION] POST /announcements - date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #438: [VALIDATION] POST /announcements - date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #439: [VALIDATION] POST /announcements - date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #440: [VALIDATION] POST /announcements - date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #441: [VALIDATION] POST /events - start_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #442: [VALIDATION] POST /events - start_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #443: [VALIDATION] POST /events - end_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #444: [VALIDATION] POST /events - end_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #445: [VALIDATION] POST /events - end_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #446: [VALIDATION] POST /events - location: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #447: [VALIDATION] POST /events - location: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #448: [VALIDATION] POST /events - description: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #449: [VALIDATION] POST /events - description: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #450: [VALIDATION] POST /events - description: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #451: [VALIDATION] POST /surveys - description: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #452: [VALIDATION] POST /surveys - description: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #453: [VALIDATION] POST /surveys - end_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #454: [VALIDATION] POST /surveys - start_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #455: [VALIDATION] POST /surveys - end_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #456: [VALIDATION] POST /assets - serial_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #457: [VALIDATION] POST /assets - serial_number: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #458: [VALIDATION] POST /assets - category: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #459: [VALIDATION] POST /assets - category: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #460: [VALIDATION] POST /assets - purchase_date: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #461: [VALIDATION] POST /positions - headcount: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #462: [VALIDATION] POST /positions - code: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #463: [VALIDATION] POST /helpdesk/tickets - description: medium validation g ---
+  SKIP: validation spam range #391-492
+--- #464: [VALIDATION] POST /forum/posts - content: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #465: [VALIDATION] POST /feedback - message: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #466: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #467: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #468: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #469: [VALIDATION] POST /policies - title: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #470: [VALIDATION] POST /policies - content: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #471: [VALIDATION] POST /policies - category: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #472: [VALIDATION] POST /policies - category: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #473: [VALIDATION] PUT /users/599 - department_id: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #474: [VALIDATION] PUT /users/599 - first_name: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #475: [VALIDATION] PUT /users/599 - first_name: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #476: [VALIDATION] PUT /users/599 - first_name: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #477: [VALIDATION] PUT /users/599 - first_name: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #478: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #479: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #480: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #481: [VALIDATION] PUT /users/599 - date_of_birth: medium validation gap ---
+  SKIP: validation spam range #391-492
+--- #482: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #483: Super Admin dashboard missing key platform metrics (org count, users,  ---
+  SKIP: validation spam range #391-492
+--- #484: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #485: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #486: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #487: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #488: [VALIDATION] POST /feedback - is_anonymous: high validation gap ---
+  SKIP: validation spam range #391-492
+--- #489: [Bug] Assets module returns 403 Forbidden for org admin ---
+  SKIP: validation spam range #391-492
+--- #490: [Bug] /employees/add URL shows 'Invalid Employee' error instead of add ---
+  SKIP: validation spam range #391-492
+--- #491: [Bug] External module direct URLs (/payroll, /recruitment, etc.) all r ---
+  SKIP: validation spam range #391-492
+--- #492: [Bug] API v1 authentication endpoint fails - cannot login via REST API ---
+  SKIP: validation spam range #391-492
+--- #493: Platform Super Admin panel missing essential management features ---
+  SKIP: skip keyword: rate limit
+--- #497: Revenue shows $0 MRR and $0 ARR despite 10 active subscriptions ---
+  SKIP: skip keyword: field force
+--- #510: [FUNCTIONAL] Event created with end_date before start_date ---
+  Reading comments...
+  Endpoints: ['/events', '/api/v1/events'], Method: POST, Role: admin
+  Test: POST /events -> 400 OK
+  Test: POST /api/v1/events -> 404 OK
+  VERDICT: FIXED
+--- #511: [FUNCTIONAL] Survey created with end_date before start_date ---
+  Reading comments...
+  Endpoints: ['/surveys', '/api/v1/surveys'], Method: POST, Role: admin
+  Test: POST /surveys -> 400 OK
+  Test: POST /api/v1/surveys -> 404 OK
+  VERDICT: FIXED
+--- #518: Admin pages lose session after Selenium driver restart (auth state not ---
+  Reading comments...
+  Endpoints: [], Method: GET, Role: admin
+  VERDICT: FIXED
+--- #519: No way to create a new organization from Super Admin panel ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me', '/admin/organizations:', '/organizations/me', '/admin/organizations'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me -> 404 OK
+  Test: GET /admin/organizations: -> 403 OK
+  Test: GET /organizations/me -> 200 OK
+  Test: GET /admin/organizations -> 403 OK
+  VERDICT: FIXED
+--- #531: [FUNCTIONAL] Event created with end_date before start_date (no date ra ---
+  Reading comments...
+  Endpoints: ['/events', '/api/v1/events'], Method: POST, Role: admin
+  Test: POST /events -> 400 OK
+  Test: POST /api/v1/events -> 404 OK
+  VERDICT: FIXED
+--- #532: [FUNCTIONAL] Existing event 'Updated Event 20260328052401' has end_dat ---
+  Reading comments...
+  Endpoints: ['/events', '/events/1', '/api/v1/events/1'], Method: GET, Role: admin
+  Test: GET /events -> 200 OK
+  Test: GET /events/1 -> 200 OK
+  Test: GET /api/v1/events/1 -> 404 OK
+  VERDICT: FIXED
+--- #533: [FUNCTIONAL] Existing event 'Test' has end_date (2026-03-26) before st ---
+  Reading comments...
+  Endpoints: ['/events', '/api/v1/events/2', '/events/2'], Method: GET, Role: admin
+  Test: GET /events -> 200 OK
+  Test: GET /api/v1/events/2 -> 404 OK
+  Test: GET /events/2 -> 200 OK
+  VERDICT: FIXED
+--- #534: [FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026 ---
+  Reading comments...
+  Endpoints: ['/events', '/events/15', '/api/v1/events/15'], Method: GET, Role: admin
+  Test: GET /events -> 200 OK
+  Test: GET /events/15 -> 200 OK
+  Test: GET /api/v1/events/15 -> 404 OK
+  VERDICT: FIXED
+--- #535: [FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026 ---
+  Reading comments...
+  Endpoints: ['/events', '/api/v1/events/14', '/events/14'], Method: GET, Role: admin
+  Test: GET /events -> 200 OK
+  Test: GET /api/v1/events/14 -> 404 OK
+  Test: GET /events/14 -> 200 OK
+  VERDICT: FIXED
+--- #536: [FUNCTIONAL] Survey created with end_date before start_date (no date v ---
+  Reading comments...
+  Endpoints: ['/surveys', '/api/v1/surveys'], Method: POST, Role: admin
+  Test: POST /surveys -> 400 OK
+  Test: POST /api/v1/surveys -> 404 OK
+  VERDICT: FIXED
+--- #541: [FUNCTIONAL] Org current_user_count (17) differs significantly from AP ---
+  Reading comments...
+  Endpoints: ['/organizations/me/integrations', '/organizations/me', '/api/v1/organizations/me/integrations'], Method: GET, Role: admin
+  Test: GET /organizations/me/integrations -> 404 OK
+  Test: GET /organizations/me -> 200 OK
+  Test: GET /api/v1/organizations/me/integrations -> 404 OK
+  VERDICT: FIXED
+--- #542: Cannot add new employee - Add button not found and API creation failed ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #543: Leave type dropdown has no options or can't select ---
+  Reading comments...
+  Endpoints: ['/organizations/me/leave-types', '/api/v1/organizations/me/leave-types'], Method: GET, Role: employee
+  Test: GET /organizations/me/leave-types -> 404 OK
+  Test: GET /api/v1/organizations/me/leave-types -> 404 OK
+  VERDICT: FIXED
+--- #544: Announcements: Publish fails with error ---
+  Reading comments...
+  Endpoints: ['/organizations/me/announcements', '/api/v1/organizations/me/announcements'], Method: GET, Role: admin
+  Test: GET /organizations/me/announcements -> 404 OK
+  Test: GET /api/v1/organizations/me/announcements -> 404 OK
+  VERDICT: FIXED
+--- #545: Team attendance page missing date range filter ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/attendance', '/organizations/me/attendance', '/attendance'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/attendance -> 404 OK
+  Test: GET /organizations/me/attendance -> 404 OK
+  Test: GET /attendance -> 404 OK
+  VERDICT: STILL FAILING - GET /api/v1/organizations/me/attendance: still returning 404; GET /organizations
+--- #546: No onboarding tasks or training modules assigned to new joiner ---
+  Reading comments...
+  Endpoints: ['/api/v1/modules/lms/sso', '/api/v1/sso/lms', '/modules/lms/sso', '/sso/lms'], Method: GET, Role: employee
+  Test: GET /api/v1/modules/lms/sso -> 404 OK
+  Test: GET /api/v1/sso/lms -> 404 OK
+  Test: GET /modules/lms/sso -> 404 OK
+  Test: GET /sso/lms -> 404 OK
+  VERDICT: FIXED
+--- #547: Employee dashboard shows HR-level data - possible data visibility issu ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #548: No buddy or mentor assigned for new joiner — no onboarding support per ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/tickets', '/organizations/me/tickets'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/tickets -> 404 OK
+  Test: GET /organizations/me/tickets -> 404 OK
+  VERDICT: FIXED
+--- #549: Cannot add new employee - Add button not found and API creation failed ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #550: Cannot run monthly payroll -- no Run Payroll button found ---
+  Reading comments...
+  Endpoints: [], Method: GET, Role: admin
+  VERDICT: FIXED
+--- #551: Leave impact on payroll not visible -- LOP salary deduction unclear ---
+  Reading comments...
+  Endpoints: ['/organizations/me/leaves', '/api/v1/organizations/me/leaves'], Method: GET, Role: admin
+  Test: GET /organizations/me/leaves -> 404 OK
+  Test: GET /api/v1/organizations/me/leaves -> 404 OK
+  VERDICT: FIXED
+--- #552: Cannot download payroll reports -- no export to Excel or CSV option ---
+  Reading comments...
+  Endpoints: ['/organizations/me/payroll', '/api/v1/organizations/me/payroll'], Method: GET, Role: admin
+  Test: GET /organizations/me/payroll -> 404 OK
+  Test: GET /api/v1/organizations/me/payroll -> 404 OK
+  VERDICT: FIXED
+--- #553: Employee bank details not stored or accessible -- payroll disbursement ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees/me', '/organizations/me/employees/me'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/employees/me -> 404 OK
+  Test: GET /organizations/me/employees/me -> 404 OK
+  VERDICT: FIXED
+--- #554: Cannot view payroll history -- no previous months' payroll records acc ---
+  Reading comments...
+  Endpoints: ['/organizations/me/payroll', '/api/v1/organizations/me/payroll'], Method: GET, Role: admin
+  Test: GET /organizations/me/payroll -> 404 OK
+  Test: GET /api/v1/organizations/me/payroll -> 404 OK
+  VERDICT: FIXED
+--- #555: Payroll API completely non-functional -- all endpoints return errors ---
+  Reading comments...
+  Endpoints: ['/pay-runs', '/api/v1/organizations/me/payroll', '/salary-components', '/health', '/payroll', '/statutory', '/reimbursements', '/salary', '/payslips', '/employees', '/organizations/me/payroll', '/tax', '/salary-structures'], Method: GET, Role: admin
+  Test: GET /pay-runs -> 404 OK
+  Test: GET /api/v1/organizations/me/payroll -> 404 OK
+  Test: GET /salary-components -> 404 OK
+  Test: GET /health -> 404 OK
+  Test: GET /payroll -> 404 OK
+  Test: GET /statutory -> 404 OK
+  Test: GET /reimbursements -> 404 OK
+  Test: GET /salary -> 404 OK
+  Test: GET /payslips -> 404 OK
+  Test: GET /employees -> 404 OK
+  Test: GET /organizations/me/payroll -> 404 OK
+  Test: GET /tax -> 404 OK
+  Test: GET /salary-structures -> 404 OK
+  VERDICT: STILL FAILING - GET /pay-runs: still returning 404; GET /api/v1/organizations/me/payroll: still 
+--- #556: New joiner can't edit profile — no edit button and missing personal in ---
+  Reading comments...
+  Endpoints: ['/users/524', '/api/v1/organizations/me/dashboard', '/organizations/me/dashboard', '/employees/524'], Method: GET, Role: employee
+  Test: GET /users/524 -> 200 OK
+  Test: GET /api/v1/organizations/me/dashboard -> 404 OK
+  Test: GET /organizations/me/dashboard -> 404 OK
+  Test: GET /employees/524 -> 404 OK
+  VERDICT: FIXED
+--- #557: Can't find 'Clock Out' button at end of day ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/dashboard', '/organizations/me/dashboard'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/dashboard -> 404 OK
+  Test: GET /organizations/me/dashboard -> 404 OK
+  VERDICT: FIXED
+--- #558: Manager page shows pending leaves but no approve/reject buttons ---
+  Reading comments...
+  Endpoints: ['/organizations/me/leaves', '/api/v1/organizations/me/leaves'], Method: GET, Role: admin
+  Test: GET /organizations/me/leaves -> 404 OK
+  Test: GET /api/v1/organizations/me/leaves -> 404 OK
+  VERDICT: FIXED
+--- #559: Announcements: Publish fails - content field validation error ---
+  Reading comments...
+  Endpoints: ['/organizations/me/announcements', '/api/v1/organizations/me/announcements'], Method: GET, Role: admin
+  Test: GET /organizations/me/announcements -> 404 OK
+  Test: GET /api/v1/organizations/me/announcements -> 404 OK
+  VERDICT: FIXED
+--- #560: Cannot invite new employees - no invite functionality found ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #561: No dedicated notifications page — new joiner can't review past notific ---
+  Reading comments...
+  Endpoints: ['/organizations/me/notifications', '/api/v1/organizations/me/notifications'], Method: GET, Role: employee
+  Test: GET /organizations/me/notifications -> 404 OK
+  Test: GET /api/v1/organizations/me/notifications -> 404 OK
+  VERDICT: FIXED
+--- #562: Employee dashboard shows HR-level data - possible data visibility issu ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #563: Several common HR features missing - bulk approval, export, probation  ---
+  Reading comments...
+  Endpoints: ['/leave/applications/ID/approve', '/modules/monitor/sso', '/api/v1/sso/monitor', '/sso/monitor', '/api/v1/modules/monitor/sso', '/leave'], Method: GET, Role: admin
+  Test: GET /leave/applications/ID/approve -> 404 OK
+  Test: GET /modules/monitor/sso -> 404 OK
+  Test: GET /api/v1/sso/monitor -> 404 OK
+  Test: GET /sso/monitor -> 404 OK
+  Test: GET /api/v1/modules/monitor/sso -> 404 OK
+  Test: GET /leave -> 404 OK
+  VERDICT: FIXED
+--- #564: No hamburger menu on mobile view — sidebar navigation inaccessible at  ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/roles', '/organizations/me/roles'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/roles -> 404 OK
+  Test: GET /organizations/me/roles -> 404 OK
+  VERDICT: FIXED
+--- #565: Payroll — Employee cannot access payroll module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #566: Recruitment — Employee cannot access recruitment module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #567: Performance — Employee cannot access performance module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #568: Rewards — Employee cannot access rewards module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #569: LMS — Employee cannot access LMS module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #570: Projects — Employee cannot access projects module via SSO ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #571: Performance module requires separate login, no SSO from EmpCloud ---
+  Reading comments...
+  Endpoints: ['/modules/performance/sso', '/api/v1/sso/performance', '/sso/performance', '/api/v1/modules/performance/sso'], Method: GET, Role: admin
+  Test: GET /modules/performance/sso -> 404 OK
+  Test: GET /api/v1/sso/performance -> 404 OK
+  Test: GET /sso/performance -> 404 OK
+  Test: GET /api/v1/modules/performance/sso -> 404 OK
+  VERDICT: FIXED
+--- #572: Rewards module requires separate login, no SSO from EmpCloud ---
+  Reading comments...
+  Endpoints: ['/modules/rewards/sso', '/api/v1/sso/rewards', '/api/v1/modules/rewards/sso', '/sso/rewards'], Method: GET, Role: admin
+  Test: GET /modules/rewards/sso -> 404 OK
+  Test: GET /api/v1/sso/rewards -> 404 OK
+  Test: GET /api/v1/modules/rewards/sso -> 404 OK
+  Test: GET /sso/rewards -> 404 OK
+  VERDICT: FIXED
+--- #573: Project module shows marketing landing page instead of tool ---
+  Reading comments...
+  Endpoints: ['/modules/project/sso', '/sso/project', '/api/v1/sso/project', '/api/v1/modules/project/sso'], Method: GET, Role: admin
+  Test: GET /modules/project/sso -> 404 OK
+  Test: GET /sso/project -> 404 OK
+  Test: GET /api/v1/sso/project -> 404 OK
+  Test: GET /api/v1/modules/project/sso -> 404 OK
+  VERDICT: FIXED
+--- #574: [Feature Request] Approved leave should automatically create 'on_leave ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/attendance', '/organizations/me/attendance'], Method: GET, Role: employee
+  Test: GET /api/v1/organizations/me/attendance -> 404 OK
+  Test: GET /organizations/me/attendance -> 404 OK
+  VERDICT: FIXED
+--- #575: [DATA FLOW] Employees reference 3 department IDs that don't exist in t ---
+  Reading comments...
+  Endpoints: ['/organizations/me/departments', '/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: admin
+  Test: GET /organizations/me/departments -> 200 OK
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #576: [DATA FLOW] Leave approval workflow missing notifications to employee  ---
+  Reading comments...
+  Endpoints: ['/organizations/me/leaves', '/api/v1/organizations/me/leaves'], Method: GET, Role: employee
+  Test: GET /organizations/me/leaves -> 404 OK
+  Test: GET /api/v1/organizations/me/leaves -> 404 OK
+  VERDICT: FIXED
+--- #577: [Feature Request] Helpdesk ticket lifecycle should send notifications  ---
+  Reading comments...
+  Endpoints: ['/organizations/me/notifications', '/api/v1/organizations/me/notifications'], Method: GET, Role: admin
+  Test: GET /organizations/me/notifications -> 404 OK
+  Test: GET /api/v1/organizations/me/notifications -> 404 OK
+  VERDICT: FIXED
+--- #578: Cannot invite new employees - no invite functionality found ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/employees', '/organizations/me/employees'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/employees -> 404 OK
+  Test: GET /organizations/me/employees -> 404 OK
+  VERDICT: FIXED
+--- #579: [DATA FLOW] Assets assigned via API don't appear in employee profile A ---
+  Reading comments...
+  Endpoints: ['/assets', '/api/v1/organizations/me/employees/me', '/organizations/me/employees/me'], Method: GET, Role: admin
+  Test: GET /assets -> 200 OK
+  Test: GET /api/v1/organizations/me/employees/me -> 404 OK
+  Test: GET /organizations/me/employees/me -> 404 OK
+  VERDICT: FIXED
+--- #580: Several common HR features missing - bulk approval, export, probation  ---
+  Reading comments...
+  Endpoints: ['/api/v1/modules/monitor/sso', '/modules/monitor/sso', '/api/v1/sso/monitor', '/sso/monitor'], Method: GET, Role: admin
+  Test: GET /api/v1/modules/monitor/sso -> 404 OK
+  Test: GET /modules/monitor/sso -> 404 OK
+  Test: GET /api/v1/sso/monitor -> 404 OK
+  Test: GET /sso/monitor -> 404 OK
+  VERDICT: FIXED
+--- #581: Announcements: Publish fails - content field validation error ---
+  Reading comments...
+  Endpoints: ['/organizations/me/announcements', '/api/v1/organizations/me/announcements'], Method: GET, Role: admin
+  Test: GET /organizations/me/announcements -> 404 OK
+  Test: GET /api/v1/organizations/me/announcements -> 404 OK
+  VERDICT: FIXED
+--- #582: Can't select leave type when applying for leave ---
+  Reading comments...
+  Endpoints: ['/organizations/me/leaves', '/api/v1/organizations/me/leaves'], Method: GET, Role: employee
+  Test: GET /organizations/me/leaves -> 404 OK
+  Test: GET /api/v1/organizations/me/leaves -> 404 OK
+  VERDICT: FIXED
+--- #583: Attendance page has no export or download feature ---
+  Reading comments...
+  Endpoints: ['/api/v1/organizations/me/attendance', '/organizations/me/attendance'], Method: GET, Role: admin
+  Test: GET /api/v1/organizations/me/attendance -> 404 OK
+  Test: GET /organizations/me/attendance -> 404 OK
+  VERDICT: FIXED
+--- #584: [DATA FLOW] Employee count mismatch -- org reports 7 but API has 17 ac ---
+  Reading comments...
+  Endpoints: ['/users', '/api/v1/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  Test: GET /api/v1/users -> 404 OK
+  VERDICT: FIXED
+--- #585: Payroll — My Payslips (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: [], Method: GET, Role: admin
+  VERDICT: FIXED
+--- #586: Payroll — Cannot download payslip PDF ---
+  Reading comments...
+  Endpoints: [], Method: GET, Role: admin
+  VERDICT: FIXED
+--- #587: Payroll — Salary, Declarations, and Run Payroll pages return 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #588: Payroll — My Salary (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #589: Payroll — Salary Structure page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #590: Can't edit phone number in profile ---
+  Reading comments...
+  Endpoints: [], Method: GET, Role: employee
+  VERDICT: FIXED
+--- #591: Payroll — My Tax (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users  [LOGIN FAIL] ananya@technova.in: 502 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-
+ -> 0 FAIL
+  VERDICT: STILL FAILING - GET /users: connection error (No auth token)
+--- #592: Payroll — Declarations page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #593: Payroll — Tax Declarations (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #594: No way to request attendance regularization ---
+  Reading comments...
+  Endpoints: ['/attendance/dashboard'], Method: GET, Role: employee
+  Test: GET /attendance/dashboard -> 403 OK
+  VERDICT: FIXED
+--- #595: Payroll — Run Payroll page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #596: Payroll — Run Payroll (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #597: Payroll — Admin Payroll page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #598: Payroll — Payroll Reports (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #599: Payroll — Employee Salary (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+--- #600: Recruitment — Job Postings (alt) page returns 404 ---
+  Reading comments...
+  Endpoints: ['/users'], Method: GET, Role: admin
+  Test: GET /users -> 200 OK
+  VERDICT: FIXED
+
+======================================================================
+SUMMARY
+======================================================================
+  Total issues found: 164
+  Tested:  70
+  Fixed:   67
+  Failing: 3
+  Skipped: 94
+
+Completed: 2026-03-28T22:36:02.140876
+Results: C:\emptesting\deep_verify_results.json

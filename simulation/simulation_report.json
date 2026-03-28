@@ -1,0 +1,722 @@
+{
+  "attendance_checkins": 0,
+  "attendance_checkouts": 0,
+  "attendance_conflicts": 126,
+  "leave_applications_created": 19,
+  "leave_applications_approved": 15,
+  "announcements_created": 7,
+  "events_created": 6,
+  "surveys_created": 3,
+  "helpdesk_tickets_created": 39,
+  "forum_posts_created": 48,
+  "wellness_checkins": 51,
+  "feedback_created": 12,
+  "assets_created": 15,
+  "assets_assigned": 15,
+  "policies_created": 9,
+  "policies_acknowledged": 9,
+  "notifications_checked": 3,
+  "audit_logs_checked": 3,
+  "api_errors": [
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/announcements",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/leave/applications",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Overlapping leave application exists\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/announcements",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/leave/applications",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Overlapping leave application exists\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/leave/applications",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Insufficient balance. Available: 0.5, Requested: 1\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/leave/applications",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Overlapping leave application exists\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "TechNova",
+      "endpoint": "/leave/applications",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Overlapping leave application exists\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/announcements",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "GlobalTech",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/announcements",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/announcements",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/helpdesk/tickets",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    },
+    {
+      "org": "Innovate",
+      "endpoint": "/forum/posts",
+      "status": 400,
+      "body": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Invalid request data\"}}"
+    }
+  ],
+  "bugs_filed": [
+    {
+      "title": "[30-Day Sim SSO] Payroll module - salary_structure page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/930"
+    },
+    {
+      "title": "[30-Day Sim SSO] Payroll module - tax_details page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/931"
+    },
+    {
+      "title": "[30-Day Sim SSO] Payroll module - payroll_processing page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/932"
+    },
+    {
+      "title": "[30-Day Sim SSO] Payroll module - run_payroll page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/933"
+    },
+    {
+      "title": "[30-Day Sim SSO] Recruit module - pipeline page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/934"
+    },
+    {
+      "title": "[30-Day Sim SSO] Performance module - review_cycles page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/935"
+    },
+    {
+      "title": "[30-Day Sim SSO] Performance module - nine_box_grid page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/936"
+    },
+    {
+      "title": "[30-Day Sim SSO] Exit module - fnf_settlement page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/937"
+    },
+    {
+      "title": "[30-Day Sim SSO] Exit module - exit_interviews page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/938"
+    },
+    {
+      "title": "[30-Day Sim SSO] Lms module - catalog page error",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/939"
+    },
+    {
+      "title": "[30-Day Sim SSO] All modules redirect to login - SSO via direct navigation does not work",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/940"
+    },
+    {
+      "title": "[30-Day Sim SSO] Data integrity issue for TechNova: Employee count mismatch: API=20 vs setup=49",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/941"
+    },
+    {
+      "title": "[30-Day Sim SSO] Data integrity issue for GlobalTech: Employee count mismatch: API=20 vs setup=50",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/942"
+    },
+    {
+      "title": "[30-Day Sim SSO] Data integrity issue for Innovate: Employee count mismatch: API=20 vs setup=51",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/943"
+    }
+  ],
+  "module_tests": {
+    "payroll": [
+      {
+        "page": "dashboard",
+        "url": "https://testpayroll.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_dashboard.png"
+      },
+      {
+        "page": "payslips",
+        "url": "https://testpayroll.empcloud.com/payslips",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_payslips.png"
+      },
+      {
+        "page": "salary_structure",
+        "url": "https://testpayroll.empcloud.com/salary-structure",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Payroll \u2014 Open Source Payroll Management. Body: 404\nPage not found\nThe page you're looking for doesn't exist or has been moved.\nGo Back\nHome",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_salary_structure.png"
+      },
+      {
+        "page": "tax_details",
+        "url": "https://testpayroll.empcloud.com/tax-details",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Payroll \u2014 Open Source Payroll Management. Body: 404\nPage not found\nThe page you're looking for doesn't exist or has been moved.\nGo Back\nHome",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_tax_details.png"
+      },
+      {
+        "page": "payroll_processing",
+        "url": "https://testpayroll.empcloud.com/payroll",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Payroll \u2014 Open Source Payroll Management. Body: 404\nPage not found\nThe page you're looking for doesn't exist or has been moved.\nGo Back\nHome",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_payroll_processing.png"
+      },
+      {
+        "page": "run_payroll",
+        "url": "https://testpayroll.empcloud.com/payroll/run",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Payroll \u2014 Open Source Payroll Management. Body: 404\nPage not found\nThe page you're looking for doesn't exist or has been moved.\nGo Back\nHome",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_run_payroll.png"
+      },
+      {
+        "page": "reports",
+        "url": "https://testpayroll.empcloud.com/reports",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\payroll_reports.png"
+      },
+      {
+        "page": "payslip_download",
+        "status": "not_found",
+        "details": "No download buttons found"
+      }
+    ],
+    "recruit": [
+      {
+        "page": "dashboard",
+        "url": "https://test-recruit.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\recruit_dashboard.png"
+      },
+      {
+        "page": "job_postings",
+        "url": "https://test-recruit.empcloud.com/jobs",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\recruit_job_postings.png"
+      },
+      {
+        "page": "candidates",
+        "url": "https://test-recruit.empcloud.com/candidates",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\recruit_candidates.png"
+      },
+      {
+        "page": "interview_schedule",
+        "url": "https://test-recruit.empcloud.com/interviews",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\recruit_interview_schedule.png"
+      },
+      {
+        "page": "pipeline",
+        "url": "https://test-recruit.empcloud.com/pipeline",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Recruit \u2014 Applicant Tracking System. Body: Page Not Found",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\recruit_pipeline.png"
+      },
+      {
+        "page": "create_job",
+        "status": "loaded",
+        "details": "EMP Recruit\nWelcome back\nSign in to manage recruitment\nEmail address\nPassword\nSign in\nDemo credentia"
+      }
+    ],
+    "performance": [
+      {
+        "page": "dashboard",
+        "url": "https://test-performance.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_dashboard.png"
+      },
+      {
+        "page": "review_cycles",
+        "url": "https://test-performance.empcloud.com/reviews",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Performance \u2014 Performance Management System. Body: Page Not Found",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_review_cycles.png"
+      },
+      {
+        "page": "goals",
+        "url": "https://test-performance.empcloud.com/goals",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_goals.png"
+      },
+      {
+        "page": "nine_box_grid",
+        "url": "https://test-performance.empcloud.com/9-box",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Performance \u2014 Performance Management System. Body: Page Not Found",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_nine_box_grid.png"
+      },
+      {
+        "page": "analytics",
+        "url": "https://test-performance.empcloud.com/analytics",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_analytics.png"
+      },
+      {
+        "page": "competencies",
+        "url": "https://test-performance.empcloud.com/competencies",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\performance_competencies.png"
+      },
+      {
+        "page": "create_goal",
+        "status": "loaded",
+        "details": "EMP Performance\nWelcome back\nSign in to manage performance reviews\nEmail address\nPassword\nSign in\nDe"
+      }
+    ],
+    "rewards": [
+      {
+        "page": "dashboard",
+        "url": "https://test-rewards.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\rewards_dashboard.png"
+      },
+      {
+        "page": "kudos",
+        "url": "https://test-rewards.empcloud.com/kudos",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\rewards_kudos.png"
+      },
+      {
+        "page": "leaderboard",
+        "url": "https://test-rewards.empcloud.com/leaderboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\rewards_leaderboard.png"
+      },
+      {
+        "page": "badges",
+        "url": "https://test-rewards.empcloud.com/badges",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\rewards_badges.png"
+      },
+      {
+        "page": "rewards_catalog",
+        "url": "https://test-rewards.empcloud.com/rewards",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\rewards_rewards_catalog.png"
+      }
+    ],
+    "exit": [
+      {
+        "page": "dashboard",
+        "url": "https://test-exit.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\exit_dashboard.png"
+      },
+      {
+        "page": "clearance",
+        "url": "https://test-exit.empcloud.com/clearance",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\exit_clearance.png"
+      },
+      {
+        "page": "fnf_settlement",
+        "url": "https://test-exit.empcloud.com/full-and-final",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Exit \u2014 Employee Exit Management. Body: Page Not Found",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\exit_fnf_settlement.png"
+      },
+      {
+        "page": "exit_interviews",
+        "url": "https://test-exit.empcloud.com/exit-interviews",
+        "status": "error",
+        "details": "Error page detected. Title: EMP Exit \u2014 Employee Exit Management. Body: Page Not Found",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\exit_exit_interviews.png"
+      },
+      {
+        "page": "analytics",
+        "url": "https://test-exit.empcloud.com/analytics",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\exit_analytics.png"
+      }
+    ],
+    "lms": [
+      {
+        "page": "dashboard",
+        "url": "https://testlms.empcloud.com/dashboard",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\lms_dashboard.png"
+      },
+      {
+        "page": "courses",
+        "url": "https://testlms.empcloud.com/courses",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\lms_courses.png"
+      },
+      {
+        "page": "learning_paths",
+        "url": "https://testlms.empcloud.com/learning-paths",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\lms_learning_paths.png"
+      },
+      {
+        "page": "my_learning",
+        "url": "https://testlms.empcloud.com/my-learning",
+        "status": "redirect_to_login",
+        "details": "Redirected to login. SSO may have failed.",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\lms_my_learning.png"
+      },
+      {
+        "page": "catalog",
+        "url": "https://testlms.empcloud.com/catalog",
+        "status": "error",
+        "details": "Error page detected. Title: EMP LMS \u2014 Learning Management System. Body: Page not found\nThe page you are looking for does not exist.\nBack to Dashboard",
+        "screenshot": "C:\\emptesting\\simulation\\screenshots\\lms_catalog.png"
+      }
+    ]
+  },
+  "data_integrity": {
+    "TechNova": {
+      "employee_count": 20,
+      "setup_employee_count": 49,
+      "employee_count_match": false,
+      "total_leave_applications": 20,
+      "leave_status_breakdown": {
+        "approved": 10,
+        "pending": 10
+      },
+      "leave_balance_entries": 3,
+      "announcements_count": 20,
+      "helpdesk_tickets_count": 20,
+      "forum_posts_count": 20,
+      "assets_count": 20,
+      "assets_assigned_count": 15,
+      "policies_count": 20,
+      "total_acknowledgments": 39,
+      "events_count": 20,
+      "surveys_count": 20,
+      "audit_entries": 20,
+      "feedback_count": 20,
+      "data_issues": [
+        "Employee count mismatch: API=20 vs setup=49"
+      ]
+    },
+    "GlobalTech": {
+      "employee_count": 20,
+      "setup_employee_count": 50,
+      "employee_count_match": false,
+      "total_leave_applications": 13,
+      "leave_status_breakdown": {
+        "pending": 4,
+        "approved": 9
+      },
+      "leave_balance_entries": 0,
+      "announcements_count": 20,
+      "helpdesk_tickets_count": 20,
+      "forum_posts_count": 20,
+      "assets_count": 20,
+      "assets_assigned_count": 15,
+      "policies_count": 20,
+      "total_acknowledgments": 74,
+      "events_count": 17,
+      "surveys_count": 5,
+      "audit_entries": 20,
+      "feedback_count": 20,
+      "data_issues": [
+        "Employee count mismatch: API=20 vs setup=50"
+      ]
+    },
+    "Innovate": {
+      "employee_count": 20,
+      "setup_employee_count": 51,
+      "employee_count_match": false,
+      "total_leave_applications": 11,
+      "leave_status_breakdown": {
+        "pending": 2,
+        "approved": 9
+      },
+      "leave_balance_entries": 0,
+      "announcements_count": 20,
+      "helpdesk_tickets_count": 20,
+      "forum_posts_count": 20,
+      "assets_count": 20,
+      "assets_assigned_count": 15,
+      "policies_count": 19,
+      "total_acknowledgments": 109,
+      "events_count": 13,
+      "surveys_count": 3,
+      "audit_entries": 20,
+      "feedback_count": 17,
+      "data_issues": [
+        "Employee count mismatch: API=20 vs setup=51"
+      ]
+    }
+  },
+  "payroll_processing": {
+    "TechNova": {
+      "dashboard_loaded": true,
+      "run_payroll_available": false,
+      "payslips_page": true,
+      "deductions_visible": true,
+      "page_text_sample": "404\nPage not found\nThe page you're looking for doesn't exist or has been moved.\nGo Back\nHome"
+    }
+  },
+  "elapsed_seconds": 673.2,
+  "completed_at": "2026-03-28T21:28:22.736554"
+}

@@ -1,0 +1,1982 @@
+{
+  "date": "2026-03-28",
+  "summary": {
+    "FIXED": 71,
+    "STILL FAILING": 12,
+    "INCONCLUSIVE": 24,
+    "SKIPPED": 93
+  },
+  "still_failing": [
+    731,
+    730,
+    729,
+    727,
+    594,
+    555,
+    554,
+    553,
+    552,
+    550,
+    548,
+    545
+  ],
+  "verified_fixed": [
+    741,
+    726,
+    725,
+    625,
+    624,
+    622,
+    620,
+    619,
+    618,
+    617,
+    616,
+    615,
+    614,
+    613,
+    612,
+    611,
+    610,
+    609,
+    608,
+    607,
+    606,
+    605,
+    604,
+    603,
+    602,
+    601,
+    600,
+    599,
+    598,
+    597,
+    596,
+    595,
+    593,
+    592,
+    591,
+    590,
+    589,
+    588,
+    587,
+    585,
+    581,
+    579,
+    578,
+    577,
+    576,
+    575,
+    574,
+    572,
+    571,
+    569,
+    568,
+    567,
+    566,
+    565,
+    564,
+    562,
+    561,
+    560,
+    559,
+    558,
+    557,
+    556,
+    551,
+    549,
+    547,
+    491,
+    489,
+    488,
+    487,
+    486,
+    485
+  ],
+  "details": [
+    {
+      "number": 744,
+      "title": "[README Gap] EMP Exit: 9 documented features not matching reality",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 743,
+      "title": "[README Gap] EMP Rewards: Integration Summary - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 742,
+      "title": "[README Gap] EMP Rewards: Teams Config - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 741,
+      "title": "[README Gap] EMP Rewards: Manager Dashboard - MISSING",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /dashboard/widgets -> 200",
+        "  Response preview: {'success': True, 'data': {'recruit': {'openJobs': 0, 'totalCandidates': 3, 'recentHires': 0}, 'performance': {'activeCycles': 1, 'pendingReviews': 0, 'goalCompletion': 0}, 'rewards': {'totalKudos': 0, 'pointsDistributed': 0, 'badgesAwarded': 0}, 'exit': {'attritionRate': 0, 'activeExits': 0}, 'lms'",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 740,
+      "title": "[README Gap] EMP Performance: Letter Templates - MISSING",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /review-cycles -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Unexpected status 401"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 739,
+      "title": "[README Gap] EMP Performance: Skills Gap Analysis - MISSING",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /review-cycles -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Unexpected status 401"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 738,
+      "title": "[README Gap] EMP Performance: 9-Box Grid - MISSING",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /review-cycles -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Unexpected status 401"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 737,
+      "title": "[README Gap] EMP Performance: Goal Alignment Tree - MISSING",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /goals -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 736,
+      "title": "[README Gap] EMP Recruit: Career Page Config - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 735,
+      "title": "[README Gap] EMP Recruit: Psychometric Assessments - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 734,
+      "title": "[README Gap] EMP Recruit: Pipeline Stages - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 733,
+      "title": "[README Gap] EMP Recruit: AI JD Templates - MISSING",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 732,
+      "title": "[README Gap] EMP Payroll: 6 documented features not matching reality",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 731,
+      "title": "[README Gap] EMP Cloud - Employees: Create Employee - MISSING",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: POST /employees -> 404",
+        "  Response preview: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+        "Step 3: Not found 404 -> Endpoint missing"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 730,
+      "title": "[README Gap] EMP Cloud - Employees: Employee Detail - MISSING",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /employees/663 -> 404",
+        "  Response preview: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+        "Step 3: Not found 404 -> Endpoint missing"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 729,
+      "title": "[README Gap] EMP Cloud - Employees: Employee Directory - MISSING",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /employees -> 404",
+        "  Response preview: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+        "Step 3: Not found 404 -> Endpoint missing"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 728,
+      "title": "[README Gap] EMP Cloud - Auth: SSO Token Validate - MISSING",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: SSO issue but cannot determine target module from title: '[README Gap] EMP Cloud - Auth: SSO Token Validate - MISSING'"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 727,
+      "title": "[30-Day Sim] Day 28: Payroll run fails for Innovate Solutions - March 2026",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 726,
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for Innovate Solutions",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST performance/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'performanceProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXB",
+        "Step 3: SSO into performance succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 725,
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for GlobalTech",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST performance/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'performanceProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXB",
+        "Step 3: SSO into performance succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 724,
+      "title": "[30-Day Sim] Project module API is completely down -- returns 502 Bad Gateway",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /projects -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 723,
+      "title": "[30-Day Sim] SSO from core to external modules returns 500 -- all module APIs inaccessible",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 722,
+      "title": "[30-Day Sim] Day 28: Org admin can't run payroll - role mapped as 'employee' in payroll module",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 721,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/whistleblowing",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 720,
+      "title": "[30-Day Sim] Feature missing: GET /api/v1/whistleblowing",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 719,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/helpdesk/knowledge-base",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 718,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/documents",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 717,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: SSO issue but cannot determine target module from title: '[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate'"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 716,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/password-reset",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 715,
+      "title": "[30-Day Sim] Day 28: Payroll run fails for Innovate Solutions - March 2026",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 714,
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for TechNova",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 713,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/whistleblowing",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 712,
+      "title": "[30-Day Sim] Feature missing: GET /api/v1/whistleblowing",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 711,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/helpdesk/knowledge-base",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 710,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/documents",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 709,
+      "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: SSO issue but cannot determine target module from title: '[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate'"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 705,
+      "title": "Can't log in as TechNova admin for performance review setup",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /review-cycles -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 704,
+      "title": "Org Chart: Only 2 of 17+ employees displayed in organization chart",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 701,
+      "title": "Employee cannot view their assigned assets - assets page not accessible for employee role",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 693,
+      "title": "API docs missing request body schemas for most POST/PUT endpoints - impossible to know required fields",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Issue #693 is an enhancement/feature request",
+        "Step 2: Not a bug fix to verify -> Skipping"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 692,
+      "title": "HR Manager cannot apply leave through API - always returns validation error regardless of payload",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /api/v1/leave/applications with invalid data -> 404",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+        "Step 3: Unexpected status 404"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 689,
+      "title": "Exit — Employee can access Flight Risk analytics",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as employee -> OK",
+        "Step 2: GET /users as employee -> 404",
+        "  Response: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/v1/users</pre>\n</body>\n</html>\n",
+        "Step 3: Endpoint returns 404 (may be route-level denial or missing)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 688,
+      "title": "Exit — Employee can access Full and Final Settlement data",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as employee -> OK",
+        "Step 2: GET /users as employee -> 404",
+        "  Response: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/v1/users</pre>\n</body>\n</html>\n",
+        "Step 3: Endpoint returns 404 (may be route-level denial or missing)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 687,
+      "title": "Exit — Employee can see all exit records",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /exits -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 686,
+      "title": "Exit — Employee can see full admin navigation in Exit module (RBAC violation)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 685,
+      "title": "Performance — Employee can create review cycles",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /review-cycles -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 684,
+      "title": "Performance — Employee can access module Settings",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 683,
+      "title": "Performance — Employee can access Succession Planning",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 682,
+      "title": "Performance — Employee can access 9-Box Grid",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 681,
+      "title": "Performance — Employee can access Analytics",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 680,
+      "title": "Performance — Employee can access PIPs page",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 679,
+      "title": "Performance — Employee can see admin-level navigation items (RBAC violation)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 678,
+      "title": "Payroll — Employee sidebar shows Admin Panel navigation link",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 677,
+      "title": "Announcements: Content field validation fails despite text being entered",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 676,
+      "title": "Multiple core HR features missing from API - bulk ops, export, notifications, surveys",
+      "verdict": "SKIPPED",
+      "reason": "excluded module/topic"
+    },
+    {
+      "number": 674,
+      "title": "No way to upload or change profile photo",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Issue #674 is an enhancement/feature request",
+        "Step 2: Not a bug fix to verify -> Skipping"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 673,
+      "title": "Notification bell click doesn't open notification panel",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 672,
+      "title": "Payroll module doesn't open from Module Marketplace — SSO not working",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 670,
+      "title": "Edit Profile button doesn't make any fields editable",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #670",
+        "  Title: Edit Profile button doesn't make any fields editable",
+        "  Labels: ['bug', 'employee-journey', 'profile']"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 669,
+      "title": "Employee Directory: Add Employee button not found by automation",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 667,
+      "title": "Payroll module — Multiple sub-pages return 404 or errors after SSO",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 666,
+      "title": "Projects — Module shows marketing page instead of project management for employees",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /projects -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 665,
+      "title": "Modules — Employee can see Unsubscribe buttons for organization modules",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 664,
+      "title": "Performance module — Multiple sub-pages return 404 or errors after SSO",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 662,
+      "title": "Rewards module — Multiple sub-pages return 404 or errors after SSO",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 660,
+      "title": "Exit module — Multiple sub-pages return 404 or errors after SSO",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 659,
+      "title": "LMS module — Multiple sub-pages return 404 or errors after SSO",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 658,
+      "title": "Projects module — All sub-pages (tasks, board, timesheet, gantt, reports) return 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 657,
+      "title": "Add Employee button missing in UI - had to use API to create employee",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #657",
+        "  Title: Add Employee button missing in UI - had to use API to create employee",
+        "  Labels: ['hr-journey-test', 'ux']"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 655,
+      "title": "Projects — My Tasks page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 654,
+      "title": "Projects — Settings page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 653,
+      "title": "Projects — Reports page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 652,
+      "title": "Projects — Timeline page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 651,
+      "title": "Projects — Gantt Chart page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 650,
+      "title": "Projects — Timesheets page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 649,
+      "title": "Projects — Timesheet page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 648,
+      "title": "Projects — Time Tracking page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 647,
+      "title": "Projects — Board (alt) page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 646,
+      "title": "Projects — Kanban Board page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 645,
+      "title": "Projects — Tasks page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 644,
+      "title": "Projects — All sub-pages return 404 (only dashboard works)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 643,
+      "title": "LMS — Reports page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 642,
+      "title": "LMS — Compliance Training (alt) page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 641,
+      "title": "LMS — Certificates page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 640,
+      "title": "LMS — Quizzes page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 639,
+      "title": "LMS — Assessments page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 638,
+      "title": "LMS — Quiz/Assessment page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 637,
+      "title": "LMS — Assignments page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 636,
+      "title": "LMS — Course Assignments, Quizzes, and Reports pages return 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 635,
+      "title": "Exit Management — Reports page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 634,
+      "title": "Exit Management — Knowledge Transfer page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 632,
+      "title": "Exit Management — Full & Final (alt) page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 631,
+      "title": "Performance module SSO redirect fails — returns to EmpCloud dashboard",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 630,
+      "title": "Exit Management — Full & Final Settlement page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 628,
+      "title": "Exit Management — Exit Interview page returns 404",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 625,
+      "title": "Exit Management — Exit Clearance (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 624,
+      "title": "Exit Management — New Exit page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 623,
+      "title": "[Feature Request] Projects — Add Kanban board view for employees",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /projects -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 622,
+      "title": "Exit Management — Initiate Exit (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 621,
+      "title": "[Feature Request] Projects — Add time logging for employees",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /projects -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 620,
+      "title": "Employee role cannot SSO into any external module from /modules page",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST recruit/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'recruitProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBjbG9",
+        "Step 3: SSO into recruit succeeded"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 619,
+      "title": "Exit Management — Initiate Exit and Reports pages return 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 618,
+      "title": "Rewards — Rewards Store page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 617,
+      "title": "Rewards — Rewards Catalog (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 616,
+      "title": "Rewards — Rewards Catalog page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 615,
+      "title": "Rewards — Team Challenges (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 614,
+      "title": "Rewards — Recognition and Rewards Catalog pages return 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 613,
+      "title": "Rewards — Give Kudos (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 612,
+      "title": "Performance — Reports page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 611,
+      "title": "Performance — Calibration page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 610,
+      "title": "Performance — Peer Review page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 609,
+      "title": "Performance — 360 Feedback page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 608,
+      "title": "Performance — Team Reviews page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 607,
+      "title": "Performance — Manager Review page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 606,
+      "title": "Performance — Self Review page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 605,
+      "title": "Performance — Self Assessment page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 604,
+      "title": "Performance — OKRs page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 603,
+      "title": "Performance — Reviews, Self Assessment, Manager Review, 360 Feedback, and Calibration pages return 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 602,
+      "title": "Recruitment — Reports page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 601,
+      "title": "Recruitment — Interview (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 600,
+      "title": "Recruitment — Job Postings (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 599,
+      "title": "Payroll — Employee Salary (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 598,
+      "title": "Payroll — Payroll Reports (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 597,
+      "title": "Payroll — Admin Payroll page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 596,
+      "title": "Payroll — Run Payroll (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 595,
+      "title": "Payroll — Run Payroll page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 594,
+      "title": "No way to request attendance regularization",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /attendance/dashboard -> 200",
+        "  Response: {'success': True, 'data': {'total_employees': 52, 'present': 40, 'absent': 12, 'late': 0, 'on_leave': 0, 'date': '2026-03-28'}}",
+        "Step 3: Returned 0 item(s)",
+        "  Expected at least 1 items"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 593,
+      "title": "Payroll — Tax Declarations (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 592,
+      "title": "Payroll — Declarations page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 591,
+      "title": "Payroll — My Tax (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 590,
+      "title": "Can't edit phone number in profile",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #590",
+        "  Title: Can't edit phone number in profile",
+        "  Labels: ['bug', 'employee-journey', 'profile']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 589,
+      "title": "Payroll — Salary Structure page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 588,
+      "title": "Payroll — My Salary (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 587,
+      "title": "Payroll — Salary, Declarations, and Run Payroll pages return 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 586,
+      "title": "Payroll — Cannot download payslip PDF",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as employee -> OK",
+        "Step 2: GET /self-service/payslips -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 585,
+      "title": "Payroll — My Payslips (alt) page returns 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 584,
+      "title": "[DATA FLOW] Employee count mismatch -- org reports 7 but API has 17 active users",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /api/v1/users -> 502",
+        "  Response preview: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Unexpected status 502"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 583,
+      "title": "Attendance page has no export or download feature",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /attendance/dashboard -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 582,
+      "title": "Can't select leave type when applying for leave",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as Employee (priya@technova.in) -> OK",
+        "Step 2: POST /leave/applications -> 502",
+        "  Response preview: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Unexpected status 502"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 581,
+      "title": "Announcements: Publish fails - content field validation error",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /announcements with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 580,
+      "title": "Several common HR features missing - bulk approval, export, probation tracking",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Issue #580 is an enhancement/feature request",
+        "Step 2: Not a bug fix to verify -> Skipping"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 579,
+      "title": "[DATA FLOW] Assets assigned via API don't appear in employee profile Assets tab",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 578,
+      "title": "Cannot invite new employees - no invite functionality found",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #578",
+        "  Title: Cannot invite new employees - no invite functionality found",
+        "  Labels: ['bug', 'hr-journey-test']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 577,
+      "title": "[Feature Request] Helpdesk ticket lifecycle should send notifications at each status change",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /notifications -> 200",
+        "  Response: {'success': True, 'data': [{'id': 67, 'organization_id': 5, 'user_id': 522, 'type': 'leave_update', 'title': 'Leave Application Approved', 'body': 'Your leave from Mon May 11 2026 00:00:00 GMT+0000 (Coordinated Universal Time) to Tue May 12 2026 00:00:00 GMT+0000 (Coordinated Universal Time) has bee",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 576,
+      "title": "[DATA FLOW] Leave approval workflow missing notifications to employee and/or manager",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /leave/applications -> 200",
+        "  Response: {'success': True, 'data': [{'id': 162, 'organization_id': 5, 'user_id': 527, 'leave_type_id': 31, 'start_date': '2026-03-11T00:00:00.000Z', 'end_date': '2026-03-11T00:00:00.000Z', 'days_count': '1.0', 'is_half_day': 0, 'half_day_type': None, 'reason': 'Family function', 'status': 'approved', 'curren",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 575,
+      "title": "[DATA FLOW] Employees reference 3 department IDs that don't exist in the departments list",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /organizations/me/departments -> 200",
+        "  Response: {'success': True, 'data': [{'id': 23, 'name': 'HR', 'organization_id': 5, 'is_deleted': 0, 'created_at': '2026-03-24T12:16:03.000Z', 'updated_at': '2026-03-24T12:16:03.000Z'}, {'id': 24, 'name': 'Marketing', 'organization_id': 5, 'is_deleted': 0, 'created_at': '2026-03-24T12:16:03.000Z', 'updated_at",
+        "Step 3: Returned 33 item(s)"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 574,
+      "title": "[Feature Request] Approved leave should automatically create 'on_leave' attendance record",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Employee (priya@technova.in) -> OK",
+        "Step 2: POST /leave/applications -> 201",
+        "  Response preview: {'success': True, 'data': {'id': 169, 'organization_id': 5, 'user_id': 524, 'leave_type_id': 17, 'start_date': '2026-07-01T00:00:00.000Z', 'end_date': '2026-07-01T00:00:00.000Z', 'days_count': '1.0', 'is_half_day': 0, 'half_day_type': None, 'reason': 'E2E deep verify test', 'status': 'pending', 'cur",
+        "Step 3: Endpoint returns success (201)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 573,
+      "title": "Project module shows marketing landing page instead of tool",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /projects -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Status 502"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 572,
+      "title": "Rewards module requires separate login, no SSO from EmpCloud",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST rewards/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'rewardsProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBjbG9",
+        "Step 3: SSO into rewards succeeded"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 571,
+      "title": "Performance module requires separate login, no SSO from EmpCloud",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST performance/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'performanceProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXB",
+        "Step 3: SSO into performance succeeded"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 570,
+      "title": "Projects — Employee cannot access projects module via SSO",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST project/auth/sso with cloud JWT -> 502",
+        "  Response: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!",
+        "Step 3: Unexpected status 502"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 569,
+      "title": "LMS — Employee cannot access LMS module via SSO",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST lms/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBjbG91ZFVzZXJJZCI6NTIyLCJlbXBjb",
+        "Step 3: SSO into lms succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 568,
+      "title": "Rewards — Employee cannot access rewards module via SSO",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST rewards/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'rewardsProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBjbG9",
+        "Step 3: SSO into rewards succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 567,
+      "title": "Performance — Employee cannot access performance module via SSO",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST performance/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'performanceProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXB",
+        "Step 3: SSO into performance succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 566,
+      "title": "Recruitment — Employee cannot access recruitment module via SSO",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST recruit/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'empcloudUserId': 522, 'empcloudOrgId': 5, 'recruitProfileId': None, 'role': 'org_admin', 'email': 'ananya@technova.in', 'firstName': 'Ananya', 'lastName': 'Gupta', 'orgName': 'TechNova'}, 'tokens': {'accessToken': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbXBjbG9",
+        "Step 3: SSO into recruit succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 565,
+      "title": "Payroll — Employee cannot access payroll module via SSO",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK, got JWT",
+        "Step 2: POST payroll/auth/sso with cloud JWT -> 200",
+        "  Response: {'success': True, 'data': {'user': {'id': 522, 'empcloudUserId': 522, 'empcloudOrgId': 5, 'payrollProfileId': 'd852be65-96e2-4b24-948e-bc88ab321151', 'firstName': 'Ananya', 'lastName': 'Gupta', 'email': 'ananya@technova.in', 'empCode': 'TN-001', 'designation': 'Tech Lead', 'department': 'Engineering",
+        "Step 3: SSO into payroll succeeded"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 564,
+      "title": "No hamburger menu on mobile view — sidebar navigation inaccessible at 375px",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #564",
+        "  Title: No hamburger menu on mobile view — sidebar navigation inaccessible at 375px",
+        "  Labels: ['bug', 'e2e-test', 'new-joiner-ux']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 11
+    },
+    {
+      "number": 563,
+      "title": "Several common HR features missing - bulk approval, export, probation tracking",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Issue #563 is an enhancement/feature request",
+        "Step 2: Not a bug fix to verify -> Skipping"
+      ],
+      "programmer_notes": 19
+    },
+    {
+      "number": 562,
+      "title": "Employee dashboard shows HR-level data - possible data visibility issue",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /dashboard/widgets -> 200",
+        "  Response preview: {'success': True, 'data': {'performance': {'activeCycles': 1, 'pendingReviews': 0, 'goalCompletion': 0}, 'recruit': {'openJobs': 0, 'totalCandidates': 3, 'recentHires': 0}, 'rewards': {'totalKudos': 0, 'pointsDistributed': 0, 'badgesAwarded': 0}, 'lms': {'activeCourses': 0, 'totalEnrollments': 0, 'c",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 561,
+      "title": "No dedicated notifications page — new joiner can't review past notifications",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /notifications -> 200",
+        "  Response: {'success': True, 'data': [{'id': 67, 'organization_id': 5, 'user_id': 522, 'type': 'leave_update', 'title': 'Leave Application Approved', 'body': 'Your leave from Mon May 11 2026 00:00:00 GMT+0000 (Coordinated Universal Time) to Tue May 12 2026 00:00:00 GMT+0000 (Coordinated Universal Time) has bee",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 560,
+      "title": "Cannot invite new employees - no invite functionality found",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #560",
+        "  Title: Cannot invite new employees - no invite functionality found",
+        "  Labels: ['bug', 'hr-journey-test']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 559,
+      "title": "Announcements: Publish fails - content field validation error",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /announcements with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 558,
+      "title": "Manager page shows pending leaves but no approve/reject buttons",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /leave/applications -> 200",
+        "  Response: {'success': True, 'data': [{'id': 169, 'organization_id': 5, 'user_id': 524, 'leave_type_id': 17, 'start_date': '2026-07-01T00:00:00.000Z', 'end_date': '2026-07-01T00:00:00.000Z', 'days_count': '1.0', 'is_half_day': 0, 'half_day_type': None, 'reason': 'E2E deep verify test', 'status': 'pending', 'cu",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 557,
+      "title": "Can't find 'Clock Out' button at end of day",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #557",
+        "  Title: Can't find 'Clock Out' button at end of day",
+        "  Labels: ['bug', 'employee-journey', 'attendance']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 556,
+      "title": "New joiner can't edit profile — no edit button and missing personal info sections",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #556",
+        "  Title: New joiner can't edit profile — no edit button and missing personal info section",
+        "  Labels: ['bug', 'e2e-test', 'new-joiner-ux']",
+        "Step 2: Developer comments indicate this was fixed",
+        "Step 3: Trusting developer confirmation, marking as fixed"
+      ],
+      "programmer_notes": 17
+    },
+    {
+      "number": 555,
+      "title": "Payroll API completely non-functional -- all endpoints return errors",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 554,
+      "title": "Cannot view payroll history -- no previous months' payroll records accessible",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 553,
+      "title": "Employee bank details not stored or accessible -- payroll disbursement blocked",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 552,
+      "title": "Cannot download payroll reports -- no export to Excel or CSV option",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 551,
+      "title": "Leave impact on payroll not visible -- LOP salary deduction unclear",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /leave/applications -> 200",
+        "  Response: {'success': True, 'data': [{'id': 169, 'organization_id': 5, 'user_id': 524, 'leave_type_id': 17, 'start_date': '2026-07-01T00:00:00.000Z', 'end_date': '2026-07-01T00:00:00.000Z', 'days_count': '1.0', 'is_half_day': 0, 'half_day_type': None, 'reason': 'E2E deep verify test', 'status': 'pending', 'cu",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 550,
+      "title": "Cannot run monthly payroll -- no Run Payroll button found",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /payroll -> 401",
+        "  Response preview: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Expected 200 but got 401 -> Still broken"
+      ],
+      "programmer_notes": 3
+    },
+    {
+      "number": 549,
+      "title": "Cannot add new employee - Add button not found and API creation failed",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 548,
+      "title": "No buddy or mentor assigned for new joiner — no onboarding support person",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /onboarding -> 404",
+        "  Response: {'success': False, 'error': {'code': 'NOT_FOUND', 'message': 'Endpoint not found'}}",
+        "Step 3: Endpoint not found (404)"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 547,
+      "title": "Employee dashboard shows HR-level data - possible data visibility issue",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /dashboard/widgets -> 200",
+        "  Response preview: {'success': True, 'data': {'recruit': {'openJobs': 0, 'totalCandidates': 3, 'recentHires': 0}, 'performance': {'activeCycles': 1, 'pendingReviews': 0, 'goalCompletion': 0}, 'rewards': {'totalKudos': 0, 'pointsDistributed': 0, 'badgesAwarded': 0}, 'exit': {'attritionRate': 0, 'activeExits': 0}, 'lms'",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 2
+    },
+    {
+      "number": 546,
+      "title": "No onboarding tasks or training modules assigned to new joiner",
+      "verdict": "INCONCLUSIVE",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /courses -> 401",
+        "  Response: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+        "Step 3: Status 401"
+      ],
+      "programmer_notes": 4
+    },
+    {
+      "number": 545,
+      "title": "Team attendance page missing date range filter",
+      "verdict": "STILL FAILING",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /attendance/dashboard -> 200",
+        "  Response: {'success': True, 'data': {'total_employees': 52, 'present': 40, 'absent': 12, 'late': 0, 'on_leave': 0, 'date': '2026-03-28'}}",
+        "Step 3: Returned 0 item(s)",
+        "  Expected at least 1 items"
+      ],
+      "programmer_notes": 14
+    },
+    {
+      "number": 544,
+      "title": "Announcements: Publish fails with error",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 543,
+      "title": "Leave type dropdown has no options or can't select",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 542,
+      "title": "Cannot add new employee - Add button not found and API creation failed",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 541,
+      "title": "[FUNCTIONAL] Org current_user_count (17) differs significantly from API active users (13)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 536,
+      "title": "[FUNCTIONAL] Survey created with end_date before start_date (no date validation)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 535,
+      "title": "[FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026-04-01) before start_date (2026-05-01)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 534,
+      "title": "[FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026-04-10) before start_date (2026-04-15)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 533,
+      "title": "[FUNCTIONAL] Existing event 'Test' has end_date (2026-03-26) before start_date (2026-03-27)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 532,
+      "title": "[FUNCTIONAL] Existing event 'Updated Event 20260328052401' has end_date (2026-03-20) before start_date (2026-03-21)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 531,
+      "title": "[FUNCTIONAL] Event created with end_date before start_date (no date range validation)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 519,
+      "title": "No way to create a new organization from Super Admin panel",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 518,
+      "title": "Admin pages lose session after Selenium driver restart (auth state not persistent)",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 511,
+      "title": "[FUNCTIONAL] Survey created with end_date before start_date",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 510,
+      "title": "[FUNCTIONAL] Event created with end_date before start_date",
+      "verdict": "SKIPPED",
+      "reason": "already verified"
+    },
+    {
+      "number": 497,
+      "title": "Revenue shows $0 MRR and $0 ARR despite 10 active subscriptions",
+      "verdict": "SKIPPED",
+      "reason": "excluded module/topic"
+    },
+    {
+      "number": 493,
+      "title": "Platform Super Admin panel missing essential management features",
+      "verdict": "SKIPPED",
+      "reason": "excluded module/topic"
+    },
+    {
+      "number": 492,
+      "title": "[Bug] API v1 authentication endpoint fails - cannot login via REST API",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #492",
+        "  Title: [Bug] API v1 authentication endpoint fails - cannot login via REST API",
+        "  Labels: ['bug', 'functional-test']"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 491,
+      "title": "[Bug] External module direct URLs (/payroll, /recruitment, etc.) all return 404",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as Org Admin (ananya@technova.in) -> OK",
+        "Step 2: GET /users -> 200",
+        "  Response preview: {'success': True, 'data': [{'id': 663, 'organization_id': 5, 'first_name': 'Shaurya', 'last_name': 'Naidu', 'email': 'shaurya.naidu@technova.in', 'emp_code': 'TN-050', 'contact_number': '8616210929', 'date_of_birth': '1976-03-01T00:00:00.000Z', 'gender': 'male', 'date_of_joining': '2023-04-08T00:00:",
+        "Step 3: Got expected 200 -> Working correctly"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 490,
+      "title": "[Bug] /employees/add URL shows 'Invalid Employee' error instead of add form",
+      "verdict": "SKIPPED",
+      "steps": [
+        "Step 1: Could not auto-classify issue #490",
+        "  Title: [Bug] /employees/add URL shows 'Invalid Employee' error instead of add form",
+        "  Labels: ['bug', 'functional-test']"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 489,
+      "title": "[Bug] Assets module returns 403 Forbidden for org admin",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: GET /assets -> 200",
+        "  Response: {'success': True, 'data': [{'id': 333, 'organization_id': 5, 'asset_tag': 'AST-2026-0163', 'name': 'Logitech Keyboard 4', 'category_id': 7, 'description': None, 'serial_number': 'SIM-TE-K004', 'brand': None, 'model': None, 'purchase_date': None, 'purchase_cost': None, 'warranty_expiry': None, 'statu",
+        "Step 3: Returned 20 item(s)"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 488,
+      "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /feedback with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 487,
+      "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /feedback with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 486,
+      "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /feedback with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 1
+    },
+    {
+      "number": 485,
+      "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+      "verdict": "FIXED",
+      "steps": [
+        "Step 1: Login as org_admin -> OK",
+        "Step 2: POST /feedback with invalid data -> 400",
+        "  Payload: {\"name\": \"\", \"email\": \"bad\"}",
+        "  Response: {'success': False, 'error': {'code': 'VALIDATION_ERROR', 'message': 'Invalid request data'}}",
+        "Step 3: Correctly rejected (status 400)"
+      ],
+      "programmer_notes": 1
+    }
+  ]
+}

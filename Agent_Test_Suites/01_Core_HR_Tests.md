@@ -1,0 +1,201 @@
+# Comprehensive Core HR Test Suite
+
+> **Testing Agent Note:** This is an exhaustive list derived directly from project parameters. Every item must be tested. Record actual HTTP response codes, payloads, and screenshot evidence.
+
+## 1. Business Logic Rules
+
+- [ ] **B001** (CRITICAL): Product stops working if invoice overdue >15 days
+- [ ] **B002** (CRITICAL): Cannot add employees beyond seat limit
+- [ ] **B003** (HIGH): Module access revoked after unsubscribe
+- [ ] **B004** (MEDIUM): Free tier modules have feature restrictions
+- [ ] **B005** (HIGH): Subscription auto-renews at cycle end
+- [ ] **B006** (HIGH): Grace period before account suspension (warning emails)
+- [ ] **B007** (MEDIUM): Downgrade plan — excess seats should be flagged
+- [ ] **B008** (LOW): Cannot subscribe to same module twice
+- [ ] **B009** (MEDIUM): Billing history preserved after plan change
+- [ ] **B010** (MEDIUM): Proration on mid-cycle upgrade/downgrade
+- [ ] **B011** (HIGH): Tax (GST/VAT) correctly applied on invoices
+- [ ] **B012** (HIGH): Payment failure retry logic (dunning)
+- [ ] **B013** (MEDIUM): Refund processing on cancellation within trial
+- [ ] **B014** (HIGH): Super Admin can manually suspend/unsuspend org
+- [ ] **B015** (HIGH): Suspended org — all users see "Account suspended" message
+- [ ] **L001** (CRITICAL): Cannot apply leave exceeding balance
+- [ ] **L002** (CRITICAL): Cannot apply overlapping leave dates
+- [ ] **L003** (CRITICAL): Leave balance cannot go negative
+- [ ] **L004** (CRITICAL): Only manager/admin can approve — not self-approve
+- [ ] **L005** (HIGH): Manager can only approve direct reports' leave
+- [ ] **L006** (CRITICAL): Approved leave deducts balance
+- [ ] **L007** (CRITICAL): Rejected leave does NOT deduct balance
+- [ ] **L008** (HIGH): Cancelled leave restores balance
+- [ ] **L009** (HIGH): Cannot cancel already taken leave (past dates)
+- [ ] **L010** (MEDIUM): Cannot approve already rejected leave
+- [ ] **L011** (MEDIUM): Cannot reject already approved leave (need cancel flow)
+- [ ] **L012** (HIGH): Half-day leave deducts 0.5 from balance
+- [ ] **L013** (HIGH): Leave on public holiday — holiday not counted as leave day
+- [ ] **L014** (HIGH): Leave spanning weekend — weekends excluded (or per policy)
+- [ ] **L015** (MEDIUM): Maternity leave — gender eligibility check
+- [ ] **L016** (MEDIUM): Paternity leave — gender eligibility check
+- [ ] **L017** (MEDIUM): Probation period — restricted leave during probation
+- [ ] **L018** (HIGH): Leave accrual — monthly balance increment per policy
+- [ ] **L019** (HIGH): Carry forward — unused leave carries to next year (per policy)
+- [ ] **L020** (MEDIUM): Leave encashment — payout for unused leave on exit
+- [ ] **L021** (HIGH): Comp-off earned only by working on holiday/weekend
+- [ ] **L022** (MEDIUM): Comp-off expiry — expires if not used within X days
+- [ ] **L023** (HIGH): Annual leave reset at year start
+- [ ] **L024** (HIGH): Cannot apply leave for terminated/inactive employee
+- [ ] **L025** (MEDIUM): Back-dated leave application — restricted or requires approval
+- [ ] **A001** (CRITICAL): Cannot clock in twice in same day
+- [ ] **A002** (CRITICAL): Cannot clock out without clocking in
+- [ ] **A003** (HIGH): Cannot clock in for future dates
+- [ ] **A004** (HIGH): Cannot clock in for past dates (only regularization)
+- [ ] **A005** (HIGH): Late arrival flagged if after shift start time
+- [ ] **A006** (MEDIUM): Early departure flagged if before shift end time
+- [ ] **A007** (HIGH): Overtime tracked if beyond shift hours
+- [ ] **A008** (CRITICAL): Worked hours = clock_out - clock_in (minus breaks)
+- [ ] **A009** (MEDIUM): Attendance on holiday — should warn or block
+- [ ] **A010** (HIGH): Employee on approved leave — attendance shows "On Leave"
+- [ ] **A011** (HIGH): Night shift (cross-midnight) — hours calculated correctly
+- [ ] **A012** (HIGH): Regularization requires manager approval
+- [ ] **A013** (MEDIUM): Cannot regularize for more than X days back
+- [ ] **A014** (HIGH): Attendance report matches actual records
+- [ ] **A015** (MEDIUM): Geo-fencing — clock in only from office (if configured)
+- [ ] **A016** (MEDIUM): Multiple shifts — employee can only be in one shift at a time
+- [ ] **A017** (MEDIUM): Absent without leave (AWOL) — auto-flagged after X days
+- [ ] **E001** (CRITICAL): Unique email per org (no duplicate emails)
+- [ ] **E002** (CRITICAL): Unique emp_code per org
+- [ ] **E003** (HIGH): Cannot set self as reporting manager
+- [ ] **E004** (HIGH): Cannot create circular reporting chain (A→B→A)
+- [ ] **E005** (HIGH): Minimum age validation (18+)
+- [ ] **E006** (HIGH): Date of exit cannot be before date of joining
+- [ ] **E007** (HIGH): Date of birth cannot be in future
+- [ ] **E008** (CRITICAL): Terminated employee cannot login
+- [ ] **E009** (HIGH): Deactivated employee excluded from headcount
+- [ ] **E010** (HIGH): Notice period enforcement on resignation
+- [ ] **E011** (MEDIUM): Probation end date auto-calculated from joining date
+- [ ] **E012** (HIGH): Cannot delete employee with pending assets/leaves/tickets
+- [ ] **E013** (MEDIUM): Employee transfer — update department, manager, location
+- [ ] **E014** (MEDIUM): Re-hire — create new record or reactivate old?
+- [ ] **E015** (HIGH): Employee data retention after termination (for compliance)
+- [ ] **E016** (CRITICAL): Cannot change employee's org_id (cross-org transfer)
+- [ ] **E017** (MEDIUM): Invitation expires after X days
+- [ ] **E018** (HIGH): Cannot invite already active employee
+- [ ] **E019** (HIGH): Org admin cannot modify super admin's data
+- [ ] **E020** (MEDIUM): Employee confirmation — probation to confirmed transition
+- [ ] **AS001** (CRITICAL): Cannot assign same asset to two employees
+- [ ] **AS002** (HIGH): Cannot delete asset that is currently assigned
+- [ ] **AS003** (HIGH): Asset return date recorded on unassignment
+- [ ] **AS004** (HIGH): Cannot assign retired/scrapped asset
+- [ ] **AS005** (HIGH): Warranty expiry cannot be before purchase date
+- [ ] **AS006** (MEDIUM): Asset value depreciation tracking
+- [ ] **AS007** (MEDIUM): Asset audit trail — who had it, when
+- [ ] **AS008** (HIGH): Exit employee — all assets must be returned (clearance check)
+- [ ] **AS009** (HIGH): Serial number must be unique
+- [ ] **AS010** (MEDIUM): Asset category cannot be deleted if assets exist in it
+
+## 2. API Endpoints to Verify
+
+- [ ] `GET` `/.well-known/openid-configuration` -> Expected Status: `200`
+- [ ] `GET` `/api/docs` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/admin/data-sanity` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/admin/health` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/admin/organizations` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/admin/organizations/5` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/announcements` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/announcements` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/announcements/unread-count` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/assets` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/assets` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/assets/categories` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/assets/my` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/attendance/check-in` -> Expected Status: `409`
+- [ ] `POST` `/api/v1/attendance/check-out` -> Expected Status: `409`
+- [ ] `GET` `/api/v1/attendance/dashboard` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/attendance/records` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/attendance/records?start_date=2026-03-01&end_date=2026-03-28` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/attendance/shifts` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/attendance/shifts` -> Expected Status: `201`
+- [ ] `PUT` `/api/v1/attendance/shifts/10` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/audit` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/auth/login` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/auth/register` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/chatbot/conversations` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/custom-fields/definitions` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/custom-fields/definitions` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/dashboard/widgets` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/docs/openapi.json` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/documents` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/documents/categories` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/documents/my` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/employees/663/profile` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/events` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/events` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/feedback` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/feedback` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/forum/categories` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/forum/categories` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/forum/posts` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/forum/posts` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/helpdesk/tickets` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/helpdesk/tickets` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/leave/applications` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/leave/applications` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/leave/balances` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/leave/calendar` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/leave/comp-off` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/leave/policies` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/leave/policies` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/leave/types` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/leave/types` -> Expected Status: `400`
+- [ ] `PUT` `/api/v1/leave/types/31` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/modules` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/notifications` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/notifications/unread-count` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/organizations/me` -> Expected Status: `200`
+- [ ] `PUT` `/api/v1/organizations/me` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/organizations/me/departments` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/organizations/me/departments` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/organizations/me/locations` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/organizations/me/locations` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/policies` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/policies` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/policies/pending` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/positions` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/positions` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/self-service/payslips` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/subscriptions` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/surveys` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/surveys` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/users` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/users/663` -> Expected Status: `200`
+- [ ] `PUT` `/api/v1/users/663` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/users/invite` -> Expected Status: `201`
+- [ ] `GET` `/api/v1/users/org-chart` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/users?page=1&limit=5` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/users?search=priya` -> Expected Status: `200`
+- [ ] `POST` `/api/v1/wellness/check-in` -> Expected Status: `400`
+- [ ] `GET` `/health` -> Expected Status: `200`
+- [ ] `POST` `/oauth/introspect` -> Expected Status: `400`
+- [ ] `GET` `/oauth/jwks` -> Expected Status: `200`
+- [ ] `POST` `/oauth/revoke` -> Expected Status: `400`
+- [ ] `POST` `/oauth/token` -> Expected Status: `400`
+- [ ] `GET` `/api/v1/admin` -> Expected Status: `403`
+- [ ] `GET` `/api/v1/admin/stats` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/ai-config` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/analytics` -> Expected Status: `401`
+- [ ] `GET` `/api/v1/analytics/overview` -> Expected Status: `401`
+- [ ] `GET` `/api/v1/applications` -> Expected Status: `401`
+- [ ] `GET` `/api/v1/attendance` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/attendance/export` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/attendance/geo-fences` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/attendance/regularizations` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/attendance/reports` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/attendance/schedule` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/attendance/shift-assignments` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/auth` -> Expected Status: `404`
+- [ ] `POST` `/api/v1/auth/password-reset` -> Expected Status: `404`
+- [ ] `POST` `/api/v1/auth/sso/validate` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/badges` -> Expected Status: `401`
+- [ ] `GET` `/api/v1/billing` -> Expected Status: `404`
+- [ ] `GET` `/api/v1/billing/invoices` -> Expected Status: `200`
+- [ ] `GET` `/api/v1/biometrics` -> Expected Status: `404`
+

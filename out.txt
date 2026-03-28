@@ -1,0 +1,65 @@
+
+=== STEP 1: Login ===
+  [Screenshot] C:\Users\Admin\screenshots\sso_explore_dashboard\01_login_page.png
+  Found sign in button: tag=button, text='Sign in', enabled=True
+  Clicked Sign in button via JS
+  Waiting... (1) URL: https://test-empcloud.empcloud.com/
+  Waiting... (2) URL: https://test-empcloud.empcloud.com/
+  Waiting... (3) URL: https://test-empcloud.empcloud.com/
+  Waiting... (4) URL: https://test-empcloud.empcloud.com/
+  Waiting... (5) URL: https://test-empcloud.empcloud.com/
+  Waiting... (6) URL: https://test-empcloud.empcloud.com/
+  Waiting... (7) URL: https://test-empcloud.empcloud.com/
+  Waiting... (8) URL: https://test-empcloud.empcloud.com/
+  Waiting... (9) URL: https://test-empcloud.empcloud.com/
+  Waiting... (10) URL: https://test-empcloud.empcloud.com/
+  Waiting... (11) URL: https://test-empcloud.empcloud.com/
+  Waiting... (12) URL: https://test-empcloud.empcloud.com/
+  Waiting... (13) URL: https://test-empcloud.empcloud.com/
+  Waiting... (14) URL: https://test-empcloud.empcloud.com/
+  Waiting... (15) URL: https://test-empcloud.empcloud.com/
+  After login URL: https://test-empcloud.empcloud.com/
+  [Screenshot] C:\Users\Admin\screenshots\sso_explore_dashboard\02_dashboard_full.png
+
+=== STEP 2: Look for Module Insights section ===
+  Found 5 elements containing 'module':
+    <a> Modules
+    <p> Active Modules
+    <h2> Module Insights
+    <h2> Your Modules
+    <p> Biometric authentication & facial recognition. Features accessible within Attendance module.
+  Found 1 elements containing 'insight':
+    <h2> Module Insights
+  [Screenshot] C:\Users\Admin\screenshots\sso_explore_dashboard\03_dashboard_scroll_1.png
+
+=== STEP 3: Look for module name cards ===
+  'Payroll' found in 2 elements:
+    <a> text='Payroll Management' href='https://testpayroll.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+    <p> text='Payroll processing, tax computation & compliance' class='text-sm text-gray-500 mb-3 leading-relaxed'
+  'Recruit' found in 2 elements:
+    <h3> text='Recruitment' class='font-semibold text-indigo-900'
+    <a> text='Recruitment & Talent Acquisition' href='https://test-recruit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+  'Performance' found in 3 elements:
+    <h3> text='Performance' class='font-semibold text-green-900'
+    <a> text='Performance Management & Career Development' href='https://test-performance.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+    <p> text='Performance reviews, OKRs & succession planning' class='text-sm text-gray-500 mb-3 leading-relaxed'
+  'Rewards' found in 1 elements:
+    <a> text='Rewards & Recognition' href='https://test-rewards.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+  'Exit' found in 4 elements:
+    <h3> text='Exit & Attrition' class='font-semibold text-rose-900'
+    <span> text='Active Exits' class='text-sm text-gray-500'
+    <a> text='Exit Management & Offboarding' href='https://test-exit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+    <p> text='Exit management & full-final settlement' class='text-sm text-gray-500 mb-3 leading-relaxed'
+  'Project' found in 2 elements:
+    <a> text='Project Management & Time Tracking' href='https://test-project.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+    <p> text='Project management & time tracking' class='text-sm text-gray-500 mb-3 leading-relaxed'
+  'Monitor' found in 1 elements:
+    <a> text='Employee Monitoring & Activity Tracking' href='https://test-empmonitor.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImNhYjNiMmY1LTk2MDgtNDViZS05MTQ1LTdlNmU1NGY2ZDQxYSIsImlhdCI6MTc3NDcxMTMzOCwiZXhwIjoxNzc0NzEyMjM4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.3f0AD4_xRiDbB5DL240m0JfDDHOMwT648MIjFXLl5GPRRfjHWRwxp8xvyClrk7bab6TS7eC8bv5LUtTWrDwqhBuH2qcl_IqjuIh9rCzgfc0uz5vn6ESvPnkCy86KYYIrPVqy9NuvXkUnSZpM-trpHxqNdRNZVB62BqpMBF_8d1demFCSFTmQ3b56aWsO7KAP2OA7senAYrGB296OVpr8mbCVjvBO6IzrKA5sVR-L9PEbaDhTQzF53ZA6-cpkC1tGPOjzECYwZLQv33vPm9tx-I5zgSiPDEZyzNvVSqPETEdnpjxf4nks1ih2bYWVdlQbI_qmHuEpX1uq68EmFdV6Ng' class='font-semibold text-gray-900 hover:text-brand-600 transition-colors'
+  'Attendance' found in 3 elements:
+    <a> text='Attendance' href='https://test-empcloud.empcloud.com/attendance' class='flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colo'
+    <span> text='Attendance' parent_href='https://test-empcloud.empcloud.com/attendance' class='text-xs font-medium text-white/90'
+    <p> text='Biometric authentication & facial recognition. Features accessible within Attendance module.' class='text-sm text-gray-500 mb-3 leading-relaxed'
+  'Leave' found in 2 elements:
+    <a> text='Leave' href='https://test-empcloud.empcloud.com/leave' class='flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium transition-colo'
+    <span> text='Leave Management' parent_href='https://test-empcloud.empcloud.com/leave' class='text-xs font-medium text-white/90'
+  'Biometric' found in 2 elements:

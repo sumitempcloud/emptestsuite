@@ -1,0 +1,344 @@
+======================================================================
+STEP 1: LOGIN
+======================================================================
+  [Screenshot] 00_login_filled.png
+  Clicked Sign in
+  Wait 1: https://test-empcloud.empcloud.com/
+  Login successful!
+  Current URL: https://test-empcloud.empcloud.com/
+  Page title: EMP Cloud — Enterprise HRMS Platform
+  Page text (first 500): EMP Cloud
+
+TechNova
+
+Dashboard
+Self Service
+Modules
+Billing
+Users
+Employees
+Probation
+Org Chart
+AI Assistant
+My Team
+Attendance
+Leave
+Comp-Off
+Documents
+Announcements
+Policies
+Settings
+Custom Fields
+Audit Log
+POSITIONS
+Dashboard
+Positions
+Vacancies
+Headcount Plans
+COMMUNITY
+Community
+Create Post
+For
+  [Screenshot] 01_dashboard_full_page.png
+
+======================================================================
+STEP 2: MODULE INSIGHTS SECTION
+======================================================================
+  [Screenshot] 02_module_insights_section.png
+  Found 'Module Insights' heading
+  [Screenshot] 03_your_modules_section.png
+  Found 'Your Modules' heading
+  [Screenshot] 04_dashboard_bottom.png
+
+======================================================================
+STEP 3: MODULE NAME CARDS
+======================================================================
+  CARD: 'Payroll Management' -> https://testpayroll.empcloud.com/ (sso_token=True)
+  CARD: 'Recruitment & Talent Acquisition' -> https://test-recruit.empcloud.com/ (sso_token=True)
+  CARD: 'Performance Management & Career Development' -> https://test-performance.empcloud.com/ (sso_token=True)
+  CARD: 'Rewards & Recognition' -> https://test-rewards.empcloud.com/ (sso_token=True)
+  CARD: 'Exit Management & Offboarding' -> https://test-exit.empcloud.com/ (sso_token=True)
+  CARD: 'Project Management & Time Tracking' -> https://test-project.empcloud.com/ (sso_token=True)
+  CARD: 'Employee Monitoring & Activity Tracking' -> https://test-empmonitor.empcloud.com/ (sso_token=True)
+  CARD: 'Attendance' -> https://test-empcloud.empcloud.com/attendance (sso_token=False)
+  CARD: 'Leave' -> https://test-empcloud.empcloud.com/leave (sso_token=False)
+  CARD: 'Field Force Management & GPS Tracking' -> https://test-field.empcloud.com/ (sso_token=True)
+  CARD: 'Learning Management & Training' -> https://testlms.empcloud.com/ (sso_token=True)
+
+======================================================================
+EXTRA: SIDEBAR NAVIGATION LINKS
+======================================================================
+  Found 51 sidebar/nav links:
+    'Dashboard' -> https://test-empcloud.empcloud.com/
+    'Self Service' -> https://test-empcloud.empcloud.com/self-service
+    'Modules' -> https://test-empcloud.empcloud.com/modules
+    'Billing' -> https://test-empcloud.empcloud.com/billing
+    'Users' -> https://test-empcloud.empcloud.com/users
+    'Employees' -> https://test-empcloud.empcloud.com/employees
+    'Probation' -> https://test-empcloud.empcloud.com/employees/probation
+    'Org Chart' -> https://test-empcloud.empcloud.com/org-chart
+    'AI Assistant' -> https://test-empcloud.empcloud.com/chatbot
+    'My Team' -> https://test-empcloud.empcloud.com/manager
+    'Attendance' -> https://test-empcloud.empcloud.com/attendance
+    'Leave' -> https://test-empcloud.empcloud.com/leave
+    'Comp-Off' -> https://test-empcloud.empcloud.com/leave/comp-off
+    'Documents' -> https://test-empcloud.empcloud.com/documents
+    'Announcements' -> https://test-empcloud.empcloud.com/announcements
+    'Policies' -> https://test-empcloud.empcloud.com/policies
+    'Settings' -> https://test-empcloud.empcloud.com/settings
+    'Custom Fields' -> https://test-empcloud.empcloud.com/custom-fields
+    'Audit Log' -> https://test-empcloud.empcloud.com/audit
+    'Dashboard' -> https://test-empcloud.empcloud.com/positions
+    'Positions' -> https://test-empcloud.empcloud.com/positions/list
+    'Vacancies' -> https://test-empcloud.empcloud.com/positions/vacancies
+    'Headcount Plans' -> https://test-empcloud.empcloud.com/positions/headcount-plans
+    'Community' -> https://test-empcloud.empcloud.com/forum
+    'Create Post' -> https://test-empcloud.empcloud.com/forum/new
+    'Forum Dashboard' -> https://test-empcloud.empcloud.com/forum/dashboard
+    'Events' -> https://test-empcloud.empcloud.com/events
+    'My Events' -> https://test-empcloud.empcloud.com/events/my
+    'Event Dashboard' -> https://test-empcloud.empcloud.com/events/dashboard
+    'Submit Report' -> https://test-empcloud.empcloud.com/whistleblowing/submit
+    'Track Report' -> https://test-empcloud.empcloud.com/whistleblowing/track
+    'Dashboard' -> https://test-empcloud.empcloud.com/whistleblowing/dashboard
+    'All Reports' -> https://test-empcloud.empcloud.com/whistleblowing/reports
+    'My Tickets' -> https://test-empcloud.empcloud.com/helpdesk/my-tickets
+    'All Tickets' -> https://test-empcloud.empcloud.com/helpdesk/tickets
+    'Helpdesk' -> https://test-empcloud.empcloud.com/helpdesk/dashboard
+    'Knowledge Base' -> https://test-empcloud.empcloud.com/helpdesk/kb
+    'Survey Dashboard' -> https://test-empcloud.empcloud.com/surveys/dashboard
+    'All Surveys' -> https://test-empcloud.empcloud.com/surveys/list
+    'Active Surveys' -> https://test-empcloud.empcloud.com/surveys/respond
+    'Wellness' -> https://test-empcloud.empcloud.com/wellness
+    'My Wellness' -> https://test-empcloud.empcloud.com/wellness/my
+    'Daily Check-in' -> https://test-empcloud.empcloud.com/wellness/check-in
+    'Wellness Dashboard' -> https://test-empcloud.empcloud.com/wellness/dashboard
+    'Asset Dashboard' -> https://test-empcloud.empcloud.com/assets/dashboard
+    'All Assets' -> https://test-empcloud.empcloud.com/assets
+    'Categories' -> https://test-empcloud.empcloud.com/assets/categories
+    'Submit Feedback' -> https://test-empcloud.empcloud.com/feedback/submit
+    'My Feedback' -> https://test-empcloud.empcloud.com/feedback/my
+    'All Feedback' -> https://test-empcloud.empcloud.com/feedback
+    'Feedback Dashboard' -> https://test-empcloud.empcloud.com/feedback/dashboard
+
+  --- Internal dashboard routes ---
+
+======================================================================
+STEP 4: EXTERNAL MODULE LINKS
+======================================================================
+  EXTERNAL: 'View Details'
+    URL: https://test-recruit.empcloud.com/
+    Has sso_token: False
+  EXTERNAL: 'View Details'
+    URL: https://test-performance.empcloud.com/
+    Has sso_token: False
+  EXTERNAL: 'View Details'
+    URL: https://test-rewards.empcloud.com/
+    Has sso_token: False
+  EXTERNAL: 'View Details'
+    URL: https://test-exit.empcloud.com/
+    Has sso_token: False
+  EXTERNAL: 'View Details'
+    URL: https://testlms.empcloud.com/
+    Has sso_token: False
+  EXTERNAL: 'Project Management & Time Tracking'
+    URL: https://test-project.empcloud.com/
+    Has sso_token: True
+  EXTERNAL: 'Payroll Management'
+    URL: https://testpayroll.empcloud.com/
+    Has sso_token: True
+  OTHER EMPCLOUD: 'Field Force Management & GPS Tracking' -> https://test-field.empcloud.com/
+  EXTERNAL: 'Employee Monitoring & Activity Tracking'
+    URL: https://test-empmonitor.empcloud.com/
+    Has sso_token: True
+
+  Total external module links: 9
+
+======================================================================
+STEP 5: ALL LINKS ON PAGE (text + href)
+======================================================================
+  Total <a> tags: 85
+
+  [  0] EMP Cloud TechNova                                 https://test-empcloud.empcloud.com/
+  [  1] Dashboard                                          https://test-empcloud.empcloud.com/
+  [  2] Self Service                                       https://test-empcloud.empcloud.com/self-service
+  [  3] Modules                                            https://test-empcloud.empcloud.com/modules
+  [  4] Billing                                            https://test-empcloud.empcloud.com/billing
+  [  5] Users                                              https://test-empcloud.empcloud.com/users
+  [  6] Employees                                          https://test-empcloud.empcloud.com/employees
+  [  7] Probation                                          https://test-empcloud.empcloud.com/employees/probation
+  [  8] Org Chart                                          https://test-empcloud.empcloud.com/org-chart
+  [  9] AI Assistant                                       https://test-empcloud.empcloud.com/chatbot
+  [ 10] My Team                                            https://test-empcloud.empcloud.com/manager
+  [ 11] Attendance                                         https://test-empcloud.empcloud.com/attendance
+  [ 12] Leave                                              https://test-empcloud.empcloud.com/leave
+  [ 13] Comp-Off                                           https://test-empcloud.empcloud.com/leave/comp-off
+  [ 14] Documents                                          https://test-empcloud.empcloud.com/documents
+  [ 15] Announcements                                      https://test-empcloud.empcloud.com/announcements
+  [ 16] Policies                                           https://test-empcloud.empcloud.com/policies
+  [ 17] Settings                                           https://test-empcloud.empcloud.com/settings
+  [ 18] Custom Fields                                      https://test-empcloud.empcloud.com/custom-fields
+  [ 19] Audit Log                                          https://test-empcloud.empcloud.com/audit
+  [ 20] Dashboard                                          https://test-empcloud.empcloud.com/positions
+  [ 21] Positions                                          https://test-empcloud.empcloud.com/positions/list
+  [ 22] Vacancies                                          https://test-empcloud.empcloud.com/positions/vacancies
+  [ 23] Headcount Plans                                    https://test-empcloud.empcloud.com/positions/headcount-plans
+  [ 24] Community                                          https://test-empcloud.empcloud.com/forum
+  [ 25] Create Post                                        https://test-empcloud.empcloud.com/forum/new
+  [ 26] Forum Dashboard                                    https://test-empcloud.empcloud.com/forum/dashboard
+  [ 27] Events                                             https://test-empcloud.empcloud.com/events
+  [ 28] My Events                                          https://test-empcloud.empcloud.com/events/my
+  [ 29] Event Dashboard                                    https://test-empcloud.empcloud.com/events/dashboard
+  [ 30] Submit Report                                      https://test-empcloud.empcloud.com/whistleblowing/submit
+  [ 31] Track Report                                       https://test-empcloud.empcloud.com/whistleblowing/track
+  [ 32] Dashboard                                          https://test-empcloud.empcloud.com/whistleblowing/dashboard
+  [ 33] All Reports                                        https://test-empcloud.empcloud.com/whistleblowing/reports
+  [ 34] My Tickets                                         https://test-empcloud.empcloud.com/helpdesk/my-tickets
+  [ 35] All Tickets                                        https://test-empcloud.empcloud.com/helpdesk/tickets
+  [ 36] Helpdesk                                           https://test-empcloud.empcloud.com/helpdesk/dashboard
+  [ 37] Knowledge Base                                     https://test-empcloud.empcloud.com/helpdesk/kb
+  [ 38] Survey Dashboard                                   https://test-empcloud.empcloud.com/surveys/dashboard
+  [ 39] All Surveys                                        https://test-empcloud.empcloud.com/surveys/list
+  [ 40] Active Surveys                                     https://test-empcloud.empcloud.com/surveys/respond
+  [ 41] Wellness                                           https://test-empcloud.empcloud.com/wellness
+  [ 42] My Wellness                                        https://test-empcloud.empcloud.com/wellness/my
+  [ 43] Daily Check-in                                     https://test-empcloud.empcloud.com/wellness/check-in
+  [ 44] Wellness Dashboard                                 https://test-empcloud.empcloud.com/wellness/dashboard
+  [ 45] Asset Dashboard                                    https://test-empcloud.empcloud.com/assets/dashboard
+  [ 46] All Assets                                         https://test-empcloud.empcloud.com/assets
+  [ 47] Categories                                         https://test-empcloud.empcloud.com/assets/categories
+  [ 48] Submit Feedback                                    https://test-empcloud.empcloud.com/feedback/submit
+  [ 49] My Feedback                                        https://test-empcloud.empcloud.com/feedback/my
+  [ 50] All Feedback                                       https://test-empcloud.empcloud.com/feedback
+  [ 51] Feedback Dashboard                                 https://test-empcloud.empcloud.com/feedback/dashboard
+  [ 52] 52 Total Users                                     https://test-empcloud.empcloud.com/users
+  [ 53] 10 Active Modules                                  https://test-empcloud.empcloud.com/modules
+  [ 54] 33 Departments                                     https://test-empcloud.empcloud.com/settings
+  [ 55] ₹0.00 Billing                                      https://test-empcloud.empcloud.com/billing
+  [ 56] Employee Directory                                 https://test-empcloud.empcloud.com/employees
+  [ 57] Attendance                                         https://test-empcloud.empcloud.com/attendance
+  [ 58] Leave Management                                   https://test-empcloud.empcloud.com/leave
+  [ 59] Documents                                          https://test-empcloud.empcloud.com/documents
+  [ 60] Announcements                                      https://test-empcloud.empcloud.com/announcements
+  [ 61] Policies                                           https://test-empcloud.empcloud.com/policies
+  [ 62] View Details                                       https://test-recruit.empcloud.com/
+  [ 63] View Details                                       https://test-performance.empcloud.com/
+  [ 64] View Details                                       https://test-rewards.empcloud.com/
+  [ 65] View Details                                       https://test-exit.empcloud.com/
+  [ 66] View Details                                       https://testlms.empcloud.com/
+  [ 67] Rewards & Recognition                              https://test-rewards.empcloud.com/?sso_token=<JWT...>
+  [ 68] Launch                                             https://test-rewards.empcloud.com/?sso_token=<JWT...>
+  [ 69] Recruitment & Talent Acquisition                   https://test-recruit.empcloud.com/?sso_token=<JWT...>
+  [ 70] Launch                                             https://test-recruit.empcloud.com/?sso_token=<JWT...>
+  [ 71] Project Management & Time Tracking                 https://test-project.empcloud.com/?sso_token=<JWT...>
+  [ 72] Launch                                             https://test-project.empcloud.com/?sso_token=<JWT...>
+  [ 73] Performance Management & Career Development        https://test-performance.empcloud.com/?sso_token=<JWT...>
+  [ 74] Launch                                             https://test-performance.empcloud.com/?sso_token=<JWT...>
+  [ 75] Payroll Management                                 https://testpayroll.empcloud.com/?sso_token=<JWT...>
+  [ 76] Launch                                             https://testpayroll.empcloud.com/?sso_token=<JWT...>
+  [ 77] Learning Management & Training                     https://testlms.empcloud.com/?sso_token=<JWT...>
+  [ 78] Launch                                             https://testlms.empcloud.com/?sso_token=<JWT...>
+  [ 79] Field Force Management & GPS Tracking              https://test-field.empcloud.com/?sso_token=<JWT...>
+  [ 80] Launch                                             https://test-field.empcloud.com/?sso_token=<JWT...>
+  [ 81] Exit Management & Offboarding                      https://test-exit.empcloud.com/?sso_token=<JWT...>
+  [ 82] Launch                                             https://test-exit.empcloud.com/?sso_token=<JWT...>
+  [ 83] Employee Monitoring & Activity Tracking            https://test-empmonitor.empcloud.com/?sso_token=<JWT...>
+  [ 84] Launch                                             https://test-empmonitor.empcloud.com/?sso_token=<JWT...>
+
+  --- Buttons ---
+  [btn   1] Sign out                                           class=flex items-center gap-2 w-full px-3 py-2 text-sm text-gray-6
+  [btn   4] 19                                                 class=relative p-2 rounded-lg text-gray-500 hover:bg-gray-100 hove
+
+  --- Cards/Clickable divs ---
+
+======================================================================
+STEP 6 & 7: CLICK MODULE LINKS + CHECK SSO TOKEN
+======================================================================
+
+  --- Clicking [1/9]: 'View Details' ---
+  Opening: https://test-recruit.empcloud.com/
+  Final URL: https://test-recruit.empcloud.com/login
+  URL contains sso_token: False
+  [Screenshot] 06_View_Details.png
+
+  --- Clicking [2/9]: 'View Details' ---
+  Opening: https://test-performance.empcloud.com/
+  Final URL: https://test-performance.empcloud.com/login
+  URL contains sso_token: False
+  [Screenshot] 06_View_Details.png
+
+  --- Clicking [3/9]: 'View Details' ---
+  Opening: https://test-rewards.empcloud.com/
+  Final URL: https://test-rewards.empcloud.com/login
+  URL contains sso_token: False
+  [Screenshot] 06_View_Details.png
+
+  --- Clicking [4/9]: 'View Details' ---
+  Opening: https://test-exit.empcloud.com/
+  Final URL: https://test-exit.empcloud.com/login
+  URL contains sso_token: False
+  [Screenshot] 06_View_Details.png
+
+  --- Clicking [5/9]: 'View Details' ---
+  Opening: https://testlms.empcloud.com/
+  Final URL: https://testlms.empcloud.com/login
+  URL contains sso_token: False
+  [Screenshot] 06_View_Details.png
+
+  --- Clicking [6/9]: 'Project Management & Time Tracking' ---
+  Opening: https://test-project.empcloud.com/
+  Final URL: https://test-project.empcloud.com/
+  URL contains sso_token: False
+  [Screenshot] 06_Project_Management___Time_Trac.png
+
+  --- Clicking [7/9]: 'Payroll Management' ---
+  Opening: https://testpayroll.empcloud.com/
+  Final URL: https://testpayroll.empcloud.com/my
+  URL contains sso_token: False
+  [Screenshot] 06_Payroll_Management.png
+
+  --- Clicking [8/9]: 'Field Force Management & GPS Tracking' ---
+  Opening: https://test-field.empcloud.com/
+  Final URL: https://test-field.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiOjUyMiwib3JnX2lkIjo1LCJlbWFpbCI6ImFuYW55YUB0ZWNobm92YS5pbiIsInJvbGUiOiJvcmdfYWRtaW4iLCJmaXJzdF9uYW1lIjoiQW5hbnlhIiwibGFzdF9uYW1lIjoiR3VwdGEiLCJvcmdfbmFtZSI6IlRlY2hOb3ZhIiwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImNsaWVudF9pZCI6ImVtcGNsb3VkLWRhc2hib2FyZCIsImp0aSI6ImE3Y2IzNzc3LWI2OGEtNDM1MC1hNTM1LTU0OTU4ZjE2NjgxYiIsImlhdCI6MTc3NDcxMTgwOCwiZXhwIjoxNzc0NzEyNzA4LCJpc3MiOiJodHRwczovL3Rlc3QtZW1wY2xvdWQtYXBpLmVtcGNsb3VkLmNvbSJ9.tn3Sk169HORQc330ZCgw0IaCNww24TXhE8LtYI-9jbx09yRS2sUP1VrCdvM0GuttnSV_o2IrA1WPHkMkzLjbNSew540xbBXgKi6o9_i_GVWbuy1lxj7VDsvT2DpsPO6qM9k8oXSSs0g1fP1WT3XRuqiXwocYRd1b7PGnmqK_2Ld9mxAdaWtEf3DETE4TZ8XIrNovgmhNkYAidBrb9YFiB3JOaQV6nvfXywb6Hhv-6Y3XCZrs3mxc07tIUH2efRn1YjUFPz4qI28wFI6fVyTBDuSK081-6GuCuEtC2-U2R7aFBVgGwHczDOFR6kfHUUf6sNn70QkipgXd6kYktcpkOg
+  URL contains sso_token: True
+  sso_token (first 60 chars): eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1Fv...
+  [Screenshot] 06_Field_Force_Management___GPS_T.png
+
+  --- Clicking [9/9]: 'Employee Monitoring & Activity Tracking' ---
+  Opening: https://test-empmonitor.empcloud.com/
+  Final URL: https://test-empmonitor.empcloud.com/admin/dashboard
+  URL contains sso_token: False
+  [Screenshot] 06_Employee_Monitoring___Activity.png
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+Module cards found on dashboard: 11
+  Payroll: https://testpayroll.empcloud.com/ (sso_token=True)
+  Recruit: https://test-recruit.empcloud.com/ (sso_token=True)
+  Performance: https://test-performance.empcloud.com/ (sso_token=True)
+  Rewards: https://test-rewards.empcloud.com/ (sso_token=True)
+  Exit: https://test-exit.empcloud.com/ (sso_token=True)
+  Project: https://test-project.empcloud.com/ (sso_token=True)
+  Monitor: https://test-empmonitor.empcloud.com/ (sso_token=True)
+  Attendance: https://test-empcloud.empcloud.com/attendance (sso_token=False)
+  Leave: https://test-empcloud.empcloud.com/leave (sso_token=False)
+  Field Force: https://test-field.empcloud.com/ (sso_token=True)
+  Learning: https://testlms.empcloud.com/ (sso_token=True)
+
+External module links: 9
+  'View Details' -> https://test-recruit.empcloud.com/ (sso_token=False)
+  'View Details' -> https://test-performance.empcloud.com/ (sso_token=False)
+  'View Details' -> https://test-rewards.empcloud.com/ (sso_token=False)
+  'View Details' -> https://test-exit.empcloud.com/ (sso_token=False)
+  'View Details' -> https://testlms.empcloud.com/ (sso_token=False)
+  'Project Management & Time Tracking' -> https://test-project.empcloud.com/ (sso_token=True)
+  'Payroll Management' -> https://testpayroll.empcloud.com/ (sso_token=True)
+  'Field Force Management & GPS Tracking' -> https://test-field.empcloud.com/ (sso_token=True)
+  'Employee Monitoring & Activity Tracking' -> https://test-empmonitor.empcloud.com/ (sso_token=True)
+
+All SSO links use ?sso_token=<JWT> parameter: YES
+JWT is RS256-signed, contains sub/org_id/email/role/org_name claims
+
+Screenshots saved to: C:\Users\Admin\screenshots\sso_explore_dashboard

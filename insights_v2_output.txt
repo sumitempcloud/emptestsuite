@@ -1,0 +1,265 @@
+======================================================================
+STEP 1: LOGIN
+======================================================================
+  Landed on: https://test-empcloud.empcloud.com/
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\01_dashboard.png
+
+======================================================================
+STEP 2-3: MODULE INSIGHTS SECTION
+======================================================================
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\02_module_insights_closeup.png
+
+======================================================================
+STEP 4: ALL LINKS IN MODULE INSIGHTS SECTION
+======================================================================
+  Found 5 links:
+    [0] text='View Details' href='https://test-recruit.empcloud.com/'
+    [1] text='View Details' href='https://test-performance.empcloud.com/'
+    [2] text='View Details' href='https://test-rewards.empcloud.com/'
+    [3] text='View Details' href='https://test-exit.empcloud.com/'
+    [4] text='View Details' href='https://testlms.empcloud.com/'
+
+======================================================================
+STEP 5: CLICK RECRUITMENT CARD 'View Details' LINK
+======================================================================
+  href in DOM: https://test-recruit.empcloud.com/
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\03_recruitment_viewdetails.png
+
+======================================================================
+STEP 6: CLICK PERFORMANCE CARD 'View Details' LINK
+======================================================================
+  href in DOM: https://test-performance.empcloud.com/
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\04_performance_viewdetails.png
+
+======================================================================
+STEP 7: CLICK RECOGNITION CARD 'View Details' LINK
+======================================================================
+  href in DOM: https://test-rewards.empcloud.com/
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\05_recognition_viewdetails.png
+
+======================================================================
+STEP 8: CLICK EXIT CARD 'View Details' LINK
+======================================================================
+  href in DOM: https://test-exit.empcloud.com/
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\06_exit_viewdetails.png
+
+======================================================================
+STEP 9: 'YOUR MODULES' SECTION WITH LAUNCH BUTTONS
+======================================================================
+  YES - Found 'Your Modules' section
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\07_your_modules_section.png
+  Found 9 'Launch' links:
+    [0] text='Launch' href='https://test-rewards.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [1] text='Launch' href='https://test-recruit.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [2] text='Launch' href='https://test-project.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [3] text='Launch' href='https://test-performance.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [4] text='Launch' href='https://testpayroll.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [5] text='Launch' href='https://testlms.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [6] text='Launch' href='https://test-field.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [7] text='Launch' href='https://test-exit.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+    [8] text='Launch' href='https://test-empmonitor.empcloud.com/?sso_token=<JWT_TOKEN>' --> SSO: YES
+
+  Clicking Launch #1 (https://test-rewards.empcloud.com/):
+  href in DOM: https://test-rewards.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJz...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_1.png
+
+  Clicking Launch #2 (https://test-recruit.empcloud.com/):
+  href in DOM: https://test-recruit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJz...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_2.png
+
+  Clicking Launch #3 (https://test-project.empcloud.com/):
+  href in DOM: https://test-project.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJz...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_3.png
+
+  Clicking Launch #4 (https://test-performance.empcloud.com/):
+  href in DOM: https://test-performance.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ....
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_4.png
+
+  Clicking Launch #5 (https://testpayroll.empcloud.com/):
+  href in DOM: https://testpayroll.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzd...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_5.png
+
+  Clicking Launch #6 (https://testlms.empcloud.com/):
+  href in DOM: https://testlms.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWIiO...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_6.png
+
+  Clicking Launch #7 (https://test-field.empcloud.com/):
+  href in DOM: https://test-field.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdW...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_7.png
+
+  Clicking Launch #8 (https://test-exit.empcloud.com/):
+  href in DOM: https://test-exit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.eyJzdWI...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_8.png
+
+  Clicking Launch #9 (https://test-empmonitor.empcloud.com/):
+  href in DOM: https://test-empmonitor.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1qam5BRUFQU1FvTzA0Y0QifQ.e...
+  --> Same tab navigation
+  --> Landed URL: https://test-empcloud.empcloud.com/
+  --> sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\08_launch_9.png
+
+  === Module name links with SSO tokens ===
+    Module link: text='Rewards & Recognition' --> https://test-rewards.empcloud.com/?sso_token=<JWT>
+    Module link: text='Recruitment & Talent Acquisition' --> https://test-recruit.empcloud.com/?sso_token=<JWT>
+    Module link: text='Project Management & Time Tracking' --> https://test-project.empcloud.com/?sso_token=<JWT>
+    Module link: text='Performance Management & Career Development' --> https://test-performance.empcloud.com/?sso_token=<JWT>
+    Module link: text='Payroll Management' --> https://testpayroll.empcloud.com/?sso_token=<JWT>
+    Module link: text='Learning Management & Training' --> https://testlms.empcloud.com/?sso_token=<JWT>
+    Module link: text='Field Force Management & GPS Tracking' --> https://test-field.empcloud.com/?sso_token=<JWT>
+    Module link: text='Exit Management & Offboarding' --> https://test-exit.empcloud.com/?sso_token=<JWT>
+    Module link: text='Employee Monitoring & Activity Tracking' --> https://test-empmonitor.empcloud.com/?sso_token=<JWT>
+
+======================================================================
+STEP 10: /MODULES PAGE (MODULE MARKETPLACE)
+======================================================================
+  URL: https://test-empcloud.empcloud.com/modules
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\09_modules_marketplace.png
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\10_modules_marketplace_scrolled.png
+
+  Module entries on /modules page:
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+    Button: 'Unsubscribe' classes='text-xs text-red-500 hover:text-red-700 font-medium'
+
+  'Subscribed' badges/spans: 10
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+    <span> 'Subscribed' classes='flex items-center gap-1.5 text-sm font-medium text-green-600'
+
+  Clicking Subscribed badge #1: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_1.png
+
+  Clicking Subscribed badge #2: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_2.png
+
+  Clicking Subscribed badge #3: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_3.png
+
+  Clicking Subscribed badge #4: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_4.png
+
+  Clicking Subscribed badge #5: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_5.png
+
+  Clicking Subscribed badge #6: 'Subscribed'
+    Same tab: https://test-empcloud.empcloud.com/modules
+    sso_token: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\11_subscribed_click_6.png
+
+  'Subscribe' buttons (not yet subscribed): 0
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+  MODULE INSIGHTS SECTION (View Details links):
+  These links point to BARE external URLs WITHOUT sso_token:
+    Recruitment  --> https://test-recruit.empcloud.com/      (NO sso_token)
+    Performance  --> https://test-performance.empcloud.com/  (NO sso_token)
+    Recognition  --> https://test-rewards.empcloud.com/      (NO sso_token)
+    Exit         --> https://test-exit.empcloud.com/         (NO sso_token)
+    LMS          --> https://testlms.empcloud.com/           (NO sso_token)
+
+  YOUR MODULES SECTION (Launch links + Module name links):
+  These links INCLUDE sso_token as JWT in the URL query param:
+    'Rewards & Recognition' --> https://test-rewards.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-rewards.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Recruitment & Talent Acquisition' --> https://test-recruit.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-recruit.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Project Management & Time Tracking' --> https://test-project.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-project.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Performance Management & Career Development' --> https://test-performance.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-performance.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Payroll Management' --> https://testpayroll.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://testpayroll.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Learning Management & Training' --> https://testlms.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://testlms.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Field Force Management & GPS Tracking' --> https://test-field.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-field.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Exit Management & Offboarding' --> https://test-exit.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-exit.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Employee Monitoring & Activity Tracking' --> https://test-empmonitor.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+    'Launch' --> https://test-empmonitor.empcloud.com/?sso_token=<JWT>  (YES sso_token)
+
+  ALL CLICKED URLs:
+    Recruitment_ViewDetails: https://test-empcloud.empcloud.com/  sso_token=False
+    Performance_ViewDetails: https://test-empcloud.empcloud.com/  sso_token=False
+    Recognition_ViewDetails: https://test-empcloud.empcloud.com/  sso_token=False
+    Exit_ViewDetails: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_1_https://test-rewards.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_2_https://test-recruit.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_3_https://test-project.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_4_https://test-performance.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_5_https://testpayroll.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_6_https://testlms.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_7_https://test-field.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_8_https://test-exit.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+    Launch_9_https://test-empmonitor.empcloud.com/: https://test-empcloud.empcloud.com/  sso_token=False
+
+  KEY FINDING:
+  - Module Insights 'View Details' links = BARE URLs, NO SSO token
+  - 'Your Modules' section Launch links = HAVE sso_token (JWT)
+  - Module name links in 'Your Modules' = HAVE sso_token (JWT)
+  - /modules page has 'Unsubscribe' buttons (red), no 'Subscribed' click target
+
+Done.

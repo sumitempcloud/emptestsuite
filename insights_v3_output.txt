@@ -1,0 +1,286 @@
+======================================================================
+STEP 1: LOGIN
+======================================================================
+  Landed on: https://test-empcloud.empcloud.com/
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_01_dashboard.png
+
+======================================================================
+STEP 2-3: MODULE INSIGHTS CLOSE-UP
+======================================================================
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_02_module_insights.png
+
+======================================================================
+STEP 4: ALL LINKS (View Details + SSO Launch)
+======================================================================
+
+  Module Insights 'View Details' links (5):
+    Card: 'Welcome back, Ananya' | text='View Details' | href='https://test-recruit.empcloud.com/' | sso_token=False
+    Card: 'Welcome back, Ananya' | text='View Details' | href='https://test-performance.empcloud.com/' | sso_token=False
+    Card: 'Welcome back, Ananya' | text='View Details' | href='https://test-rewards.empcloud.com/' | sso_token=False
+    Card: 'Welcome back, Ananya' | text='View Details' | href='https://test-exit.empcloud.com/' | sso_token=False
+    Card: 'Welcome back, Ananya' | text='View Details' | href='https://testlms.empcloud.com/' | sso_token=False
+
+  SSO token links on dashboard (18):
+    'Rewards & Recognition' --> https://test-rewards.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Recruitment & Talent Acquisition' --> https://test-recruit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Project Management & Time Tracking' --> https://test-project.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Performance Management & Career Development' --> https://test-performance.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Payroll Management' --> https://testpayroll.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Learning Management & Training' --> https://testlms.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Field Force Management & GPS Tracking' --> https://test-field.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Exit Management & Offboarding' --> https://test-exit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+    'Employee Monitoring & Activity Tracking' --> https://test-empmonitor.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtp...
+
+======================================================================
+STEP 5: RECRUITMENT - 'View Details' (bare URL, no SSO)
+======================================================================
+  Navigating to BARE URL: https://test-recruit.empcloud.com/
+  Landed URL: https://test-recruit.empcloud.com/login
+  sso_token in URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_03_recruit_bare.png
+  Page title: EMP Recruit — Applicant Tracking System
+  Body preview: EMP Recruit
+Welcome back
+
+Sign in to manage recruitment
+
+Email address
+Password
+Sign in
+
+Demo credentials:
+
+ananya@technova.in / Welcome@123
+
+  Now navigating to SSO URL for Recruitment:
+  URL: https://test-recruit.empcloud.com/?sso_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCI...sso_token=<JWT>
+  Landed URL: https://test-recruit.empcloud.com/
+  sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_04_recruit_sso.png
+  Page title: EMP Recruit — Applicant Tracking System
+  Body preview: SSO login failed. Please try logging in manually.
+
+Go to login
+
+======================================================================
+STEP 6: PERFORMANCE
+======================================================================
+  Navigating to BARE URL: https://test-performance.empcloud.com/
+  Landed URL: https://test-performance.empcloud.com/login
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_05_performance_bare.png
+  Page title: EMP Performance — Performance Management System
+
+  Now with SSO token:
+  Landed URL: https://test-performance.empcloud.com/dashboard
+  sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_06_performance_sso.png
+  Page title: EMP Performance — Performance Management System
+  Body preview: EMP Performance
+Dashboard
+Review Cycles
+Goals
+Goal Alignment
+Competencies
+PIPs
+Career Paths
+1-on-1s
+Feedback
+Letters
+Analytics
+9-Box Grid
+Skills Gap
+S
+
+======================================================================
+STEP 7: RECOGNITION (REWARDS)
+======================================================================
+  Navigating to BARE URL: https://test-rewards.empcloud.com/
+  Landed URL: https://test-rewards.empcloud.com/login
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_07_rewards_bare.png
+  Page title: EMP Rewards — Employee Recognition & Rewards
+
+  Now with SSO token:
+  Landed URL: https://test-rewards.empcloud.com/
+  sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_08_rewards_sso.png
+  Page title: EMP Rewards — Employee Recognition & Rewards
+  Body preview: SSO login failed. Please try logging in manually.
+
+Go to login
+
+======================================================================
+STEP 8: EXIT
+======================================================================
+  Navigating to BARE URL: https://test-exit.empcloud.com/
+  Landed URL: https://test-exit.empcloud.com/login
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_09_exit_bare.png
+  Page title: EMP Exit — Employee Exit Management
+
+  Now with SSO token:
+  Landed URL: https://test-exit.empcloud.com/dashboard
+  sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_10_exit_sso.png
+  Page title: EMP Exit — Employee Exit Management
+  Body preview: EMP Exit
+Dashboard
+Exits
+Checklists
+Clearance
+Interviews
+FnF
+Notice Buyout
+Assets
+KT
+Letters
+Alumni
+Rehire
+Analytics
+Flight Risk
+Settings
+AG
+
+Ananya G
+
+======================================================================
+STEP 9: REMAINING SSO MODULE LAUNCHES
+======================================================================
+
+  LMS (SSO):
+    Landed URL: https://testlms.empcloud.com/login
+    sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_11_lms_sso.png
+    Page title: EMP LMS — Learning Management System
+
+  Payroll (SSO):
+    Landed URL: https://testpayroll.empcloud.com/my
+    sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_12_payroll_sso.png
+    Page title: EMP Payroll — Open Source Payroll Management
+
+  Project (SSO):
+    Landed URL: https://test-project.empcloud.com/
+    sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_13_project_sso.png
+    Page title: Home
+
+  Monitor (SSO):
+    Landed URL: https://test-empmonitor.empcloud.com/admin/dashboard
+    sso_token in final URL: False
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_14_monitor_sso.png
+    Page title: empmontior-4.0-front-end
+
+======================================================================
+STEP 10: /MODULES PAGE - SUBSCRIBED BADGES
+======================================================================
+  URL: https://test-empcloud.empcloud.com/modules
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_20_modules_page.png
+  Module link: 'EMP Cloud
+TechNova' href='https://test-empcloud.empcloud.com/' sso=False
+  Module link: 'Dashboard' href='https://test-empcloud.empcloud.com/' sso=False
+  Module link: 'Self Service' href='https://test-empcloud.empcloud.com/self-service' sso=False
+  Module link: 'Billing' href='https://test-empcloud.empcloud.com/billing' sso=False
+  Module link: 'Employees' href='https://test-empcloud.empcloud.com/employees' sso=False
+  Module link: 'Probation' href='https://test-empcloud.empcloud.com/employees/probation' sso=False
+  Module link: 'Org Chart' href='https://test-empcloud.empcloud.com/org-chart' sso=False
+  Module link: 'AI Assistant' href='https://test-empcloud.empcloud.com/chatbot' sso=False
+  Module link: 'My Team' href='https://test-empcloud.empcloud.com/manager' sso=False
+  Module link: 'Attendance' href='https://test-empcloud.empcloud.com/attendance' sso=False
+  Module link: 'Comp-Off' href='https://test-empcloud.empcloud.com/leave/comp-off' sso=False
+  Module link: 'Documents' href='https://test-empcloud.empcloud.com/documents' sso=False
+  Module link: 'Announcements' href='https://test-empcloud.empcloud.com/announcements' sso=False
+  Module link: 'Policies' href='https://test-empcloud.empcloud.com/policies' sso=False
+  Module link: 'Settings' href='https://test-empcloud.empcloud.com/settings' sso=False
+  Module link: 'Custom Fields' href='https://test-empcloud.empcloud.com/custom-fields' sso=False
+  Module link: 'Audit Log' href='https://test-empcloud.empcloud.com/audit' sso=False
+  Module link: 'Dashboard' href='https://test-empcloud.empcloud.com/positions' sso=False
+  Module link: 'Positions' href='https://test-empcloud.empcloud.com/positions/list' sso=False
+  Module link: 'Vacancies' href='https://test-empcloud.empcloud.com/positions/vacancies' sso=False
+  Module link: 'Headcount Plans' href='https://test-empcloud.empcloud.com/positions/headcount-plans' sso=False
+  Module link: 'Community' href='https://test-empcloud.empcloud.com/forum' sso=False
+  Module link: 'Create Post' href='https://test-empcloud.empcloud.com/forum/new' sso=False
+  Module link: 'Forum Dashboard' href='https://test-empcloud.empcloud.com/forum/dashboard' sso=False
+  Module link: 'Events' href='https://test-empcloud.empcloud.com/events' sso=False
+  Module link: 'My Events' href='https://test-empcloud.empcloud.com/events/my' sso=False
+  Module link: 'Event Dashboard' href='https://test-empcloud.empcloud.com/events/dashboard' sso=False
+  Module link: 'Submit Report' href='https://test-empcloud.empcloud.com/whistleblowing/submit' sso=False
+  Module link: 'Track Report' href='https://test-empcloud.empcloud.com/whistleblowing/track' sso=False
+  Module link: 'Dashboard' href='https://test-empcloud.empcloud.com/whistleblowing/dashboard' sso=False
+  Module link: 'All Reports' href='https://test-empcloud.empcloud.com/whistleblowing/reports' sso=False
+  Module link: 'My Tickets' href='https://test-empcloud.empcloud.com/helpdesk/my-tickets' sso=False
+  Module link: 'All Tickets' href='https://test-empcloud.empcloud.com/helpdesk/tickets' sso=False
+  Module link: 'Helpdesk' href='https://test-empcloud.empcloud.com/helpdesk/dashboard' sso=False
+  Module link: 'Knowledge Base' href='https://test-empcloud.empcloud.com/helpdesk/kb' sso=False
+  Module link: 'Survey Dashboard' href='https://test-empcloud.empcloud.com/surveys/dashboard' sso=False
+  Module link: 'All Surveys' href='https://test-empcloud.empcloud.com/surveys/list' sso=False
+  Module link: 'Active Surveys' href='https://test-empcloud.empcloud.com/surveys/respond' sso=False
+  Module link: 'Wellness' href='https://test-empcloud.empcloud.com/wellness' sso=False
+  Module link: 'My Wellness' href='https://test-empcloud.empcloud.com/wellness/my' sso=False
+  Module link: 'Daily Check-in' href='https://test-empcloud.empcloud.com/wellness/check-in' sso=False
+  Module link: 'Wellness Dashboard' href='https://test-empcloud.empcloud.com/wellness/dashboard' sso=False
+  Module link: 'Asset Dashboard' href='https://test-empcloud.empcloud.com/assets/dashboard' sso=False
+  Module link: 'All Assets' href='https://test-empcloud.empcloud.com/assets' sso=False
+  Module link: 'Categories' href='https://test-empcloud.empcloud.com/assets/categories' sso=False
+  Module link: 'Submit Feedback' href='https://test-empcloud.empcloud.com/feedback/submit' sso=False
+  Module link: 'My Feedback' href='https://test-empcloud.empcloud.com/feedback/my' sso=False
+  Module link: 'All Feedback' href='https://test-empcloud.empcloud.com/feedback' sso=False
+  Module link: 'Feedback Dashboard' href='https://test-empcloud.empcloud.com/feedback/dashboard' sso=False
+
+  Green 'Subscribed' badges: 10
+    [1] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [2] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [3] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [4] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [5] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [6] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [7] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [8] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [9] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+    [10] 'Module Marketplace' - Subscribed (green badge, not clickable as link)
+
+  'Unsubscribe' buttons (red): 10
+  NOTE: 'Subscribed' is a <span> status badge, NOT a clickable link/button.
+  The only action is 'Unsubscribe' (red text button).
+  [screenshot] C:\Users\Admin\screenshots\sso_click_insights\v3_21_modules_page_bottom.png
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+
+  DASHBOARD LAYOUT (top to bottom):
+  1. Welcome banner + stats (Employees, Departments, etc.)
+  2. Core HRMS quick-access bar (Employee Directory, Attendance, etc.)
+  3. MODULE INSIGHTS section - 4 colored cards:
+     - Recruitment (blue) - stats + "View Details" link
+     - Performance (green) - stats + "View Details" link
+     - Recognition (pink) - stats + "View Details" link
+     - Exit & Attrition (yellow) - stats + "View Details" link
+     - Learning & Development (purple) - stats + "View Details" link
+  4. YOUR MODULES section - 9 module cards with "Launch" buttons
+
+  SSO ENTRY POINTS:
+  +-------------------------------------------------+------------------+
+  | Entry Point                                     | Has sso_token?   |
+  +-------------------------------------------------+------------------+
+  | Module Insights "View Details" links             | NO (bare URL)   |
+  | Your Modules "Launch" buttons                    | YES (JWT token) |
+  | Your Modules module name links                   | YES (JWT token) |
+  | /modules page "Subscribed" badge                 | NOT clickable   |
+  | /modules page module name links                  | NO (local path) |
+  +-------------------------------------------------+------------------+
+
+  BEHAVIOR WHEN CLICKING:
+  - "View Details" (bare URL like https://test-recruit.empcloud.com/):
+    The external module has NO auth context -> likely shows login page
+  - "Launch" (URL with ?sso_token=<JWT>):
+    The external module receives a signed JWT -> should auto-authenticate
+  - In headless Selenium, cross-origin navigation bounces back to
+    empcloud dashboard (likely JS-based redirect or SPA routing)
+
+  BUG CANDIDATE:
+  - Module Insights "View Details" links do NOT include sso_token
+  - User clicking "View Details" on any insight card would land on the
+    external module WITHOUT authentication (no SSO handoff)
+  - This contrasts with "Your Modules" section which correctly includes
+    sso_token in all Launch links
+
+Done.

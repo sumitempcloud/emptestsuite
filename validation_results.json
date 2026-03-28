@@ -1,0 +1,996 @@
+{
+  "stats": {
+    "total_tests": 294,
+    "passed": 197,
+    "failed": 97,
+    "validation_gaps": 97,
+    "errors_500": 20
+  },
+  "issues": [
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "email",
+      "value_sent": "testx@technova.in",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. duplicate email of another user",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "12345",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"12345\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27T2",
+      "expected": "Should reject with 400/422 validation error. numbers only",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "e\u0301 n\u0303 \u4e2d\u6587",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"e\u0301 n\u0303 \u4e2d\u6587\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-2",
+      "expected": "Should reject with 400/422 validation error. special unicode chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "   ",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"   \",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27T23:",
+      "expected": "Should reject with 400/422 validation error. only spaces",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "<script>alert(1)</script>",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"alert(1)\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-2",
+      "expected": "Should reject with 400/422 validation error. XSS payload - stored OK per rules",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "last_name",
+      "value_sent": "12345",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"12345\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27T",
+      "expected": "Should reject with 400/422 validation error. numbers only",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "last_name",
+      "value_sent": "e\u0301 n\u0303 \u4e2d\u6587",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"e\u0301 n\u0303 \u4e2d\u6587\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-",
+      "expected": "Should reject with 400/422 validation error. special unicode chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "last_name",
+      "value_sent": "   ",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"   \",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27T23",
+      "expected": "Should reject with 400/422 validation error. only spaces",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "last_name",
+      "value_sent": "<script>alert(1)</script>",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"alert(1)\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-",
+      "expected": "Should reject with 400/422 validation error. XSS payload - stored OK per rules",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "contact_number",
+      "value_sent": "",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "contact_number",
+      "value_sent": "abc",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. alphabetic",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "contact_number",
+      "value_sent": "000",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. too short",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "contact_number",
+      "value_sent": "+1234567890",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. with plus prefix",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "contact_number",
+      "value_sent": "12-34-5678",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":null,\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2026-03-27",
+      "expected": "Should reject with 400/422 validation error. with dashes",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. empty string",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "not-a-date",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. invalid format",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "2050-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2050-01-01T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. future date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "1800-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"1800-01-01T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. too old (1800)",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "2024-02-30",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. invalid date Feb 30",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "2023-02-29",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. invalid leap day",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_joining",
+      "value_sent": "",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_joining",
+      "value_sent": "not-a-date",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. invalid format",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_joining",
+      "value_sent": "2050-06-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. far future date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_joining",
+      "value_sent": "1899-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. date before DOB possibility",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_exit",
+      "value_sent": "1990-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. before date_of_joining",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_exit",
+      "value_sent": "not-a-date",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":null,\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. invalid format",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "gender",
+      "value_sent": "invalid",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"invalid\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"e",
+      "expected": "Should reject with 400/422 validation error. invalid string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "gender",
+      "value_sent": "",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"cre",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "gender",
+      "value_sent": "M",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"M\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"cr",
+      "expected": "Should reject with 400/422 validation error. single letter M",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "gender",
+      "value_sent": "male",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":null,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",",
+      "expected": "Should reject with 400/422 validation error. lowercase male",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "department_id",
+      "value_sent": "999999",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. non-existent",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "reporting_manager_id",
+      "value_sent": "599",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. own user ID (self-report)",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "reporting_manager_id",
+      "value_sent": "999999",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. non-existent",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "designation",
+      "value_sent": "",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"created_at\":\"2",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "emp_code",
+      "value_sent": "",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "emp_code",
+      "value_sent": "!@#$%",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. special chars only",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/leave/applications",
+      "method": "POST",
+      "field": "start_date",
+      "value_sent": "",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. empty string",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/leave/applications",
+      "method": "POST",
+      "field": "start_date",
+      "value_sent": "not-a-date",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. invalid format",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/leave/applications",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. empty string",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/leave/applications",
+      "method": "POST",
+      "field": "days_count",
+      "value_sent": "0.5",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":37,\"organization_id\":5,\"user_id\":522,\"leave_type_id\":16,\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-15T00:00:00.000Z\",\"days_count\":\"0.5\",\"is_half_day\":0,\"half_day_type\":null,\"reason\":\"Testing leave validation\",\"status\":\"pending\",\"current_approver_id\":null,\"created_at\":\"2026-03-28T00:51:45.000Z\",\"updated_at\":\"2026-03-28T00:51:45.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. half",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "title",
+      "value_sent": "   ",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":74,\"organization_id\":5,\"title\":\"   \",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:47.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:47.000Z\",\"updated_at\":\"2026-03-28T00:51:47.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. only spaces",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "title",
+      "value_sent": "\ud83c\udf89\ud83d\ude80\ud83d\udca5",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":75,\"organization_id\":5,\"title\":\"\ud83c\udf89\ud83d\ude80\ud83d\udca5\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:49.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:49.000Z\",\"updated_at\":\"2026-03-28T00:51:49.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. emoji only",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "content",
+      "value_sent": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...[truncated]",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":76,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "expected": "Should reject with 400/422 validation error. 50000 chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "content",
+      "value_sent": "<h1>HTML</h1><script>alert(1)</script>",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":77,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"<h1>HTML</h1><script>alert(1)</script>\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:51.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:51.000Z\",\"updated_at\":\"2026-03-28T00:51:51.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. HTML tags",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "content",
+      "value_sent": "# Markdown\n- list",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":78,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"# Markdown\\n- list\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:52.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:52.000Z\",\"updated_at\":\"2026-03-28T00:51:52.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. markdown",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "date",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":79,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:54.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:54.000Z\",\"updated_at\":\"2026-03-28T00:51:54.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. empty string",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "date",
+      "value_sent": "not-a-date",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":80,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:55.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:55.000Z\",\"updated_at\":\"2026-03-28T00:51:55.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. invalid format",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "date",
+      "value_sent": "2020-01-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":81,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:56.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:56.000Z\",\"updated_at\":\"2026-03-28T00:51:56.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. past date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "date",
+      "value_sent": "2030-01-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":82,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:58.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:58.000Z\",\"updated_at\":\"2026-03-28T00:51:58.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. far future",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/announcements",
+      "method": "POST",
+      "field": "date",
+      "value_sent": "None",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":83,\"organization_id\":5,\"title\":\"Test Announcement Validation\",\"content\":\"This is test content for validation.\",\"priority\":\"normal\",\"target_type\":\"all\",\"target_ids\":null,\"published_at\":\"2026-03-28T00:51:59.000Z\",\"expires_at\":null,\"created_by\":522,\"is_active\":1,\"created_at\":\"2026-03-28T00:51:59.000Z\",\"updated_at\":\"2026-03-28T00:51:59.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. null",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "start_date",
+      "value_sent": "2020-01-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":13,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2020-01-01T00:00:00.000Z\",\"end_date\":\"2026-04-16T00:00:00.000Z\",\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:01.000Z\",\"updated_at\":\"2026-03-28T00:52:01.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. past",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "start_date",
+      "value_sent": "2026-05-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":14,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-05-01T00:00:00.000Z\",\"end_date\":\"2026-04-01T00:00:00.000Z\",\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:02.000Z\",\"updated_at\":\"2026-03-28T00:52:02.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. after end_date - reversed range",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "2026-04-10",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":15,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-10T00:00:00.000Z\",\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:03.000Z\",\"updated_at\":\"2026-03-28T00:52:03.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. before start_date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":16,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":null,\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:04.000Z\",\"updated_at\":\"2026-03-28T00:52:04.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "None",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":17,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":null,\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:06.000Z\",\"updated_at\":\"2026-03-28T00:52:06.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. null",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "location",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":18,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-16T00:00:00.000Z\",\"is_all_day\":0,\"location\":null,\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:07.000Z\",\"updated_at\":\"2026-03-28T00:52:07.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "location",
+      "value_sent": "None",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":19,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"Test event for validation.\",\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-16T00:00:00.000Z\",\"is_all_day\":0,\"location\":null,\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:08.000Z\",\"updated_at\":\"2026-03-28T00:52:08.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. null",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":20,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":null,\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-16T00:00:00.000Z\",\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:10.000Z\",\"updated_at\":\"2026-03-28T00:52:10.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "None",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":21,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":null,\"event_type\":\"other\",\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-16T00:00:00.000Z\",\"is_all_day\":0,\"location\":\"Office\",\"virtual_link\":null,\"target_type\":\"all\",\"target_ids\":null,\"max_attendees\":null,\"is_mandatory\":0,\"status\":\"upcoming\",\"created_by\":522,\"created_at\":\"2026-03-28T00:52:11.000Z\",\"updated_at\":\"2026-03-28T00:52:11.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. null",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/events",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD...[truncated]",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":22,\"organization_id\":5,\"title\":\"Test Event Validation\",\"description\":\"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+      "expected": "Should reject with 400/422 validation error. 50000 chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/surveys",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":34,\"organization_id\":5,\"title\":\"Test Survey Validation\",\"description\":null,\"type\":\"pulse\",\"status\":\"draft\",\"is_anonymous\":1,\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-30T00:00:00.000Z\",\"target_type\":\"all\",\"target_ids\":null,\"recurrence\":\"none\",\"created_by\":522,\"response_count\":0,\"created_at\":\"2026-03-28T00:52:14.000Z\",\"updated_at\":\"2026-03-28T00:52:14.000Z\",\"questions\":[]}}",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/surveys",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "None",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":35,\"organization_id\":5,\"title\":\"Test Survey Validation\",\"description\":null,\"type\":\"pulse\",\"status\":\"draft\",\"is_anonymous\":1,\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":\"2026-04-30T00:00:00.000Z\",\"target_type\":\"all\",\"target_ids\":null,\"recurrence\":\"none\",\"created_by\":522,\"response_count\":0,\"created_at\":\"2026-03-28T00:52:15.000Z\",\"updated_at\":\"2026-03-28T00:52:15.000Z\",\"questions\":[]}}",
+      "expected": "Should reject with 400/422 validation error. null",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/surveys",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "2026-04-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":36,\"organization_id\":5,\"title\":\"Test Survey Validation\",\"description\":\"Test survey for validation.\",\"type\":\"pulse\",\"status\":\"draft\",\"is_anonymous\":1,\"start_date\":\"2026-05-01T00:00:00.000Z\",\"end_date\":\"2026-04-01T00:00:00.000Z\",\"target_type\":\"all\",\"target_ids\":null,\"recurrence\":\"none\",\"created_by\":522,\"response_count\":0,\"created_at\":\"2026-03-28T00:52:16.000Z\",\"updated_at\":\"2026-03-28T00:52:16.000Z\",\"questions\":[]}}",
+      "expected": "Should reject with 400/422 validation error. end before start",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/surveys",
+      "method": "POST",
+      "field": "start_date",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":37,\"organization_id\":5,\"title\":\"Test Survey Validation\",\"description\":\"Test survey for validation.\",\"type\":\"pulse\",\"status\":\"draft\",\"is_anonymous\":1,\"start_date\":null,\"end_date\":\"2026-04-30T00:00:00.000Z\",\"target_type\":\"all\",\"target_ids\":null,\"recurrence\":\"none\",\"created_by\":522,\"response_count\":0,\"created_at\":\"2026-03-28T00:52:17.000Z\",\"updated_at\":\"2026-03-28T00:52:17.000Z\",\"questions\":[]}}",
+      "expected": "Should reject with 400/422 validation error. empty start",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/surveys",
+      "method": "POST",
+      "field": "end_date",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":38,\"organization_id\":5,\"title\":\"Test Survey Validation\",\"description\":\"Test survey for validation.\",\"type\":\"pulse\",\"status\":\"draft\",\"is_anonymous\":1,\"start_date\":\"2026-04-15T00:00:00.000Z\",\"end_date\":null,\"target_type\":\"all\",\"target_ids\":null,\"recurrence\":\"none\",\"created_by\":522,\"response_count\":0,\"created_at\":\"2026-03-28T00:52:19.000Z\",\"updated_at\":\"2026-03-28T00:52:19.000Z\",\"questions\":[]}}",
+      "expected": "Should reject with 400/422 validation error. empty end",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/assets",
+      "method": "POST",
+      "field": "serial_number",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":39,\"organization_id\":5,\"asset_tag\":\"AST-2026-0029\",\"name\":\"Test Asset Validation\",\"category_id\":null,\"description\":null,\"serial_number\":null,\"brand\":null,\"model\":null,\"purchase_date\":\"2025-01-15T00:00:00.000Z\",\"purchase_cost\":null,\"warranty_expiry\":\"2027-01-15T00:00:00.000Z\",\"status\":\"available\",\"condition_status\":\"new\",\"location_name\":null,\"assigned_to\":null,\"assigned_at\":null,\"assigned_by\":null,\"notes\":null,\"created_at\":\"2026-03-28T00:52:20.000Z\",\"updated_at\":\"2026",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/assets",
+      "method": "POST",
+      "field": "serial_number",
+      "value_sent": "SN-VAL-1774659139",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":41,\"organization_id\":5,\"asset_tag\":\"AST-2026-0031\",\"name\":\"Test Asset Validation\",\"category_id\":null,\"description\":null,\"serial_number\":\"SN-VAL-1774659139\",\"brand\":null,\"model\":null,\"purchase_date\":\"2025-01-15T00:00:00.000Z\",\"purchase_cost\":null,\"warranty_expiry\":\"2027-01-15T00:00:00.000Z\",\"status\":\"available\",\"condition_status\":\"new\",\"location_name\":null,\"assigned_to\":null,\"assigned_at\":null,\"assigned_by\":null,\"notes\":null,\"created_at\":\"2026-03-28T00:52:21.000Z\",\"up",
+      "expected": "Should reject with 400/422 validation error. duplicate serial number",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/assets",
+      "method": "POST",
+      "field": "category",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":42,\"organization_id\":5,\"asset_tag\":\"AST-2026-0032\",\"name\":\"Test Asset Validation\",\"category_id\":null,\"description\":null,\"serial_number\":\"SN-VAL-1774659139\",\"brand\":null,\"model\":null,\"purchase_date\":\"2025-01-15T00:00:00.000Z\",\"purchase_cost\":null,\"warranty_expiry\":\"2027-01-15T00:00:00.000Z\",\"status\":\"available\",\"condition_status\":\"new\",\"location_name\":null,\"assigned_to\":null,\"assigned_at\":null,\"assigned_by\":null,\"notes\":null,\"created_at\":\"2026-03-28T00:52:22.000Z\",\"up",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/assets",
+      "method": "POST",
+      "field": "category",
+      "value_sent": "INVALID_CAT_XYZ",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":43,\"organization_id\":5,\"asset_tag\":\"AST-2026-0033\",\"name\":\"Test Asset Validation\",\"category_id\":null,\"description\":null,\"serial_number\":\"SN-VAL-1774659139\",\"brand\":null,\"model\":null,\"purchase_date\":\"2025-01-15T00:00:00.000Z\",\"purchase_cost\":null,\"warranty_expiry\":\"2027-01-15T00:00:00.000Z\",\"status\":\"available\",\"condition_status\":\"new\",\"location_name\":null,\"assigned_to\":null,\"assigned_at\":null,\"assigned_by\":null,\"notes\":null,\"created_at\":\"2026-03-28T00:52:23.000Z\",\"up",
+      "expected": "Should reject with 400/422 validation error. invalid category",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/assets",
+      "method": "POST",
+      "field": "purchase_date",
+      "value_sent": "2030-01-01",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":44,\"organization_id\":5,\"asset_tag\":\"AST-2026-0034\",\"name\":\"Test Asset Validation\",\"category_id\":null,\"description\":null,\"serial_number\":\"SN-VAL-1774659139\",\"brand\":null,\"model\":null,\"purchase_date\":\"2030-01-01T00:00:00.000Z\",\"purchase_cost\":null,\"warranty_expiry\":\"2027-01-15T00:00:00.000Z\",\"status\":\"available\",\"condition_status\":\"new\",\"location_name\":null,\"assigned_to\":null,\"assigned_at\":null,\"assigned_by\":null,\"notes\":null,\"created_at\":\"2026-03-28T00:52:24.000Z\",\"up",
+      "expected": "Should reject with 400/422 validation error. future purchase date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/positions",
+      "method": "POST",
+      "field": "headcount",
+      "value_sent": "0",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":17,\"organization_id\":5,\"title\":\"Test Position 1774659145\",\"code\":\"POS-1774659145\",\"department_id\":null,\"location_id\":null,\"reports_to_position_id\":null,\"job_description\":null,\"requirements\":null,\"min_salary\":null,\"max_salary\":null,\"currency\":\"INR\",\"employment_type\":\"full_time\",\"headcount_budget\":1,\"headcount_filled\":0,\"status\":\"active\",\"is_critical\":0,\"created_by\":522,\"created_at\":\"2026-03-28T00:52:26.000Z\",\"updated_at\":\"2026-03-28T00:52:26.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. zero",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/positions",
+      "method": "POST",
+      "field": "code",
+      "value_sent": "POS-1774659145",
+      "status_code": 400,
+      "response": "{\"success\":false,\"error\":{\"code\":\"VALIDATION_ERROR\",\"message\":\"Position code \\\"POS-1774659145\\\" already exists\"}}",
+      "expected": "Should accept valid value. first creation",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/helpdesk/tickets",
+      "method": "POST",
+      "field": "description",
+      "value_sent": "DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD...[truncated]",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":23,\"organization_id\":5,\"raised_by\":522,\"category\":\"general\",\"priority\":\"medium\",\"subject\":\"Test Helpdesk Validation\",\"description\":\"DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD",
+      "expected": "Should reject with 400/422 validation error. 50000 chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/forum/posts",
+      "method": "POST",
+      "field": "content",
+      "value_sent": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...[truncated]",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":22,\"organization_id\":5,\"category_id\":1,\"author_id\":522,\"title\":\"Test Forum Validation\",\"content\":\"CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "expected": "Should reject with 400/422 validation error. 50000 chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "message",
+      "value_sent": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM...[truncated]",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. 50000 chars",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "yes",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. string yes",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "1",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. integer 1",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "None",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. null",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/policies",
+      "method": "POST",
+      "field": "title",
+      "value_sent": "Test Policy 1774659157",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":44,\"organization_id\":5,\"title\":\"Test Policy 1774659157\",\"content\":\"This is a test policy content for validation.\",\"version\":1,\"category\":\"general\",\"effective_date\":null,\"is_active\":1,\"created_by\":522,\"created_at\":\"2026-03-28T00:52:38.000Z\",\"updated_at\":\"2026-03-28T00:52:38.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. duplicate title",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/policies",
+      "method": "POST",
+      "field": "content",
+      "value_sent": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC...[truncated]",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":45,\"organization_id\":5,\"title\":\"Test Policy 1774659157\",\"content\":\"CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "expected": "Should reject with 400/422 validation error. 50000 chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/policies",
+      "method": "POST",
+      "field": "category",
+      "value_sent": "",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":46,\"organization_id\":5,\"title\":\"Test Policy 1774659157\",\"content\":\"This is a test policy content for validation.\",\"version\":1,\"category\":null,\"effective_date\":null,\"is_active\":1,\"created_by\":522,\"created_at\":\"2026-03-28T00:52:41.000Z\",\"updated_at\":\"2026-03-28T00:52:41.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. empty",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/policies",
+      "method": "POST",
+      "field": "category",
+      "value_sent": "INVALID_CAT_XYZ",
+      "status_code": 201,
+      "response": "{\"success\":true,\"data\":{\"id\":47,\"organization_id\":5,\"title\":\"Test Policy 1774659157\",\"content\":\"This is a test policy content for validation.\",\"version\":1,\"category\":\"INVALID_CAT_XYZ\",\"effective_date\":null,\"is_active\":1,\"created_by\":522,\"created_at\":\"2026-03-28T00:52:42.000Z\",\"updated_at\":\"2026-03-28T00:52:42.000Z\"}}",
+      "expected": "Should reject with 400/422 validation error. invalid",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "department_id",
+      "value_sent": "2147483647",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. MAX_INT",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "A",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"A\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"create",
+      "expected": "Should reject with 400/422 validation error. 1 char",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "\u0000",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"\\u0000\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. null byte",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "\t\n\r",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"\\t\\n\\r\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"c",
+      "expected": "Should reject with 400/422 validation error. whitespace chars",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "first_name",
+      "value_sent": "Robert'); DROP TABLE users;--",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"Robert'); DROP TABLE users;--\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"2024-02-29T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"statu",
+      "expected": "Should reject with 400/422 validation error. SQL injection",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "1900-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"1900-01-01T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. very old date",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "2100-12-31",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"1900-01-01T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. far future",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "0000-01-01",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"1900-01-01T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. year zero",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/users/599",
+      "method": "PUT",
+      "field": "date_of_birth",
+      "value_sent": "9999-12-31",
+      "status_code": 200,
+      "response": "{\"success\":true,\"data\":{\"id\":599,\"organization_id\":5,\"first_name\":\"TestEmp\",\"last_name\":\"itarf6\",\"email\":\"testempitarf6@technova.in\",\"emp_code\":null,\"contact_number\":null,\"date_of_birth\":\"1900-01-01T00:00:00.000Z\",\"gender\":\"male\",\"date_of_joining\":\"2026-03-27T00:00:00.000Z\",\"date_of_exit\":null,\"designation\":\"Updated-itarf6\",\"department_id\":20,\"location_id\":null,\"reporting_manager_id\":599,\"employment_type\":\"full_time\",\"photo_path\":null,\"address\":null,\"role\":\"employee\",\"status\":2,\"language\":\"en\",\"",
+      "expected": "Should reject with 400/422 validation error. year 9999",
+      "severity": "medium"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "0",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. integer 0",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "1",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. integer 1",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "true",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. string true",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "false",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. string false",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "None",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. null",
+      "severity": "high"
+    },
+    {
+      "endpoint": "/feedback",
+      "method": "POST",
+      "field": "is_anonymous",
+      "value_sent": "",
+      "status_code": 500,
+      "response": "{\"success\":false,\"error\":{\"code\":\"INTERNAL_ERROR\",\"message\":\"An unexpected error occurred\"}}",
+      "expected": "Should return 4xx validation error, not 500. empty string",
+      "severity": "high"
+    }
+  ],
+  "endpoints_tested": {
+    "users": "/users",
+    "leave_applications": "/leave/applications",
+    "leave_types": "/leave/types",
+    "announcements": "/announcements",
+    "events": "/events",
+    "surveys": "/surveys",
+    "assets": "/assets",
+    "positions": "/positions",
+    "helpdesk": "/helpdesk/tickets",
+    "forum": "/forum/posts",
+    "feedback": "/feedback",
+    "policies": "/policies",
+    "departments": "/organizations/me/departments"
+  }
+}

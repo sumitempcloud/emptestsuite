@@ -1,0 +1,376 @@
+{
+  "test_date": "2026-03-29T01:02:23.934216",
+  "total": 50,
+  "passed": 26,
+  "failed": 24,
+  "skipped": 0,
+  "bugs_filed": [
+    {
+      "title": "used_seats always 0 despite active employees",
+      "severity": "high",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/945",
+      "number": 945
+    },
+    {
+      "title": "Anomalous seat count for Employee Monitoring module (106 seats)",
+      "severity": "medium",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/946",
+      "number": 946
+    },
+    {
+      "title": "No invoices generated despite 10 active subscriptions",
+      "severity": "high",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/947",
+      "number": 947
+    },
+    {
+      "title": "Billing API endpoints return 404",
+      "severity": "medium",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/948",
+      "number": 948
+    },
+    {
+      "title": "Billing tabs do not switch content - all show subscriptions list",
+      "severity": "high",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/949",
+      "number": 949
+    },
+    {
+      "title": "Billing sub-routes redirect to root",
+      "severity": "medium",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/950",
+      "number": 950
+    },
+    {
+      "title": "Super Admin /admin/billing blank page",
+      "severity": "low",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/951",
+      "number": 951
+    },
+    {
+      "title": "Platform-wide 0% seat utilization despite 215 active users",
+      "severity": "high",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/952",
+      "number": 952
+    }
+  ],
+  "results": [
+    {
+      "test": "billing_dashboard_loads",
+      "status": "pass",
+      "details": "Billing page loaded at https://test-empcloud.empcloud.com/billing",
+      "timestamp": "2026-03-29T00:59:56.611535"
+    },
+    {
+      "test": "billing_tabs_present",
+      "status": "pass",
+      "details": "Found: ['subscriptions', 'invoices', 'payments', 'overview'], Missing: []",
+      "timestamp": "2026-03-29T00:59:56.676350"
+    },
+    {
+      "test": "billing_tab_subscriptions_click",
+      "status": "pass",
+      "details": "Tab 'subscriptions' clicked successfully",
+      "timestamp": "2026-03-29T00:59:58.866652"
+    },
+    {
+      "test": "billing_tab_invoices_click",
+      "status": "pass",
+      "details": "Tab 'invoices' clicked successfully",
+      "timestamp": "2026-03-29T01:00:01.068325"
+    },
+    {
+      "test": "billing_tab_payments_click",
+      "status": "pass",
+      "details": "Tab 'payments' clicked successfully",
+      "timestamp": "2026-03-29T01:00:03.231931"
+    },
+    {
+      "test": "billing_tab_overview_click",
+      "status": "pass",
+      "details": "Tab 'overview' clicked successfully",
+      "timestamp": "2026-03-29T01:00:05.470179"
+    },
+    {
+      "test": "billing_subroute_subscriptions",
+      "status": "fail",
+      "details": "Subroute /billing/subscriptions redirected to https://test-empcloud.empcloud.com/",
+      "timestamp": "2026-03-29T01:00:08.893374"
+    },
+    {
+      "test": "billing_subroute_invoices",
+      "status": "fail",
+      "details": "Subroute /billing/invoices redirected to https://test-empcloud.empcloud.com/",
+      "timestamp": "2026-03-29T01:00:12.266608"
+    },
+    {
+      "test": "billing_subroute_payments",
+      "status": "fail",
+      "details": "Subroute /billing/payments redirected to https://test-empcloud.empcloud.com/",
+      "timestamp": "2026-03-29T01:00:15.653465"
+    },
+    {
+      "test": "billing_subroute_overview",
+      "status": "fail",
+      "details": "Subroute /billing/overview redirected to https://test-empcloud.empcloud.com/",
+      "timestamp": "2026-03-29T01:00:19.076909"
+    },
+    {
+      "test": "subscriptions_ui_login",
+      "status": "fail",
+      "details": "Login failed",
+      "timestamp": "2026-03-29T01:00:32.611477"
+    },
+    {
+      "test": "invoices_payments_ui_login",
+      "status": "fail",
+      "details": "Login failed",
+      "timestamp": "2026-03-29T01:00:46.123999"
+    },
+    {
+      "test": "superadmin_billing_page",
+      "status": "pass",
+      "details": "Found admin billing at /admin/billing",
+      "timestamp": "2026-03-29T01:01:04.320877"
+    },
+    {
+      "test": "superadmin_ui_mrr",
+      "status": "fail",
+      "details": "No MRR in UI",
+      "timestamp": "2026-03-29T01:01:04.320900"
+    },
+    {
+      "test": "superadmin_ui_arr",
+      "status": "fail",
+      "details": "No ARR in UI",
+      "timestamp": "2026-03-29T01:01:04.320906"
+    },
+    {
+      "test": "employee_rbac_login",
+      "status": "fail",
+      "details": "Login failed",
+      "timestamp": "2026-03-29T01:01:17.725460"
+    },
+    {
+      "test": "api_admin_subscriptions",
+      "status": "pass",
+      "details": "200 OK - {\"success\": true, \"data\": [{\"id\": 29, \"organization_id\": 5, \"module_id\": 11, \"plan_tier\": \"basic\", \"",
+      "timestamp": "2026-03-29T01:01:21.061225"
+    },
+    {
+      "test": "api_admin_billing_summary",
+      "status": "pass",
+      "details": "200 OK - {\"success\": true, \"data\": {\"subscriptions\": [{\"id\": 19, \"module_name\": \"Payroll Management\", \"module",
+      "timestamp": "2026-03-29T01:01:22.167331"
+    },
+    {
+      "test": "api_admin_billing_invoices",
+      "status": "pass",
+      "details": "200 OK - {\"success\": true, \"data\": {\"invoices\": [], \"total\": 0}}",
+      "timestamp": "2026-03-29T01:01:23.254732"
+    },
+    {
+      "test": "api_admin_billing_payments",
+      "status": "pass",
+      "details": "200 OK - {\"success\": true, \"data\": {\"payments\": [], \"total\": 0}}",
+      "timestamp": "2026-03-29T01:01:24.275895"
+    },
+    {
+      "test": "api_admin_billing_overview",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:01:25.387212"
+    },
+    {
+      "test": "api_super_admin_revenue",
+      "status": "pass",
+      "details": "200 OK - keys: ['mrr', 'arr', 'mrr_growth_percent', 'revenue_by_module', 'revenue_trend', 'revenue_by_tier', 'billing_cycle_distribution', 'top_customers']",
+      "timestamp": "2026-03-29T01:01:26.468003"
+    },
+    {
+      "test": "api_super_admin_subscriptions",
+      "status": "pass",
+      "details": "200 OK - keys: ['tier_distribution', 'cycle_distribution', 'status_distribution', 'total_seats', 'used_seats', 'overall_utilization']",
+      "timestamp": "2026-03-29T01:01:27.516390"
+    },
+    {
+      "test": "api_super_admin_billing",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:01:28.514224"
+    },
+    {
+      "test": "api_super_admin_analytics",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:01:29.564858"
+    },
+    {
+      "test": "api_rbac_subscriptions",
+      "status": "pass",
+      "details": "403 Forbidden - correctly blocked",
+      "timestamp": "2026-03-29T01:01:30.644724"
+    },
+    {
+      "test": "api_rbac_billing-summary",
+      "status": "pass",
+      "details": "403 Forbidden - correctly blocked",
+      "timestamp": "2026-03-29T01:01:31.675878"
+    },
+    {
+      "test": "api_rbac_invoices",
+      "status": "pass",
+      "details": "403 Forbidden - correctly blocked",
+      "timestamp": "2026-03-29T01:01:32.675026"
+    },
+    {
+      "test": "api_rbac_payments",
+      "status": "pass",
+      "details": "403 Forbidden - correctly blocked",
+      "timestamp": "2026-03-29T01:01:33.782467"
+    },
+    {
+      "test": "data_total_cost_consistency",
+      "status": "pass",
+      "details": "Calculated: 10000000.0, API: 10000000, Match: True",
+      "timestamp": "2026-03-29T01:01:35.618622"
+    },
+    {
+      "test": "data_subscription_count",
+      "status": "pass",
+      "details": "Found 10 subscriptions (expected 10)",
+      "timestamp": "2026-03-29T01:01:35.618647"
+    },
+    {
+      "test": "data_used_seats",
+      "status": "fail",
+      "details": "All used_seats=0 but 20 employees exist",
+      "timestamp": "2026-03-29T01:01:36.191784"
+    },
+    {
+      "test": "data_monitor_seats_anomaly",
+      "status": "fail",
+      "details": "emp-monitor has 106 seats (others have 10-12)",
+      "timestamp": "2026-03-29T01:01:45.315354"
+    },
+    {
+      "test": "data_invoices_exist",
+      "status": "fail",
+      "details": "Invoice count: 0",
+      "timestamp": "2026-03-29T01:01:54.784442"
+    },
+    {
+      "test": "data_payments_exist",
+      "status": "fail",
+      "details": "Payment count: 0",
+      "timestamp": "2026-03-29T01:02:04.254652"
+    },
+    {
+      "test": "data_arr_mrr_consistency",
+      "status": "pass",
+      "details": "MRR: 71400000, ARR: 856800000, Expected ARR: 856800000, Match: True",
+      "timestamp": "2026-03-29T01:02:05.680020"
+    },
+    {
+      "test": "data_revenue_by_module_total",
+      "status": "pass",
+      "details": "Sum of module revenues: 71400000, MRR: 71400000, Match: True",
+      "timestamp": "2026-03-29T01:02:05.680042"
+    },
+    {
+      "test": "data_technova_in_top_customers",
+      "status": "pass",
+      "details": "TechNova in top customers: True",
+      "timestamp": "2026-03-29T01:02:05.680049"
+    },
+    {
+      "test": "api_missing__billing_overview",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:02:07.009208"
+    },
+    {
+      "test": "api_missing__billing_analytics",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:02:08.238689"
+    },
+    {
+      "test": "api_endpoint__billing_summary",
+      "status": "pass",
+      "details": "HTTP 200",
+      "timestamp": "2026-03-29T01:02:09.241698"
+    },
+    {
+      "test": "api_missing__plans",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:02:10.311147"
+    },
+    {
+      "test": "api_missing__coupons",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:02:11.415022"
+    },
+    {
+      "test": "api_missing__metrics",
+      "status": "fail",
+      "details": "404 Not Found",
+      "timestamp": "2026-03-29T01:02:12.455472"
+    },
+    {
+      "test": "billing_tabs_content_switch",
+      "status": "fail",
+      "details": "All 4 tabs show identical content (2048 chars). Invoices/Payments/Overview tabs do not switch."
+    },
+    {
+      "test": "superadmin_revenue_page",
+      "status": "pass",
+      "details": "/admin/revenue shows MRR Rs 7.14 Cr, ARR Rs 85.68 Cr, revenue by module chart, top customers"
+    },
+    {
+      "test": "superadmin_subscriptions_page",
+      "status": "pass",
+      "details": "/admin/subscriptions shows 1298 total seats, 0 used, tier/cycle/status distribution charts"
+    },
+    {
+      "test": "employee_billing_rbac_ui",
+      "status": "pass",
+      "details": "Employee correctly blocked - redirected to dashboard with Insufficient permissions toast"
+    },
+    {
+      "test": "superadmin_admin_billing_blank",
+      "status": "fail",
+      "details": "/admin/billing loads with sidebar but completely empty content area"
+    },
+    {
+      "test": "platform_seat_utilization",
+      "status": "fail",
+      "details": "0% utilization across all tiers despite 215 active users"
+    }
+  ],
+  "final_summary": {
+    "total_bugs_filed": 8,
+    "test_date": "2026-03-29T01:07:44.169473",
+    "billing_dashboard": "WORKING - loads at /billing with 4 tabs visible",
+    "subscriptions_tab": "WORKING - shows 10 modules with plan, seats, pricing, billing cycle",
+    "invoices_tab": "BROKEN - shows same content as subscriptions, no invoices shown",
+    "payments_tab": "BROKEN - shows same content as subscriptions, no payments shown",
+    "overview_tab": "BROKEN - shows same content as subscriptions, no overview/analytics shown",
+    "billing_subroutes": "BROKEN - all redirect to root /",
+    "api_subscriptions": "WORKING - returns 10 subscriptions with full data",
+    "api_billing_summary": "WORKING - returns total monthly cost Rs 1,00,000",
+    "api_billing_invoices": "WORKING but EMPTY - returns 0 invoices",
+    "api_billing_payments": "WORKING but EMPTY - returns 0 payments",
+    "api_billing_overview": "MISSING - 404",
+    "api_admin_revenue": "WORKING - MRR Rs 7.14 Cr, ARR Rs 85.68 Cr, full analytics",
+    "api_admin_subscriptions": "WORKING - tier distribution, seat metrics",
+    "employee_rbac_ui": "WORKING - correctly blocked with Insufficient permissions",
+    "employee_rbac_api": "WORKING - all billing endpoints return 403",
+    "data_total_cost_match": "PASS - calculated Rs 1,00,000 matches API",
+    "data_arr_mrr_match": "PASS - ARR = MRR * 12",
+    "data_seat_utilization": "BROKEN - 0% despite 215 active users",
+    "data_emp_monitor_seats": "ANOMALY - 106 seats vs 10-12 for all other modules"
+  }
+}

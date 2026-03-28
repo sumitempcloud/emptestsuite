@@ -1,0 +1,219 @@
+{
+  "date": "2026-03-28T06:53:12.592892",
+  "user": "ananya@technova.in",
+  "persona": "Ravi Kumar -- Team Lead (Pass 2)",
+  "total_tests": 38,
+  "passed": 29,
+  "failed": 9,
+  "issues_filed": 4,
+  "results": [
+    {
+      "test": "Manager Page Loads",
+      "passed": true,
+      "details": "URL: https://test-empcloud.empcloud.com/manager"
+    },
+    {
+      "test": "Manager Dashboard Stats",
+      "passed": true,
+      "details": "Found: ['present', 'half day', 'late', 'absent']"
+    },
+    {
+      "test": "Team Attendance Today Section",
+      "passed": true,
+      "details": "Section found"
+    },
+    {
+      "test": "Team Leave Calendar Section",
+      "passed": true,
+      "details": "Section found"
+    },
+    {
+      "test": "Pending Leave Requests Section",
+      "passed": true,
+      "details": "Section found"
+    },
+    {
+      "test": "Leave Request Shows Employee Name",
+      "passed": false,
+      "details": "No employee names in pending requests"
+    },
+    {
+      "test": "Leave Request Shows Type",
+      "passed": false,
+      "details": "No leave type shown"
+    },
+    {
+      "test": "Leave Request Shows Dates",
+      "passed": false,
+      "details": "No dates shown"
+    },
+    {
+      "test": "Approve/Reject Actions on Manager Page",
+      "passed": false,
+      "details": "Approve btns: 0, Reject btns: 0, Action elements: 0"
+    },
+    {
+      "test": "Team Members Clickable",
+      "passed": true,
+      "details": "1 clickable member links"
+    },
+    {
+      "test": "Attendance Page Loads",
+      "passed": true,
+      "details": "URL: https://test-empcloud.empcloud.com/attendance"
+    },
+    {
+      "test": "Attendance Page Type",
+      "passed": true,
+      "details": "Self-service: True, Team view: True"
+    },
+    {
+      "test": "Attendance Date Filter",
+      "passed": false,
+      "details": "Not found"
+    },
+    {
+      "test": "Attendance Status Display",
+      "passed": true,
+      "details": "Status indicators found"
+    },
+    {
+      "test": "Leave Page Loads",
+      "passed": true,
+      "details": "URL: https://test-empcloud.empcloud.com/leave"
+    },
+    {
+      "test": "Leave Page Sections",
+      "passed": true,
+      "details": "Found: ['team leaves', 'approvals', 'balances']"
+    },
+    {
+      "test": "Comp-Off Page Loads",
+      "passed": true,
+      "details": "URL: https://test-empcloud.empcloud.com/leave/comp-off"
+    },
+    {
+      "test": "Request Comp-Off Button",
+      "passed": true,
+      "details": "Found 2 buttons"
+    },
+    {
+      "test": "Performance SSO Login",
+      "passed": false,
+      "details": "Cannot login - SSO not working from EmpCloud to Performance module"
+    },
+    {
+      "test": "Rewards SSO Login",
+      "passed": false,
+      "details": "Cannot login - separate login required"
+    },
+    {
+      "test": "Helpdesk /helpdesk/dashboard",
+      "passed": true,
+      "details": "Page loaded"
+    },
+    {
+      "test": "Helpdesk /helpdesk/tickets",
+      "passed": true,
+      "details": "Page loaded"
+    },
+    {
+      "test": "Helpdesk /helpdesk/my-tickets",
+      "passed": true,
+      "details": "Page loaded"
+    },
+    {
+      "test": "Helpdesk Team Ticket Visibility",
+      "passed": true,
+      "details": "Team view found"
+    },
+    {
+      "test": "Events Page",
+      "passed": true,
+      "details": "Loaded"
+    },
+    {
+      "test": "Create Event Button",
+      "passed": true,
+      "details": "Buttons: ['Create Post', 'Manage Events']"
+    },
+    {
+      "test": "Event Creation Form",
+      "passed": true,
+      "details": "Form fields found"
+    },
+    {
+      "test": "Whistleblowing Dashboard",
+      "passed": true,
+      "details": "Content found"
+    },
+    {
+      "test": "Whistleblowing All Reports",
+      "passed": true,
+      "details": "Content found"
+    },
+    {
+      "test": "Whistleblowing Submit Report",
+      "passed": true,
+      "details": "Content found"
+    },
+    {
+      "test": "Whistleblowing Track Report",
+      "passed": true,
+      "details": "Content found"
+    },
+    {
+      "test": "Whistleblowing Manager Note",
+      "passed": true,
+      "details": "Whistleblowing correctly routes to HR/Ethics, not direct manager"
+    },
+    {
+      "test": "Dashboard Report Links",
+      "passed": true,
+      "details": "Report links found"
+    },
+    {
+      "test": "Attendance Export",
+      "passed": false,
+      "details": "No export on attendance page"
+    },
+    {
+      "test": "Leave Export",
+      "passed": true,
+      "details": "Export found"
+    },
+    {
+      "test": "Dashboard My Team At-a-Glance",
+      "passed": true,
+      "details": "Team section on dashboard"
+    },
+    {
+      "test": "Sidebar My Team Link",
+      "passed": true,
+      "details": "Found 1 links"
+    },
+    {
+      "test": "Project Module",
+      "passed": false,
+      "details": "Shows marketing/landing page instead of project management tool"
+    }
+  ],
+  "issues": [
+    {
+      "title": "Manager page shows pending leaves but no approve/reject buttons",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/558"
+    },
+    {
+      "title": "Performance module requires separate login, no SSO from EmpCloud",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/571"
+    },
+    {
+      "title": "Rewards module requires separate login, no SSO from EmpCloud",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/572"
+    },
+    {
+      "title": "Project module shows marketing landing page instead of tool",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/573"
+    }
+  ]
+}

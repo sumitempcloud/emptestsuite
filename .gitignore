@@ -1,0 +1,14 @@
+.env
+.github_pat.md
+__pycache__/
+*.pyc
+node_modules/
+test-results/
+e2e/screenshots/
+**/screenshots/
+*.png
+*.jpg
+*.log
+build_out.txt
+build_err.txt
+build_output.log

@@ -1,0 +1,130 @@
+{
+  "started": "2026-03-28T06:54:33.530562",
+  "flows_tested": 14,
+  "flows_passed": 7,
+  "flows_failed": 7,
+  "bugs_filed": [
+    {
+      "title": "[DATA FLOW] Employees reference 3 department IDs that don't exist in the departments list",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/575"
+    },
+    {
+      "title": "[DATA FLOW] Leave approval workflow missing notifications to employee and/or manager",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/576"
+    },
+    {
+      "title": "[DATA FLOW] Assets assigned via API don't appear in employee profile Assets tab",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/579"
+    },
+    {
+      "title": "[DATA FLOW] Employee count mismatch -- org reports 7 but API has 17 active users",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/584"
+    }
+  ],
+  "feature_requests": [
+    {
+      "title": "[Feature Request] Approved leave should automatically create 'on_leave' attendance record",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/574"
+    },
+    {
+      "title": "[Feature Request] Helpdesk ticket lifecycle should send notifications at each status change",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/577"
+    }
+  ],
+  "screenshots": {
+    "flow1_admin_dashboard": "C:\\emptesting\\screenshots\\df_flow1_admin_dashboard_1774661088.png",
+    "flow1_payroll_sso": "C:\\emptesting\\screenshots\\df_flow1_payroll_sso_1774661097.png",
+    "login_fail_ananya": "C:\\emptesting\\screenshots\\df_login_fail_ananya_1774661259.png",
+    "flow5_priya_profile": "C:\\emptesting\\screenshots\\df_flow5_priya_profile_1774661145.png",
+    "flow5_priya_assets_tab": "C:\\emptesting\\screenshots\\df_flow5_priya_assets_tab_1774661148.png",
+    "flow6_emp_dashboard": "C:\\emptesting\\screenshots\\df_flow6_emp_dashboard_1774661167.png",
+    "flow6_events_page": "C:\\emptesting\\screenshots\\df_flow6_events_page_1774661171.png",
+    "login_fail_priya": "C:\\emptesting\\screenshots\\df_login_fail_priya_1774661193.png",
+    "flow9_priya_profile": "C:\\emptesting\\screenshots\\df_flow9_priya_profile_1774661211.png",
+    "flow9_priya_documents": "C:\\emptesting\\screenshots\\df_flow9_priya_documents_1774661214.png",
+    "flow12_recruitment": "C:\\emptesting\\screenshots\\df_flow12_recruitment_1774661235.png",
+    "flow12_positions_page": "C:\\emptesting\\screenshots\\df_flow12_positions_page_1774661238.png",
+    "flow14_dashboard_modules": "C:\\emptesting\\screenshots\\df_flow14_dashboard_modules_1774661276.png",
+    "flow14_sso_emp-rewards": "C:\\emptesting\\screenshots\\df_flow14_sso_emp-rewards_1774661282.png",
+    "flow14_sso_emp-recruit": "C:\\emptesting\\screenshots\\df_flow14_sso_emp-recruit_1774661288.png",
+    "flow14_sso_emp-projects": "C:\\emptesting\\screenshots\\df_flow14_sso_emp-projects_1774661293.png"
+  },
+  "details": {
+    "flow_1": {
+      "status": "FAIL",
+      "issues": [
+        "Approved leave dates not reflected in attendance"
+      ]
+    },
+    "flow_2": {
+      "status": "FAIL",
+      "issues": [
+        "Employees reference department IDs [20, 21, 22] that don't exist in /organizations/me/departments",
+        "Priya's department_id=20 is an orphan"
+      ]
+    },
+    "flow_3": {
+      "status": "FAIL",
+      "issues": [
+        "No notification sent to manager when employee applies for leave",
+        "No notification sent to employee when leave is approved"
+      ]
+    },
+    "flow_4": {
+      "status": "FAIL",
+      "issues": [
+        "No notification when ticket is assigned",
+        "Ticket status mismatch: admin set 'resolved' but Priya sees 'open'",
+        "No notification when ticket is resolved"
+      ]
+    },
+    "flow_5": {
+      "status": "FAIL",
+      "issues": [
+        "Asset 'LG 27UK850-W' assigned via API but not visible in employee profile",
+        "Asset 'Updated Asset' assigned via API but not visible in employee profile"
+      ]
+    },
+    "flow_6": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_7": {
+      "status": "FAIL",
+      "issues": [
+        "No notification sent to employees for new announcement"
+      ]
+    },
+    "flow_8": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_9": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_10": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_11": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_12": {
+      "status": "PASS",
+      "issues": []
+    },
+    "flow_13": {
+      "status": "FAIL",
+      "issues": [
+        "org.current_user_count (7) doesn't match active users from /api/v1/users (17, total=27)"
+      ]
+    },
+    "flow_14": {
+      "status": "PASS",
+      "issues": []
+    }
+  },
+  "finished": "2026-03-28T06:58:16.759951"
+}

@@ -1,0 +1,1225 @@
+{
+  "attendance": {
+    "TechNova": {
+      "2": 40,
+      "4": 37
+    },
+    "GlobalTech": {
+      "2": 46,
+      "4": 40
+    },
+    "Innovate Solutions": {
+      "2": 50,
+      "4": 43
+    }
+  },
+  "leave_applications": [
+    {
+      "id": 145,
+      "emp": 648,
+      "type": "Sick",
+      "status": "approved",
+      "org": "TechNova",
+      "day": 3
+    },
+    {
+      "id": 146,
+      "emp": 524,
+      "type": "Sick",
+      "status": "approved",
+      "org": "TechNova",
+      "day": 3
+    },
+    {
+      "id": 147,
+      "emp": 527,
+      "type": "Casual",
+      "status": "approved",
+      "org": "TechNova",
+      "day": 3
+    },
+    {
+      "id": 148,
+      "emp": 671,
+      "type": "Sick",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 149,
+      "emp": 674,
+      "type": "Sick",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 150,
+      "emp": 706,
+      "type": "Sick",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 151,
+      "emp": 668,
+      "type": "Casual",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 152,
+      "emp": 672,
+      "type": "Casual",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 153,
+      "emp": 688,
+      "type": "Earned",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 3
+    },
+    {
+      "id": 154,
+      "emp": 717,
+      "type": "Sick",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 155,
+      "emp": 731,
+      "type": "Sick",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 156,
+      "emp": 723,
+      "type": "Sick",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 157,
+      "emp": 716,
+      "type": "Casual",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 158,
+      "emp": 744,
+      "type": "Casual",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 159,
+      "emp": 714,
+      "type": "Earned",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 160,
+      "emp": 728,
+      "type": "Earned",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 3
+    },
+    {
+      "id": 161,
+      "emp": 523,
+      "type": "Earned",
+      "status": "approved",
+      "org": "TechNova",
+      "day": 8
+    },
+    {
+      "id": 162,
+      "emp": 527,
+      "type": "Casual",
+      "status": "approved",
+      "org": "TechNova",
+      "day": 8
+    },
+    {
+      "id": 163,
+      "emp": 681,
+      "type": "Sick",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 8
+    },
+    {
+      "id": 164,
+      "emp": 666,
+      "type": "Casual",
+      "status": "approved",
+      "org": "GlobalTech",
+      "day": 8
+    },
+    {
+      "id": 165,
+      "emp": 716,
+      "type": "Sick",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 8
+    },
+    {
+      "id": 166,
+      "emp": 718,
+      "type": "Casual",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 8
+    },
+    {
+      "id": 167,
+      "emp": 728,
+      "type": "Earned",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 8
+    },
+    {
+      "id": 168,
+      "emp": 739,
+      "type": "Casual",
+      "status": "approved",
+      "org": "Innovate Solutions",
+      "day": 8
+    }
+  ],
+  "assets_assigned": [
+    {
+      "asset_id": 314,
+      "emp_id": 658,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 315,
+      "emp_id": 640,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 316,
+      "emp_id": 522,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 317,
+      "emp_id": 656,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 318,
+      "emp_id": 637,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 319,
+      "emp_id": 641,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 320,
+      "emp_id": 638,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 321,
+      "emp_id": 649,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 322,
+      "emp_id": 660,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 323,
+      "emp_id": 523,
+      "org": "TechNova",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 324,
+      "emp_id": 652,
+      "org": "TechNova",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 325,
+      "emp_id": 644,
+      "org": "TechNova",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 326,
+      "emp_id": 648,
+      "org": "TechNova",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 327,
+      "emp_id": 525,
+      "org": "TechNova",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 328,
+      "emp_id": 642,
+      "org": "TechNova",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 334,
+      "emp_id": 702,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 335,
+      "emp_id": 682,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 336,
+      "emp_id": 696,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 337,
+      "emp_id": 667,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 338,
+      "emp_id": 700,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 339,
+      "emp_id": 692,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 340,
+      "emp_id": 695,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 341,
+      "emp_id": 669,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 342,
+      "emp_id": 691,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 343,
+      "emp_id": 704,
+      "org": "GlobalTech",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 344,
+      "emp_id": 697,
+      "org": "GlobalTech",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 345,
+      "emp_id": 701,
+      "org": "GlobalTech",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 346,
+      "emp_id": 683,
+      "org": "GlobalTech",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 347,
+      "emp_id": 708,
+      "org": "GlobalTech",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 348,
+      "emp_id": 666,
+      "org": "GlobalTech",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 354,
+      "emp_id": 728,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 355,
+      "emp_id": 713,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 356,
+      "emp_id": 729,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 357,
+      "emp_id": 754,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 358,
+      "emp_id": 748,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 359,
+      "emp_id": 737,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 360,
+      "emp_id": 745,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 361,
+      "emp_id": 755,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 362,
+      "emp_id": 726,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 363,
+      "emp_id": 715,
+      "org": "Innovate Solutions",
+      "type": "Laptop"
+    },
+    {
+      "asset_id": 364,
+      "emp_id": 742,
+      "org": "Innovate Solutions",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 365,
+      "emp_id": 719,
+      "org": "Innovate Solutions",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 366,
+      "emp_id": 736,
+      "org": "Innovate Solutions",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 367,
+      "emp_id": 753,
+      "org": "Innovate Solutions",
+      "type": "Monitor"
+    },
+    {
+      "asset_id": 368,
+      "emp_id": 717,
+      "org": "Innovate Solutions",
+      "type": "Monitor"
+    }
+  ],
+  "tickets_created": [
+    {
+      "id": 373,
+      "org": "TechNova",
+      "day": 2,
+      "title": "VPN not working from home"
+    },
+    {
+      "id": 374,
+      "org": "TechNova",
+      "day": 2,
+      "title": "Need software license for Adobe"
+    },
+    {
+      "id": 375,
+      "org": "TechNova",
+      "day": 2,
+      "title": "Laptop keyboard sticking"
+    },
+    {
+      "id": 376,
+      "org": "TechNova",
+      "day": 2,
+      "title": "Cannot access shared drive"
+    },
+    {
+      "id": 377,
+      "org": "TechNova",
+      "day": 2,
+      "title": "Email not syncing on mobile"
+    },
+    {
+      "id": 378,
+      "org": "GlobalTech",
+      "day": 2,
+      "title": "VPN not working from home"
+    },
+    {
+      "id": 379,
+      "org": "GlobalTech",
+      "day": 2,
+      "title": "Need software license for Adobe"
+    },
+    {
+      "id": 380,
+      "org": "GlobalTech",
+      "day": 2,
+      "title": "Laptop keyboard sticking"
+    },
+    {
+      "id": 381,
+      "org": "GlobalTech",
+      "day": 2,
+      "title": "Cannot access shared drive"
+    },
+    {
+      "id": 382,
+      "org": "GlobalTech",
+      "day": 2,
+      "title": "Email not syncing on mobile"
+    },
+    {
+      "id": 383,
+      "org": "Innovate Solutions",
+      "day": 2,
+      "title": "VPN not working from home"
+    },
+    {
+      "id": 384,
+      "org": "Innovate Solutions",
+      "day": 2,
+      "title": "Need software license for Adobe"
+    },
+    {
+      "id": 385,
+      "org": "Innovate Solutions",
+      "day": 2,
+      "title": "Laptop keyboard sticking"
+    },
+    {
+      "id": 386,
+      "org": "Innovate Solutions",
+      "day": 2,
+      "title": "Cannot access shared drive"
+    },
+    {
+      "id": 387,
+      "org": "Innovate Solutions",
+      "day": 2,
+      "title": "Email not syncing on mobile"
+    },
+    {
+      "id": 388,
+      "org": "TechNova",
+      "day": 9,
+      "title": "WiFi keeps disconnecting"
+    },
+    {
+      "id": 389,
+      "org": "TechNova",
+      "day": 9,
+      "title": "Need dual monitor"
+    },
+    {
+      "id": 390,
+      "org": "TechNova",
+      "day": 9,
+      "title": "Outlook not syncing"
+    },
+    {
+      "id": 391,
+      "org": "TechNova",
+      "day": 9,
+      "title": "Badge not working"
+    },
+    {
+      "id": 392,
+      "org": "TechNova",
+      "day": 9,
+      "title": "Software crashes after update"
+    },
+    {
+      "id": 393,
+      "org": "GlobalTech",
+      "day": 9,
+      "title": "WiFi keeps disconnecting"
+    },
+    {
+      "id": 394,
+      "org": "GlobalTech",
+      "day": 9,
+      "title": "Need dual monitor"
+    },
+    {
+      "id": 395,
+      "org": "GlobalTech",
+      "day": 9,
+      "title": "Outlook not syncing"
+    },
+    {
+      "id": 396,
+      "org": "GlobalTech",
+      "day": 9,
+      "title": "Badge not working"
+    },
+    {
+      "id": 397,
+      "org": "GlobalTech",
+      "day": 9,
+      "title": "Software crashes after update"
+    },
+    {
+      "id": 398,
+      "org": "Innovate Solutions",
+      "day": 9,
+      "title": "WiFi keeps disconnecting"
+    },
+    {
+      "id": 399,
+      "org": "Innovate Solutions",
+      "day": 9,
+      "title": "Need dual monitor"
+    },
+    {
+      "id": 400,
+      "org": "Innovate Solutions",
+      "day": 9,
+      "title": "Outlook not syncing"
+    },
+    {
+      "id": 401,
+      "org": "Innovate Solutions",
+      "day": 9,
+      "title": "Badge not working"
+    },
+    {
+      "id": 402,
+      "org": "Innovate Solutions",
+      "day": 9,
+      "title": "Software crashes after update"
+    }
+  ],
+  "survey_responses": [],
+  "announcements": [
+    {
+      "id": 232,
+      "org": "TechNova",
+      "day": 1
+    },
+    {
+      "id": 233,
+      "org": "GlobalTech",
+      "day": 1
+    },
+    {
+      "id": 234,
+      "org": "Innovate Solutions",
+      "day": 1
+    },
+    {
+      "id": 235,
+      "org": "TechNova",
+      "day": 6
+    },
+    {
+      "id": 236,
+      "org": "GlobalTech",
+      "day": 6
+    },
+    {
+      "id": 237,
+      "org": "Innovate Solutions",
+      "day": 6
+    },
+    {
+      "id": 238,
+      "org": "TechNova",
+      "day": 10
+    },
+    {
+      "id": 239,
+      "org": "GlobalTech",
+      "day": 10
+    },
+    {
+      "id": 240,
+      "org": "Innovate Solutions",
+      "day": 10
+    }
+  ],
+  "policies": [
+    {
+      "id": 153,
+      "org": "TechNova",
+      "day": 1
+    },
+    {
+      "id": 154,
+      "org": "GlobalTech",
+      "day": 1
+    },
+    {
+      "id": 155,
+      "org": "Innovate Solutions",
+      "day": 1
+    }
+  ],
+  "events": [
+    {
+      "id": 88,
+      "org": "TechNova",
+      "day": 1
+    },
+    {
+      "id": 89,
+      "org": "GlobalTech",
+      "day": 1
+    },
+    {
+      "id": 90,
+      "org": "Innovate Solutions",
+      "day": 1
+    }
+  ],
+  "forum_posts": [
+    {
+      "org": "TechNova",
+      "day": 2
+    },
+    {
+      "org": "TechNova",
+      "day": 2
+    },
+    {
+      "org": "TechNova",
+      "day": 2
+    },
+    {
+      "org": "TechNova",
+      "day": 2
+    },
+    {
+      "org": "TechNova",
+      "day": 2
+    },
+    {
+      "org": "GlobalTech",
+      "day": 2
+    },
+    {
+      "org": "GlobalTech",
+      "day": 2
+    },
+    {
+      "org": "GlobalTech",
+      "day": 2
+    },
+    {
+      "org": "GlobalTech",
+      "day": 2
+    },
+    {
+      "org": "GlobalTech",
+      "day": 2
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 2
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 2
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 2
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 2
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 2
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "TechNova",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "GlobalTech",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    },
+    {
+      "org": "Innovate Solutions",
+      "day": 7
+    }
+  ],
+  "errors": [],
+  "bugs_filed": [
+    {
+      "title": "POST /api/v1/feedback returns 500 server error with valid payload",
+      "action": "pending_github_ratelimited",
+      "severity": "high"
+    },
+    {
+      "title": "POST /api/v1/events/{id}/register returns 404 \u2014 event RSVP not working",
+      "action": "pending_github_ratelimited",
+      "severity": "medium"
+    },
+    {
+      "title": "Surveys stuck in draft status \u2014 cannot publish or collect responses",
+      "action": "pending_github_ratelimited",
+      "severity": "high"
+    },
+    {
+      "title": "Helpdesk knowledge-base endpoint returns 404",
+      "action": "pending_github_ratelimited",
+      "severity": "low"
+    }
+  ],
+  "daily_summaries": {
+    "day1": {
+      "TechNova": {
+        "employees": 40,
+        "login_tested": 5,
+        "announcement": 1,
+        "policy": 1,
+        "event": 1,
+        "profiles": 10,
+        "pol_acks": 10,
+        "rsvps": 0
+      },
+      "GlobalTech": {
+        "employees": 46,
+        "login_tested": 5,
+        "announcement": 1,
+        "policy": 1,
+        "event": 1,
+        "profiles": 10,
+        "pol_acks": 10,
+        "rsvps": 0
+      },
+      "Innovate Solutions": {
+        "employees": 50,
+        "login_tested": 5,
+        "announcement": 1,
+        "policy": 1,
+        "event": 1,
+        "profiles": 10,
+        "pol_acks": 10,
+        "rsvps": 0
+      }
+    },
+    "day2": {
+      "TechNova": {
+        "checkins": 40,
+        "checkouts": 37,
+        "late": 5,
+        "tickets": 5,
+        "forum": 5
+      },
+      "GlobalTech": {
+        "checkins": 46,
+        "checkouts": 43,
+        "late": 5,
+        "tickets": 5,
+        "forum": 5
+      },
+      "Innovate Solutions": {
+        "checkins": 50,
+        "checkouts": 47,
+        "late": 5,
+        "tickets": 5,
+        "forum": 5
+      }
+    },
+    "day3": {
+      "TechNova": {
+        "submitted": 3,
+        "sick": 2,
+        "casual": 1,
+        "earned": 0,
+        "approved": 3,
+        "rejected": 0
+      },
+      "GlobalTech": {
+        "submitted": 6,
+        "sick": 3,
+        "casual": 2,
+        "earned": 1,
+        "approved": 6,
+        "rejected": 0
+      },
+      "Innovate Solutions": {
+        "submitted": 7,
+        "sick": 3,
+        "casual": 2,
+        "earned": 2,
+        "approved": 7,
+        "rejected": 0
+      }
+    },
+    "day4": {
+      "TechNova": {
+        "working": 37,
+        "on_leave": 3,
+        "checkins": 37,
+        "checkouts": 37,
+        "tickets": 0,
+        "feedback": 0
+      },
+      "GlobalTech": {
+        "working": 40,
+        "on_leave": 6,
+        "checkins": 40,
+        "checkouts": 40,
+        "tickets": 0,
+        "feedback": 0
+      },
+      "Innovate Solutions": {
+        "working": 43,
+        "on_leave": 7,
+        "checkins": 43,
+        "checkouts": 43,
+        "tickets": 0,
+        "feedback": 0
+      }
+    },
+    "day5": {
+      "TechNova": {
+        "created": 20,
+        "assigned": 15,
+        "verified": 5
+      },
+      "GlobalTech": {
+        "created": 20,
+        "assigned": 15,
+        "verified": 5
+      },
+      "Innovate Solutions": {
+        "created": 20,
+        "assigned": 15,
+        "verified": 5
+      }
+    },
+    "day6": {
+      "TechNova": {
+        "announcement": 1,
+        "survey": 1
+      },
+      "GlobalTech": {
+        "announcement": 1,
+        "survey": 1
+      },
+      "Innovate Solutions": {
+        "announcement": 1,
+        "survey": 1
+      }
+    },
+    "day7": {
+      "TechNova": {
+        "surveys": 0,
+        "forum": 10,
+        "notifications": 10
+      },
+      "GlobalTech": {
+        "surveys": 0,
+        "forum": 10,
+        "notifications": 10
+      },
+      "Innovate Solutions": {
+        "surveys": 0,
+        "forum": 10,
+        "notifications": 10
+      }
+    },
+    "day8": {
+      "TechNova": {
+        "comp_off": 0,
+        "other": 2,
+        "approved": 2,
+        "balance_checks": 3
+      },
+      "GlobalTech": {
+        "comp_off": 0,
+        "other": 2,
+        "approved": 2,
+        "balance_checks": 3
+      },
+      "Innovate Solutions": {
+        "comp_off": 0,
+        "other": 4,
+        "approved": 4,
+        "balance_checks": 3
+      }
+    },
+    "day9": {
+      "TechNova": {
+        "tickets": 5,
+        "resolved": 3,
+        "in_progress": 2
+      },
+      "GlobalTech": {
+        "tickets": 5,
+        "resolved": 3,
+        "in_progress": 2
+      },
+      "Innovate Solutions": {
+        "tickets": 5,
+        "resolved": 3,
+        "in_progress": 2
+      }
+    },
+    "day10": {
+      "TechNova": {
+        "att_report": true,
+        "leave_dash": true,
+        "org_chart": true,
+        "announcement": true,
+        "leaves": 5,
+        "tickets": 10,
+        "assets": 15
+      },
+      "GlobalTech": {
+        "att_report": true,
+        "leave_dash": true,
+        "org_chart": true,
+        "announcement": true,
+        "leaves": 8,
+        "tickets": 10,
+        "assets": 15
+      },
+      "Innovate Solutions": {
+        "att_report": true,
+        "leave_dash": true,
+        "org_chart": true,
+        "announcement": true,
+        "leaves": 11,
+        "tickets": 10,
+        "assets": 15
+      }
+    }
+  },
+  "active_surveys": {
+    "TechNova": 69,
+    "GlobalTech": 70,
+    "Innovate Solutions": 71
+  },
+  "simulation_summary": {
+    "days_completed": 10,
+    "total_api_calls_approx": 1500,
+    "endpoints_working": [
+      "auth/login",
+      "announcements",
+      "policies",
+      "policies/{id}/acknowledge",
+      "events (create/list)",
+      "employees/{id}/profile",
+      "attendance/check-in",
+      "attendance/check-out",
+      "attendance/monthly-report",
+      "leave/applications (create)",
+      "leave/applications/{id}/approve (PUT)",
+      "leave/applications/{id}/reject (PUT)",
+      "leave/balances",
+      "leave/calendar",
+      "assets (CRUD)",
+      "assets/{id}/assign",
+      "assets/my",
+      "helpdesk/tickets (CRUD)",
+      "forum/posts (create)",
+      "notifications",
+      "users/org-chart",
+      "surveys (create)",
+      "dashboard/widgets"
+    ],
+    "endpoints_broken": [
+      "POST /feedback (500 error)",
+      "POST /events/{id}/register (404)",
+      "POST /surveys/{id}/respond (400 validation)",
+      "PUT /surveys/{id} status change (no effect)",
+      "GET/POST /helpdesk/knowledge-base (404)"
+    ],
+    "key_findings": [
+      "Leave approve/reject must use PUT not POST",
+      "Announcement priority enum: low/normal/high/urgent (not medium)",
+      "Leave applications require days_count field",
+      "Asset assignment uses assigned_to field (not employeeId)",
+      "Attendance check-in is current-day only (cannot backdate)",
+      "JWT token TTL is 15 minutes \u2014 needs refresh strategy",
+      "Survey type must be pulse/engagement/custom (not satisfaction)",
+      "Org chart is at /users/org-chart not /employees/org-chart"
+    ]
+  }
+}

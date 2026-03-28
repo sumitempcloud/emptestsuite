@@ -1,0 +1,365 @@
+{
+  "date": "2026-03-28T07:04:50.316300",
+  "user": "priya@technova.in",
+  "summary": {
+    "total": 68,
+    "passed": 40,
+    "failed": 28
+  },
+  "issues": [
+    {
+      "title": "Can't select leave type when applying for leave",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/582"
+    },
+    {
+      "title": "Can't edit phone number in profile",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/590"
+    },
+    {
+      "title": "No way to request attendance regularization",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/594"
+    }
+  ],
+  "results": [
+    {
+      "test": "Quick action: My Profile",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Quick action: Apply Leave",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Quick action: Mark Attendance",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Quick action: Request Update",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Attendance status shown",
+      "passed": true,
+      "details": "Shows status"
+    },
+    {
+      "test": "Leave balance cards",
+      "passed": false,
+      "details": "Earned: False, Sick: False"
+    },
+    {
+      "test": "Announcements section",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Policies section on dashboard",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Pending Documents section",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Sidebar links total",
+      "passed": true,
+      "details": "26 links"
+    },
+    {
+      "test": "Working sidebar links",
+      "passed": true,
+      "details": "26/26"
+    },
+    {
+      "test": "Broken sidebar links",
+      "passed": true,
+      "details": "0 broken"
+    },
+    {
+      "test": "Leave page loads",
+      "passed": true,
+      "details": "Leave Dashboard visible"
+    },
+    {
+      "test": "Leave balances shown",
+      "passed": true,
+      "details": "Earned and Sick leave visible"
+    },
+    {
+      "test": "Apply Leave form opens",
+      "passed": true,
+      "details": "Form opened"
+    },
+    {
+      "test": "Select leave type",
+      "passed": false,
+      "details": "Could not select leave type"
+    },
+    {
+      "test": "Fill dates",
+      "passed": false,
+      "details": "Could not set dates"
+    },
+    {
+      "test": "Fill reason",
+      "passed": false,
+      "details": "No reason field found"
+    },
+    {
+      "test": "Leave submission",
+      "passed": true,
+      "details": "Success"
+    },
+    {
+      "test": "Profile shows Priya Patel",
+      "passed": true,
+      "details": "Name found"
+    },
+    {
+      "test": "Profile tab: Personal",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Profile tab: Education",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Profile tab: Experience",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Profile tab: Dependencies",
+      "passed": false,
+      "details": "Missing"
+    },
+    {
+      "test": "Profile tab: Addresses",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Profile tab: Custom Fields",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Edit Profile opens",
+      "passed": true,
+      "details": "0 editable fields"
+    },
+    {
+      "test": "Phone number editable",
+      "passed": false,
+      "details": "Phone field not found in edit mode"
+    },
+    {
+      "test": "Profile photo upload",
+      "passed": false,
+      "details": "No photo upload option"
+    },
+    {
+      "test": "Attendance page loads",
+      "passed": true,
+      "details": "My Attendance visible"
+    },
+    {
+      "test": "Today's date shown",
+      "passed": true,
+      "details": "Today section visible"
+    },
+    {
+      "test": "Check In button",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Check Out button",
+      "passed": true,
+      "details": "Present"
+    },
+    {
+      "test": "Regularization option",
+      "passed": false,
+      "details": "Not available \u2014 employees can't fix missed punches"
+    },
+    {
+      "test": "Attendance records shown",
+      "passed": true,
+      "details": "6 records visible"
+    },
+    {
+      "test": "Helpdesk accessible",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Helpdesk form fields",
+      "passed": false,
+      "details": "Filled: []"
+    },
+    {
+      "test": "Modules page loads",
+      "passed": true,
+      "details": "Module Marketplace visible"
+    },
+    {
+      "test": "Payroll module subscribed",
+      "passed": true,
+      "details": "Subscribed"
+    },
+    {
+      "test": "Payroll navigation",
+      "passed": false,
+      "details": "Did not reach payroll: https://test-empcloud.empcloud.com/modules"
+    },
+    {
+      "test": "Feedback page loads",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/feedback"
+    },
+    {
+      "test": "Notification bell clickable",
+      "passed": true,
+      "details": "Clicked bell"
+    },
+    {
+      "test": "Notification panel opens",
+      "passed": false,
+      "details": "No notification panel appeared"
+    },
+    {
+      "test": "Notification items",
+      "passed": false,
+      "details": "Empty or no items"
+    },
+    {
+      "test": "Chatbot accessible",
+      "passed": false,
+      "details": "Could not open chatbot"
+    },
+    {
+      "test": "API: Employee Profile",
+      "passed": false,
+      "details": "/api/v1/employee/profile -> N/A, /api/employee/profile -> N/A"
+    },
+    {
+      "test": "API: Leave Balance",
+      "passed": false,
+      "details": "/api/v1/leave/balance -> N/A, /api/leave/balance -> N/A"
+    },
+    {
+      "test": "API: My Leave Applications",
+      "passed": false,
+      "details": "/api/v1/leave/my-applications -> N/A, /api/leave/my-applications -> N/A"
+    },
+    {
+      "test": "API: My Attendance",
+      "passed": false,
+      "details": "/api/v1/attendance/my -> N/A, /api/attendance/my -> N/A"
+    },
+    {
+      "test": "API: Today's Attendance",
+      "passed": false,
+      "details": "/api/v1/attendance/today -> N/A, /api/attendance/today -> N/A"
+    },
+    {
+      "test": "API: My Helpdesk Tickets",
+      "passed": false,
+      "details": "/api/v1/helpdesk/my-tickets -> N/A, /api/helpdesk/my-tickets -> N/A"
+    },
+    {
+      "test": "API: Notifications",
+      "passed": false,
+      "details": "/api/v1/notifications -> N/A, /api/notifications -> N/A"
+    },
+    {
+      "test": "API: Active Surveys",
+      "passed": false,
+      "details": "/api/v1/surveys/active -> N/A, /api/surveys/active -> N/A"
+    },
+    {
+      "test": "API: Events",
+      "passed": false,
+      "details": "/api/v1/events -> N/A, /api/events -> N/A"
+    },
+    {
+      "test": "API: Policies",
+      "passed": false,
+      "details": "/api/v1/policies -> N/A, /api/policies -> N/A"
+    },
+    {
+      "test": "API: My Feedback",
+      "passed": false,
+      "details": "/api/v1/feedback/my -> N/A, /api/feedback/my -> N/A"
+    },
+    {
+      "test": "API: Wellness Check-in",
+      "passed": false,
+      "details": "/api/v1/wellness/check-in -> N/A, /api/wellness/check-in -> N/A"
+    },
+    {
+      "test": "API: My Assets",
+      "passed": false,
+      "details": "/api/v1/assets/my -> N/A, /api/assets/my -> N/A"
+    },
+    {
+      "test": "API: Announcements",
+      "passed": false,
+      "details": "/api/v1/announcements -> N/A, /api/announcements -> N/A"
+    },
+    {
+      "test": "API: My Documents",
+      "passed": false,
+      "details": "/api/v1/documents/my -> N/A, /api/documents/my -> N/A"
+    },
+    {
+      "test": "Wellness page loads",
+      "passed": true,
+      "details": "Wellness Programs visible"
+    },
+    {
+      "test": "Daily Check-in form opens",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/wellness"
+    },
+    {
+      "test": "Mood selection in daily check-in",
+      "passed": true,
+      "details": "Mood options found"
+    },
+    {
+      "test": "Events page loads",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/events"
+    },
+    {
+      "test": "Events listed",
+      "passed": true,
+      "details": "Events visible"
+    },
+    {
+      "test": "Event RSVP",
+      "passed": true,
+      "details": "Clicked 'Attend'"
+    },
+    {
+      "test": "Policies page loads",
+      "passed": true,
+      "details": "At https://test-empcloud.empcloud.com/policies"
+    },
+    {
+      "test": "Acknowledge option",
+      "passed": true,
+      "details": "Present"
+    }
+  ]
+}

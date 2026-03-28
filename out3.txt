@@ -1,0 +1,49 @@
+======================================================================
+STEP 1: LOGIN
+======================================================================
+  Wait 1: https://test-empcloud.empcloud.com/login
+  Wait 2: https://test-empcloud.empcloud.com/login
+  Wait 3: https://test-empcloud.empcloud.com/login
+  Wait 4: https://test-empcloud.empcloud.com/login
+  Wait 5: https://test-empcloud.empcloud.com/login
+  Wait 6: https://test-empcloud.empcloud.com/login
+  Wait 7: https://test-empcloud.empcloud.com/login
+  Wait 8: https://test-empcloud.empcloud.com/login
+  Wait 9: https://test-empcloud.empcloud.com/login
+  Wait 10: https://test-empcloud.empcloud.com/login
+  Wait 11: https://test-empcloud.empcloud.com/login
+  Wait 12: https://test-empcloud.empcloud.com/login
+  Wait 13: https://test-empcloud.empcloud.com/login
+  Wait 14: https://test-empcloud.empcloud.com/login
+  Wait 15: https://test-empcloud.empcloud.com/login
+  Wait 16: https://test-empcloud.empcloud.com/login
+  Wait 17: https://test-empcloud.empcloud.com/login
+  Wait 18: https://test-empcloud.empcloud.com/login
+  Wait 19: https://test-empcloud.empcloud.com/login
+  Wait 20: https://test-empcloud.empcloud.com/login
+  Wait 21: https://test-empcloud.empcloud.com/login
+  Wait 22: https://test-empcloud.empcloud.com/login
+  Wait 23: https://test-empcloud.empcloud.com/login
+  Wait 24: https://test-empcloud.empcloud.com/login
+  Wait 25: https://test-empcloud.empcloud.com/login
+  Wait 26: https://test-empcloud.empcloud.com/login
+  Wait 27: https://test-empcloud.empcloud.com/login
+  Wait 28: https://test-empcloud.empcloud.com/login
+  Wait 29: https://test-empcloud.empcloud.com/login
+  Wait 30: https://test-empcloud.empcloud.com/login
+  WARNING: Still on login page after 30s
+  After form submit: https://test-empcloud.empcloud.com/login?email=ananya%40technova.inananya%40technova.in&password=Welcome%40123Welcome%40123
+  Current URL: https://test-empcloud.empcloud.com/login?email=ananya%40technova.inananya%40technova.in&password=Welcome%40123Welcome%40123
+  Page title: EMP Cloud — Enterprise HRMS Platform
+  Page text (first 500): EN
+Sign in to EMP Cloud
+
+Enterprise HRMS Platform
+
+Email
+Password
+Sign in
+
+Don't have an account? Register your organization
+  [Screenshot] 01_dashboard_full_page.png
+LOGIN FAILED

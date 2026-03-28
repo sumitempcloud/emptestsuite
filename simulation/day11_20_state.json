@@ -1,0 +1,818 @@
+{
+  "days_completed": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "bugs_filed": [],
+  "bugs_found": [
+    {
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for TechNova",
+      "details": "After SSO from core to Performance module, POST /review-cycles returns 401. Status: 401, Body: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+      "day": 11
+    },
+    {
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for GlobalTech",
+      "details": "After SSO from core to Performance module, POST /review-cycles returns 401. Status: 401, Body: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+      "day": 11
+    },
+    {
+      "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for Innovate Solutions",
+      "details": "After SSO from core to Performance module, POST /review-cycles returns 401. Status: 401, Body: {'success': False, 'error': {'code': 'INVALID_TOKEN', 'message': 'Invalid access token'}}",
+      "day": 11
+    }
+  ],
+  "performance": {
+    "TechNova": {
+      "sso_ok": true,
+      "review_cycle": null,
+      "goals": [],
+      "self_assessments": []
+    },
+    "GlobalTech": {
+      "sso_ok": true,
+      "review_cycle": null,
+      "goals": [],
+      "self_assessments": []
+    },
+    "Innovate Solutions": {
+      "sso_ok": true,
+      "review_cycle": null,
+      "goals": [],
+      "self_assessments": []
+    }
+  },
+  "exit": {
+    "TechNova": {
+      "attendance_count": 0,
+      "resignations": [],
+      "clearance": []
+    },
+    "GlobalTech": {
+      "attendance_count": 0,
+      "resignations": [],
+      "clearance": []
+    },
+    "Innovate Solutions": {
+      "attendance_count": 0,
+      "resignations": [],
+      "clearance": []
+    }
+  },
+  "lms": {
+    "TechNova": {
+      "sso_ok": true,
+      "course_id": null,
+      "enrollments": 0,
+      "completions": 0
+    },
+    "GlobalTech": {
+      "sso_ok": true,
+      "course_id": null,
+      "enrollments": 0,
+      "completions": 0
+    },
+    "Innovate Solutions": {
+      "sso_ok": true,
+      "course_id": null,
+      "enrollments": 0,
+      "completions": 0
+    }
+  },
+  "rewards": {
+    "TechNova": {
+      "sso_ok": true,
+      "kudos_given": 0,
+      "badges_awarded": 0,
+      "leaderboard": false
+    },
+    "GlobalTech": {
+      "sso_ok": true,
+      "kudos_given": 0,
+      "badges_awarded": 0,
+      "leaderboard": false
+    },
+    "Innovate Solutions": {
+      "sso_ok": true,
+      "kudos_given": 0,
+      "badges_awarded": 0,
+      "leaderboard": false
+    }
+  },
+  "projects": {
+    "TechNova": {
+      "sso_ok": true,
+      "project_id": null,
+      "tasks": [],
+      "time_entries": []
+    },
+    "GlobalTech": {
+      "sso_ok": true,
+      "project_id": null,
+      "tasks": [],
+      "time_entries": []
+    },
+    "Innovate Solutions": {
+      "sso_ok": true,
+      "project_id": null,
+      "tasks": [],
+      "time_entries": []
+    }
+  },
+  "leave_applications": {
+    "TechNova": {
+      "leave_applied": 0,
+      "compoff_requests": 0,
+      "approvals": 0,
+      "balances_checked": 5
+    },
+    "GlobalTech": {
+      "leave_applied": 0,
+      "compoff_requests": 0,
+      "approvals": 0,
+      "balances_checked": 5
+    },
+    "Innovate Solutions": {
+      "leave_applied": 0,
+      "compoff_requests": 0,
+      "approvals": 0,
+      "balances_checked": 5
+    }
+  },
+  "transfers": {
+    "TechNova": {
+      "transfers_done": 2,
+      "org_chart_checked": true,
+      "details": [
+        {
+          "employee_id": 523,
+          "name": "Rahul Sharma",
+          "from_dept": 20,
+          "to_dept": 72,
+          "to_dept_name": "Engineering"
+        },
+        {
+          "employee_id": 634,
+          "name": "Ira Kamath",
+          "from_dept": 72,
+          "to_dept": 73,
+          "to_dept_name": "Sales"
+        }
+      ]
+    },
+    "GlobalTech": {
+      "transfers_done": 2,
+      "org_chart_checked": true,
+      "details": [
+        {
+          "employee_id": 664,
+          "name": "Tanvi Chopra",
+          "from_dept": 34,
+          "to_dept": 36,
+          "to_dept_name": "Sales"
+        },
+        {
+          "employee_id": 674,
+          "name": "Kavya Malhotra",
+          "from_dept": 34,
+          "to_dept": 36,
+          "to_dept_name": "Sales"
+        }
+      ]
+    },
+    "Innovate Solutions": {
+      "transfers_done": 2,
+      "org_chart_checked": true,
+      "details": [
+        {
+          "employee_id": 710,
+          "name": "Daksha Singh",
+          "from_dept": 78,
+          "to_dept": 79,
+          "to_dept_name": "Sales"
+        },
+        {
+          "employee_id": 720,
+          "name": "Pooja Pandey",
+          "from_dept": 78,
+          "to_dept": 79,
+          "to_dept_name": "Sales"
+        }
+      ]
+    }
+  },
+  "attendance": {},
+  "announcements": {},
+  "hr_review": {
+    "TechNova": {
+      "headcount": 62,
+      "attrition": 0,
+      "leave_applications": 20,
+      "open_tickets": 0,
+      "announcement_posted": true
+    },
+    "GlobalTech": {
+      "headcount": 50,
+      "attrition": 0,
+      "leave_applications": 3,
+      "open_tickets": 0,
+      "announcement_posted": true
+    },
+    "Innovate Solutions": {
+      "headcount": 51,
+      "attrition": 0,
+      "leave_applications": 3,
+      "open_tickets": 0,
+      "announcement_posted": true
+    }
+  },
+  "billing": {
+    "TechNova": {
+      "subscriptions": {
+        "success": true,
+        "data": [
+          {
+            "id": 29,
+            "organization_id": 5,
+            "module_id": 11,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-28T13:11:15.000Z",
+            "current_period_end": "2026-04-28T13:11:15.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-28T13:11:15.000Z",
+            "updated_at": "2026-03-28T13:11:15.000Z"
+          },
+          {
+            "id": 23,
+            "organization_id": 5,
+            "module_id": 7,
+            "plan_tier": "enterprise",
+            "status": "active",
+            "total_seats": 12,
+            "used_seats": 0,
+            "billing_cycle": "quarterly",
+            "price_per_seat": 175000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:41.000Z",
+            "current_period_end": "2026-04-24T12:25:41.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:41.000Z",
+            "updated_at": "2026-03-25T02:48:32.000Z"
+          },
+          {
+            "id": 22,
+            "organization_id": 5,
+            "module_id": 3,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:39.000Z",
+            "current_period_end": "2026-04-24T12:25:39.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:39.000Z",
+            "updated_at": "2026-03-24T12:25:39.000Z"
+          },
+          {
+            "id": 21,
+            "organization_id": 5,
+            "module_id": 6,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:38.000Z",
+            "current_period_end": "2026-04-24T12:25:38.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:38.000Z",
+            "updated_at": "2026-03-24T12:25:38.000Z"
+          },
+          {
+            "id": 20,
+            "organization_id": 5,
+            "module_id": 8,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:36.000Z",
+            "current_period_end": "2026-04-24T12:25:36.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:36.000Z",
+            "updated_at": "2026-03-24T12:25:36.000Z"
+          },
+          {
+            "id": 19,
+            "organization_id": 5,
+            "module_id": 1,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:34.000Z",
+            "current_period_end": "2026-04-24T12:25:34.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:34.000Z",
+            "updated_at": "2026-03-24T12:25:34.000Z"
+          },
+          {
+            "id": 18,
+            "organization_id": 5,
+            "module_id": 10,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-27T05:24:00.000Z",
+            "current_period_end": "2026-04-27T05:24:00.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:32.000Z",
+            "updated_at": "2026-03-27T05:24:00.000Z"
+          },
+          {
+            "id": 17,
+            "organization_id": 5,
+            "module_id": 4,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:31.000Z",
+            "current_period_end": "2026-04-24T12:25:31.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:31.000Z",
+            "updated_at": "2026-03-24T12:25:31.000Z"
+          },
+          {
+            "id": 16,
+            "organization_id": 5,
+            "module_id": 9,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 10,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:29.000Z",
+            "current_period_end": "2026-04-24T12:25:29.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:29.000Z",
+            "updated_at": "2026-03-24T12:25:29.000Z"
+          },
+          {
+            "id": 15,
+            "organization_id": 5,
+            "module_id": 2,
+            "plan_tier": "basic",
+            "status": "active",
+            "total_seats": 106,
+            "used_seats": 0,
+            "billing_cycle": "monthly",
+            "price_per_seat": 50000,
+            "currency": "INR",
+            "trial_ends_at": null,
+            "current_period_start": "2026-03-24T12:25:26.000Z",
+            "current_period_end": "2026-04-24T12:25:26.000Z",
+            "cancelled_at": null,
+            "created_at": "2026-03-24T12:25:26.000Z",
+            "updated_at": "2026-03-26T06:36:12.000Z"
+          }
+        ]
+      },
+      "modules": {
+        "success": true,
+        "data": [
+          {
+            "id": 11,
+            "name": "Biometric Verification & Access Control",
+            "slug": "emp-biometrics",
+            "description": "Biometric authentication & facial recognition. Features accessible within Attendance module.",
+            "base_url": "",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-28T12:22:39.000Z",
+            "updated_at": "2026-03-28T12:22:39.000Z"
+          },
+          {
+            "id": 2,
+            "name": "Employee Monitoring & Activity Tracking",
+            "slug": "emp-monitor",
+            "description": "Employee activity & productivity monitoring",
+            "base_url": "https://test-empmonitor.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 9,
+            "name": "Exit Management & Offboarding",
+            "slug": "emp-exit",
+            "description": "Exit management & full-final settlement",
+            "base_url": "https://test-exit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 1,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 4,
+            "name": "Field Force Management & GPS Tracking",
+            "slug": "emp-field",
+            "description": "Field force GPS check-in & route optimization",
+            "base_url": "https://test-field.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 10,
+            "name": "Learning Management & Training",
+            "slug": "emp-lms",
+            "description": "Learning management, courses, certifications & compliance training",
+            "base_url": "https://testlms.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T22:00:14.000Z",
+            "updated_at": "2026-03-23T22:00:14.000Z"
+          },
+          {
+            "id": 1,
+            "name": "Payroll Management",
+            "slug": "emp-payroll",
+            "description": "Payroll processing, tax computation & compliance",
+            "base_url": "https://testpayroll.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 8,
+            "name": "Performance Management & Career Development",
+            "slug": "emp-performance",
+            "description": "Performance reviews, OKRs & succession planning",
+            "base_url": "https://test-performance.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 6,
+            "name": "Project Management & Time Tracking",
+            "slug": "emp-projects",
+            "description": "Project management & time tracking",
+            "base_url": "https://test-project.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 3,
+            "name": "Recruitment & Talent Acquisition",
+            "slug": "emp-recruit",
+            "description": "Applicant tracking & hiring pipeline",
+            "base_url": "https://test-recruit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 7,
+            "name": "Rewards & Recognition",
+            "slug": "emp-rewards",
+            "description": "Employee recognition, badges & kudos",
+            "base_url": "https://test-rewards.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          }
+        ]
+      },
+      "user_count": 62,
+      "all_modules_accessible": false
+    },
+    "GlobalTech": {
+      "subscriptions": {
+        "success": true,
+        "data": []
+      },
+      "modules": {
+        "success": true,
+        "data": [
+          {
+            "id": 11,
+            "name": "Biometric Verification & Access Control",
+            "slug": "emp-biometrics",
+            "description": "Biometric authentication & facial recognition. Features accessible within Attendance module.",
+            "base_url": "",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-28T12:22:39.000Z",
+            "updated_at": "2026-03-28T12:22:39.000Z"
+          },
+          {
+            "id": 2,
+            "name": "Employee Monitoring & Activity Tracking",
+            "slug": "emp-monitor",
+            "description": "Employee activity & productivity monitoring",
+            "base_url": "https://test-empmonitor.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 9,
+            "name": "Exit Management & Offboarding",
+            "slug": "emp-exit",
+            "description": "Exit management & full-final settlement",
+            "base_url": "https://test-exit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 1,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 4,
+            "name": "Field Force Management & GPS Tracking",
+            "slug": "emp-field",
+            "description": "Field force GPS check-in & route optimization",
+            "base_url": "https://test-field.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 10,
+            "name": "Learning Management & Training",
+            "slug": "emp-lms",
+            "description": "Learning management, courses, certifications & compliance training",
+            "base_url": "https://testlms.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T22:00:14.000Z",
+            "updated_at": "2026-03-23T22:00:14.000Z"
+          },
+          {
+            "id": 1,
+            "name": "Payroll Management",
+            "slug": "emp-payroll",
+            "description": "Payroll processing, tax computation & compliance",
+            "base_url": "https://testpayroll.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 8,
+            "name": "Performance Management & Career Development",
+            "slug": "emp-performance",
+            "description": "Performance reviews, OKRs & succession planning",
+            "base_url": "https://test-performance.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 6,
+            "name": "Project Management & Time Tracking",
+            "slug": "emp-projects",
+            "description": "Project management & time tracking",
+            "base_url": "https://test-project.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 3,
+            "name": "Recruitment & Talent Acquisition",
+            "slug": "emp-recruit",
+            "description": "Applicant tracking & hiring pipeline",
+            "base_url": "https://test-recruit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 7,
+            "name": "Rewards & Recognition",
+            "slug": "emp-rewards",
+            "description": "Employee recognition, badges & kudos",
+            "base_url": "https://test-rewards.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          }
+        ]
+      },
+      "user_count": 50,
+      "all_modules_accessible": false
+    },
+    "Innovate Solutions": {
+      "subscriptions": {
+        "success": true,
+        "data": []
+      },
+      "modules": {
+        "success": true,
+        "data": [
+          {
+            "id": 11,
+            "name": "Biometric Verification & Access Control",
+            "slug": "emp-biometrics",
+            "description": "Biometric authentication & facial recognition. Features accessible within Attendance module.",
+            "base_url": "",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-28T12:22:39.000Z",
+            "updated_at": "2026-03-28T12:22:39.000Z"
+          },
+          {
+            "id": 2,
+            "name": "Employee Monitoring & Activity Tracking",
+            "slug": "emp-monitor",
+            "description": "Employee activity & productivity monitoring",
+            "base_url": "https://test-empmonitor.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 9,
+            "name": "Exit Management & Offboarding",
+            "slug": "emp-exit",
+            "description": "Exit management & full-final settlement",
+            "base_url": "https://test-exit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 1,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 4,
+            "name": "Field Force Management & GPS Tracking",
+            "slug": "emp-field",
+            "description": "Field force GPS check-in & route optimization",
+            "base_url": "https://test-field.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 10,
+            "name": "Learning Management & Training",
+            "slug": "emp-lms",
+            "description": "Learning management, courses, certifications & compliance training",
+            "base_url": "https://testlms.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T22:00:14.000Z",
+            "updated_at": "2026-03-23T22:00:14.000Z"
+          },
+          {
+            "id": 1,
+            "name": "Payroll Management",
+            "slug": "emp-payroll",
+            "description": "Payroll processing, tax computation & compliance",
+            "base_url": "https://testpayroll.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 8,
+            "name": "Performance Management & Career Development",
+            "slug": "emp-performance",
+            "description": "Performance reviews, OKRs & succession planning",
+            "base_url": "https://test-performance.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 6,
+            "name": "Project Management & Time Tracking",
+            "slug": "emp-projects",
+            "description": "Project management & time tracking",
+            "base_url": "https://test-project.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 3,
+            "name": "Recruitment & Talent Acquisition",
+            "slug": "emp-recruit",
+            "description": "Applicant tracking & hiring pipeline",
+            "base_url": "https://test-recruit.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          },
+          {
+            "id": 7,
+            "name": "Rewards & Recognition",
+            "slug": "emp-rewards",
+            "description": "Employee recognition, badges & kudos",
+            "base_url": "https://test-rewards.empcloud.com",
+            "icon": null,
+            "is_active": 1,
+            "has_free_tier": 0,
+            "created_at": "2026-03-23T12:45:58.000Z",
+            "updated_at": "2026-03-23T12:45:58.000Z"
+          }
+        ]
+      },
+      "user_count": 51,
+      "all_modules_accessible": false
+    }
+  }
+}

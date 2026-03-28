@@ -1,0 +1,251 @@
+{
+  "persona": "Aditya Joshi \u2014 New Joiner",
+  "timestamp": "2026-03-28T06:50:31.169310",
+  "summary": {
+    "total": 43,
+    "passed": 32,
+    "failed": 11,
+    "skipped": 0
+  },
+  "tests": [
+    {
+      "test": "API Login",
+      "status": "pass",
+      "details": "Logged in as priya@technova.in"
+    },
+    {
+      "test": "Profile Completeness (API)",
+      "status": "fail",
+      "details": "GET /auth/me returned 404"
+    },
+    {
+      "test": "Leave Balance (API)",
+      "status": "fail",
+      "details": "Status 404"
+    },
+    {
+      "test": "Documents (API)",
+      "status": "fail",
+      "details": "No documents found \u2014 new joiner has no offer letter/NDA"
+    },
+    {
+      "test": "Announcements (API)",
+      "status": "pass",
+      "details": "20 announcements"
+    },
+    {
+      "test": "Events (API)",
+      "status": "pass",
+      "details": "14 events"
+    },
+    {
+      "test": "Helpdesk (API)",
+      "status": "pass",
+      "details": "Endpoint accessible"
+    },
+    {
+      "test": "Policies (API)",
+      "status": "pass",
+      "details": "20 policies"
+    },
+    {
+      "test": "Forum (API)",
+      "status": "pass",
+      "details": "Endpoint accessible"
+    },
+    {
+      "test": "Wellness (API)",
+      "status": "fail",
+      "details": "Status 404"
+    },
+    {
+      "test": "Org Chart / Users (API)",
+      "status": "pass",
+      "details": "20 users visible"
+    },
+    {
+      "test": "Onboarding Wizard/Welcome",
+      "status": "pass",
+      "details": "Found: welcome"
+    },
+    {
+      "test": "Dashboard Widgets",
+      "status": "fail",
+      "details": "No recognizable widgets/cards on dashboard"
+    },
+    {
+      "test": "Profile Page Access",
+      "status": "pass",
+      "details": "Profile loaded at https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Profile Edit Button",
+      "status": "fail",
+      "details": "No edit button visible on profile"
+    },
+    {
+      "test": "Profile Sections",
+      "status": "fail",
+      "details": "No personal info sections (phone, address, emergency) visible"
+    },
+    {
+      "test": "Documents Page",
+      "status": "pass",
+      "details": "Documents at https://test-empcloud.empcloud.com/documents/my"
+    },
+    {
+      "test": "Joining Documents Present",
+      "status": "pass",
+      "details": "Found: nda"
+    },
+    {
+      "test": "Policies Page",
+      "status": "pass",
+      "details": "Policies at https://test-empcloud.empcloud.com/policies"
+    },
+    {
+      "test": "Key Policies Present",
+      "status": "pass",
+      "details": "Found: leave, attendance"
+    },
+    {
+      "test": "Leave Page",
+      "status": "pass",
+      "details": "Leave at https://test-empcloud.empcloud.com/leave"
+    },
+    {
+      "test": "Leave Balance Visible",
+      "status": "pass",
+      "details": "Balance info: balance, days"
+    },
+    {
+      "test": "Apply Leave Button",
+      "status": "pass",
+      "details": "Apply button found"
+    },
+    {
+      "test": "Org Chart / Directory",
+      "status": "pass",
+      "details": "Loaded at https://test-empcloud.empcloud.com/org-chart"
+    },
+    {
+      "test": "Manager Info Visible",
+      "status": "pass",
+      "details": "Manager/reporting info found"
+    },
+    {
+      "test": "Helpdesk Page",
+      "status": "pass",
+      "details": "Helpdesk at https://test-empcloud.empcloud.com/"
+    },
+    {
+      "test": "Create Ticket Button",
+      "status": "pass",
+      "details": "New/Create ticket button found"
+    },
+    {
+      "test": "Training/Onboarding Tasks",
+      "status": "fail",
+      "details": "No training or task section found"
+    },
+    {
+      "test": "Clock In on Dashboard",
+      "status": "pass",
+      "details": "Found: mark attendance"
+    },
+    {
+      "test": "Attendance Page",
+      "status": "pass",
+      "details": "Attendance at https://test-empcloud.empcloud.com/attendance/my"
+    },
+    {
+      "test": "Events Page",
+      "status": "pass",
+      "details": "Events at https://test-empcloud.empcloud.com/events"
+    },
+    {
+      "test": "Buddy/Mentor System",
+      "status": "fail",
+      "details": "No buddy or mentor system found"
+    },
+    {
+      "test": "Community Forum",
+      "status": "pass",
+      "details": "Forum at https://test-empcloud.empcloud.com/forum"
+    },
+    {
+      "test": "Forum Post Button",
+      "status": "pass",
+      "details": "Can create new post"
+    },
+    {
+      "test": "Wellness Check-in",
+      "status": "pass",
+      "details": "Wellness at https://test-empcloud.empcloud.com/wellness"
+    },
+    {
+      "test": "Notification Bell",
+      "status": "pass",
+      "details": "Notification icon found"
+    },
+    {
+      "test": "Onboarding Notifications",
+      "status": "pass",
+      "details": "Found: welcome, profile"
+    },
+    {
+      "test": "Notifications Page",
+      "status": "fail",
+      "details": "No dedicated notifications page"
+    },
+    {
+      "test": "Mobile - No Horizontal Overflow",
+      "status": "pass",
+      "details": "No horizontal scroll at 375px"
+    },
+    {
+      "test": "Mobile - Hamburger Menu",
+      "status": "fail",
+      "details": "No hamburger/mobile menu toggle"
+    },
+    {
+      "test": "Mobile - Text Readability",
+      "status": "pass",
+      "details": "Only 0 tiny text elements"
+    },
+    {
+      "test": "Navigation Completeness",
+      "status": "pass",
+      "details": "All key sections visible in nav"
+    },
+    {
+      "test": "AI Chatbot",
+      "status": "pass",
+      "details": "Found chatbot/floating elements: ['text-xs text-brand-600 hover:underline | View all', 'text-xs text-brand-600 hover:underline | Review', 'text-xs text-brand-600 hover:underline | Review']"
+    }
+  ],
+  "bugs": [
+    {
+      "title": "New joiner can't edit profile \u2014 no edit button and missing personal info sections",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/556"
+    },
+    {
+      "title": "No onboarding tasks or training modules assigned to new joiner",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/546",
+      "duplicate": true
+    },
+    {
+      "title": "No buddy or mentor assigned for new joiner \u2014 no onboarding support person",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/548",
+      "duplicate": true
+    },
+    {
+      "title": "No dedicated notifications page \u2014 new joiner can't review past notifications",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/561"
+    },
+    {
+      "title": "No hamburger menu on mobile view \u2014 sidebar navigation inaccessible at 375px",
+      "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/564"
+    }
+  ]
+}

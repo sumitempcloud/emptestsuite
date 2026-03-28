@@ -1,0 +1,423 @@
+{
+  "timestamp": "2026-03-28T21:05:23.599359",
+  "total_pages": 31,
+  "ok": 23,
+  "errors": 8,
+  "auth_issues": 0,
+  "results": [
+    {
+      "module": "payroll",
+      "page": "dashboard",
+      "path": "/",
+      "status": "OK",
+      "url": "https://testpayroll.empcloud.com/my",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_dashboard.png"
+    },
+    {
+      "module": "payroll",
+      "page": "payslips",
+      "path": "/my",
+      "status": "OK",
+      "url": "https://testpayroll.empcloud.com/my",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_payslips.png"
+    },
+    {
+      "module": "payroll",
+      "page": "salary",
+      "path": "/salary",
+      "status": "ERROR",
+      "url": "https://testpayroll.empcloud.com/salary",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": false,
+      "has_content": false,
+      "error": "Page contains error indicator: '404'",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_salary.png"
+    },
+    {
+      "module": "payroll",
+      "page": "tax",
+      "path": "/tax",
+      "status": "OK",
+      "url": "https://testpayroll.empcloud.com/my",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_tax.png"
+    },
+    {
+      "module": "payroll",
+      "page": "run_payroll",
+      "path": "/admin/payroll",
+      "status": "ERROR",
+      "url": "https://testpayroll.empcloud.com/admin/payroll",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": false,
+      "has_content": false,
+      "error": "Page contains error indicator: '404'",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_run_payroll.png"
+    },
+    {
+      "module": "payroll",
+      "page": "admin_employees",
+      "path": "/admin/employees",
+      "status": "ERROR",
+      "url": "https://testpayroll.empcloud.com/admin/employees",
+      "title": "EMP Payroll \u2014 Open Source Payroll Management",
+      "authenticated": false,
+      "has_content": false,
+      "error": "Page contains error indicator: '404'",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\payroll_admin_employees.png"
+    },
+    {
+      "module": "recruit",
+      "page": "dashboard",
+      "path": "/",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/dashboard",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_dashboard.png"
+    },
+    {
+      "module": "recruit",
+      "page": "jobs",
+      "path": "/jobs",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/jobs",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_jobs.png"
+    },
+    {
+      "module": "recruit",
+      "page": "candidates",
+      "path": "/candidates",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/candidates",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_candidates.png"
+    },
+    {
+      "module": "recruit",
+      "page": "interviews",
+      "path": "/interviews",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/interviews",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_interviews.png"
+    },
+    {
+      "module": "recruit",
+      "page": "offers",
+      "path": "/offers",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/offers",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_offers.png"
+    },
+    {
+      "module": "recruit",
+      "page": "analytics",
+      "path": "/analytics",
+      "status": "OK",
+      "url": "https://test-recruit.empcloud.com/analytics",
+      "title": "EMP Recruit \u2014 Applicant Tracking System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\recruit_analytics.png"
+    },
+    {
+      "module": "performance",
+      "page": "dashboard",
+      "path": "/",
+      "status": "OK",
+      "url": "https://test-performance.empcloud.com/dashboard",
+      "title": "EMP Performance \u2014 Performance Management System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\performance_dashboard.png"
+    },
+    {
+      "module": "performance",
+      "page": "review_cycles",
+      "path": "/review-cycles",
+      "status": "OK",
+      "url": "https://test-performance.empcloud.com/review-cycles",
+      "title": "EMP Performance \u2014 Performance Management System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\performance_review_cycles.png"
+    },
+    {
+      "module": "performance",
+      "page": "goals",
+      "path": "/goals",
+      "status": "OK",
+      "url": "https://test-performance.empcloud.com/goals",
+      "title": "EMP Performance \u2014 Performance Management System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\performance_goals.png"
+    },
+    {
+      "module": "performance",
+      "page": "analytics",
+      "path": "/analytics",
+      "status": "OK",
+      "url": "https://test-performance.empcloud.com/analytics",
+      "title": "EMP Performance \u2014 Performance Management System",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\performance_analytics.png"
+    },
+    {
+      "module": "performance",
+      "page": "nine_box",
+      "path": "/nine-box",
+      "status": "ERROR",
+      "url": "https://test-performance.empcloud.com/nine-box",
+      "title": "EMP Performance \u2014 Performance Management System",
+      "authenticated": false,
+      "has_content": false,
+      "error": "Page contains error indicator: 'not found'",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\performance_nine_box.png"
+    },
+    {
+      "module": "rewards",
+      "page": "dashboard",
+      "path": "/",
+      "status": "OK",
+      "url": "https://test-rewards.empcloud.com/dashboard",
+      "title": "EMP Rewards \u2014 Employee Recognition & Rewards",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\rewards_dashboard.png"
+    },
+    {
+      "module": "rewards",
+      "page": "kudos",
+      "path": "/kudos",
+      "status": "OK",
+      "url": "https://test-rewards.empcloud.com/kudos",
+      "title": "EMP Rewards \u2014 Employee Recognition & Rewards",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\rewards_kudos.png"
+    },
+    {
+      "module": "rewards",
+      "page": "badges",
+      "path": "/badges",
+      "status": "OK",
+      "url": "https://test-rewards.empcloud.com/badges",
+      "title": "EMP Rewards \u2014 Employee Recognition & Rewards",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\rewards_badges.png"
+    },
+    {
+      "module": "rewards",
+      "page": "leaderboard",
+      "path": "/leaderboard",
+      "status": "OK",
+      "url": "https://test-rewards.empcloud.com/leaderboard",
+      "title": "EMP Rewards \u2014 Employee Recognition & Rewards",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\rewards_leaderboard.png"
+    },
+    {
+      "module": "rewards",
+      "page": "challenges",
+      "path": "/challenges",
+      "status": "OK",
+      "url": "https://test-rewards.empcloud.com/challenges",
+      "title": "EMP Rewards \u2014 Employee Recognition & Rewards",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\rewards_challenges.png"
+    },
+    {
+      "module": "exit",
+      "page": "dashboard",
+      "path": "/",
+      "status": "OK",
+      "url": "https://test-exit.empcloud.com/dashboard",
+      "title": "EMP Exit \u2014 Employee Exit Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\exit_dashboard.png"
+    },
+    {
+      "module": "exit",
+      "page": "exits",
+      "path": "/exits",
+      "status": "OK",
+      "url": "https://test-exit.empcloud.com/exits",
+      "title": "EMP Exit \u2014 Employee Exit Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\exit_exits.png"
+    },
+    {
+      "module": "exit",
+      "page": "clearance",
+      "path": "/clearance",
+      "status": "OK",
+      "url": "https://test-exit.empcloud.com/clearance",
+      "title": "EMP Exit \u2014 Employee Exit Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\exit_clearance.png"
+    },
+    {
+      "module": "exit",
+      "page": "fnf",
+      "path": "/fnf",
+      "status": "OK",
+      "url": "https://test-exit.empcloud.com/fnf",
+      "title": "EMP Exit \u2014 Employee Exit Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\exit_fnf.png"
+    },
+    {
+      "module": "exit",
+      "page": "analytics",
+      "path": "/analytics",
+      "status": "OK",
+      "url": "https://test-exit.empcloud.com/analytics",
+      "title": "EMP Exit \u2014 Employee Exit Management",
+      "authenticated": true,
+      "has_content": true,
+      "error": null,
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\exit_analytics.png"
+    },
+    {
+      "module": "lms",
+      "page": "dashboard",
+      "path": "/",
+      "status": "ERROR",
+      "url": "https://testlms.empcloud.com/login",
+      "title": "EMP LMS \u2014 Learning Management System",
+      "authenticated": true,
+      "has_content": false,
+      "error": "Redirected to login page - SSO authentication failed",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\lms_dashboard.png"
+    },
+    {
+      "module": "lms",
+      "page": "courses",
+      "path": "/courses",
+      "status": "ERROR",
+      "url": "https://testlms.empcloud.com/login",
+      "title": "EMP LMS \u2014 Learning Management System",
+      "authenticated": true,
+      "has_content": false,
+      "error": "Redirected to login page - SSO authentication failed",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\lms_courses.png"
+    },
+    {
+      "module": "lms",
+      "page": "my_learning",
+      "path": "/my-learning",
+      "status": "ERROR",
+      "url": "https://testlms.empcloud.com/login",
+      "title": "EMP LMS \u2014 Learning Management System",
+      "authenticated": true,
+      "has_content": false,
+      "error": "Redirected to login page - SSO authentication failed",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\lms_my_learning.png"
+    },
+    {
+      "module": "lms",
+      "page": "certifications",
+      "path": "/certifications",
+      "status": "ERROR",
+      "url": "https://testlms.empcloud.com/login",
+      "title": "EMP LMS \u2014 Learning Management System",
+      "authenticated": true,
+      "has_content": false,
+      "error": "Redirected to login page - SSO authentication failed",
+      "screenshot": "C:/emptesting/simulation/screenshots/sso_modules\\lms_certifications.png"
+    }
+  ],
+  "bugs": [
+    {
+      "title": "[Payroll SSO] Page contains error indicator: '404'",
+      "module": "payroll",
+      "page": "salary"
+    },
+    {
+      "title": "[Payroll SSO] Page contains error indicator: '404'",
+      "module": "payroll",
+      "page": "run_payroll"
+    },
+    {
+      "title": "[Payroll SSO] Page contains error indicator: '404'",
+      "module": "payroll",
+      "page": "admin_employees"
+    },
+    {
+      "title": "[Performance SSO] Page contains error indicator: 'not found'",
+      "module": "performance",
+      "page": "nine_box"
+    },
+    {
+      "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+      "module": "lms",
+      "page": "dashboard"
+    },
+    {
+      "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+      "module": "lms",
+      "page": "courses"
+    },
+    {
+      "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+      "module": "lms",
+      "page": "my_learning"
+    },
+    {
+      "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+      "module": "lms",
+      "page": "certifications"
+    }
+  ]
+}

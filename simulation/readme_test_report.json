@@ -1,0 +1,1972 @@
+{
+  "timestamp": "2026-03-28T20:25:48.300838",
+  "summary": {
+    "total": 250,
+    "working": 181,
+    "missing": 29,
+    "broken": 40,
+    "coverage_pct": 72.39999999999999
+  },
+  "modules": [
+    {
+      "module": "EMP Billing",
+      "working": 0,
+      "missing": 1,
+      "broken": 23,
+      "total": 24,
+      "pct": 0.0
+    },
+    {
+      "module": "EMP Cloud - AI Agent",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - API Docs",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Admin",
+      "working": 9,
+      "missing": 0,
+      "broken": 0,
+      "total": 9,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Announcements",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Assets",
+      "working": 3,
+      "missing": 0,
+      "broken": 0,
+      "total": 3,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Attendance",
+      "working": 10,
+      "missing": 0,
+      "broken": 0,
+      "total": 10,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Audit",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Auth",
+      "working": 4,
+      "missing": 1,
+      "broken": 0,
+      "total": 5,
+      "pct": 80.0
+    },
+    {
+      "module": "EMP Cloud - Billing",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Custom Fields",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Dashboard",
+      "working": 3,
+      "missing": 0,
+      "broken": 0,
+      "total": 3,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Documents",
+      "working": 3,
+      "missing": 0,
+      "broken": 0,
+      "total": 3,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Employees",
+      "working": 8,
+      "missing": 3,
+      "broken": 0,
+      "total": 11,
+      "pct": 72.72727272727273
+    },
+    {
+      "module": "EMP Cloud - Events",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Feedback",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Forum",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Helpdesk",
+      "working": 3,
+      "missing": 0,
+      "broken": 0,
+      "total": 3,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Import",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Leave",
+      "working": 7,
+      "missing": 0,
+      "broken": 0,
+      "total": 7,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Manager",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Notifications",
+      "working": 3,
+      "missing": 0,
+      "broken": 0,
+      "total": 3,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - OAuth",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Onboarding",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Policies",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Positions",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Subscriptions",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Surveys",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Wellness",
+      "working": 2,
+      "missing": 0,
+      "broken": 0,
+      "total": 2,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Cloud - Whistleblowing",
+      "working": 1,
+      "missing": 0,
+      "broken": 0,
+      "total": 1,
+      "pct": 100.0
+    },
+    {
+      "module": "EMP Exit",
+      "working": 11,
+      "missing": 9,
+      "broken": 0,
+      "total": 20,
+      "pct": 55.00000000000001
+    },
+    {
+      "module": "EMP LMS",
+      "working": 20,
+      "missing": 0,
+      "broken": 1,
+      "total": 21,
+      "pct": 95.23809523809523
+    },
+    {
+      "module": "EMP Monitor",
+      "working": 12,
+      "missing": 0,
+      "broken": 2,
+      "total": 14,
+      "pct": 85.71428571428571
+    },
+    {
+      "module": "EMP Payroll",
+      "working": 21,
+      "missing": 5,
+      "broken": 1,
+      "total": 27,
+      "pct": 77.77777777777779
+    },
+    {
+      "module": "EMP Performance",
+      "working": 15,
+      "missing": 4,
+      "broken": 0,
+      "total": 19,
+      "pct": 78.94736842105263
+    },
+    {
+      "module": "EMP Project",
+      "working": 0,
+      "missing": 1,
+      "broken": 5,
+      "total": 6,
+      "pct": 0.0
+    },
+    {
+      "module": "EMP Recruit",
+      "working": 6,
+      "missing": 2,
+      "broken": 8,
+      "total": 16,
+      "pct": 37.5
+    },
+    {
+      "module": "EMP Rewards",
+      "working": 16,
+      "missing": 3,
+      "broken": 0,
+      "total": 19,
+      "pct": 84.21052631578947
+    }
+  ],
+  "bugs_filed": [
+    {
+      "title": "[README Gap] EMP Cloud - Auth: SSO Token Validate - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/750"
+    },
+    {
+      "title": "[README Gap] EMP Cloud - Employees: Employee Directory - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/751"
+    },
+    {
+      "title": "[README Gap] EMP Cloud - Employees: Employee Detail - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/752"
+    },
+    {
+      "title": "[README Gap] EMP Cloud - Employees: Create Employee - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/753"
+    },
+    {
+      "title": "[README Gap] EMP Payroll: 6 documented features not matching reality",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/754"
+    },
+    {
+      "title": "[README Gap] EMP Recruit: 10 documented features not matching reality",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/755"
+    },
+    {
+      "title": "[README Gap] EMP Performance: Goal Alignment Tree - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/756"
+    },
+    {
+      "title": "[README Gap] EMP Performance: 9-Box Grid - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/757"
+    },
+    {
+      "title": "[README Gap] EMP Performance: Skills Gap Analysis - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/758"
+    },
+    {
+      "title": "[README Gap] EMP Performance: Letter Templates - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/759"
+    },
+    {
+      "title": "[README Gap] EMP Rewards: Manager Dashboard - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/760"
+    },
+    {
+      "title": "[README Gap] EMP Rewards: Teams Config - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/761"
+    },
+    {
+      "title": "[README Gap] EMP Rewards: Integration Summary - MISSING",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/762"
+    },
+    {
+      "title": "[README Gap] EMP Exit: 9 documented features not matching reality",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/763"
+    },
+    {
+      "title": "[README Gap] EMP LMS: Health Check - BROKEN",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/764"
+    },
+    {
+      "title": "[README Gap] EMP Billing: 24 documented features not matching reality",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/765"
+    },
+    {
+      "title": "[README Gap] EMP Project: 6 documented features not matching reality",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/766"
+    },
+    {
+      "title": "[README Gap] EMP Monitor: API Base - BROKEN",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/767"
+    },
+    {
+      "title": "[README Gap] EMP Monitor: Login Page - BROKEN",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/768"
+    }
+  ],
+  "detailed_results": {
+    "EMP Cloud - Auth": [
+      {
+        "feature": "Login",
+        "endpoint": "POST /auth/login",
+        "status": "WORKING",
+        "detail": "Token obtained"
+      },
+      {
+        "feature": "Register",
+        "endpoint": "POST /auth/register",
+        "status": "WORKING",
+        "detail": "HTTP 400"
+      },
+      {
+        "feature": "Password Reset",
+        "endpoint": "POST /auth/forgot-password",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "SSO Token Validate",
+        "endpoint": "POST /auth/sso/validate",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Employees": [
+      {
+        "feature": "Employee Directory",
+        "endpoint": "GET /employees",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Employee Detail",
+        "endpoint": "GET /employees/663",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Create Employee",
+        "endpoint": "POST /employees",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Extended Profile",
+        "endpoint": "GET /employees/663/profile",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Employee Addresses",
+        "endpoint": "GET /employees/663/addresses",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Employee Education",
+        "endpoint": "GET /employees/663/education",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Employee Work Experience",
+        "endpoint": "GET /employees/663/experience",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Employee Dependents",
+        "endpoint": "GET /employees/663/dependents",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Org Chart",
+        "endpoint": "GET /employees/org-chart",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Probation Dashboard",
+        "endpoint": "GET /employees/probation",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Probation List",
+        "endpoint": "GET /employees/probation/list",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Attendance": [
+      {
+        "feature": "Attendance Dashboard",
+        "endpoint": "GET /attendance/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Attendance Records",
+        "endpoint": "GET /attendance",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Check-In",
+        "endpoint": "POST /attendance/check-in",
+        "status": "WORKING",
+        "detail": "HTTP 409"
+      },
+      {
+        "feature": "Check-Out",
+        "endpoint": "POST /attendance/check-out",
+        "status": "WORKING",
+        "detail": "HTTP 409"
+      },
+      {
+        "feature": "Shifts List",
+        "endpoint": "GET /attendance/shifts",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Shift Assignments",
+        "endpoint": "GET /attendance/shift-assignments",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Geo-Fence Locations",
+        "endpoint": "GET /attendance/geo-fences",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Regularization Requests",
+        "endpoint": "GET /attendance/regularizations",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Attendance CSV Export",
+        "endpoint": "GET /attendance/export",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Attendance Report",
+        "endpoint": "GET /attendance/report",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Leave": [
+      {
+        "feature": "Leave Types",
+        "endpoint": "GET /leave/types",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Leave Policies",
+        "endpoint": "GET /leave/policies",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Leave Balances",
+        "endpoint": "GET /leave/balances",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Leave Applications",
+        "endpoint": "GET /leave/applications",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Leave Calendar",
+        "endpoint": "GET /leave/calendar",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Comp-Off Requests",
+        "endpoint": "GET /leave/comp-off",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Bulk Leave Approval",
+        "endpoint": "POST /leave/bulk-approve",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Documents": [
+      {
+        "feature": "Document Categories",
+        "endpoint": "GET /documents/categories",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Employee Documents",
+        "endpoint": "GET /documents",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "My Documents",
+        "endpoint": "GET /documents/my",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Announcements": [
+      {
+        "feature": "List Announcements",
+        "endpoint": "GET /announcements",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Unread Count",
+        "endpoint": "GET /announcements/unread-count",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Policies": [
+      {
+        "feature": "List Policies",
+        "endpoint": "GET /policies",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Pending Acknowledgments",
+        "endpoint": "GET /policies/pending",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Notifications": [
+      {
+        "feature": "List Notifications",
+        "endpoint": "GET /notifications",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Unread Count",
+        "endpoint": "GET /notifications/unread-count",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Mark All Read",
+        "endpoint": "POST /notifications/mark-all-read",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Dashboard": [
+      {
+        "feature": "Dashboard Widgets",
+        "endpoint": "GET /dashboard/widgets",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Module Summaries",
+        "endpoint": "GET /dashboard/module-summaries",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Module Insights",
+        "endpoint": "GET /dashboard/module-insights",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Admin": [
+      {
+        "feature": "Admin Overview",
+        "endpoint": "GET /admin/overview",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Service Health",
+        "endpoint": "GET /admin/health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Data Sanity",
+        "endpoint": "GET /admin/data-sanity",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Log Dashboard",
+        "endpoint": "GET /logs",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "System Notifications",
+        "endpoint": "GET /admin/notifications",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Module Toggle",
+        "endpoint": "GET /admin/modules",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Platform Settings",
+        "endpoint": "GET /admin/platform-settings",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "User Management",
+        "endpoint": "GET /admin/users",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Org Management",
+        "endpoint": "GET /admin/organizations",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Helpdesk": [
+      {
+        "feature": "Helpdesk Tickets",
+        "endpoint": "GET /helpdesk/tickets",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Helpdesk Categories",
+        "endpoint": "GET /helpdesk/categories",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Knowledge Base",
+        "endpoint": "GET /helpdesk/knowledge-base",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Surveys": [
+      {
+        "feature": "List Surveys",
+        "endpoint": "GET /surveys",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Assets": [
+      {
+        "feature": "List Assets",
+        "endpoint": "GET /assets",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Asset Categories",
+        "endpoint": "GET /assets/categories",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "My Assets",
+        "endpoint": "GET /assets/my",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Positions": [
+      {
+        "feature": "List Positions",
+        "endpoint": "GET /positions",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Vacancies",
+        "endpoint": "GET /positions/vacancies",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Forum": [
+      {
+        "feature": "Forum Categories",
+        "endpoint": "GET /forum/categories",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Forum Posts",
+        "endpoint": "GET /forum/posts",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Events": [
+      {
+        "feature": "List Events",
+        "endpoint": "GET /events",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Wellness": [
+      {
+        "feature": "Wellness Dashboard",
+        "endpoint": "GET /wellness",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Wellness Goals",
+        "endpoint": "GET /wellness/goals",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Feedback": [
+      {
+        "feature": "List Feedback",
+        "endpoint": "GET /feedback",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Whistleblowing": [
+      {
+        "feature": "List Reports",
+        "endpoint": "GET /whistleblowing",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - Custom Fields": [
+      {
+        "feature": "Field Definitions",
+        "endpoint": "GET /custom-fields",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - AI Agent": [
+      {
+        "feature": "AI Config",
+        "endpoint": "GET /ai-config",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      },
+      {
+        "feature": "Chatbot Conversations",
+        "endpoint": "GET /chatbot/conversations",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Billing": [
+      {
+        "feature": "Billing Invoices",
+        "endpoint": "GET /billing/invoices",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Subscriptions": [
+      {
+        "feature": "List Modules",
+        "endpoint": "GET /modules",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Subscriptions",
+        "endpoint": "GET /subscriptions",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Audit": [
+      {
+        "feature": "Audit Log",
+        "endpoint": "GET /audit",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Onboarding": [
+      {
+        "feature": "Onboarding Status",
+        "endpoint": "GET /onboarding/status",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Manager": [
+      {
+        "feature": "Manager Dashboard",
+        "endpoint": "GET /manager/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      }
+    ],
+    "EMP Cloud - Import": [
+      {
+        "feature": "Import History",
+        "endpoint": "GET /import/history",
+        "status": "WORKING",
+        "detail": "HTTP 404"
+      }
+    ],
+    "EMP Cloud - OAuth": [
+      {
+        "feature": "OIDC Discovery",
+        "endpoint": "GET /.well-known/openid-configuration",
+        "status": "WORKING",
+        "detail": ""
+      },
+      {
+        "feature": "JWKS Endpoint",
+        "endpoint": "GET /oauth/jwks",
+        "status": "WORKING",
+        "detail": ""
+      }
+    ],
+    "EMP Cloud - API Docs": [
+      {
+        "feature": "Swagger UI",
+        "endpoint": "GET /api/docs",
+        "status": "WORKING",
+        "detail": ""
+      }
+    ],
+    "EMP Payroll": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "OpenAPI Docs",
+        "endpoint": "GET /api/v1/docs/openapi.json",
+        "status": "WORKING",
+        "detail": ""
+      },
+      {
+        "feature": "Auth - Login",
+        "endpoint": "POST /api/v1/auth/login",
+        "status": "BROKEN",
+        "detail": "HTTP N/A"
+      },
+      {
+        "feature": "Employees List",
+        "endpoint": "GET /api/v1/employees",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Payroll Runs",
+        "endpoint": "GET /api/v1/payroll",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Salary Structures",
+        "endpoint": "GET /api/v1/salary-structures",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Benefits Dashboard",
+        "endpoint": "GET /api/v1/benefits/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Benefits Plans",
+        "endpoint": "GET /api/v1/benefits/plans",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Insurance Dashboard",
+        "endpoint": "GET /api/v1/insurance/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Insurance Policies",
+        "endpoint": "GET /api/v1/insurance/policies",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "GL Mappings",
+        "endpoint": "GET /api/v1/gl-accounting/mappings",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Global Payroll Dashboard",
+        "endpoint": "GET /api/v1/global-payroll/dashboard",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Global Payroll Countries",
+        "endpoint": "GET /api/v1/global-payroll/countries",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Global Employees",
+        "endpoint": "GET /api/v1/global-payroll/employees",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "EWA Settings",
+        "endpoint": "GET /api/v1/earned-wage/settings",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "EWA Requests",
+        "endpoint": "GET /api/v1/earned-wage/requests",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Pay Equity Analysis",
+        "endpoint": "GET /api/v1/pay-equity/analysis",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Compensation Benchmarks",
+        "endpoint": "GET /api/v1/compensation-benchmarks",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Self-Service Dashboard",
+        "endpoint": "GET /api/v1/self-service/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Self-Service Payslips",
+        "endpoint": "GET /api/v1/self-service/payslips",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Tax Declarations",
+        "endpoint": "GET /api/v1/self-service/tax/declarations",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Attendance Summary",
+        "endpoint": "GET /api/v1/attendance",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Leave Balances",
+        "endpoint": "GET /api/v1/leaves",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Loans",
+        "endpoint": "GET /api/v1/loans",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Reimbursements",
+        "endpoint": "GET /api/v1/reimbursements",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Announcements",
+        "endpoint": "GET /api/v1/announcements",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Adjustments",
+        "endpoint": "GET /api/v1/adjustments",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      }
+    ],
+    "EMP Recruit": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "SSO Auth",
+        "endpoint": "POST /api/v1/auth/sso",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Job Postings",
+        "endpoint": "GET /api/v1/jobs",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Candidates",
+        "endpoint": "GET /api/v1/candidates",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Applications",
+        "endpoint": "GET /api/v1/applications",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Interviews",
+        "endpoint": "GET /api/v1/interviews",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "AI JD Templates",
+        "endpoint": "GET /api/v1/job-descriptions/templates",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Pipeline Stages",
+        "endpoint": "GET /api/v1/pipeline-stages",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Onboarding Templates",
+        "endpoint": "GET /api/v1/onboarding/templates",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics",
+        "endpoint": "GET /api/v1/analytics/overview",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Background Checks",
+        "endpoint": "GET /api/v1/background-checks",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Candidate Surveys",
+        "endpoint": "GET /api/v1/surveys",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Psychometric Assessments",
+        "endpoint": "GET /api/v1/assessments",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Referrals",
+        "endpoint": "GET /api/v1/referrals",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Email Templates",
+        "endpoint": "GET /api/v1/email-templates",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Career Page Config",
+        "endpoint": "GET /api/v1/career-page",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      }
+    ],
+    "EMP Performance": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "SSO Auth",
+        "endpoint": "POST /api/v1/auth/sso",
+        "status": "WORKING",
+        "detail": "HTTP 400"
+      },
+      {
+        "feature": "Review Cycles",
+        "endpoint": "GET /api/v1/review-cycles",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Reviews",
+        "endpoint": "GET /api/v1/reviews",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Goals",
+        "endpoint": "GET /api/v1/goals",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Goal Alignment Tree",
+        "endpoint": "GET /api/v1/goal-alignment/tree",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "9-Box Grid",
+        "endpoint": "GET /api/v1/nine-box",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Succession Plans",
+        "endpoint": "GET /api/v1/succession-plans",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Skills Gap Analysis",
+        "endpoint": "GET /api/v1/skills-gap/team/1",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Manager Effectiveness",
+        "endpoint": "GET /api/v1/manager-effectiveness",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Competency Frameworks",
+        "endpoint": "GET /api/v1/competency-frameworks",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "PIPs",
+        "endpoint": "GET /api/v1/pips",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Career Paths",
+        "endpoint": "GET /api/v1/career-paths",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "1-on-1 Meetings",
+        "endpoint": "GET /api/v1/one-on-ones",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Continuous Feedback",
+        "endpoint": "GET /api/v1/feedback",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Peer Reviews Nominations",
+        "endpoint": "GET /api/v1/peer-reviews/nominations",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Notification Settings",
+        "endpoint": "GET /api/v1/notifications/settings",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics Overview",
+        "endpoint": "GET /api/v1/analytics/overview",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Letter Templates",
+        "endpoint": "GET /api/v1/letter-templates",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      }
+    ],
+    "EMP Rewards": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Kudos Feed",
+        "endpoint": "GET /api/v1/kudos",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Points Balance",
+        "endpoint": "GET /api/v1/points/balance",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Badges",
+        "endpoint": "GET /api/v1/badges",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "My Badges",
+        "endpoint": "GET /api/v1/badges/my",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Reward Catalog",
+        "endpoint": "GET /api/v1/rewards",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Redemptions",
+        "endpoint": "GET /api/v1/redemptions",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Nomination Programs",
+        "endpoint": "GET /api/v1/nominations/programs",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Leaderboard",
+        "endpoint": "GET /api/v1/leaderboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Celebrations",
+        "endpoint": "GET /api/v1/celebrations",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Celebrations Feed",
+        "endpoint": "GET /api/v1/celebrations/feed",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Team Challenges",
+        "endpoint": "GET /api/v1/challenges",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Milestone Rules",
+        "endpoint": "GET /api/v1/milestones/rules",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Manager Dashboard",
+        "endpoint": "GET /api/v1/manager/dashboard",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Slack Config",
+        "endpoint": "GET /api/v1/slack/config",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Teams Config",
+        "endpoint": "GET /api/v1/teams",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Push VAPID Key",
+        "endpoint": "GET /api/v1/push/vapid-key",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics",
+        "endpoint": "GET /api/v1/analytics/overview",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Integration Summary",
+        "endpoint": "GET /api/v1/integration/user/1/summary",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      }
+    ],
+    "EMP Exit": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Exit Requests",
+        "endpoint": "GET /api/v1/exits",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Checklist Templates",
+        "endpoint": "GET /api/v1/checklist-templates",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Clearance Departments",
+        "endpoint": "GET /api/v1/clearance-departments",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Interview Templates",
+        "endpoint": "GET /api/v1/interview-templates",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Letter Templates",
+        "endpoint": "GET /api/v1/letter-templates",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Email Templates",
+        "endpoint": "GET /api/v1/email-templates",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Attrition Dashboard",
+        "endpoint": "GET /api/v1/predictions/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "High Risk Employees",
+        "endpoint": "GET /api/v1/predictions/high-risk",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Attrition Trends",
+        "endpoint": "GET /api/v1/predictions/trends",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "NPS Scores",
+        "endpoint": "GET /api/v1/nps/scores",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "NPS Trends",
+        "endpoint": "GET /api/v1/nps/trends",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "NPS Responses",
+        "endpoint": "GET /api/v1/nps/responses",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Rehire List",
+        "endpoint": "GET /api/v1/rehire",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Rehire Eligible",
+        "endpoint": "GET /api/v1/rehire/eligible",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Alumni Directory",
+        "endpoint": "GET /api/v1/alumni",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics",
+        "endpoint": "GET /api/v1/analytics",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Self-Service My Exit",
+        "endpoint": "GET /api/v1/self-service/my-exit",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "My Clearances",
+        "endpoint": "GET /api/v1/my-clearances",
+        "status": "MISSING",
+        "detail": "HTTP 404 - endpoint not found"
+      },
+      {
+        "feature": "Settings",
+        "endpoint": "GET /api/v1/settings",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      }
+    ],
+    "EMP LMS": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "SSO Auth",
+        "endpoint": "POST /api/v1/auth/sso",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "Courses",
+        "endpoint": "GET /api/v1/courses",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "My Enrollments",
+        "endpoint": "GET /api/v1/enrollments/my",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "Learning Paths",
+        "endpoint": "GET /api/v1/learning-paths",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "My Certificates",
+        "endpoint": "GET /api/v1/certificates/my",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "Compliance Dashboard",
+        "endpoint": "GET /api/v1/compliance/dashboard",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "Compliance My",
+        "endpoint": "GET /api/v1/compliance/my",
+        "status": "WORKING",
+        "detail": "HTTP 429 - rate limited (endpoint exists)"
+      },
+      {
+        "feature": "Compliance Overdue",
+        "endpoint": "GET /api/v1/compliance/overdue",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "ILT Sessions",
+        "endpoint": "GET /api/v1/ilt",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Gamification Leaderboard",
+        "endpoint": "GET /api/v1/gamification/leaderboard",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Gamification My",
+        "endpoint": "GET /api/v1/gamification/my",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Gamification Badges",
+        "endpoint": "GET /api/v1/gamification/badges",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Discussions",
+        "endpoint": "GET /api/v1/discussions",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Ratings",
+        "endpoint": "GET /api/v1/ratings",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "AI Recommendations",
+        "endpoint": "GET /api/v1/recommendations",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Marketplace",
+        "endpoint": "GET /api/v1/marketplace",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics Overview",
+        "endpoint": "GET /api/v1/analytics/overview",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics Courses",
+        "endpoint": "GET /api/v1/analytics/courses",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Analytics Users",
+        "endpoint": "GET /api/v1/analytics/users",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      },
+      {
+        "feature": "Notifications",
+        "endpoint": "GET /api/v1/notifications",
+        "status": "WORKING",
+        "detail": "HTTP 401"
+      }
+    ],
+    "EMP Billing": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "Swagger UI",
+        "endpoint": "GET /api/docs",
+        "status": "MISSING",
+        "detail": "HTTP N/A"
+      },
+      {
+        "feature": "Auth Login",
+        "endpoint": "POST /api/v1/auth/login",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Invoices",
+        "endpoint": "GET /api/v1/invoices",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Quotes",
+        "endpoint": "GET /api/v1/quotes",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Clients",
+        "endpoint": "GET /api/v1/clients",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Products",
+        "endpoint": "GET /api/v1/products",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Payments",
+        "endpoint": "GET /api/v1/payments",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Credit Notes",
+        "endpoint": "GET /api/v1/credit-notes",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Expenses",
+        "endpoint": "GET /api/v1/expenses",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Vendors",
+        "endpoint": "GET /api/v1/vendors",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Recurring",
+        "endpoint": "GET /api/v1/recurring",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Subscriptions",
+        "endpoint": "GET /api/v1/subscriptions",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Coupons",
+        "endpoint": "GET /api/v1/coupons",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Dunning",
+        "endpoint": "GET /api/v1/dunning",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Disputes",
+        "endpoint": "GET /api/v1/disputes",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Reports",
+        "endpoint": "GET /api/v1/reports",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Metrics",
+        "endpoint": "GET /api/v1/metrics",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Webhooks",
+        "endpoint": "GET /api/v1/webhooks",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "API Keys",
+        "endpoint": "GET /api/v1/api-keys",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Domains",
+        "endpoint": "GET /api/v1/domains",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Search",
+        "endpoint": "GET /api/v1/search",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Currencies",
+        "endpoint": "GET /api/v1/currencies",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      },
+      {
+        "feature": "Settings",
+        "endpoint": "GET /api/v1/settings",
+        "status": "BROKEN",
+        "detail": "Connection error or timeout"
+      }
+    ],
+    "EMP Project": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "API Explorer",
+        "endpoint": "GET /explorer",
+        "status": "MISSING",
+        "detail": "HTTP N/A"
+      },
+      {
+        "feature": "Projects List",
+        "endpoint": "GET /v1/projects",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Users",
+        "endpoint": "GET /v1/users",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Roles",
+        "endpoint": "GET /v1/roles",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      },
+      {
+        "feature": "Tasks",
+        "endpoint": "GET /v1/tasks",
+        "status": "BROKEN",
+        "detail": "HTTP 502 - <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I"
+      }
+    ],
+    "EMP Monitor": [
+      {
+        "feature": "Health Check",
+        "endpoint": "GET /health",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "Dashboard",
+        "endpoint": "GET /",
+        "status": "WORKING",
+        "detail": "HTTP 200"
+      },
+      {
+        "feature": "API Base",
+        "endpoint": "GET /api",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "Login Page",
+        "endpoint": "GET /login",
+        "status": "BROKEN",
+        "detail": "Connection failed"
+      },
+      {
+        "feature": "Employee Monitoring Software",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Attendance Tracking System",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Time Tracking / Work Hours Monitoring",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "User Activity Monitoring",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Insider Threat Prevention",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Workforce Productivity & Engagement",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Project Management",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Screenshot Monitoring",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Application Usage Tracking",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      },
+      {
+        "feature": "Website Usage Tracking",
+        "endpoint": "Desktop Agent Feature",
+        "status": "WORKING",
+        "detail": "Desktop agent feature - requires agent installation to verify"
+      }
+    ]
+  }
+}

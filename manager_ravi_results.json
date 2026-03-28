@@ -1,0 +1,182 @@
+{
+  "date": "2026-03-28T06:44:31.667788",
+  "user": "ananya@technova.in",
+  "persona": "Ravi Kumar \u2014 Team Lead",
+  "total_tests": 33,
+  "passed": 22,
+  "failed": 11,
+  "issues_filed": 1,
+  "results": [
+    {
+      "test": "Sidebar Manager Links",
+      "passed": true,
+      "details": "11 relevant links found"
+    },
+    {
+      "test": "Login",
+      "passed": false,
+      "details": "Cannot login"
+    },
+    {
+      "test": "Manager Page Team Members",
+      "passed": true,
+      "details": "Team members visible"
+    },
+    {
+      "test": "Manager Page Team Attendance",
+      "passed": true,
+      "details": "Attendance info visible"
+    },
+    {
+      "test": "Leave Approvals Page",
+      "passed": true,
+      "details": "Page found"
+    },
+    {
+      "test": "Leave Approve/Reject Buttons",
+      "passed": false,
+      "details": "Approve: False, Reject: False"
+    },
+    {
+      "test": "Leave Request Details",
+      "passed": false,
+      "details": "Missing: name, type, reason"
+    },
+    {
+      "test": "Leave Approvals API",
+      "passed": false,
+      "details": "No working leave approval API endpoint found"
+    },
+    {
+      "test": "Team Attendance Page",
+      "passed": true,
+      "details": "Found"
+    },
+    {
+      "test": "Attendance Status Indicators",
+      "passed": false,
+      "details": "No present/absent/late indicators"
+    },
+    {
+      "test": "Attendance Date Filter",
+      "passed": false,
+      "details": "No date range filter"
+    },
+    {
+      "test": "Team Attendance API",
+      "passed": false,
+      "details": "No working team attendance API"
+    },
+    {
+      "test": "Team Leave Balances",
+      "passed": true,
+      "details": "Balance info visible"
+    },
+    {
+      "test": "Team Member List",
+      "passed": true,
+      "details": "Found"
+    },
+    {
+      "test": "Member Profile Click-Through",
+      "passed": true,
+      "details": "Profile details accessible"
+    },
+    {
+      "test": "Performance Module Access",
+      "passed": true,
+      "details": "At https://test-performance.empcloud.com/login"
+    },
+    {
+      "test": "Pending Reviews",
+      "passed": false,
+      "details": "No pending reviews indicator"
+    },
+    {
+      "test": "Task/Project Assignment",
+      "passed": true,
+      "details": "Task or project module accessible"
+    },
+    {
+      "test": "Assign to Team Member",
+      "passed": false,
+      "details": "No assign button/field"
+    },
+    {
+      "test": "Team Calendar",
+      "passed": true,
+      "details": "Calendar view found"
+    },
+    {
+      "test": "Calendar Shows Team Absences",
+      "passed": true,
+      "details": "Team leave shown"
+    },
+    {
+      "test": "Rewards Module Access",
+      "passed": true,
+      "details": "Rewards accessible"
+    },
+    {
+      "test": "Can Nominate for Reward",
+      "passed": true,
+      "details": "Nomination possible"
+    },
+    {
+      "test": "Events Page",
+      "passed": true,
+      "details": "Found"
+    },
+    {
+      "test": "Create Event Action",
+      "passed": true,
+      "details": "Create action available"
+    },
+    {
+      "test": "Helpdesk Access",
+      "passed": true,
+      "details": "Found"
+    },
+    {
+      "test": "Helpdesk Team Ticket View",
+      "passed": true,
+      "details": "Team filter/view available"
+    },
+    {
+      "test": "Comp-Off Feature",
+      "passed": true,
+      "details": "Found in UI"
+    },
+    {
+      "test": "Team Reports",
+      "passed": true,
+      "details": "Report section found"
+    },
+    {
+      "test": "Export/Download Report",
+      "passed": false,
+      "details": "No export/download option"
+    },
+    {
+      "test": "Team Filter in Reports",
+      "passed": true,
+      "details": "Team filter found"
+    },
+    {
+      "test": "Whistleblowing Access",
+      "passed": true,
+      "details": "Found"
+    },
+    {
+      "test": "Manager API Endpoints",
+      "passed": false,
+      "details": "0 working endpoints found: "
+    }
+  ],
+  "issues": [
+    {
+      "title": "Team attendance page missing date range filter",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/545"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "DC001",
+    "category": "Documents",
+    "rule": "Mandatory documents list (joining checklist)",
+    "status": "PARTIAL",
+    "detail": "Status timeout: No response",
+    "issue_url": null
+  },
+  {
+    "id": "DC002",
+    "category": "Documents",
+    "rule": "Cannot mark onboarding complete without mandatory docs",
+    "status": "PARTIAL",
+    "detail": "Onboarding status endpoint exists. Cannot safely test completion check on shared env.",
+    "issue_url": null
+  },
+  {
+    "id": "DC003",
+    "category": "Documents",
+    "rule": "Document expiry tracking (visa, passport, license)",
+    "status": "PARTIAL",
+    "detail": "Documents have 'expires_at' field but /expiry-alerts returned timeout",
+    "issue_url": null
+  },
+  {
+    "id": "DC004",
+    "category": "Documents",
+    "rule": "Expired document -> auto-notification to HR",
+    "status": "PARTIAL",
+    "detail": "Notification system works. Found 0 doc-related notifications out of 20. Cannot trigger expiry in test.",
+    "issue_url": null
+  },
+  {
+    "id": "DC005",
+    "category": "Documents",
+    "rule": "Employee sees only own documents (not others')",
+    "status": "NOT ENFORCED",
+    "detail": "Employee CAN access other users' documents by ID! Admin has 5 docs, employee /documents returns 0, /documents/my returns 0",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1059"
+  },
+  {
+    "id": "DC006",
+    "category": "Documents",
+    "rule": "HR can see all employee documents",
+    "status": "ENFORCED",
+    "detail": "Admin GET /documents returns 5 docs",
+    "issue_url": null
+  },
+  {
+    "id": "DC007",
+    "category": "Documents",
+    "rule": "Cannot delete category with documents in it",
+    "status": "NOT ENFORCED",
+    "detail": "Category 'Education Certificates' with documents was DELETED! No protection. Status 200",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1037"
+  },
+  {
+    "id": "DC008",
+    "category": "Documents",
+    "rule": "File size limit on uploads (max 10MB)",
+    "status": "PARTIAL",
+    "detail": "Small file upload works. Cannot test 10MB+ without large upload. Endpoint: /documents/upload",
+    "issue_url": null
+  },
+  {
+    "id": "DC009",
+    "category": "Documents",
+    "rule": "Allowed file types only (no .exe)",
+    "status": "ENFORCED",
+    "detail": ".exe upload rejected: 400 Invalid file type. Only PDF, JPEG, PNG, and DOCX files are allowed. Endpoint: /documents/upload",
+    "issue_url": null
+  },
+  {
+    "id": "DC010",
+    "category": "Documents",
+    "rule": "Document version history (new version doesn't delete old)",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No version/history fields. Doc keys: ['id', 'organization_id', 'user_id', 'category_id', 'name', 'file_path', 'file_size', 'mime_type', 'expires_at', 'is_verified', 'verified_by', 'verified_at', 'verification_remarks', 'uploaded_by', 'created_at', 'updated_at', 'verification_status', 'rejection_reason', 'category_name', 'user_first_name', 'user_last_name', 'user_emp_code']",
+    "issue_url": null
+  },
+  {
+    "id": "OH001",
+    "category": "Hierarchy",
+    "rule": "Every employee must have a reporting manager (except CEO)",
+    "status": "NOT ENFORCED",
+    "detail": "4 active employees missing manager: Ananya Gupta(id=522, role=org_admin, desig=tech lead); Duplicate Test(id=610, role=employee, desig=); Ekta Das(id=643, role=employee, desig=manager); Hemani Malhotra(id=652, role=employee, desig=manager)",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1060"
+  },
+  {
+    "id": "OH002",
+    "category": "Hierarchy",
+    "rule": "Reporting chain depth limit (no infinite nesting)",
+    "status": "PARTIAL",
+    "detail": "Org chart status timeout",
+    "issue_url": null
+  },
+  {
+    "id": "OH003",
+    "category": "Hierarchy",
+    "rule": "Department must have at least one head/manager",
+    "status": "NOT ENFORCED",
+    "detail": "33/33 departments missing head: Marketing, Testing, DevOps, Astor, Production, IT, QA_1774617034554, QA_1774617063920, QA_1774617859239, QA_1774617877670",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1038"
+  },
+  {
+    "id": "OH004",
+    "category": "Hierarchy",
+    "rule": "Cannot delete department with active employees",
+    "status": "NOT ENFORCED",
+    "detail": "Dept 'Marketing' with 1 active employees DELETED! No protection. Status 200",
+    "issue_url": "https://github.com/EmpCloud/EmpCloud/issues/1039"
+  },
+  {
+    "id": "OH005",
+    "category": "Hierarchy",
+    "rule": "Cannot delete designation if employees have it",
+    "status": "NOT IMPLEMENTED",
+    "detail": "No designations endpoint found. /designations=timeout",
+    "issue_url": null
+  },
+  {
+    "id": "OH006",
+    "category": "Hierarchy",
+    "rule": "Org chart reflects real-time reporting structure",
+    "status": "PARTIAL",
+    "detail": "Status timeout",
+    "issue_url": null
+  },
+  {
+    "id": "OH007",
+    "category": "Hierarchy",
+    "rule": "Manager transfer - all reportees should be re-assigned or moved",
+    "status": "PARTIAL",
+    "detail": "Cannot safely test manager transfer on shared env. Requires destructive action.",
+    "issue_url": null
+  },
+  {
+    "id": "OH008",
+    "category": "Hierarchy",
+    "rule": "Matrix reporting - employee can have dotted-line manager",
+    "status": "NOT IMPLEMENTED",
+    "detail": "Profile keys: ['address', 'contact_number', 'created_at', 'date_of_birth', 'date_of_exit', 'date_of_joining', 'department_id', 'designation', 'email', 'emp_code', 'employment_type', 'first_name', 'gender', 'id', 'language', 'last_name', 'location_id', 'organization_id', 'photo_path', 'probation_confirmed_at', 'probation_confirmed_by', 'probation_end_date', 'probation_extension_reason', 'probation_status', 'reporting_manager_id', 'role', 'status', 'updated_at']. Dotted-line field: False",
+    "issue_url": null
+  },
+  {
+    "id": "OH009",
+    "category": "Hierarchy",
+    "rule": "Head count per department - tracked and reportable",
+    "status": "NOT IMPLEMENTED",
+    "detail": "Dept fields: ['id', 'name', 'organization_id', 'is_deleted', 'created_at', 'updated_at']. No headcount/employees field. Must be calculated from employee list.",
+    "issue_url": null
+  },
+  {
+    "id": "OH010",
+    "category": "Hierarchy",
+    "rule": "Cost center assignment per employee/department",
+    "status": "NOT IMPLEMENTED",
+    "detail": "Cost center field found: False",
+    "issue_url": null
+  },
+  {
+    "id": "RW001",
+    "category": "Rewards",
+    "rule": "Cannot give kudos to yourself",
+    "status": "ENFORCED",
+    "detail": "Self-kudos blocked with SELF_KUDOS_NOT_ALLOWED error. Field: receiver_id. Confirmed via API test.",
+    "issue_url": null
+  },
+  {
+    "id": "RW002",
+    "category": "Rewards",
+    "rule": "Maximum kudos per day limit enforced",
+    "status": "PARTIAL",
+    "detail": "Sent kudos endpoint works (0 sent). Cannot verify daily limit without mass-sending.",
+    "issue_url": null
+  },
+  {
+    "id": "RW003",
+    "category": "Rewards",
+    "rule": "Points expiry - unused points expire after X months",
+    "status": "PARTIAL",
+    "detail": "Points transactions: 0. Expiry field: False. Keys: empty",
+    "issue_url": null
+  },
+  {
+    "id": "RW004",
+    "category": "Rewards",
+    "rule": "Cannot redeem more points than balance",
+    "status": "PARTIAL",
+    "detail": "Balance=None, catalog has 0 items. Cannot test redemption without catalog items.",
+    "issue_url": null
+  },
+  {
+    "id": "RW005",
+    "category": "Rewards",
+    "rule": "Manager budget - cannot award more than allocated",
+    "status": "PARTIAL",
+    "detail": "Manager dashboard available. Budget-related keys: []. All keys: ['totalKudos', 'pointsDistributed', 'badgesAwarded', 'activePrograms', 'totalRedemptions', 'pointsRedeemed']",
+    "issue_url": null
+  },
+  {
+    "id": "RW006",
+    "category": "Rewards",
+    "rule": "Nomination requires at least one nominator besides self",
+    "status": "PARTIAL",
+    "detail": "Status timeout: N/A",
+    "issue_url": null
+  },
+  {
+    "id": "RW007",
+    "category": "Rewards",
+    "rule": "Challenge completion - auto-award points on meeting criteria",
+    "status": "ENFORCED",
+    "detail": "2 challenges. Points/reward fields: True. Keys: ['id', 'organization_id', 'title', 'description', 'type', 'metric', 'target_value', 'start_date', 'end_date', 'reward_points', 'reward_badge_id', 'status', 'created_by', 'created_at', 'updated_at']",
+    "issue_url": null
+  },
+  {
+    "id": "RW008",
+    "category": "Rewards",
+    "rule": "Celebration auto-detection (birthday/anniversary from profile)",
+    "status": "PARTIAL",
+    "detail": "Celebrations endpoint works. Types found: set(). Count: 0. Auto-detected: False",
+    "issue_url": null
+  },
+  {
+    "id": "RW009",
+    "category": "Rewards",
+    "rule": "Leaderboard excludes terminated employees",
+    "status": "ENFORCED",
+    "detail": "Leaderboard has 2 entries, none are terminated. Inactive pool: 2 IDs",
+    "issue_url": null
+  },
+  {
+    "id": "RW010",
+    "category": "Rewards",
+    "rule": "Anonymous kudos - sender identity not revealed if enabled",
+    "status": "PARTIAL",
+    "detail": "No anonymous kudos in feed to verify. Total: 0",
+    "issue_url": null
+  }
+]

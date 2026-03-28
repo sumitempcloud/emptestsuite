@@ -1,0 +1,62 @@
+{
+  "emp-monitor": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-exit": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-field": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-lms": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-payroll": {
+    "status": "SUCCESS",
+    "redirect_uri": "https://testpayroll.empcloud.com/auth/callback",
+    "expires_in": 900,
+    "client_id_in_jwt": "emp-payroll"
+  },
+  "emp-performance": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-projects": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-recruit": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "emp-rewards": {
+    "status": "FAILED",
+    "redirect_uri": null,
+    "expires_in": null,
+    "client_id_in_jwt": null
+  },
+  "empcloud-dashboard": {
+    "status": "SUCCESS",
+    "redirect_uri": "https://test-empcloud.empcloud.com/auth/callback",
+    "expires_in": 900,
+    "client_id_in_jwt": "empcloud-dashboard"
+  }
+}

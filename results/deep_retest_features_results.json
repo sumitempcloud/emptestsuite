@@ -1,0 +1,87 @@
+{
+  "test_date": "2026-03-28",
+  "total_tested": 10,
+  "summary": {
+    "FIXED": 6,
+    "STILL_BROKEN": 4
+  },
+  "results": [
+    {
+      "issue": 493,
+      "title": "Platform admin missing management features",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Platform Dashboard at /admin shows: 33 total organizations, 97 users, 14 active subscriptions, revenue analytics, module analytics. All key management features present. API /admin/organizations=200, /admin/revenue=200.",
+      "evidence": "screenshots/493_page__admin.png"
+    },
+    {
+      "issue": 556,
+      "title": "New joiner can't edit profile",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Employee profile page loads at /employees/524. 'Edit My Info' button visible in top-right. Clicking enables field editing. Tabs: Personal, Education, Experience, Dependents, Addresses, Custom Fields.",
+      "evidence": "screenshots/556_profile__my-profile.png"
+    },
+    {
+      "issue": 557,
+      "title": "Can't find Clock Out button",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Attendance page at /attendance/my shows Check In and Check Out columns with timestamps. Request Regularization button also available.",
+      "evidence": "screenshots/557_att__attendance.png"
+    },
+    {
+      "issue": 575,
+      "title": "Orphan departments",
+      "status": "STILL_BROKEN",
+      "github_state": "needs_reopen",
+      "details": "Orphan department_ids {20, 21} confirmed. 20 users total, 5 unique dept IDs used. 16 valid departments in system. IDs 20 and 21 do not exist in /organizations/me/departments."
+    },
+    {
+      "issue": 582,
+      "title": "Can't select leave type",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Leave type select dropdown works. Options: Earned Leave, Maternity Leave, Paternity Leave, Sick Leave, custom types. Form has dates, days, reason, submit. Selection confirmed working.",
+      "evidence": "screenshots/582_FINAL_SELECTED.png"
+    },
+    {
+      "issue": 584,
+      "title": "Employee count mismatch",
+      "status": "STILL_BROKEN",
+      "github_state": "needs_reopen",
+      "details": "org.current_user_count=12 in login response, but GET /users returns 20 users. Difference of 8."
+    },
+    {
+      "issue": 626,
+      "title": "Leave shows User IDs instead of names",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Pending Leave Requests table shows actual employee names (Ananya Gupta, Priya Patel). No 'User #524' patterns found.",
+      "evidence": "screenshots/626_leave_page.png"
+    },
+    {
+      "issue": 633,
+      "title": "Attendance no date picker",
+      "status": "FIXED",
+      "github_state": "closed",
+      "details": "Attendance Dashboard has Year dropdown, Department filter, Date From/To date inputs with calendar icons, Apply/Clear buttons. 2 date inputs and 3 calendar icons confirmed.",
+      "evidence": "screenshots/633_attendance.png"
+    },
+    {
+      "issue": 658,
+      "title": "Projects sub-pages all 404",
+      "status": "STILL_BROKEN",
+      "github_state": "open",
+      "details": "All Project module sub-pages return 404: /dashboard, /projects, /tasks, /board, /timesheet. HTTP and browser both confirm 404. Styled 404 page shown.",
+      "evidence": "screenshots/658_proj_dashboard.png"
+    },
+    {
+      "issue": 659,
+      "title": "LMS sub-pages 404",
+      "status": "STILL_BROKEN",
+      "github_state": "needs_reopen",
+      "details": "LMS sub-pages not functional. /dashboard and /courses redirect to LMS login (SSO broken). /my-courses shows 'Page not found'. LMS has separate auth, does not accept EmpCloud creds."
+    }
+  ]
+}

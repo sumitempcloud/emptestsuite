@@ -1,0 +1,530 @@
+{
+  "date": "2026-03-28T07:01:05.112041",
+  "persona": "Ravi Kumar -- Team Lead",
+  "manager_ravi_results.json": {
+    "date": "2026-03-28T06:44:31.667788",
+    "user": "ananya@technova.in",
+    "persona": "Ravi Kumar \u2014 Team Lead",
+    "total_tests": 33,
+    "passed": 22,
+    "failed": 11,
+    "issues_filed": 1,
+    "results": [
+      {
+        "test": "Sidebar Manager Links",
+        "passed": true,
+        "details": "11 relevant links found"
+      },
+      {
+        "test": "Login",
+        "passed": false,
+        "details": "Cannot login"
+      },
+      {
+        "test": "Manager Page Team Members",
+        "passed": true,
+        "details": "Team members visible"
+      },
+      {
+        "test": "Manager Page Team Attendance",
+        "passed": true,
+        "details": "Attendance info visible"
+      },
+      {
+        "test": "Leave Approvals Page",
+        "passed": true,
+        "details": "Page found"
+      },
+      {
+        "test": "Leave Approve/Reject Buttons",
+        "passed": false,
+        "details": "Approve: False, Reject: False"
+      },
+      {
+        "test": "Leave Request Details",
+        "passed": false,
+        "details": "Missing: name, type, reason"
+      },
+      {
+        "test": "Leave Approvals API",
+        "passed": false,
+        "details": "No working leave approval API endpoint found"
+      },
+      {
+        "test": "Team Attendance Page",
+        "passed": true,
+        "details": "Found"
+      },
+      {
+        "test": "Attendance Status Indicators",
+        "passed": false,
+        "details": "No present/absent/late indicators"
+      },
+      {
+        "test": "Attendance Date Filter",
+        "passed": false,
+        "details": "No date range filter"
+      },
+      {
+        "test": "Team Attendance API",
+        "passed": false,
+        "details": "No working team attendance API"
+      },
+      {
+        "test": "Team Leave Balances",
+        "passed": true,
+        "details": "Balance info visible"
+      },
+      {
+        "test": "Team Member List",
+        "passed": true,
+        "details": "Found"
+      },
+      {
+        "test": "Member Profile Click-Through",
+        "passed": true,
+        "details": "Profile details accessible"
+      },
+      {
+        "test": "Performance Module Access",
+        "passed": true,
+        "details": "At https://test-performance.empcloud.com/login"
+      },
+      {
+        "test": "Pending Reviews",
+        "passed": false,
+        "details": "No pending reviews indicator"
+      },
+      {
+        "test": "Task/Project Assignment",
+        "passed": true,
+        "details": "Task or project module accessible"
+      },
+      {
+        "test": "Assign to Team Member",
+        "passed": false,
+        "details": "No assign button/field"
+      },
+      {
+        "test": "Team Calendar",
+        "passed": true,
+        "details": "Calendar view found"
+      },
+      {
+        "test": "Calendar Shows Team Absences",
+        "passed": true,
+        "details": "Team leave shown"
+      },
+      {
+        "test": "Rewards Module Access",
+        "passed": true,
+        "details": "Rewards accessible"
+      },
+      {
+        "test": "Can Nominate for Reward",
+        "passed": true,
+        "details": "Nomination possible"
+      },
+      {
+        "test": "Events Page",
+        "passed": true,
+        "details": "Found"
+      },
+      {
+        "test": "Create Event Action",
+        "passed": true,
+        "details": "Create action available"
+      },
+      {
+        "test": "Helpdesk Access",
+        "passed": true,
+        "details": "Found"
+      },
+      {
+        "test": "Helpdesk Team Ticket View",
+        "passed": true,
+        "details": "Team filter/view available"
+      },
+      {
+        "test": "Comp-Off Feature",
+        "passed": true,
+        "details": "Found in UI"
+      },
+      {
+        "test": "Team Reports",
+        "passed": true,
+        "details": "Report section found"
+      },
+      {
+        "test": "Export/Download Report",
+        "passed": false,
+        "details": "No export/download option"
+      },
+      {
+        "test": "Team Filter in Reports",
+        "passed": true,
+        "details": "Team filter found"
+      },
+      {
+        "test": "Whistleblowing Access",
+        "passed": true,
+        "details": "Found"
+      },
+      {
+        "test": "Manager API Endpoints",
+        "passed": false,
+        "details": "0 working endpoints found: "
+      }
+    ],
+    "issues": [
+      {
+        "title": "Team attendance page missing date range filter",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/545"
+      }
+    ]
+  },
+  "manager_ravi_pass2_results.json": {
+    "date": "2026-03-28T06:53:12.592892",
+    "user": "ananya@technova.in",
+    "persona": "Ravi Kumar -- Team Lead (Pass 2)",
+    "total_tests": 38,
+    "passed": 29,
+    "failed": 9,
+    "issues_filed": 4,
+    "results": [
+      {
+        "test": "Manager Page Loads",
+        "passed": true,
+        "details": "URL: https://test-empcloud.empcloud.com/manager"
+      },
+      {
+        "test": "Manager Dashboard Stats",
+        "passed": true,
+        "details": "Found: ['present', 'half day', 'late', 'absent']"
+      },
+      {
+        "test": "Team Attendance Today Section",
+        "passed": true,
+        "details": "Section found"
+      },
+      {
+        "test": "Team Leave Calendar Section",
+        "passed": true,
+        "details": "Section found"
+      },
+      {
+        "test": "Pending Leave Requests Section",
+        "passed": true,
+        "details": "Section found"
+      },
+      {
+        "test": "Leave Request Shows Employee Name",
+        "passed": false,
+        "details": "No employee names in pending requests"
+      },
+      {
+        "test": "Leave Request Shows Type",
+        "passed": false,
+        "details": "No leave type shown"
+      },
+      {
+        "test": "Leave Request Shows Dates",
+        "passed": false,
+        "details": "No dates shown"
+      },
+      {
+        "test": "Approve/Reject Actions on Manager Page",
+        "passed": false,
+        "details": "Approve btns: 0, Reject btns: 0, Action elements: 0"
+      },
+      {
+        "test": "Team Members Clickable",
+        "passed": true,
+        "details": "1 clickable member links"
+      },
+      {
+        "test": "Attendance Page Loads",
+        "passed": true,
+        "details": "URL: https://test-empcloud.empcloud.com/attendance"
+      },
+      {
+        "test": "Attendance Page Type",
+        "passed": true,
+        "details": "Self-service: True, Team view: True"
+      },
+      {
+        "test": "Attendance Date Filter",
+        "passed": false,
+        "details": "Not found"
+      },
+      {
+        "test": "Attendance Status Display",
+        "passed": true,
+        "details": "Status indicators found"
+      },
+      {
+        "test": "Leave Page Loads",
+        "passed": true,
+        "details": "URL: https://test-empcloud.empcloud.com/leave"
+      },
+      {
+        "test": "Leave Page Sections",
+        "passed": true,
+        "details": "Found: ['team leaves', 'approvals', 'balances']"
+      },
+      {
+        "test": "Comp-Off Page Loads",
+        "passed": true,
+        "details": "URL: https://test-empcloud.empcloud.com/leave/comp-off"
+      },
+      {
+        "test": "Request Comp-Off Button",
+        "passed": true,
+        "details": "Found 2 buttons"
+      },
+      {
+        "test": "Performance SSO Login",
+        "passed": false,
+        "details": "Cannot login - SSO not working from EmpCloud to Performance module"
+      },
+      {
+        "test": "Rewards SSO Login",
+        "passed": false,
+        "details": "Cannot login - separate login required"
+      },
+      {
+        "test": "Helpdesk /helpdesk/dashboard",
+        "passed": true,
+        "details": "Page loaded"
+      },
+      {
+        "test": "Helpdesk /helpdesk/tickets",
+        "passed": true,
+        "details": "Page loaded"
+      },
+      {
+        "test": "Helpdesk /helpdesk/my-tickets",
+        "passed": true,
+        "details": "Page loaded"
+      },
+      {
+        "test": "Helpdesk Team Ticket Visibility",
+        "passed": true,
+        "details": "Team view found"
+      },
+      {
+        "test": "Events Page",
+        "passed": true,
+        "details": "Loaded"
+      },
+      {
+        "test": "Create Event Button",
+        "passed": true,
+        "details": "Buttons: ['Create Post', 'Manage Events']"
+      },
+      {
+        "test": "Event Creation Form",
+        "passed": true,
+        "details": "Form fields found"
+      },
+      {
+        "test": "Whistleblowing Dashboard",
+        "passed": true,
+        "details": "Content found"
+      },
+      {
+        "test": "Whistleblowing All Reports",
+        "passed": true,
+        "details": "Content found"
+      },
+      {
+        "test": "Whistleblowing Submit Report",
+        "passed": true,
+        "details": "Content found"
+      },
+      {
+        "test": "Whistleblowing Track Report",
+        "passed": true,
+        "details": "Content found"
+      },
+      {
+        "test": "Whistleblowing Manager Note",
+        "passed": true,
+        "details": "Whistleblowing correctly routes to HR/Ethics, not direct manager"
+      },
+      {
+        "test": "Dashboard Report Links",
+        "passed": true,
+        "details": "Report links found"
+      },
+      {
+        "test": "Attendance Export",
+        "passed": false,
+        "details": "No export on attendance page"
+      },
+      {
+        "test": "Leave Export",
+        "passed": true,
+        "details": "Export found"
+      },
+      {
+        "test": "Dashboard My Team At-a-Glance",
+        "passed": true,
+        "details": "Team section on dashboard"
+      },
+      {
+        "test": "Sidebar My Team Link",
+        "passed": true,
+        "details": "Found 1 links"
+      },
+      {
+        "test": "Project Module",
+        "passed": false,
+        "details": "Shows marketing/landing page instead of project management tool"
+      }
+    ],
+    "issues": [
+      {
+        "title": "Manager page shows pending leaves but no approve/reject buttons",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/558"
+      },
+      {
+        "title": "Performance module requires separate login, no SSO from EmpCloud",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/571"
+      },
+      {
+        "title": "Rewards module requires separate login, no SSO from EmpCloud",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/572"
+      },
+      {
+        "title": "Project module shows marketing landing page instead of tool",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/573"
+      }
+    ]
+  },
+  "manager_ravi_pass3_results.json": {
+    "date": "2026-03-28T06:58:59.399990",
+    "user": "ananya@technova.in",
+    "persona": "Ravi Kumar -- Pass 3",
+    "total_tests": 16,
+    "passed": 10,
+    "failed": 6,
+    "issues_filed": 1,
+    "results": [
+      {
+        "test": "Leave Dashboard Employee Names",
+        "passed": true,
+        "details": "Real employee names displayed"
+      },
+      {
+        "test": "Leave Page Approve/Reject",
+        "passed": true,
+        "details": "Approve: True, Reject: True"
+      },
+      {
+        "test": "Manager Page Pending Leaves Section",
+        "passed": true,
+        "details": "Section found"
+      },
+      {
+        "test": "Pending Leaves Action Column",
+        "passed": false,
+        "details": "Action/status column found: False"
+      },
+      {
+        "test": "Leave Request Status Shown",
+        "passed": false,
+        "details": "Statuses: []"
+      },
+      {
+        "test": "View All Pending Leaves Link",
+        "passed": false,
+        "details": "No 'View All' link"
+      },
+      {
+        "test": "Attendance Shows Today",
+        "passed": true,
+        "details": "Today's attendance shown"
+      },
+      {
+        "test": "Attendance Late Column",
+        "passed": true,
+        "details": "Late column found"
+      },
+      {
+        "test": "Attendance Export Button",
+        "passed": false,
+        "details": "No export button"
+      },
+      {
+        "test": "Performance SSO from Dashboard Link",
+        "passed": false,
+        "details": "Ended up at: https://test-empcloud.empcloud.com/"
+      },
+      {
+        "test": "Leave Row Click Opens Details",
+        "passed": true,
+        "details": "Detail view opened"
+      },
+      {
+        "test": "Member Profile from Manager Page",
+        "passed": true,
+        "details": "Profile at https://test-empcloud.empcloud.com/manager"
+      },
+      {
+        "test": "Dashboard Recruitment Insight",
+        "passed": true,
+        "details": "Present"
+      },
+      {
+        "test": "Dashboard Performance Insight",
+        "passed": true,
+        "details": "Present"
+      },
+      {
+        "test": "Dashboard Recognition/Rewards Insight",
+        "passed": true,
+        "details": "Present"
+      },
+      {
+        "test": "Create Event Button in Manage",
+        "passed": false,
+        "details": "No create button"
+      }
+    ],
+    "issues": [
+      {
+        "title": "Attendance page has no export or download feature",
+        "url": "https://github.com/EmpCloud/EmpCloud/issues/583"
+      }
+    ]
+  },
+  "final_issues": [
+    {
+      "title": "Leave dashboard shows 'User #524' instead of employee names",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/626"
+    },
+    {
+      "title": "Leave requests show raw ISO timestamps instead of formatted dates",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/627"
+    },
+    {
+      "title": "Leave type displays 'Earned Leave0' with trailing zero",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/629"
+    },
+    {
+      "title": "Performance module SSO redirect fails \u2014 returns to EmpCloud dashboard",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/631"
+    },
+    {
+      "title": "Attendance dashboard lacks date picker or date range filter",
+      "url": "https://github.com/EmpCloud/EmpCloud/issues/633"
+    }
+  ],
+  "consolidated": {
+    "total_tests_across_passes": 87,
+    "passed": 61,
+    "failed": 26,
+    "pass_rate": "70.1%"
+  }
+}

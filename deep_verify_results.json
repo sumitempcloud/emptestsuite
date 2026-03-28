@@ -1,0 +1,5642 @@
+[
+  {
+    "number": 944,
+    "title": "[Payroll Employee] Admin Panel link visible in sidebar for employee role",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 943,
+    "title": "[30-Day Sim SSO] Data integrity issue for Innovate: Employee count mismatch: API=20 vs setup=51",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 942,
+    "title": "[30-Day Sim SSO] Data integrity issue for GlobalTech: Employee count mismatch: API=20 vs setup=50",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 941,
+    "title": "[30-Day Sim SSO] Data integrity issue for TechNova: Employee count mismatch: API=20 vs setup=49",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 940,
+    "title": "[30-Day Sim SSO] All modules redirect to login - SSO via direct navigation does not work",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 939,
+    "title": "[30-Day Sim SSO] Lms module - catalog page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 938,
+    "title": "[30-Day Sim SSO] Exit module - exit_interviews page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 937,
+    "title": "[30-Day Sim SSO] Exit module - fnf_settlement page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 936,
+    "title": "[30-Day Sim SSO] Performance module - nine_box_grid page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 935,
+    "title": "[30-Day Sim SSO] Performance module - review_cycles page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 934,
+    "title": "[30-Day Sim SSO] Recruit module - pipeline page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 933,
+    "title": "[30-Day Sim SSO] Payroll module - run_payroll page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 932,
+    "title": "[30-Day Sim SSO] Payroll module - payroll_processing page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 931,
+    "title": "[30-Day Sim SSO] Payroll module - tax_details page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 930,
+    "title": "[30-Day Sim SSO] Payroll module - salary_structure page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 929,
+    "title": "[Recruit] Candidate detail page renders blank after successful creation",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 928,
+    "title": "[Recruit] AI Scoring page appears blank",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 927,
+    "title": "[Recruit] Pipeline Config page appears blank",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 926,
+    "title": "[Payroll] 12 admin-only pages show 404 for org_admin user logged in via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 925,
+    "title": "[Payroll] Payslip PDF download returns 404 Employee not found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 924,
+    "title": "[Payroll] SSO login assigns employee role instead of org_admin for admin users",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 923,
+    "title": "[LMS] Course Catalog page shows \"Coming soon\" instead of course listings",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 922,
+    "title": "[LMS] Course catalog is empty - 0 courses available",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 921,
+    "title": "[LMS] Org Admin cannot create courses - 403 Forbidden",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 920,
+    "title": "[LMS] API routes return 404: /compliance/my, /gamification/my, /ilt",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 919,
+    "title": "[LMS] Multiple API endpoints return 500 Internal Error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 918,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 917,
+    "title": "[LMS] Frontend pages return 404: /quizzes, /scorm",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 916,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 915,
+    "title": "[Payroll Employee] SSO login may not work for employee",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 914,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 913,
+    "title": "[Payroll Employee] Cannot find or access My Payslips page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 912,
+    "title": "[Payroll] Payslip page missing salary breakdown",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 911,
+    "title": "[Payroll Employee] SSO login may not work for employee",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 910,
+    "title": "[30-Day Sim SSO] Project: GET /api/v1/projects -> 502",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 909,
+    "title": "[30-Day Sim SSO] Project: GET /explorer -> 502",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 908,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 907,
+    "title": "[30-Day Sim SSO] Project: GET /health -> ERROR: HTTPSConnectionPool(host='test-project-api.empcloud.com', port=443): ...",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 906,
+    "title": "[30-Day Sim SSO] Project: GET /v1/users -> 502",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 905,
+    "title": "[30-Day Sim SSO] Project: GET /v1/tasks -> 502",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 904,
+    "title": "[30-Day Sim SSO] Project: GET /v1/projects -> 502",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 903,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/analytics/users -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 902,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/analytics/courses -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 901,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/gamification/badges -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 900,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/gamification/my -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 899,
+    "title": "[LMS] Frontend pages return 404: /quizzes, /scorm",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 898,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/ilt -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 897,
+    "title": "[30-Day Sim SSO] Lms module - catalog page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 896,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/compliance/overdue -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 895,
+    "title": "[30-Day Sim SSO] LMS: GET /api/v1/compliance/my -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 894,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/nps/responses -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 893,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/nps/trends -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 892,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/nps/scores -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 891,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/email-templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 890,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/letter-templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 889,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/interview-templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 888,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/my-clearances -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 887,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/clearance-departments -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 886,
+    "title": "[30-Day Sim SSO] Exit: GET /api/v1/checklist-templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 885,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/integration/user/1/summary -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 884,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/push/vapid-key -> 503",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 883,
+    "title": "[30-Day Sim SSO] Exit module - exit_interviews page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 882,
+    "title": "[30-Day Sim SSO] Exit module - fnf_settlement page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 881,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/teams -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 880,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/manager/recommendations -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 879,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/manager/team-comparison -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 878,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/manager/dashboard -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 877,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/milestones/history -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 876,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/celebrations -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 875,
+    "title": "[30-Day Sim SSO] Rewards: GET /api/v1/points/transactions -> ERROR: HTTPSConnectionPool(host='test-rewards-api.empclo...",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 874,
+    "title": "[30-Day Sim SSO] Performance: GET /api/v1/notifications/pending -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 873,
+    "title": "[30-Day Sim SSO] Performance: GET /api/v1/letter-templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 872,
+    "title": "[30-Day Sim SSO] Performance: GET /api/v1/skills-gap/663 -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 871,
+    "title": "[30-Day Sim SSO] Performance: GET /api/v1/nine-box -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 870,
+    "title": "[30-Day Sim SSO] Performance: GET /api/v1/goal-alignment/tree -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 869,
+    "title": "[30-Day Sim SSO] Recruit: GET /api/v1/assessments/1 -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 868,
+    "title": "[30-Day Sim SSO] Recruit: GET /api/v1/surveys/1 -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 867,
+    "title": "[30-Day Sim SSO] Recruit: GET /api/v1/public/careers/technova -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 866,
+    "title": "[30-Day Sim SSO] Recruit: POST /api/v1/ai/batch-score -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 865,
+    "title": "[30-Day Sim SSO] Recruit: POST /api/v1/ai/score-resume -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 864,
+    "title": "[30-Day Sim SSO] Recruit: GET /api/v1/pipeline-stages -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 863,
+    "title": "[30-Day Sim SSO] Recruit: GET /api/v1/job-descriptions/templates -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 862,
+    "title": "[30-Day Sim SSO] Recruit: POST /api/v1/job-descriptions/generate -> 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 861,
+    "title": "[30-Day Sim SSO] Recruit: POST /api/v1/auth/login -> ERROR: HTTPSConnectionPool(host='test-recruit-api.empcloud.com',...",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 860,
+    "title": "[30-Day Sim SSO] Payroll: 12 endpoints returning errors",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 859,
+    "title": "[30-Day Sim SSO] Core: 25 endpoints returning errors",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 858,
+    "title": "[LMS] SSO and direct login both fail - cannot access LMS",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 857,
+    "title": "[30-Day Sim SSO] Performance module - nine_box_grid page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 856,
+    "title": "[30-Day Sim SSO] Performance module - review_cycles page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 855,
+    "title": "[Performance Employee] Sidebar navigation exposes all admin menu items to employee role",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 854,
+    "title": "[Rewards] SSO token not processed - redirects to login form instead of auto-authenticating",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 853,
+    "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 852,
+    "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 851,
+    "title": "[Exit Employee] CRITICAL RBAC: Employee has full admin navigation and page access",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 850,
+    "title": "[Rewards] All employee self-service routes (/my/*) return Page Not Found",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 849,
+    "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 848,
+    "title": "[Lms SSO] Redirected to login page - SSO authentication failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 847,
+    "title": "[Performance SSO] Page contains error indicator: 'not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 846,
+    "title": "[Payroll SSO] Page contains error indicator: '404'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 845,
+    "title": "[Rewards] Rewards API rejects EmpCloud SSO token - all API endpoints return 401 INVALID_TOKEN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 844,
+    "title": "[Payroll SSO] Page contains error indicator: '404'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 843,
+    "title": "[Payroll SSO] Page contains error indicator: '404'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 842,
+    "title": "[30-Day Sim SSO] Recruit module - pipeline page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 841,
+    "title": "[Rewards] My Notifications page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 840,
+    "title": "[30-Day Sim SSO] Payroll module - run_payroll page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 839,
+    "title": "[30-Day Sim SSO] Payroll module - payroll_processing page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 838,
+    "title": "[Rewards] My Redemptions page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 837,
+    "title": "[30-Day Sim SSO] Payroll module - tax_details page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 836,
+    "title": "[30-Day Sim SSO] Payroll module - salary_structure page error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 835,
+    "title": "[Rewards] My Rewards page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 834,
+    "title": "[Rewards] My Badges page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 833,
+    "title": "[Rewards] My Kudos page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 832,
+    "title": "[Rewards] My Summary page: Error text found: 'page not found'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 831,
+    "title": "[Performance Employee] Employee self-service pages missing: Self Assessment",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 830,
+    "title": "[Performance Employee] RBAC violations - Employee can access restricted resources",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 829,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 828,
+    "title": "[Exit Employee] RBAC: Employee can access admin page /analytics",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 827,
+    "title": "Module Insights 'View Details' links missing SSO token — sends users to login page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 826,
+    "title": "[Exit Employee] RBAC: Employee can access admin page /dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 825,
+    "title": "[SSO Fixed] Performance module pages not loading: dashboard, review_cycles, goals, nine_box, analyti",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 824,
+    "title": "[SSO Fixed] LMS module still not loading after SSO fix",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 823,
+    "title": "[Rewards] Kudos page: Redirected to login page (auth not persisting)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 822,
+    "title": "[SSO Fixed] Exit module still not loading after SSO fix",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 821,
+    "title": "[SSO Fixed] Performance module still not loading after SSO fix",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 820,
+    "title": "[LMS] SCORM Page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 819,
+    "title": "[Rewards] Dashboard page: Redirected to login page (auth not persisting)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 818,
+    "title": "[LMS] Quizzes Page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 817,
+    "title": "[Rewards] API endpoint /api/v1/manager/recommendations returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 816,
+    "title": "[LMS] SSO token login redirects to login page",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 815,
+    "title": "[Recruit Employee] SECURITY: Employee can access admin/settings in Recruit module",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 814,
+    "title": "[Rewards] API endpoint /api/v1/manager/team-comparison returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 813,
+    "title": "[Rewards] API endpoint /api/v1/manager/dashboard returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 812,
+    "title": "[Recruit Employee] SECURITY: Employee can access interview feedback",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 811,
+    "title": "[Recruit Employee] SECURITY: Employee can access candidate pipeline",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 810,
+    "title": "[LMS] SSO token consumed but still redirects to login page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 809,
+    "title": "[Recruit Employee] Employee cannot apply for internal positions",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 808,
+    "title": "[Exit] /assets page returns 403 Forbidden from nginx",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 807,
+    "title": "[Exit] 11 frontend routes return Page Not Found (predictions, NPS, self-service, email-templates)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 806,
+    "title": "[Exit Employee] SSO token not accepted by Exit module",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 805,
+    "title": "[Performance] My Reviews page fails to load",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 804,
+    "title": "[Recruit Employee] Employee cannot apply for internal positions",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 803,
+    "title": "[Recruit Employee] Employee cannot access referral feature",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 802,
+    "title": "[Exit] API /health returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 801,
+    "title": "[Performance] My Performance (Self-Service) page fails to load",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 800,
+    "title": "[Exit] API /email-templates returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 799,
+    "title": "[Rewards Employee] Admin features accessible to employee",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 798,
+    "title": "[Exit] API /nps/responses returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 797,
+    "title": "[Recruit Employee] Employee cannot view internal job postings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 796,
+    "title": "[Exit] API /nps/scores returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 795,
+    "title": "[Performance] Letter Templates page fails to load",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 794,
+    "title": "[Payroll] Run Payroll button not found on payroll runs page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 793,
+    "title": "[Exit] API /letter-templates returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 792,
+    "title": "[LMS] Course creation API returns unexpected error",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 791,
+    "title": "[Exit] API /interview-templates returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 790,
+    "title": "[Rewards] My Redemptions page shows errors",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 789,
+    "title": "[LMS] LMS API health check failing",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 788,
+    "title": "[LMS] SCORM Page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 787,
+    "title": "[Exit] API /clearance-departments returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 786,
+    "title": "[Rewards] Notifications page shows errors",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 785,
+    "title": "[Exit] API /checklist-templates returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 784,
+    "title": "[LMS Employee] SSO login fails for employee user",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 783,
+    "title": "[LMS] Quizzes Page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 782,
+    "title": "[Performance] Succession Plans page fails to load",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 781,
+    "title": "[Rewards] Badge definitions API returns error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 780,
+    "title": "[Rewards] Points balance API returns error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 779,
+    "title": "[Payroll Employee] Cannot extract SSO token from login response",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 778,
+    "title": "[Rewards] Unable to send kudos via API",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 777,
+    "title": "[Rewards] My Rewards Catalog page shows errors",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 776,
+    "title": "[Payroll] Backend API completely down — all endpoints return 500 Internal Server Error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 775,
+    "title": "[Rewards] API endpoint /api/v1/manager/dashboard returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 774,
+    "title": "[LMS] SSO not working — silently redirects to login page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 773,
+    "title": "[Payroll] SSO login fails — shows 'SSO login failed' error message",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 772,
+    "title": "[30-Day Sim SSO] Payroll module - run_payroll page error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 771,
+    "title": "[30-Day Sim SSO] Payroll module - payroll_processing page error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 769,
+    "title": "[30-Day Sim SSO] Payroll module - salary_structure page error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 768,
+    "title": "[README Gap] EMP Monitor: Login Page - BROKEN",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 767,
+    "title": "[README Gap] EMP Monitor: API Base - BROKEN",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 766,
+    "title": "[README Gap] EMP Project: 6 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 765,
+    "title": "[README Gap] EMP Billing: 24 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 764,
+    "title": "[README Gap] EMP LMS: Health Check - BROKEN",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 763,
+    "title": "[README Gap] EMP Exit: 9 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 762,
+    "title": "[README Gap] EMP Rewards: Integration Summary - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 761,
+    "title": "[README Gap] EMP Rewards: Teams Config - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 760,
+    "title": "[README Gap] EMP Rewards: Manager Dashboard - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 759,
+    "title": "[README Gap] EMP Performance: Letter Templates - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 758,
+    "title": "[README Gap] EMP Performance: Skills Gap Analysis - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 757,
+    "title": "[README Gap] EMP Performance: 9-Box Grid - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 756,
+    "title": "[README Gap] EMP Performance: Goal Alignment Tree - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 755,
+    "title": "[README Gap] EMP Recruit: 10 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 754,
+    "title": "[README Gap] EMP Payroll: 6 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 753,
+    "title": "[README Gap] EMP Cloud - Employees: Create Employee - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 752,
+    "title": "[README Gap] EMP Cloud - Employees: Employee Detail - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 751,
+    "title": "[README Gap] EMP Cloud - Employees: Employee Directory - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 750,
+    "title": "[README Gap] EMP Cloud - Auth: SSO Token Validate - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 749,
+    "title": "[README Gap] EMP Monitor: Login Page - BROKEN",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 748,
+    "title": "[README Gap] EMP Monitor: API Base - BROKEN",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 747,
+    "title": "[README Gap] EMP Project: 6 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 745,
+    "title": "[README Gap] EMP LMS: Health Check - BROKEN",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "GET /health -> 404"
+  },
+  {
+    "number": 744,
+    "title": "[README Gap] EMP Exit: 9 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 743,
+    "title": "[README Gap] EMP Rewards: Integration Summary - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 742,
+    "title": "[README Gap] EMP Rewards: Teams Config - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 741,
+    "title": "[README Gap] EMP Rewards: Manager Dashboard - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 740,
+    "title": "[README Gap] EMP Performance: Letter Templates - MISSING",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /letter-templates -> 401 (auth enforced)"
+  },
+  {
+    "number": 739,
+    "title": "[README Gap] EMP Performance: Skills Gap Analysis - MISSING",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "GET /skills-gap/team/1 -> 404"
+  },
+  {
+    "number": 738,
+    "title": "[README Gap] EMP Performance: 9-Box Grid - MISSING",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /nine-box -> 401 (auth enforced)"
+  },
+  {
+    "number": 737,
+    "title": "[README Gap] EMP Performance: Goal Alignment Tree - MISSING",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /goal-alignment/tree -> 401 (auth enforced)"
+  },
+  {
+    "number": 736,
+    "title": "[README Gap] EMP Recruit: Career Page Config - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 735,
+    "title": "[README Gap] EMP Recruit: Psychometric Assessments - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 734,
+    "title": "[README Gap] EMP Recruit: Pipeline Stages - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 733,
+    "title": "[README Gap] EMP Recruit: AI JD Templates - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 732,
+    "title": "[README Gap] EMP Payroll: 6 documented features not matching reality",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 731,
+    "title": "[README Gap] EMP Cloud - Employees: Create Employee - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 730,
+    "title": "[README Gap] EMP Cloud - Employees: Employee Detail - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 729,
+    "title": "[README Gap] EMP Cloud - Employees: Employee Directory - MISSING",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 728,
+    "title": "[README Gap] EMP Cloud - Auth: SSO Token Validate - MISSING",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /auth/sso/validate -> 400"
+  },
+  {
+    "number": 727,
+    "title": "[30-Day Sim] Day 28: Payroll run fails for Innovate Solutions - March 2026",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 726,
+    "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for Innovate Solutions",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 725,
+    "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for GlobalTech",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 724,
+    "title": "[30-Day Sim] Project module API is completely down -- returns 502 Bad Gateway",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 723,
+    "title": "[30-Day Sim] SSO from core to external modules returns 500 -- all module APIs inaccessible",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 722,
+    "title": "[30-Day Sim] Day 28: Org admin can't run payroll - role mapped as 'employee' in payroll module",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 721,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/whistleblowing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 720,
+    "title": "[30-Day Sim] Feature missing: GET /api/v1/whistleblowing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 719,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/helpdesk/knowledge-base",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 718,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/documents",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 717,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /auth/sso/validate -> 400"
+  },
+  {
+    "number": 716,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/password-reset",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 715,
+    "title": "[30-Day Sim] Day 28: Payroll run fails for Innovate Solutions - March 2026",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 714,
+    "title": "[30-Day Sim] Performance SSO returns 401 when creating review cycle for TechNova",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 713,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/whistleblowing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 712,
+    "title": "[30-Day Sim] Feature missing: GET /api/v1/whistleblowing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 711,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/helpdesk/knowledge-base",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 710,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/documents",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 709,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/sso/validate",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /auth/sso/validate -> 400"
+  },
+  {
+    "number": 708,
+    "title": "[30-Day Sim] Feature missing: POST /api/v1/auth/password-reset",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 707,
+    "title": "[30-Day Sim] Day 28: Payroll run fails for GlobalTech - March 2026",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 706,
+    "title": "[30-Day Sim] Day 28: Payroll run fails for TechNova - March 2026",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 705,
+    "title": "Can't log in as TechNova admin for performance review setup",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Performance — Performance Management System"
+  },
+  {
+    "number": 704,
+    "title": "Org Chart: Only 2 of 17+ employees displayed in organization chart",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 703,
+    "title": "No 'Invite Employee' button visible in UI despite API working - HR must use API to invite",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 702,
+    "title": "Audit log has no dedicated UI page - API returns data but no way to browse it visually",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 701,
+    "title": "Employee cannot view their assigned assets - assets page not accessible for employee role",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 700,
+    "title": "Pending leave requests show 'User #524' instead of employee names - HR cannot identify who requested",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 699,
+    "title": "Org Chart page returns 500 Internal Server Error - nginx crashes when loading /org-chart",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 698,
+    "title": "Helpdesk: /helpdesk page redirects to dashboard instead of showing tickets",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 697,
+    "title": "Leave Application: \"An unexpected error occurred\" when submitting leave request",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 696,
+    "title": "Attendance page has no visible date or department filters for HR to drill down",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 695,
+    "title": "No visible 'Add Employee' button on employees page - only way to add is via API",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 694,
+    "title": "Org chart shows only 2 entries when organization has 20+ employees",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 693,
+    "title": "API docs missing request body schemas for most POST/PUT endpoints - impossible to know required fields",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 692,
+    "title": "HR Manager cannot apply leave through API - always returns validation error regardless of payload",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /leave/applications -> 400"
+  },
+  {
+    "number": 691,
+    "title": "Document upload returns 500 server error when multipart field name is wrong instead of 400",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 690,
+    "title": "Leave application API gives vague 'Invalid request data' without saying which field is missing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 689,
+    "title": "Exit — Employee can access Flight Risk analytics",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 688,
+    "title": "Exit — Employee can access Full and Final Settlement data",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 687,
+    "title": "Exit — Employee can see all exit records",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 686,
+    "title": "Exit — Employee can see full admin navigation in Exit module (RBAC violation)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 685,
+    "title": "Performance — Employee can create review cycles",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Performance — Performance Management System"
+  },
+  {
+    "number": 684,
+    "title": "Performance — Employee can access module Settings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 683,
+    "title": "Performance — Employee can access Succession Planning",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 682,
+    "title": "Performance — Employee can access 9-Box Grid",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 681,
+    "title": "Performance — Employee can access Analytics",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 680,
+    "title": "Performance — Employee can access PIPs page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 679,
+    "title": "Performance — Employee can see admin-level navigation items (RBAC violation)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 678,
+    "title": "Payroll — Employee sidebar shows Admin Panel navigation link",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 677,
+    "title": "Announcements: Content field validation fails despite text being entered",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 676,
+    "title": "Multiple core HR features missing from API - bulk ops, export, notifications, surveys",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 675,
+    "title": "Dashboard leave balance section doesn't label leave types clearly",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 674,
+    "title": "No way to upload or change profile photo",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 673,
+    "title": "Notification bell click doesn't open notification panel",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 672,
+    "title": "Payroll module doesn't open from Module Marketplace — SSO not working",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 671,
+    "title": "Helpdesk My Tickets page navigates to dashboard instead of tickets",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 670,
+    "title": "Edit Profile button doesn't make any fields editable",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 669,
+    "title": "Employee Directory: Add Employee button not found by automation",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 668,
+    "title": "Feedback page shows 'Insufficient permissions' error for employees",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 667,
+    "title": "Payroll module — Multiple sub-pages return 404 or errors after SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 666,
+    "title": "Projects — Module shows marketing page instead of project management for employees",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 665,
+    "title": "Modules — Employee can see Unsubscribe buttons for organization modules",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 664,
+    "title": "Performance module — Multiple sub-pages return 404 or errors after SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 663,
+    "title": "Cannot apply for sick leave - leave application fails",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 662,
+    "title": "Rewards module — Multiple sub-pages return 404 or errors after SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 661,
+    "title": "Employee sees HR-level data on dashboard - possible data leak",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 660,
+    "title": "Exit module — Multiple sub-pages return 404 or errors after SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 659,
+    "title": "LMS module — Multiple sub-pages return 404 or errors after SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 658,
+    "title": "Projects module — All sub-pages (tasks, board, timesheet, gantt, reports) return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 657,
+    "title": "Add Employee button missing in UI - had to use API to create employee",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 656,
+    "title": "[Feature Request] Payroll — No way to submit reimbursement claims",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 655,
+    "title": "Projects — My Tasks page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 654,
+    "title": "Projects — Settings page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 653,
+    "title": "Projects — Reports page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 652,
+    "title": "Projects — Timeline page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 651,
+    "title": "Projects — Gantt Chart page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 650,
+    "title": "Projects — Timesheets page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 649,
+    "title": "Projects — Timesheet page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 648,
+    "title": "Projects — Time Tracking page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 647,
+    "title": "Projects — Board (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 646,
+    "title": "Projects — Kanban Board page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 645,
+    "title": "Projects — Tasks page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 644,
+    "title": "Projects — All sub-pages return 404 (only dashboard works)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 643,
+    "title": "LMS — Reports page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 642,
+    "title": "LMS — Compliance Training (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 641,
+    "title": "LMS — Certificates page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 640,
+    "title": "LMS — Quizzes page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 639,
+    "title": "LMS — Assessments page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 638,
+    "title": "LMS — Quiz/Assessment page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 637,
+    "title": "LMS — Assignments page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 636,
+    "title": "LMS — Course Assignments, Quizzes, and Reports pages return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 635,
+    "title": "Exit Management — Reports page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 634,
+    "title": "Exit Management — Knowledge Transfer page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 633,
+    "title": "Attendance dashboard lacks date picker or date range filter",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 632,
+    "title": "Exit Management — Full & Final (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 631,
+    "title": "Performance module SSO redirect fails — returns to EmpCloud dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 630,
+    "title": "Exit Management — Full & Final Settlement page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 629,
+    "title": "Leave type displays 'Earned Leave0' with trailing zero",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 628,
+    "title": "Exit Management — Exit Interview page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 627,
+    "title": "Leave requests show raw ISO timestamps instead of formatted dates",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 626,
+    "title": "Leave dashboard shows 'User #524' instead of employee names",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 625,
+    "title": "Exit Management — Exit Clearance (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 624,
+    "title": "Exit Management — New Exit page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 623,
+    "title": "[Feature Request] Projects — Add Kanban board view for employees",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 622,
+    "title": "Exit Management — Initiate Exit (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 621,
+    "title": "[Feature Request] Projects — Add time logging for employees",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 620,
+    "title": "Employee role cannot SSO into any external module from /modules page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 619,
+    "title": "Exit Management — Initiate Exit and Reports pages return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 618,
+    "title": "Rewards — Rewards Store page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 617,
+    "title": "Rewards — Rewards Catalog (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 616,
+    "title": "Rewards — Rewards Catalog page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 615,
+    "title": "Rewards — Team Challenges (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 614,
+    "title": "Rewards — Recognition and Rewards Catalog pages return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 613,
+    "title": "Rewards — Give Kudos (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 612,
+    "title": "Performance — Reports page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 611,
+    "title": "Performance — Calibration page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 610,
+    "title": "Performance — Peer Review page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 609,
+    "title": "Performance — 360 Feedback page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 608,
+    "title": "Performance — Team Reviews page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 607,
+    "title": "Performance — Manager Review page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 606,
+    "title": "Performance — Self Review page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 605,
+    "title": "Performance — Self Assessment page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 604,
+    "title": "Performance — OKRs page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 603,
+    "title": "Performance — Reviews, Self Assessment, Manager Review, 360 Feedback, and Calibration pages return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 602,
+    "title": "Recruitment — Reports page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 601,
+    "title": "Recruitment — Interview (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 600,
+    "title": "Recruitment — Job Postings (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 599,
+    "title": "Payroll — Employee Salary (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 598,
+    "title": "Payroll — Payroll Reports (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 597,
+    "title": "Payroll — Admin Payroll page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 596,
+    "title": "Payroll — Run Payroll (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 595,
+    "title": "Payroll — Run Payroll page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 593,
+    "title": "Payroll — Tax Declarations (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 592,
+    "title": "Payroll — Declarations page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 591,
+    "title": "Payroll — My Tax (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 590,
+    "title": "Can't edit phone number in profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 589,
+    "title": "Payroll — Salary Structure page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 588,
+    "title": "Payroll — My Salary (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 587,
+    "title": "Payroll — Salary, Declarations, and Run Payroll pages return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 586,
+    "title": "Payroll — Cannot download payslip PDF",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 585,
+    "title": "Payroll — My Payslips (alt) page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 584,
+    "title": "[DATA FLOW] Employee count mismatch -- org reports 7 but API has 17 active users",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 583,
+    "title": "Attendance page has no export or download feature",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 582,
+    "title": "Can't select leave type when applying for leave",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 581,
+    "title": "Announcements: Publish fails - content field validation error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 580,
+    "title": "Several common HR features missing - bulk approval, export, probation tracking",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 579,
+    "title": "[DATA FLOW] Assets assigned via API don't appear in employee profile Assets tab",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 578,
+    "title": "Cannot invite new employees - no invite functionality found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 577,
+    "title": "[Feature Request] Helpdesk ticket lifecycle should send notifications at each status change",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 576,
+    "title": "[DATA FLOW] Leave approval workflow missing notifications to employee and/or manager",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 575,
+    "title": "[DATA FLOW] Employees reference 3 department IDs that don't exist in the departments list",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 574,
+    "title": "[Feature Request] Approved leave should automatically create 'on_leave' attendance record",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 573,
+    "title": "Project module shows marketing landing page instead of tool",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 572,
+    "title": "Rewards module requires separate login, no SSO from EmpCloud",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 571,
+    "title": "Performance module requires separate login, no SSO from EmpCloud",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 570,
+    "title": "Projects — Employee cannot access projects module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 569,
+    "title": "LMS — Employee cannot access LMS module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 568,
+    "title": "Rewards — Employee cannot access rewards module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 567,
+    "title": "Performance — Employee cannot access performance module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 566,
+    "title": "Recruitment — Employee cannot access recruitment module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 565,
+    "title": "Payroll — Employee cannot access payroll module via SSO",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 564,
+    "title": "No hamburger menu on mobile view — sidebar navigation inaccessible at 375px",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 563,
+    "title": "Several common HR features missing - bulk approval, export, probation tracking",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 562,
+    "title": "Employee dashboard shows HR-level data - possible data visibility issue",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 561,
+    "title": "No dedicated notifications page — new joiner can't review past notifications",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 560,
+    "title": "Cannot invite new employees - no invite functionality found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 559,
+    "title": "Announcements: Publish fails - content field validation error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 558,
+    "title": "Manager page shows pending leaves but no approve/reject buttons",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 557,
+    "title": "Can't find 'Clock Out' button at end of day",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 556,
+    "title": "New joiner can't edit profile — no edit button and missing personal info sections",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 555,
+    "title": "Payroll API completely non-functional -- all endpoints return errors",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 554,
+    "title": "Cannot view payroll history -- no previous months' payroll records accessible",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 553,
+    "title": "Employee bank details not stored or accessible -- payroll disbursement blocked",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 552,
+    "title": "Cannot download payroll reports -- no export to Excel or CSV option",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 551,
+    "title": "Leave impact on payroll not visible -- LOP salary deduction unclear",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 550,
+    "title": "Cannot run monthly payroll -- no Run Payroll button found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 549,
+    "title": "Cannot add new employee - Add button not found and API creation failed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 548,
+    "title": "No buddy or mentor assigned for new joiner — no onboarding support person",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 547,
+    "title": "Employee dashboard shows HR-level data - possible data visibility issue",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 546,
+    "title": "No onboarding tasks or training modules assigned to new joiner",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 545,
+    "title": "Team attendance page missing date range filter",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 544,
+    "title": "Announcements: Publish fails with error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 543,
+    "title": "Leave type dropdown has no options or can't select",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 542,
+    "title": "Cannot add new employee - Add button not found and API creation failed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 541,
+    "title": "[FUNCTIONAL] Org current_user_count (17) differs significantly from API active users (13)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 540,
+    "title": "[FUNCTIONAL] Same asset assigned to multiple employees (no unassignment required first)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 539,
+    "title": "[FUNCTIONAL] Asset created with warranty_expiry (2024-01-01) before purchase_date (2025-06-01)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 538,
+    "title": "[FUNCTIONAL] Existing asset has warranty_expiry (2024-01-01) before purchase_date (2025-06-01)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 537,
+    "title": "[FUNCTIONAL] Helpdesk ticket assigned to non-existent user (ID 99999)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 536,
+    "title": "[FUNCTIONAL] Survey created with end_date before start_date (no date validation)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 535,
+    "title": "[FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026-04-01) before start_date (2026-05-01)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 534,
+    "title": "[FUNCTIONAL] Existing event 'Test Event Validation' has end_date (2026-04-10) before start_date (2026-04-15)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 533,
+    "title": "[FUNCTIONAL] Existing event 'Test' has end_date (2026-03-26) before start_date (2026-03-27)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 532,
+    "title": "[FUNCTIONAL] Existing event 'Updated Event 20260328052401' has end_date (2026-03-20) before start_date (2026-03-21)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 531,
+    "title": "[FUNCTIONAL] Event created with end_date before start_date (no date range validation)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 530,
+    "title": "[FUNCTIONAL] Circular reporting chain allowed (A->B, B->A creates infinite loop)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 529,
+    "title": "[FUNCTIONAL] API allows setting an employee as their own reporting manager",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 528,
+    "title": "[FUNCTIONAL] Employee ID 599 has reporting_manager_id = own ID (self-referencing manager)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 527,
+    "title": "Cannot login as employee — stuck on login page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 526,
+    "title": "[FUNCTIONAL] No minimum age validation: employee created with date_of_birth making them 16 years old",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 525,
+    "title": "[FUNCTIONAL] Employee created with date_of_exit (2025-01-01) before date_of_joining (2025-06-01)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 524,
+    "title": "[FUNCTIONAL] Employee created with duplicate employee code (emp_code)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 523,
+    "title": "[FUNCTIONAL] Attendance record 56: worked_minutes (504.0) does not match check_in/out difference (541)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 522,
+    "title": "Cannot invite new employees - no invite functionality found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 521,
+    "title": "Can't find 'Clock Out' button at end of day",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 520,
+    "title": "No platform settings page for SMTP, security policies, or timezone configuration",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 519,
+    "title": "No way to create a new organization from Super Admin panel",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 518,
+    "title": "Admin pages lose session after Selenium driver restart (auth state not persistent)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 517,
+    "title": "Project module API health check returns 502 Bad Gateway",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 516,
+    "title": "GET /api/v1/admin/organizations returns 500 Internal Server Error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 515,
+    "title": "Platform health degraded: EMP Payroll, EMP Billing modules are down",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 514,
+    "title": "[FUNCTIONAL] Same asset can be assigned to multiple employees simultaneously",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 513,
+    "title": "[FUNCTIONAL] Asset created with warranty_expiry before purchase_date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 512,
+    "title": "[FUNCTIONAL] Asset 'Test Asset Validation' has warranty_expiry (2027-01-15) before purchase_date (2030-01-01)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 511,
+    "title": "[FUNCTIONAL] Survey created with end_date before start_date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 510,
+    "title": "[FUNCTIONAL] Event created with end_date before start_date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 509,
+    "title": "[FUNCTIONAL] API allows setting employee as their own reporting manager",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 508,
+    "title": "[FUNCTIONAL] Employee ID 599 has reporting_manager_id set to their own ID (self-manager)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 507,
+    "title": "[FUNCTIONAL] No minimum age validation - employee created with DOB making them under 18",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 506,
+    "title": "[FUNCTIONAL] Employee created with date_of_exit before date_of_joining",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 505,
+    "title": "[FUNCTIONAL] Employee created with duplicate employee code",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 504,
+    "title": "[FUNCTIONAL] Cannot apply same-day leave",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 503,
+    "title": "Missing input validation across multiple API endpoints - accepts clearly invalid data",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 502,
+    "title": "Seat utilization shows 0% across all subscriptions despite active users",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 501,
+    "title": "Multiple API endpoints return 500 Server Error on invalid input instead of validation error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 500,
+    "title": "Super Admin can only see their own org's users, not all platform users",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 499,
+    "title": "Audit log missing filter controls (action type, user, date range)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 498,
+    "title": "[FUNCTIONAL] All Assets: 403 Forbidden",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 497,
+    "title": "Revenue shows $0 MRR and $0 ARR despite 10 active subscriptions",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 496,
+    "title": "Employee dashboard shows HR-level data - possible data visibility issue",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 495,
+    "title": "Cannot add new employee - Add button not found and API creation failed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 494,
+    "title": "Leave type dropdown has no options or can't select",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 493,
+    "title": "Platform Super Admin panel missing essential management features",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 492,
+    "title": "[Bug] API v1 authentication endpoint fails - cannot login via REST API",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /auth/login -> 400"
+  },
+  {
+    "number": 491,
+    "title": "[Bug] External module direct URLs (/payroll, /recruitment, etc.) all return 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 490,
+    "title": "[Bug] /employees/add URL shows 'Invalid Employee' error instead of add form",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 489,
+    "title": "[Bug] Assets module returns 403 Forbidden for org admin",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 488,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 487,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 486,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 485,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 484,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 483,
+    "title": "Super Admin dashboard missing key platform metrics (org count, users, revenue)",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 482,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 481,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 480,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 479,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 478,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 477,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "Cannot determine test"
+  },
+  {
+    "number": 476,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 475,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 474,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 473,
+    "title": "[VALIDATION] PUT /users/599 - department_id: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 472,
+    "title": "[VALIDATION] POST /policies - category: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /policies -> 400"
+  },
+  {
+    "number": 471,
+    "title": "[VALIDATION] POST /policies - category: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /policies -> 400"
+  },
+  {
+    "number": 470,
+    "title": "[VALIDATION] POST /policies - content: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 469,
+    "title": "[VALIDATION] POST /policies - title: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /policies -> 400"
+  },
+  {
+    "number": 468,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 467,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 466,
+    "title": "[VALIDATION] POST /feedback - is_anonymous: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 465,
+    "title": "[VALIDATION] POST /feedback - message: high validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 464,
+    "title": "[VALIDATION] POST /forum/posts - content: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 463,
+    "title": "[VALIDATION] POST /helpdesk/tickets - description: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 462,
+    "title": "[VALIDATION] POST /positions - code: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /positions -> 400"
+  },
+  {
+    "number": 461,
+    "title": "[VALIDATION] POST /positions - headcount: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /positions -> 400"
+  },
+  {
+    "number": 460,
+    "title": "[VALIDATION] POST /assets - purchase_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /assets -> 400"
+  },
+  {
+    "number": 459,
+    "title": "[VALIDATION] POST /assets - category: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 458,
+    "title": "[VALIDATION] POST /assets - category: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /assets -> 400"
+  },
+  {
+    "number": 457,
+    "title": "[VALIDATION] POST /assets - serial_number: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /assets -> 400"
+  },
+  {
+    "number": 456,
+    "title": "[VALIDATION] POST /assets - serial_number: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /assets -> 400"
+  },
+  {
+    "number": 455,
+    "title": "[VALIDATION] POST /surveys - end_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /surveys -> 400"
+  },
+  {
+    "number": 454,
+    "title": "[VALIDATION] POST /surveys - start_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /surveys -> 400"
+  },
+  {
+    "number": 453,
+    "title": "[VALIDATION] POST /surveys - end_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /surveys -> 400"
+  },
+  {
+    "number": 452,
+    "title": "[VALIDATION] POST /surveys - description: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /surveys -> 400"
+  },
+  {
+    "number": 451,
+    "title": "[VALIDATION] POST /surveys - description: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /surveys -> 400"
+  },
+  {
+    "number": 450,
+    "title": "[VALIDATION] POST /events - description: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 449,
+    "title": "[VALIDATION] POST /events - description: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 448,
+    "title": "[VALIDATION] POST /events - description: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 447,
+    "title": "[VALIDATION] POST /events - location: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 446,
+    "title": "[VALIDATION] POST /events - location: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 445,
+    "title": "[VALIDATION] POST /events - end_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 444,
+    "title": "[VALIDATION] POST /events - end_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 443,
+    "title": "[VALIDATION] POST /events - end_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 442,
+    "title": "[VALIDATION] POST /events - start_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 441,
+    "title": "[VALIDATION] POST /events - start_date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /events -> 400"
+  },
+  {
+    "number": 440,
+    "title": "[VALIDATION] POST /announcements - date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 439,
+    "title": "[VALIDATION] POST /announcements - date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 438,
+    "title": "[VALIDATION] POST /announcements - date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 437,
+    "title": "[VALIDATION] POST /announcements - date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 436,
+    "title": "[VALIDATION] POST /announcements - date: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 435,
+    "title": "[VALIDATION] POST /announcements - content: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 434,
+    "title": "[VALIDATION] POST /announcements - content: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 433,
+    "title": "[VALIDATION] POST /announcements - content: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 432,
+    "title": "[VALIDATION] POST /announcements - title: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 431,
+    "title": "[VALIDATION] POST /announcements - title: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements -> 400"
+  },
+  {
+    "number": 430,
+    "title": "[VALIDATION] POST /leave/applications - days_count: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /leave/applications -> 400"
+  },
+  {
+    "number": 429,
+    "title": "[VALIDATION] POST /leave/applications - end_date: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /leave/applications -> 400"
+  },
+  {
+    "number": 428,
+    "title": "[VALIDATION] POST /leave/applications - start_date: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /leave/applications -> 400"
+  },
+  {
+    "number": 427,
+    "title": "[VALIDATION] POST /leave/applications - start_date: high validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /leave/applications -> 400"
+  },
+  {
+    "number": 426,
+    "title": "[VALIDATION] PUT /users/599 - emp_code: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 425,
+    "title": "[VALIDATION] PUT /users/599 - emp_code: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 424,
+    "title": "[VALIDATION] PUT /users/599 - designation: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 423,
+    "title": "[VALIDATION] PUT /users/599 - reporting_manager_id: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 422,
+    "title": "[VALIDATION] PUT /users/599 - reporting_manager_id: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 421,
+    "title": "[VALIDATION] PUT /users/599 - department_id: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 420,
+    "title": "[VALIDATION] PUT /users/599 - gender: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 419,
+    "title": "[VALIDATION] PUT /users/599 - gender: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 418,
+    "title": "[VALIDATION] PUT /users/599 - gender: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 417,
+    "title": "[VALIDATION] PUT /users/599 - gender: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 416,
+    "title": "[VALIDATION] PUT /users/599 - date_of_exit: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 415,
+    "title": "[VALIDATION] PUT /users/599 - date_of_exit: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 414,
+    "title": "[VALIDATION] PUT /users/599 - date_of_joining: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 413,
+    "title": "[VALIDATION] PUT /users/599 - date_of_joining: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 412,
+    "title": "[VALIDATION] PUT /users/599 - date_of_joining: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 411,
+    "title": "[VALIDATION] PUT /users/599 - date_of_joining: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 410,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 409,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 408,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 407,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 406,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 405,
+    "title": "[VALIDATION] PUT /users/599 - date_of_birth: high validation gap",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "PUT /users/599 -> 200"
+  },
+  {
+    "number": 404,
+    "title": "[VALIDATION] PUT /users/599 - contact_number: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 403,
+    "title": "[VALIDATION] PUT /users/599 - contact_number: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 402,
+    "title": "[VALIDATION] PUT /users/599 - contact_number: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 401,
+    "title": "[VALIDATION] PUT /users/599 - contact_number: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 400,
+    "title": "[VALIDATION] PUT /users/599 - contact_number: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 399,
+    "title": "[VALIDATION] PUT /users/599 - last_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 398,
+    "title": "[VALIDATION] PUT /users/599 - last_name: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 397,
+    "title": "[VALIDATION] PUT /users/599 - last_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 396,
+    "title": "[VALIDATION] PUT /users/599 - last_name: medium validation gap",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /users/599 -> 404"
+  },
+  {
+    "number": 395,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 394,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 393,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 392,
+    "title": "[VALIDATION] PUT /users/599 - first_name: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 391,
+    "title": "[VALIDATION] PUT /users/599 - email: medium validation gap",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 390,
+    "title": "[Functional Test] API - Login - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 389,
+    "title": "[FUNCTIONAL] GET by ID returns 404 for /announcements and /attendance/shifts immediately after creation",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 388,
+    "title": "[FUNCTIONAL] /forum/posts base path /forum returns 404 - inconsistent routing",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 387,
+    "title": "[FUNCTIONAL] Employee feedback creation fails with category=general but works with category=management",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /feedback -> 400"
+  },
+  {
+    "number": 386,
+    "title": "[FUNCTIONAL] Soft-deleted leave policies still appear in GET /leave/policies with no deleted flag",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 385,
+    "title": "[FUNCTIONAL] Soft-deleted policies still appear in GET /policies with no deleted flag",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 384,
+    "title": "[FUNCTIONAL] Soft-deleted leave types still appear in GET /leave/types with no deleted flag",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 383,
+    "title": "[FUNCTIONAL] /admin/organizations returns 500 Internal Server Error for Super Admin",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /admin/organizations -> 200 (was 500)"
+  },
+  {
+    "number": 382,
+    "title": "[SECURITY] XSS reflected unsanitized on /policies",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 381,
+    "title": "[FUNCTIONAL] CREATE fails on /leave/policies",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 380,
+    "title": "[SECURITY] Unauthenticated access allowed on /forum",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 379,
+    "title": "[FUNCTIONAL] CREATE fails on /forum",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 378,
+    "title": "[FUNCTIONAL] UPDATE does not persist on /helpdesk/tickets",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 377,
+    "title": "[FUNCTIONAL] CREATE fails on /helpdesk/tickets",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 376,
+    "title": "[FUNCTIONAL] CREATE fails on /positions",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 375,
+    "title": "[FUNCTIONAL] CREATE fails on /feedback",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 374,
+    "title": "[SECURITY] XSS reflected unsanitized on /surveys",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 373,
+    "title": "[SECURITY] XSS reflected unsanitized on /announcements",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 372,
+    "title": "[Functional Test] API - Login - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 371,
+    "title": "[Functional Test] API - Login - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 370,
+    "title": "[Functional Test] Employees - Invite user - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 369,
+    "title": "[Functional Test] Employees - Deactivate/Reactivate - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 368,
+    "title": "[Functional Test] Employees - Edit employee - FAIL",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 367,
+    "title": "[E2E] XSS payload stored at /policies",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 366,
+    "title": "[E2E] XSS payload stored at /assets",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 365,
+    "title": "[E2E] XSS payload stored at /surveys",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 364,
+    "title": "[E2E] Possible SQL injection at /events",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 363,
+    "title": "[E2E] XSS payload stored at /announcements",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 362,
+    "title": "[E2E] Leave balance calculation mismatch",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /leave/balances -> 200"
+  },
+  {
+    "number": 361,
+    "title": "[E2E] Deleted /policies item still accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 360,
+    "title": "[E2E] Deleted /leave/types item still accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 359,
+    "title": "[FUNCTIONAL] Policies DELETE returns 200 but does not actually delete",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 358,
+    "title": "[FUNCTIONAL] Assets DELETE /assets/:id returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 357,
+    "title": "[FUNCTIONAL] Leave Applications cancel (PUT status) returns 404",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "PUT /leave/applications/34 -> 404 "
+  },
+  {
+    "number": 356,
+    "title": "[FUNCTIONAL] Helpdesk Tickets DELETE returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 355,
+    "title": "[FUNCTIONAL] Feedback UPDATE/DELETE endpoints return 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 354,
+    "title": "[FUNCTIONAL] Attendance GET /attendance returns 404, only /attendance/records works",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 353,
+    "title": "[FUNCTIONAL] Wellness check-in POST always returns 400 VALIDATION_ERROR",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 352,
+    "title": "[FUNCTIONAL] Feedback - READ List failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 351,
+    "title": "[FUNCTIONAL] Asset - DELETE failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 350,
+    "title": "[FUNCTIONAL] Assets DELETE returns 404 immediately after creation",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 349,
+    "title": "[FUNCTIONAL] Holidays POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 348,
+    "title": "[FUNCTIONAL] Holidays GET /holidays returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 347,
+    "title": "[FUNCTIONAL] Custom Fields POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 346,
+    "title": "[FUNCTIONAL] Custom Fields GET /custom-fields returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 345,
+    "title": "[FUNCTIONAL] Knowledge Base POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 344,
+    "title": "[FUNCTIONAL] Knowledge Base GET /knowledge-base returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 343,
+    "title": "[FUNCTIONAL] Vacancies POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 342,
+    "title": "[FUNCTIONAL] Designations POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 341,
+    "title": "[FUNCTIONAL] Designations GET /designations returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 340,
+    "title": "[FUNCTIONAL] Locations POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 339,
+    "title": "[FUNCTIONAL] Locations GET /locations returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 338,
+    "title": "[FUNCTIONAL] Departments POST returns 404 — endpoint may not exist",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 337,
+    "title": "[FUNCTIONAL] Departments GET /departments returns 404 instead of 200",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 336,
+    "title": "[FUNCTIONAL] Whistleblowing - READ Reports (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 335,
+    "title": "[FUNCTIONAL] Whistleblowing - CREATE Report (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 334,
+    "title": "[FUNCTIONAL] Feedback - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 333,
+    "title": "[FUNCTIONAL] Feedback - CREATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 332,
+    "title": "[FUNCTIONAL] Wellness - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 331,
+    "title": "[FUNCTIONAL] Wellness - CREATE Check-in (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 330,
+    "title": "[FUNCTIONAL] Position - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 329,
+    "title": "[FUNCTIONAL] Position - UPDATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 328,
+    "title": "[FUNCTIONAL] Position - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 327,
+    "title": "[FUNCTIONAL] Position - CREATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 326,
+    "title": "[FUNCTIONAL] Asset - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 325,
+    "title": "[FUNCTIONAL] Asset - UPDATE Assign (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 324,
+    "title": "[FUNCTIONAL] Asset - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 323,
+    "title": "[FUNCTIONAL] Asset - CREATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 322,
+    "title": "[FUNCTIONAL] Forum - DELETE Post (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 321,
+    "title": "[FUNCTIONAL] Forum - UPDATE Post (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 320,
+    "title": "[FUNCTIONAL] Forum - READ Posts (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 319,
+    "title": "[FUNCTIONAL] Forum - CREATE Post (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 318,
+    "title": "[FUNCTIONAL] Survey - UPDATE Publish (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 317,
+    "title": "[API] Auth: Token remains valid after logout - session not invalidated",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 316,
+    "title": "[API] RBAC: Employee can access individual user profiles via /users/{id}",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "Employee gets 404 on GET /users/{id"
+  },
+  {
+    "number": 315,
+    "title": "[API] RBAC: Employee can view all comp-off requests in the organization",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Employee gets 200 on GET /leave/comp-off (should be 403)"
+  },
+  {
+    "number": 314,
+    "title": "[FUNCTIONAL] Survey - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 313,
+    "title": "[API] Stored XSS vulnerability in /policies - unsanitized HTML/JS accepted",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 312,
+    "title": "[FUNCTIONAL] Survey - CREATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 311,
+    "title": "[FUNCTIONAL] Event - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 310,
+    "title": "[FUNCTIONAL] Event - UPDATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 309,
+    "title": "[FUNCTIONAL] Event - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 308,
+    "title": "[FUNCTIONAL] Event - CREATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 307,
+    "title": "[FUNCTIONAL] Helpdesk - UPDATE Ticket (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 306,
+    "title": "[FUNCTIONAL] Helpdesk - READ Tickets (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 305,
+    "title": "[FUNCTIONAL] Helpdesk - CREATE Ticket (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 304,
+    "title": "[FUNCTIONAL] Announcement - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 303,
+    "title": "[FUNCTIONAL] Announcement - UPDATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 302,
+    "title": "[FUNCTIONAL] Announcement - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 301,
+    "title": "[FUNCTIONAL] Document - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 300,
+    "title": "[FUNCTIONAL] Document - READ List (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 299,
+    "title": "[FUNCTIONAL] Document - CREATE Upload (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 298,
+    "title": "[FUNCTIONAL] DELETE /users/{id} - User still accessible after deletion (soft delete not properly indicated)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 297,
+    "title": "[FUNCTIONAL] DELETE /helpdesk/tickets/{id} - Endpoint returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 296,
+    "title": "[FUNCTIONAL] PUT/DELETE /feedback/{id} - Endpoints return 404",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 295,
+    "title": "[FUNCTIONAL] Attendance - Clock Out failed",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 294,
+    "title": "[Employee Directory] No pagination controls despite 17 employee rows",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 293,
+    "title": "[FUNCTIONAL] POST /leave/applications - POST /leave/applications returns 400 'Invalid request data' for ALL payload variations. Tested with: leave_type_id (int/str), start_date/end_date and from_date/to_date formats, with/without is_half_day, half_day_type, days_count. Existing applications in DB use fields: leave_type_id, start_date, end_date, reason, is_half_day. The validation error provides no field-level detail, making it impossible to determine required format.",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 292,
+    "title": "[FUNCTIONAL] DELETE /assets/25 - DELETE /assets/{id} returns 404 (Endpoint not found). Asset was created successfully (POST 201) and can be read and updated, but the DELETE endpoint does not exist. Asset cannot be removed via API.",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "DELETE /assets/25 -> 404 "
+  },
+  {
+    "number": 291,
+    "title": "[FUNCTIONAL] GET /announcements/42 - Newly created announcement returns 404 on individual GET. POST /announcements returns 201 with ID, but GET /announcements/{id} returns 404.",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "POST /announcements/42 -> 404 "
+  },
+  {
+    "number": 290,
+    "title": "[FUNCTIONAL] PUT /users/597 - PUT /users/{id} returns 200 but contact_number field change does not persist. The response still shows contact_number as null after update.",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 289,
+    "title": "[FUNCTIONAL] Attendance - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 288,
+    "title": "[FUNCTIONAL] Attendance - Clock In failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 287,
+    "title": "[API] RBAC: Employee can view draft surveys meant for admin only",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Employee gets 200 on GET /surveys (should be 403)"
+  },
+  {
+    "number": 286,
+    "title": "[API] RBAC: Employee can view other employees' leave applications",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Employee gets 200 on GET /leave/applications (should be 403)"
+  },
+  {
+    "number": 285,
+    "title": "[API] Input Validation: /assets stores SQL injection payload without sanitization",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 284,
+    "title": "[API] Stored XSS: /assets endpoint accepts and stores unsanitized HTML/JavaScript",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 283,
+    "title": "[API] RBAC: Employee can view subscription/billing data via /subscriptions",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 282,
+    "title": "[FUNCTIONAL] Leave - UPDATE Cancel (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 281,
+    "title": "[FUNCTIONAL] Leave - READ Balance (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 280,
+    "title": "[FUNCTIONAL] Leave - READ List (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 279,
+    "title": "[FUNCTIONAL] Department - DELETE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 278,
+    "title": "[FUNCTIONAL] Department - UPDATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 277,
+    "title": "[FUNCTIONAL] Department - READ (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 276,
+    "title": "[FUNCTIONAL] Department - CREATE failed",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 275,
+    "title": "[FUNCTIONAL] Employee - DEACTIVATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 274,
+    "title": "[FUNCTIONAL] Employee - UPDATE (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 273,
+    "title": "[FUNCTIONAL] Employee - CREATE (UI) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 272,
+    "title": "[API] XSS: /announcements stores script tags without sanitization",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 271,
+    "title": "[API] RBAC: Employee can access /users with full data",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Employee gets 200 on GET /users (should be 403)"
+  },
+  {
+    "number": 270,
+    "title": "[FUNCTIONAL] Employee - READ List (API) failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 269,
+    "title": "[FUNCTIONAL] Settings - READ failed",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 268,
+    "title": "[Helpdesk] Ticket creation form has insufficient fields",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 267,
+    "title": "[Leave] Apply Leave button does not open leave request form",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 266,
+    "title": "[FUNCTIONAL] Auth - Employee API Login failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 265,
+    "title": "[FUNCTIONAL] Auth - Admin API Login failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 264,
+    "title": "[Employee Directory] No 'Add Employee' button found on directory page",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 263,
+    "title": "[Employee Directory] Clicking employee row does not navigate to profile",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 262,
+    "title": "[Recruit E2E] CRITICAL: All action buttons non-functional",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Recruit — Applicant Tracking System"
+  },
+  {
+    "number": 261,
+    "title": "[Exit] Dashboard statistics cards not rendering on Exit Management dashboard",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Exit — Employee Exit Management"
+  },
+  {
+    "number": 260,
+    "title": "[Projects] Task management page returns 404 Not Found",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP"
+  },
+  {
+    "number": 259,
+    "title": "[Projects] Module stuck on landing page - no login or app access for any user",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP"
+  },
+  {
+    "number": 258,
+    "title": "[Super Admin E2E] Subscriptions page partial failure - error toasts + zero metrics",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 257,
+    "title": "[Super Admin E2E] /api/v1/users scoped to single org for super_admin role",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /users -> 200"
+  },
+  {
+    "number": 256,
+    "title": "[Super Admin E2E] /api/v1/admin/organizations returns 500 causing empty org list",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "GET /admin/organizations -> 200 (was 500)"
+  },
+  {
+    "number": 255,
+    "title": "[Recruit E2E] No Schedule Interview button (Bug #52)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 254,
+    "title": "[Super Admin E2E] API endpoints return 401 Unauthorized for Super Admin Bearer token",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Employee gets 200 on GET /users (should be 403)"
+  },
+  {
+    "number": 253,
+    "title": "[Super Admin E2E] /admin/super dashboard blank due to backend 500 errors on growth and module-adoption APIs",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: throttl"
+  },
+  {
+    "number": 252,
+    "title": "[Super Admin E2E] Revenue Analytics shows zero MRR/ARR despite active subscriptions",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 251,
+    "title": "[Super Admin E2E] Module Analytics page shows all zeros despite platform having active data",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 250,
+    "title": "[Super Admin E2E] Audit Logs page (/admin/audit) renders blank content area",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 249,
+    "title": "[Recruit E2E] Login fails",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 248,
+    "title": "[Auth] Aggressive IP-based rate limiter blocks all accounts (not per-account)",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 247,
+    "title": "[Payroll][Security] Demo credentials exposed on payroll login page",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Payroll — Open Source Payroll Management"
+  },
+  {
+    "number": 246,
+    "title": "[Recruit E2E] No Create Job button (Bug #51)",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 245,
+    "title": "[Recruit E2E] Login fails",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 244,
+    "title": "[Policies] Raw i18n/XSS test data visible in policy names",
+    "verdict": "SKIPPED",
+    "evidence": "XSS not a bug (React escapes)"
+  },
+  {
+    "number": 243,
+    "title": "[RBAC] Employee sees \"New\" button on Announcements page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 242,
+    "title": "[i18n] Sidebar shows raw key \"nav.myProfile\" instead of translated text",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 241,
+    "title": "[RBAC] Employee can access /billing page with subscription pricing details",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint for RBAC test"
+  },
+  {
+    "number": 240,
+    "title": "[Super Admin E2E] Organizations page shows 0 organizations for Super Admin",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 239,
+    "title": "[Payroll] Employee role has no payroll access in main application",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 238,
+    "title": "[My Profile] Raw i18n keys",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 237,
+    "title": "[Dashboard] Raw i18n keys",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 236,
+    "title": "[Employee] Raw i18n keys on 'My Feedback'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 235,
+    "title": "[Employee] Raw i18n keys on 'Submit Feedback'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 234,
+    "title": "[Employee] Raw i18n keys on 'My Assets'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 233,
+    "title": "[Employee] Raw i18n keys on 'Daily Check-in'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 232,
+    "title": "[Employee] Raw i18n keys on 'My Wellness'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 231,
+    "title": "[Employee] Raw i18n keys on 'Wellness'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 230,
+    "title": "[Employee] Raw i18n keys on 'Active Surveys'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 229,
+    "title": "[Employee] Raw i18n keys on 'Knowledge Base'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 228,
+    "title": "[Employee] Raw i18n keys on 'My Tickets'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 227,
+    "title": "[Employee] Raw i18n keys on 'Track Report'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 226,
+    "title": "[Employee] Raw i18n keys on 'Submit Report'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 225,
+    "title": "[Employee] Raw i18n keys on 'My Events'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 224,
+    "title": "[Employee] Raw i18n keys on 'Events'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 223,
+    "title": "[Employee] Raw i18n keys on 'Create Post'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 222,
+    "title": "[Employee] Raw i18n keys on 'Community'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 221,
+    "title": "[Employee] Raw i18n keys on 'Org Chart'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 220,
+    "title": "[Employee] Raw i18n keys on 'Policies'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 219,
+    "title": "[Employee] Raw i18n keys on 'Announcements'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 218,
+    "title": "[Employee] Raw i18n keys on 'Documents'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 217,
+    "title": "[Employee] Raw i18n keys on 'Comp-Off'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 216,
+    "title": "[Employee] Raw i18n keys on 'Leave'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 215,
+    "title": "[Employee] Raw i18n keys on 'Attendance'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 214,
+    "title": "[Employee] Raw i18n keys on 'My Team'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 213,
+    "title": "[Employee] Raw i18n keys on 'AI Assistant'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 212,
+    "title": "[Employee] Raw i18n keys on 'nav.myProfile'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 211,
+    "title": "[Employee] Raw i18n keys on 'Dashboard'",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 210,
+    "title": "[recruit] Cannot login to module subdomain",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 209,
+    "title": "[Critical][LMS] Employee Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 208,
+    "title": "[Critical][LMS] Admin Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 207,
+    "title": "[Recruit E2E] No Schedule Interview button (Bug #52)",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Recruit — Applicant Tracking System"
+  },
+  {
+    "number": 206,
+    "title": "[Payroll] Super Admin dashboard shows blank page after login",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Payroll — Open Source Payroll Management"
+  },
+  {
+    "number": 205,
+    "title": "[Super Admin E2E] Super Admin Dashboard blank at /admin/super",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 204,
+    "title": "[E2E-Marketplace] Super Admin /admin/billing redirects to homepage instead of admin billing view",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 203,
+    "title": "[E2E-Marketplace] Module Marketplace does not display pricing or plan tier information for modules",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 202,
+    "title": "[E2E-Marketplace] Super Admin Subscription Metrics show 0 Used Seats and 0% Active Users despite active orgs",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 201,
+    "title": "[E2E-Marketplace] Super Admin Module Analytics shows all zero metrics despite active subscriptions",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 200,
+    "title": "[E2E-Marketplace] Super Admin dashboard (/admin/super) renders blank page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 199,
+    "title": "[Payroll][Security] SSO token is reusable across different browser sessions",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 198,
+    "title": "[Recruit E2E] Create job blank after submit",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 197,
+    "title": "[E2E-Marketplace] No plan upgrade/downgrade option on Billing page subscriptions",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 196,
+    "title": "[Projects] Admin login failed",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 195,
+    "title": "[Super Admin E2E] Super Admin Dashboard blank at /admin/super",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 194,
+    "title": "[E2E-Marketplace] Billing page tabs (Invoices, Payments, Overview) do not switch content",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 193,
+    "title": "[DATA FLOW] Employee 'AJ' missing from Leave modules",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 192,
+    "title": "[DATA FLOW] Leave used count mismatch: balance.total_used != sum of approved leaves (3 records)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 191,
+    "title": "[DATA FLOW] Leave balance arithmetic error in 3 records",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 190,
+    "title": "[DATA FLOW] Employee headcount mismatch between org data and users API",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 189,
+    "title": "[Payroll] Super Admin (admin@empcloud.com) cannot log in",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 188,
+    "title": "[Payroll] Employee (priya@technova.in) cannot log in",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 187,
+    "title": "[E2E-Marketplace] No upgrade/downgrade option available on Billing page for subscriptions",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 186,
+    "title": "[E2E-Marketplace] Billing page tabs (Invoices/Payments/Overview) do not switch content",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 185,
+    "title": "[Critical][LMS] Employee Login",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Performance — Performance Management System"
+  },
+  {
+    "number": 184,
+    "title": "[Critical][LMS] Admin Login",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Performance — Performance Management System"
+  },
+  {
+    "number": 183,
+    "title": "[Critical][Main App] Admin Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 182,
+    "title": "[Super Admin E2E] Super Admin login failed",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 181,
+    "title": "[Payroll][Security] Payroll API endpoints exposed without authentication",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 180,
+    "title": "[Payroll] Super Admin cannot log in",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 179,
+    "title": "[Payroll] Employee (priya@technova.in) cannot log in",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 178,
+    "title": "[SECURITY] [MEDIUM] No rate limit on data endpoints",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 177,
+    "title": "[SECURITY] [HIGH] DELETE succeeded on /positions/1",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 176,
+    "title": "[SECURITY] [MEDIUM] Employee can list /users (17 records)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 175,
+    "title": "[SECURITY] [HIGH] Stored XSS/SQLi possible: SQL Injection in name",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 174,
+    "title": "[SECURITY] [HIGH] Stored XSS/SQLi possible: Special characters",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 173,
+    "title": "[SECURITY] [MEDIUM] Mass assignment: Salary Modification - server accepted payload (200) but field may not have changed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 172,
+    "title": "[SECURITY] [MEDIUM] Mass assignment: Is Verified Flag - server accepted payload (200) but field may not have changed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 171,
+    "title": "[SECURITY] [HIGH] Mass assignment: Email Takeover SUCCEEDED",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 170,
+    "title": "[SECURITY] [MEDIUM] Mass assignment: Status Reactivation - server accepted payload (200) but field may not have changed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 169,
+    "title": "[SECURITY] [MEDIUM] Mass assignment: Org Switch - server accepted payload (200) but field may not have changed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 168,
+    "title": "[Module Access] Module marketplace not accessible or parseable",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 167,
+    "title": "[Dashboard] Module missing from sidebar: Biometrics",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: biometric"
+  },
+  {
+    "number": 166,
+    "title": "[Dashboard] Module missing from sidebar: Project Management",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 165,
+    "title": "[Dashboard] Module missing from sidebar: Performance Management",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 164,
+    "title": "[Dashboard] Module missing from sidebar: Payroll",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 163,
+    "title": "[Dashboard] Module missing from sidebar: LMS / Learning",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 162,
+    "title": "[Dashboard] Module missing from sidebar: Exit Management",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 161,
+    "title": "[Dashboard] Module missing from sidebar: Recruitment / ATS",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 160,
+    "title": "[Dashboard] Module missing from sidebar: Rewards & Recognition",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 159,
+    "title": "[Monitor] Employee login also fails with 'User does not exist'",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 158,
+    "title": "[Field Force] All features reported as PASS are false positives - entire site is DOWN",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 157,
+    "title": "[Module Access] View Details link issue for admin: REDIRECT_LOGIN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 156,
+    "title": "[Module Access] View Details link issue for admin: REDIRECT_LOGIN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 155,
+    "title": "[Module Access] View Details link issue for admin: REDIRECT_LOGIN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 154,
+    "title": "[Module Access] View Details link issue for admin: REDIRECT_LOGIN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 153,
+    "title": "[Module Access] View Details link issue for admin: REDIRECT_LOGIN",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 152,
+    "title": "[Recruit E2E] onboarding_no_add_task_btn",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 151,
+    "title": "[Critical][LMS] Employee Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 150,
+    "title": "[Critical][LMS] Admin Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 149,
+    "title": "[Critical][Performance] Employee Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 148,
+    "title": "[Critical][Performance] Admin Login",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 147,
+    "title": "[API] Authentication endpoints not discoverable - cannot obtain auth tokens",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field-force"
+  },
+  {
+    "number": 146,
+    "title": "[Biometrics] All biometric pages inaccessible - redirect to login",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: biometric"
+  },
+  {
+    "number": 145,
+    "title": "[Main App] Login not redirecting to dashboard - stuck on login page",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: biometric"
+  },
+  {
+    "number": 144,
+    "title": "[Monitor] Login fails - User does not exist for Org Admin and Employee",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 143,
+    "title": "[SECURITY] [MEDIUM] No rate limit on data endpoints",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 142,
+    "title": "[SECURITY] [HIGH] No rate limit on login endpoint",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 141,
+    "title": "[Recruit E2E] create_job_no_form_fields",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 140,
+    "title": "[DATA FLOW] Attendance dashboard missing statistics",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 139,
+    "title": "[Payroll] Employee cannot log in to main app",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 138,
+    "title": "[Biometrics] No biometric section found in main app",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: biometric"
+  },
+  {
+    "number": 137,
+    "title": "[Dashboard] Error toast on page: Users",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 136,
+    "title": "[Field Force] Org Admin login failed",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 135,
+    "title": "[Field Force] Site not accessible",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 134,
+    "title": "[Monitor] Productivity reports missing",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 133,
+    "title": "[Monitor] Activity tracking not visible",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 132,
+    "title": "[SECURITY] [HIGH] No rate limit on login endpoint",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 131,
+    "title": "[Low] Attendance regularization page not accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 130,
+    "title": "[High] Add Employee button (FAB) does not open a creation form",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 129,
+    "title": "[High] Employee link click does not navigate to profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 128,
+    "title": "[Medium] Employee search does not filter results",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 127,
+    "title": "[High] Employee link click does not navigate to profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 126,
+    "title": "[i18n] Raw translation key \"nav.myProfile\" visible in employee sidebar",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 125,
+    "title": "[Medium] Employee search does not filter results",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 124,
+    "title": "[RBAC] Employee can view Log Dashboard at /admin/logs despite permissions error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 123,
+    "title": "[RBAC] Employee can view AI Config content at /admin/ai-config despite permissions error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 122,
+    "title": "[RBAC] Employee can view full Organization Settings at /settings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 121,
+    "title": "[Reports] /reports route redirects to dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 120,
+    "title": "[Org Admin] /settings/custom-fields redirects to dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 119,
+    "title": "[Org Admin] /settings/modules redirects to dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 118,
+    "title": "[Low] Attendance regularization page not accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 117,
+    "title": "[Org Admin] /settings/organization redirects to dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 116,
+    "title": "[Super Admin] Dashboard /admin/super renders blank",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 115,
+    "title": "[Medium] Clicking employee in directory does not open profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 114,
+    "title": "[Medium] Employee search does not filter the employee list",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 113,
+    "title": "[RBAC] Employee accessed admin Settings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 112,
+    "title": "[Super Admin] Dashboard /admin/super is blank or has errors",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 111,
+    "title": "[Low] Attendance regularization page not accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 110,
+    "title": "[Medium] Employee Directory - 'Add Employee' button not found",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 109,
+    "title": "[Medium] Employee Directory - cannot click employee to view profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 108,
+    "title": "[HIGH] RBAC UI: Employee can access /admin Platform Dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: false positive"
+  },
+  {
+    "number": 107,
+    "title": "[Medium] Employee Directory - search input not found",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 106,
+    "title": "[Login] Employee login failed (priya@technova.in)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 105,
+    "title": "Wellness: /wellness/daily-checkin redirects to dashboard instead of check-in page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 104,
+    "title": "Sidebar: 'nav.myProfile' shown as raw i18n key instead of localized text",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 103,
+    "title": "Feedback: 'Insufficient permissions' error toasts on feedback page for employee",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 102,
+    "title": "Positions: /positions/open route shows 'Position not found' with invalid ID error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 101,
+    "title": "Assets: /assets/my-assets route shows blank page with invalid ID error",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 100,
+    "title": "Assets: /assets returns 403 Forbidden for employee user",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 99,
+    "title": "Events: /events/my-events route shows 'Event not found' with invalid ID error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 98,
+    "title": "[MEDIUM] RBAC UI: Employee can access /settings page",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint for RBAC test"
+  },
+  {
+    "number": 97,
+    "title": "[HIGH] RBAC Violation: Employee can list all organization users",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 96,
+    "title": "AI Chatbot: No input field found after opening chatbot",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint for RBAC test"
+  },
+  {
+    "number": 95,
+    "title": "[E2E Bug] Documents page shows 49 Missing Mandatory documents warning",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 94,
+    "title": "[E2E Bug] Pending Leave Requests display user IDs instead of employee names",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 93,
+    "title": "[Super Admin] Dashboard page /admin/super has errors or is blank",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 92,
+    "title": "[E2E Bug] Comp-Off routes (/leave/comp-off, /leave/compoff) redirect to Dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 91,
+    "title": "[High] Shifts page (/shifts) returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 90,
+    "title": "[Low] Attendance regularization page not accessible",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: by design"
+  },
+  {
+    "number": 89,
+    "title": "[High] Attendance page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 88,
+    "title": "[MEDIUM] RBAC UI: Employee can access /settings page",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 87,
+    "title": "[E2E Bug] My Documents page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 86,
+    "title": "[E2E Bug] Documents page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 85,
+    "title": "[Login] Employee login failed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 84,
+    "title": "[E2E Bug] /leave/types route redirects to Dashboard instead of showing Leave Types configuration",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 83,
+    "title": "[E2E Bug] Leave calendar page returns 404",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 82,
+    "title": "[Login] Org Admin login failed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 81,
+    "title": "[Super Admin] Dashboard errors on /admin/super",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 80,
+    "title": "[HIGH] BUG-006: No Rate Limiting on Login Endpoint",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 79,
+    "title": "[HIGH] BUG-005: Missing Security Headers on Frontend (Static Assets)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 78,
+    "title": "[CRITICAL] BUG-003: Open Registration - Anyone Can Create Org and Get Admin Access",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: rate limit"
+  },
+  {
+    "number": 77,
+    "title": "[CRITICAL] BUG-002: Privilege Escalation - Users Can Change Own Role to super_admin",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 76,
+    "title": "[CRITICAL] BUG-001: Stored XSS - No Input Sanitization on Registration Fields",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: not a bug"
+  },
+  {
+    "number": 75,
+    "title": "[LOW] BUG-016: Inconsistent Naming in Subdomain URLs",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Recruit — Applicant Tracking System"
+  },
+  {
+    "number": 74,
+    "title": "[MEDIUM] BUG-015: User Update Returns Full User Object Including Sensitive Fields",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 73,
+    "title": "[MEDIUM] BUG-014: Module Base URLs Expose Internal Service Architecture",
+    "verdict": "SKIPPED",
+    "evidence": "keyword: field force"
+  },
+  {
+    "number": 72,
+    "title": "[MEDIUM] BUG-013: Health Endpoint Exposes Version Information",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 71,
+    "title": "[MEDIUM] BUG-012: No Email Verification on Registration",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "GET /auth/register -> 404"
+  },
+  {
+    "number": 70,
+    "title": "[MEDIUM] BUG-011: Validation Errors Leak Internal Schema Details",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 69,
+    "title": "[MEDIUM] BUG-010: Inconsistent API Route Responses (404 vs 401)",
+    "verdict": "VERIFIED_FIXED",
+    "evidence": "Employee gets 404 on GET /users"
+  },
+  {
+    "number": 68,
+    "title": "[HIGH] BUG-009: Express Default Error Page Exposed",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 67,
+    "title": "[HIGH] BUG-008: JWT Token Uses HTTP Issuer (Not HTTPS)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 66,
+    "title": "[HIGH] BUG-007: TLS 1.0 and TLS 1.1 Still Supported",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 65,
+    "title": "[CRITICAL] BUG-004: Internal Server IP Address Leaked in JWT Token",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 64,
+    "title": "test - will delete",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 63,
+    "title": "Department Data Not Displaying for Employees Imported via CSV in Employee Directory",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 62,
+    "title": "Duplicate Location Names Can Be Created Without Any Validation Error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 61,
+    "title": "Duplicate Department Names Can Be Created Without Any Validation Error",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 60,
+    "title": "System Allows Sending Duplicate Invite to Already Invited Email Address",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 59,
+    "title": "Invited User Does Not Appear in List Without Manual Page Refresh",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 58,
+    "title": "Sub-Modules Not Clickable for Redirection",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 57,
+    "title": "Manager Names Not Visible in Dropdown.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 56,
+    "title": "Dropdown Fields & City Text Validation",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 55,
+    "title": "Validation issue in City, State, and Country fields – Numeric values allowed",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 54,
+    "title": "Unable to add task in Onboarding Templates (Employee Recruitment module)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 53,
+    "title": "Blank page when creating a new offer in Offers module (Employee Recruitment)",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page 404. Title=EMP Recruit — Applicant Tracking System"
+  },
+  {
+    "number": 52,
+    "title": "Blank page displayed while scheduling a interview  – Unable to schedule interview",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 51,
+    "title": "Unable to post a new job while creating a job posting",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 50,
+    "title": "Missing Unsubscribe Option in Module Section After Subscription",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 49,
+    "title": "Leaves Not Updating in Real-Time (Refresh Required)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 48,
+    "title": "Leave Requests Not Showing in Admin Dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 47,
+    "title": "Auto Check-In/Out Triggered on Attendance Page",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 46,
+    "title": "No option to assign managers or update the organizational chart.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 45,
+    "title": "No option to raise the request to update details and view their own profile",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 44,
+    "title": "Invited User Not Showing in Pending List",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 43,
+    "title": "No option for organization admin to update employees details.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 42,
+    "title": "Announcements Page Showing Blank Screen",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 41,
+    "title": "Unauthorized Document Access and Actions for Employee",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 40,
+    "title": "Employee Selection Dropdown with Search for Document Upload",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 39,
+    "title": "Multiple Likes/Dislikes Allowed on Same Knowledge Base Article.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 38,
+    "title": "Invalid Date Range Allowed While Adding Goal in My Wellness",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 37,
+    "title": "Employee Able to Access “Add Asset” Option from Asset Details",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 36,
+    "title": "Validation issue in Survey module – End date allowed before start date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 35,
+    "title": "Unauthorized Document Actions Visible and Download Not Working in Employee Dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 34,
+    "title": "Validation issue in Wellness module – End date allowed before start date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 33,
+    "title": "Validation issue in Assets module – Warranty expiry date allowed before purchase date",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 32,
+    "title": "Employee Able to See Approve/Reject Options in Leave Review",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint for RBAC test"
+  },
+  {
+    "number": 31,
+    "title": "UI issue in Whistleblowing module – Dropdown error while assigning investigator",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 30,
+    "title": "Forum Actions Incorrectly Increasing View Count",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 29,
+    "title": "Survey saved as draft cannot be published again",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 28,
+    "title": "Dashboard and Self Service Showing Same Page in Employee Dashboard",
+    "verdict": "SKIPPED",
+    "evidence": "programmer: duplicate"
+  },
+  {
+    "number": 27,
+    "title": "Empcode column missing while importing Users via CSV file.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 26,
+    "title": "Status Not Updating",
+    "verdict": "SKIPPED",
+    "evidence": "No endpoint to test"
+  },
+  {
+    "number": 25,
+    "title": "Multiple Voting Allowed on Knowledge Base (Yes/No Option)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 24,
+    "title": "While creating announcement for target, it asks for Target ids in Json array.",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 23,
+    "title": "Forum Dashboard - Posts Not Visible After Creation",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 22,
+    "title": "Attendance Data Not Visible",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 21,
+    "title": "Module Navigation Reset Issue",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 20,
+    "title": "In Event Module The past dates and events are also showing as Upcoming",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 19,
+    "title": "User ID Field Accepts Negative Values in Assign Investigator",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 18,
+    "title": "Sidebar Selection Not Retained After Navigation",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 17,
+    "title": "Community Forum Page Not Opening",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 16,
+    "title": "Category Dropdown Empty in Create Post (Community Section)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 15,
+    "title": "Search User Not Working with Full Name in Assign Employee (Vacancy)",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 14,
+    "title": "No Option to Edit or Delete Position - In All positions",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 13,
+    "title": "Update Field Button Not Working in Custom Field Section",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 12,
+    "title": "No Option to Delete Location in Settings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 11,
+    "title": "Employee ID Allows Negative Values on Decrease - In document module",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 10,
+    "title": "Document Category Options Not Available While Uploading",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 9,
+    "title": "Leave Type Dropdown Visible but Options Not Available",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 8,
+    "title": "Submit Application Button Not Working in Apply Leave",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 7,
+    "title": "Department Column Not Showing in Employee Directory",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 6,
+    "title": "Dashboard Buttons Not Clickable Except Billing",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 5,
+    "title": "Edit Option Missing in Settings",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 4,
+    "title": "View Button Not Working in Company Policies Section",
+    "verdict": "VERIFIED_BUG",
+    "evidence": "Page error. Title=EMP Cloud — Enterprise HRMS Platform"
+  },
+  {
+    "number": 3,
+    "title": "Leave Status Not Visible After Applying",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  },
+  {
+    "number": 1,
+    "title": "Employee Search Not Working with Full Name ",
+    "verdict": "SKIPPED",
+    "evidence": "already labeled"
+  }
+]
